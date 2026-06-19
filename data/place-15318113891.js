@@ -1,0 +1,2 @@
+window.grRobloxGameInfoStatic = window.grRobloxGameInfoStatic || {};
+window.grRobloxGameInfoStatic["15318113891"] = {"ok":true,"status":"static","placeId":"15318113891","rootPlaceId":"15318113891","universeId":"5283219861","name":"Lethal Ape (update)","creatorName":"gub_dev","creatorType":"User","playing":21229,"visits":161549374,"favorites":114840,"likes":38355,"dislikes":6430,"thumbnailUrl":"https://tr.rbxcdn.com/180DAY-0197a2add25ac824e5e02fa13ce228e5/512/512/Image/Png/noFilter","robloxUrl":"https://www.roblox.com/games/15318113891","fetchedAtUtc":"2026-06-19 11:58:41"};
