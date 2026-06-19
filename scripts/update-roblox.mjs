@@ -93,7 +93,7 @@ async function fetchPlaceDetails(placeIds) {
   const json = await fetchJson(url);
 
   if (!Array.isArray(json)) {
-    throw new Error(`Expected array from place details endpoint.`);
+    throw new Error('Expected array from place details endpoint.');
   }
 
   return json;
@@ -101,7 +101,9 @@ async function fetchPlaceDetails(placeIds) {
 
 function normalizePlaceDetails(item, fallbackPlaceId, fetchedAtUtc) {
   const placeId = stringValue(item.placeId || item.PlaceId || item.id || item.Id || fallbackPlaceId);
+  const rootPlaceId = stringValue(item.rootPlaceId || item.RootPlaceId || placeId);
   const name = stringValue(item.name || item.Name || item.gameName || item.GameName || 'Roblox Experience');
+
   const creatorName = stringValue(
     item.builder ||
     item.Builder ||
@@ -112,11 +114,23 @@ function normalizePlaceDetails(item, fallbackPlaceId, fetchedAtUtc) {
     'Unknown Developer'
   );
 
+  const thumbnailUrl = stringValue(
+    item.thumbnailUrl ||
+    item.ThumbnailUrl ||
+    item.imageUrl ||
+    item.ImageUrl ||
+    item.iconUrl ||
+    item.IconUrl ||
+    item.imageToken ||
+    item.ImageToken ||
+    ''
+  );
+
   return {
     ok: true,
     status: 'static',
     placeId,
-    rootPlaceId: stringValue(item.rootPlaceId || item.RootPlaceId || placeId),
+    rootPlaceId,
     universeId: stringValue(item.universeId || item.UniverseId || ''),
     name,
     creatorName,
@@ -126,16 +140,8 @@ function normalizePlaceDetails(item, fallbackPlaceId, fetchedAtUtc) {
     favorites: numberValue(item.favorites || item.Favorites || item.favoritedCount || item.FavoritedCount),
     likes: numberValue(item.likes || item.Likes || item.upVotes || item.UpVotes),
     dislikes: numberValue(item.dislikes || item.Dislikes || item.downVotes || item.DownVotes),
-    thumbnailUrl: stringValue(
-      item.imageToken ||
-      item.ImageToken ||
-      item.thumbnailUrl ||
-      item.ThumbnailUrl ||
-      item.imageUrl ||
-      item.ImageUrl ||
-      ''
-    ),
-    robloxUrl: `https://www.roblox.com/games/${placeId}`,
+    thumbnailUrl,
+    robloxUrl: `https://www.roblox.com/games/${rootPlaceId}`,
     fetchedAtUtc
   };
 }
@@ -143,8 +149,11 @@ function normalizePlaceDetails(item, fallbackPlaceId, fetchedAtUtc) {
 async function fetchJson(url, attempt = 1) {
   const response = await fetch(url, {
     headers: {
-      Accept: 'application/json',
-      'User-Agent': 'GameRant-Roblox-Stats/1.0'
+      Accept: 'application/json, text/plain, */*',
+      'Accept-Language': 'en-US,en;q=0.9',
+      Origin: 'https://www.roblox.com',
+      Referer: 'https://www.roblox.com/',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
     }
   });
 
