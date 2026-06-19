@@ -1,0 +1,39 @@
+name: Update Roblox Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-roblox-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update data
+        env:
+          GR_RBX_MASTER_URL: "https://script.google.com/macros/s/AKfycby5xl6AmDmXWeA5yTHh4oZZqQtZ-i0Gi_g5EDrSSgimLCXBi2gMvjz5xAjRMFLqwXTD/exec?mode=master"
+        run: npm run update
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Update Roblox stats"
+          git push
