@@ -4,11 +4,9 @@ import path from 'node:path';
 const MASTER_URL = process.env.GR_RBX_MASTER_URL;
 const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'data');
-const MAP_FILE = path.join(DATA_DIR, 'universe-map.json');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
 
-const MAX_IDS_PER_BATCH = 50;
-const RESOLVE_DELAY_MS = 750;
+const MAX_PLACE_IDS_PER_BATCH = 50;
 const BATCH_DELAY_MS = 1000;
 const FETCH_RETRIES = 4;
 
@@ -30,89 +28,44 @@ if (!placeIds.length) {
   process.exit(0);
 }
 
-const universeMap = await readJsonSafe(MAP_FILE, {});
-const unresolvedPlaceIds = placeIds.filter(placeId => !universeMap[placeId]);
-
-for (const placeId of unresolvedPlaceIds) {
-  try {
-    const universeId = await fetchUniverseId(placeId);
-    universeMap[placeId] = universeId;
-    await sleep(RESOLVE_DELAY_MS);
-  } catch (error) {
-    console.warn(`Could not resolve universe for placeId ${placeId}: ${error.message}`);
-  }
-}
-
-await writeJson(MAP_FILE, sortObjectByKey(universeMap));
-
-const placeUniversePairs = placeIds
-  .map(placeId => ({
-    placeId,
-    universeId: universeMap[placeId] ? String(universeMap[placeId]) : ''
-  }))
-  .filter(item => item.placeId && item.universeId);
-
-const universeIds = [...new Set(placeUniversePairs.map(item => item.universeId))];
-
-const gameDetails = {};
-const votes = {};
-const icons = {};
-
-for (const batch of chunk(universeIds, MAX_IDS_PER_BATCH)) {
-  try {
-    Object.assign(gameDetails, await fetchGameDetails(batch));
-    await sleep(BATCH_DELAY_MS);
-
-    Object.assign(votes, await fetchVotes(batch));
-    await sleep(BATCH_DELAY_MS);
-
-    Object.assign(icons, await fetchIcons(batch));
-    await sleep(BATCH_DELAY_MS);
-  } catch (error) {
-    console.warn(`Batch failed for universeIds ${batch.join(',')}: ${error.message}`);
-  }
-}
-
 const generatedAtUtc = formatUtc(new Date());
+const detailsByPlaceId = {};
+
+for (const batch of chunk(placeIds, MAX_PLACE_IDS_PER_BATCH)) {
+  try {
+    const details = await fetchPlaceDetails(batch);
+
+    for (const item of details) {
+      const placeId = stringValue(item.placeId || item.PlaceId || item.id || item.Id);
+
+      if (placeId) {
+        detailsByPlaceId[placeId] = item;
+      }
+    }
+
+    await sleep(BATCH_DELAY_MS);
+  } catch (error) {
+    console.warn(`Batch failed for placeIds ${batch.join(',')}: ${error.message}`);
+  }
+}
+
 const indexItems = [];
 
-for (const item of placeUniversePairs) {
-  const game = gameDetails[item.universeId];
+for (const placeId of placeIds) {
+  const item = detailsByPlaceId[placeId];
 
-  if (!game) {
-    console.warn(`Missing game details for placeId ${item.placeId}, universeId ${item.universeId}`);
+  if (!item) {
+    console.warn(`Missing place details for placeId ${placeId}`);
     continue;
   }
 
-  const vote = votes[item.universeId] || {};
-  const iconUrl = icons[item.universeId] || '';
-  const rootPlaceId = stringValue(game.rootPlaceId || item.placeId);
+  const payload = normalizePlaceDetails(item, placeId, generatedAtUtc);
 
-  const payload = {
-    ok: true,
-    status: 'static',
-    placeId: stringValue(item.placeId),
-    rootPlaceId,
-    universeId: stringValue(item.universeId),
-    name: stringValue(game.name || 'Roblox Experience'),
-    creatorName: game.creator && game.creator.name ? stringValue(game.creator.name) : 'Unknown Developer',
-    creatorType: game.creator && game.creator.type ? stringValue(game.creator.type) : '',
-    playing: numberValue(game.playing),
-    visits: numberValue(game.visits),
-    favorites: numberValue(game.favoritedCount || game.favorites),
-    likes: numberValue(vote.upVotes),
-    dislikes: numberValue(vote.downVotes),
-    thumbnailUrl: iconUrl,
-    robloxUrl: `https://www.roblox.com/games/${rootPlaceId}`,
-    fetchedAtUtc: generatedAtUtc
-  };
-
-  await writeJson(path.join(DATA_DIR, `place-${item.placeId}.json`), payload);
-  await writeJs(path.join(DATA_DIR, `place-${item.placeId}.js`), item.placeId, payload);
+  await writeJson(path.join(DATA_DIR, `place-${placeId}.json`), payload);
+  await writeJs(path.join(DATA_DIR, `place-${placeId}.js`), placeId, payload);
 
   indexItems.push({
     placeId: payload.placeId,
-    universeId: payload.universeId,
     name: payload.name,
     playing: payload.playing,
     visits: payload.visits,
@@ -131,60 +84,60 @@ await writeJson(INDEX_FILE, {
 
 console.log(`Updated ${indexItems.length} Roblox stat files.`);
 
-async function fetchUniverseId(placeId) {
-  const url = `https://apis.roblox.com/universes/v1/places/${encodeURIComponent(placeId)}/universe`;
+async function fetchPlaceDetails(placeIds) {
+  const query = placeIds
+    .map(placeId => `placeIds=${encodeURIComponent(placeId)}`)
+    .join('&');
+
+  const url = `https://games.roblox.com/v1/games/multiget-place-details?${query}`;
   const json = await fetchJson(url);
 
-  if (!json || !json.universeId) {
-    throw new Error(`Missing universeId for placeId ${placeId}`);
+  if (!Array.isArray(json)) {
+    throw new Error(`Expected array from place details endpoint.`);
   }
 
-  return stringValue(json.universeId);
+  return json;
 }
 
-async function fetchGameDetails(universeIds) {
-  const url = `https://games.roblox.com/v1/games?universeIds=${encodeURIComponent(universeIds.join(','))}`;
-  const json = await fetchJson(url);
-  const output = {};
+function normalizePlaceDetails(item, fallbackPlaceId, fetchedAtUtc) {
+  const placeId = stringValue(item.placeId || item.PlaceId || item.id || item.Id || fallbackPlaceId);
+  const name = stringValue(item.name || item.Name || item.gameName || item.GameName || 'Roblox Experience');
+  const creatorName = stringValue(
+    item.builder ||
+    item.Builder ||
+    item.creatorName ||
+    item.CreatorName ||
+    item.creator ||
+    item.Creator ||
+    'Unknown Developer'
+  );
 
-  for (const item of json.data || []) {
-    if (item && item.id) {
-      output[stringValue(item.id)] = item;
-    }
-  }
-
-  return output;
-}
-
-async function fetchVotes(universeIds) {
-  const url = `https://games.roblox.com/v1/games/votes?universeIds=${encodeURIComponent(universeIds.join(','))}`;
-  const json = await fetchJson(url);
-  const output = {};
-
-  for (const item of json.data || []) {
-    if (item && item.id) {
-      output[stringValue(item.id)] = {
-        upVotes: numberValue(item.upVotes),
-        downVotes: numberValue(item.downVotes)
-      };
-    }
-  }
-
-  return output;
-}
-
-async function fetchIcons(universeIds) {
-  const url = `https://thumbnails.roblox.com/v1/games/icons?universeIds=${encodeURIComponent(universeIds.join(','))}&size=512x512&format=Png&isCircular=false`;
-  const json = await fetchJson(url);
-  const output = {};
-
-  for (const item of json.data || []) {
-    if (item && item.targetId) {
-      output[stringValue(item.targetId)] = stringValue(item.imageUrl || '');
-    }
-  }
-
-  return output;
+  return {
+    ok: true,
+    status: 'static',
+    placeId,
+    rootPlaceId: stringValue(item.rootPlaceId || item.RootPlaceId || placeId),
+    universeId: stringValue(item.universeId || item.UniverseId || ''),
+    name,
+    creatorName,
+    creatorType: stringValue(item.creatorType || item.CreatorType || ''),
+    playing: numberValue(item.playing || item.Playing || item.playerCount || item.PlayerCount),
+    visits: numberValue(item.visits || item.Visits || item.visitCount || item.VisitCount),
+    favorites: numberValue(item.favorites || item.Favorites || item.favoritedCount || item.FavoritedCount),
+    likes: numberValue(item.likes || item.Likes || item.upVotes || item.UpVotes),
+    dislikes: numberValue(item.dislikes || item.Dislikes || item.downVotes || item.DownVotes),
+    thumbnailUrl: stringValue(
+      item.imageToken ||
+      item.ImageToken ||
+      item.thumbnailUrl ||
+      item.ThumbnailUrl ||
+      item.imageUrl ||
+      item.ImageUrl ||
+      ''
+    ),
+    robloxUrl: `https://www.roblox.com/games/${placeId}`,
+    fetchedAtUtc
+  };
 }
 
 async function fetchJson(url, attempt = 1) {
@@ -236,14 +189,6 @@ async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-async function readJsonSafe(filePath, fallback) {
-  try {
-    return JSON.parse(await fs.readFile(filePath, 'utf8'));
-  } catch {
-    return fallback;
-  }
-}
-
 function normalizePlaceIds(values) {
   const seen = new Set();
   const output = [];
@@ -268,15 +213,6 @@ function chunk(values, size) {
   }
 
   return output;
-}
-
-function sortObjectByKey(value) {
-  return Object.keys(value)
-    .sort((a, b) => Number(a) - Number(b))
-    .reduce((output, key) => {
-      output[key] = value[key];
-      return output;
-    }, {});
 }
 
 function numberValue(value) {
