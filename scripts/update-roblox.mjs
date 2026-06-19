@@ -6,7 +6,11 @@ const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'data');
 const MAP_FILE = path.join(DATA_DIR, 'universe-map.json');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
-const MAX_IDS_PER_BATCH = 100;
+
+const MAX_IDS_PER_BATCH = 50;
+const RESOLVE_DELAY_MS = 750;
+const BATCH_DELAY_MS = 1000;
+const FETCH_RETRIES = 4;
 
 if (!MASTER_URL) {
   throw new Error('Missing GR_RBX_MASTER_URL.');
@@ -33,7 +37,7 @@ for (const placeId of unresolvedPlaceIds) {
   try {
     const universeId = await fetchUniverseId(placeId);
     universeMap[placeId] = universeId;
-    await sleep(150);
+    await sleep(RESOLVE_DELAY_MS);
   } catch (error) {
     console.warn(`Could not resolve universe for placeId ${placeId}: ${error.message}`);
   }
@@ -55,12 +59,18 @@ const votes = {};
 const icons = {};
 
 for (const batch of chunk(universeIds, MAX_IDS_PER_BATCH)) {
-  Object.assign(gameDetails, await fetchGameDetails(batch));
-  await sleep(250);
-  Object.assign(votes, await fetchVotes(batch));
-  await sleep(250);
-  Object.assign(icons, await fetchIcons(batch));
-  await sleep(250);
+  try {
+    Object.assign(gameDetails, await fetchGameDetails(batch));
+    await sleep(BATCH_DELAY_MS);
+
+    Object.assign(votes, await fetchVotes(batch));
+    await sleep(BATCH_DELAY_MS);
+
+    Object.assign(icons, await fetchIcons(batch));
+    await sleep(BATCH_DELAY_MS);
+  } catch (error) {
+    console.warn(`Batch failed for universeIds ${batch.join(',')}: ${error.message}`);
+  }
 }
 
 const generatedAtUtc = formatUtc(new Date());
@@ -177,7 +187,7 @@ async function fetchIcons(universeIds) {
   return output;
 }
 
-async function fetchJson(url) {
+async function fetchJson(url, attempt = 1) {
   const response = await fetch(url, {
     headers: {
       Accept: 'application/json',
@@ -188,6 +198,20 @@ async function fetchJson(url) {
   const text = await response.text();
 
   if (!response.ok) {
+    const shouldRetry =
+      response.status === 429 ||
+      response.status === 500 ||
+      response.status === 502 ||
+      response.status === 503 ||
+      response.status === 504;
+
+    if (shouldRetry && attempt < FETCH_RETRIES) {
+      const waitMs = Math.min(30000, 1500 * Math.pow(2, attempt - 1));
+      console.warn(`Retrying HTTP ${response.status} in ${waitMs}ms: ${url}`);
+      await sleep(waitMs);
+      return fetchJson(url, attempt + 1);
+    }
+
     throw new Error(`HTTP ${response.status}: ${text.slice(0, 300)}`);
   }
 
