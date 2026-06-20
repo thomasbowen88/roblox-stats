@@ -19,14 +19,24 @@ if (!MASTER_URL) {
 await fs.mkdir(DATA_DIR, { recursive: true });
 
 const master = await fetchJson(MASTER_URL);
-const placeIds = normalizePlaceIds(master.placeIds || []);
+const generatedAtUtc = formatUtc(new Date());
+
+await writeCombinedStaticFiles(master, generatedAtUtc);
+
+const placeIds = normalizePlaceIds(
+  master.placeIds ||
+    master.master?.placeIds ||
+    []
+);
 
 if (!placeIds.length) {
   await writeJson(INDEX_FILE, {
-    generatedAtUtc: formatUtc(new Date()),
+    generatedAtUtc,
     count: 0,
     items: []
   });
+
+  console.log('No Roblox place IDs found.');
   process.exit(0);
 }
 
@@ -73,7 +83,6 @@ for (const batch of chunk(universeIds, MAX_IDS_PER_BATCH)) {
   }
 }
 
-const generatedAtUtc = formatUtc(new Date());
 const indexItems = [];
 
 for (const item of placeUniversePairs) {
@@ -108,7 +117,7 @@ for (const item of placeUniversePairs) {
   };
 
   await writeJson(path.join(DATA_DIR, `place-${item.placeId}.json`), payload);
-  await writeJs(path.join(DATA_DIR, `place-${item.placeId}.js`), item.placeId, payload);
+  await writePlaceJs(path.join(DATA_DIR, `place-${item.placeId}.js`), item.placeId, payload);
 
   indexItems.push({
     placeId: payload.placeId,
@@ -130,6 +139,178 @@ await writeJson(INDEX_FILE, {
 });
 
 console.log(`Updated ${indexItems.length} Roblox stat files.`);
+
+async function writeCombinedStaticFiles(source, generatedAtUtc) {
+  const leaderboard = normalizeLeaderboardPayload(source.leaderboard || source.games || {});
+  const ccu = normalizeCcuPayload(source.ccu || {});
+  const hotNewGames = normalizeHotNewGamesPayload(source.hotNewGames || {});
+
+  const hasLeaderboard = leaderboard.count > 0 || leaderboard.items.length > 0;
+  const hasCcu = ccu.count > 0 || ccu.series.length > 0 || ccu.latest;
+  const hasHotNewGames = hotNewGames.count > 0 || hotNewGames.items.length > 0;
+
+  if (!hasLeaderboard && !hasCcu && !hasHotNewGames) {
+    return;
+  }
+
+  const widgetPayload = {
+    ok: source.ok !== false,
+    status: 'static_widget',
+    sourceStatus: stringValue(source.status || ''),
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    generatedAtUtc,
+    staticGeneratedAtUtc: generatedAtUtc,
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ccu,
+    games: leaderboard,
+    leaderboard,
+    hotNewGames
+  };
+
+  await writeJson(path.join(DATA_DIR, 'widget.json'), widgetPayload);
+  await writeGlobalJs(path.join(DATA_DIR, 'widget.js'), 'grRobloxWidgetStatic', widgetPayload);
+
+  await writeJson(path.join(DATA_DIR, 'leaderboard.json'), {
+    generatedAtUtc,
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ...leaderboard
+  });
+
+  await writeGlobalJs(path.join(DATA_DIR, 'leaderboard.js'), 'grRobloxLeaderboardStatic', {
+    generatedAtUtc,
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ...leaderboard
+  });
+
+  await writeJson(path.join(DATA_DIR, 'roblox-ccu.json'), {
+    generatedAtUtc,
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ...ccu
+  });
+
+  await writeGlobalJs(path.join(DATA_DIR, 'roblox-ccu.js'), 'grRobloxCcuStatic', {
+    generatedAtUtc,
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ...ccu
+  });
+
+  await writeJson(path.join(DATA_DIR, 'hot-new-games.json'), {
+    generatedAtUtc,
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ...hotNewGames
+  });
+
+  await writeGlobalJs(path.join(DATA_DIR, 'hot-new-games.js'), 'grRobloxHotNewGamesStatic', {
+    generatedAtUtc,
+    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
+    cachedForSeconds: numberValue(source.cachedForSeconds),
+    ...hotNewGames
+  });
+
+  console.log('Updated Roblox widget static files.');
+}
+
+function normalizeLeaderboardPayload(value) {
+  const items = Array.isArray(value.items)
+    ? value.items.map(item => ({
+        snapshotUtc: stringValue(item.snapshotUtc || item.snapshot_utc || value.snapshotUtc || ''),
+        rank: numberValue(item.rank),
+        placeId: stringValue(item.placeId || item.place_id || ''),
+        universeId: stringValue(item.universeId || item.universe_id || ''),
+        name: stringValue(item.name || ''),
+        playing: numberValue(item.playing),
+        imageUrl: stringValue(item.imageUrl || item.image_url || '')
+      })).filter(item => item.placeId && item.name)
+    : [];
+
+  items.sort((a, b) => {
+    if (a.rank && b.rank && a.rank !== b.rank) {
+      return a.rank - b.rank;
+    }
+
+    return b.playing - a.playing;
+  });
+
+  return {
+    snapshotUtc: stringValue(value.snapshotUtc || value.snapshot_utc || (items[0] ? items[0].snapshotUtc : '')),
+    count: numberValue(value.count || items.length),
+    items
+  };
+}
+
+function normalizeCcuPayload(value) {
+  const series = Array.isArray(value.series)
+    ? value.series.map(item => ({
+        timestampUtc: stringValue(item.timestampUtc || item.timestamp_utc || ''),
+        ccu: numberValue(item.ccu || item.roblox_ccu),
+        fetchedAtUtc: stringValue(item.fetchedAtUtc || item.fetched_at_utc || ''),
+        sourceLastUpdated: stringValue(item.sourceLastUpdated || item.source_last_updated || ''),
+        sourceCacheTime: stringValue(item.sourceCacheTime || item.source_cache_time || '')
+      })).filter(item => item.timestampUtc && Number.isFinite(item.ccu))
+    : [];
+
+  series.sort((a, b) => dateValue(a.timestampUtc) - dateValue(b.timestampUtc));
+
+  const latest = value.latest
+    ? {
+        timestampUtc: stringValue(value.latest.timestampUtc || value.latest.timestamp_utc || ''),
+        ccu: numberValue(value.latest.ccu || value.latest.roblox_ccu),
+        fetchedAtUtc: stringValue(value.latest.fetchedAtUtc || value.latest.fetched_at_utc || ''),
+        sourceLastUpdated: stringValue(value.latest.sourceLastUpdated || value.latest.source_last_updated || ''),
+        sourceCacheTime: stringValue(value.latest.sourceCacheTime || value.latest.source_cache_time || '')
+      }
+    : series.length
+      ? series[series.length - 1]
+      : null;
+
+  return {
+    latest,
+    count: numberValue(value.count || series.length),
+    series
+  };
+}
+
+function normalizeHotNewGamesPayload(value) {
+  const items = Array.isArray(value.items)
+    ? value.items.map(item => ({
+        placeId: stringValue(item.placeId || item.place_id || ''),
+        universeId: stringValue(item.universeId || item.universe_id || ''),
+        name: stringValue(item.name || ''),
+        imageUrl: stringValue(item.imageUrl || item.image_url || ''),
+        firstSeenUtc: stringValue(item.firstSeenUtc || item.first_seen_utc || ''),
+        lastSeenUtc: stringValue(item.lastSeenUtc || item.last_seen_utc || ''),
+        hotNewRank: numberValue(item.hotNewRank || item.hot_new_rank),
+        latestRank: numberValue(item.latestRank || item.latest_rank),
+        bestRank: numberValue(item.bestRank || item.best_rank),
+        ageHours: numberValue(item.ageHours || item.age_hours),
+        latestPlaying: numberValue(item.latestPlaying || item.latest_playing),
+        growthSinceFirstSeen: numberValue(item.growthSinceFirstSeen || item.growth_since_first_seen),
+        growthSincePreviousScan: numberValue(item.growthSincePreviousScan || item.growth_since_previous_scan)
+      })).filter(item => item.placeId && item.name)
+    : [];
+
+  items.sort((a, b) => {
+    if (a.hotNewRank && b.hotNewRank && a.hotNewRank !== b.hotNewRank) {
+      return a.hotNewRank - b.hotNewRank;
+    }
+
+    if (b.latestPlaying !== a.latestPlaying) {
+      return b.latestPlaying - a.latestPlaying;
+    }
+
+    return stringValue(a.name).localeCompare(stringValue(b.name));
+  });
+
+  return {
+    count: numberValue(value.count || items.length),
+    items
+  };
+}
 
 async function fetchUniverseId(placeId) {
   const url = `https://apis.roblox.com/universes/v1/places/${encodeURIComponent(placeId)}/universe`;
@@ -222,10 +403,19 @@ async function fetchJson(url, attempt = 1) {
   }
 }
 
-async function writeJs(filePath, placeId, payload) {
+async function writePlaceJs(filePath, placeId, payload) {
   const js = [
     'window.grRobloxGameInfoStatic = window.grRobloxGameInfoStatic || {};',
     `window.grRobloxGameInfoStatic[${JSON.stringify(stringValue(placeId))}] = ${JSON.stringify(payload)};`,
+    ''
+  ].join('\n');
+
+  await fs.writeFile(filePath, js, 'utf8');
+}
+
+async function writeGlobalJs(filePath, globalName, payload) {
+  const js = [
+    'window.' + globalName + ' = ' + JSON.stringify(payload) + ';',
     ''
   ].join('\n');
 
@@ -286,6 +476,12 @@ function numberValue(value) {
 
 function stringValue(value) {
   return String(value === undefined || value === null ? '' : value);
+}
+
+function dateValue(value) {
+  const date = new Date(String(value || '').replace(' ', 'T') + 'Z');
+  const time = date.getTime();
+  return Number.isFinite(time) ? time : 0;
 }
 
 function formatUtc(date) {
