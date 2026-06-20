@@ -25,7 +25,7 @@ jobs:
 
       - name: Update data
         env:
-          GR_RBX_MASTER_URL: "https://script.google.com/macros/s/AKfycby5xl6AmDmXWeA5yTHh4oZZqQtZ-i0Gi_g5EDrSSgimLCXBi2gMvjz5xAjRMFLqwXTD/exec?mode=master"
+          GR_RBX_MASTER_URL: "https://script.google.com/macros/s/AKfycby5xl6AmDmXWeA5yTHh4oZZqQtZ-i0Gi_g5EDrSSgimLCXBi2gMvjz5xAjRMFLqwXTD/exec?mode=combined"
         run: npm run update
 
       - name: Commit changes
