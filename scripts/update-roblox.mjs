@@ -141,17 +141,20 @@ await writeJson(INDEX_FILE, {
 console.log(`Updated ${indexItems.length} Roblox stat files.`);
 
 async function writeCombinedStaticFiles(source, generatedAtUtc) {
+  const placeIds = normalizePlaceIds(
+    source.placeIds ||
+      source.master?.placeIds ||
+      []
+  );
+
+  const master = {
+    count: placeIds.length,
+    placeIds
+  };
+
   const leaderboard = normalizeLeaderboardPayload(source.leaderboard || source.games || {});
   const ccu = normalizeCcuPayload(source.ccu || {});
   const hotNewGames = normalizeHotNewGamesPayload(source.hotNewGames || {});
-
-  const hasLeaderboard = leaderboard.count > 0 || leaderboard.items.length > 0;
-  const hasCcu = ccu.count > 0 || ccu.series.length > 0 || ccu.latest;
-  const hasHotNewGames = hotNewGames.count > 0 || hotNewGames.items.length > 0;
-
-  if (!hasLeaderboard && !hasCcu && !hasHotNewGames) {
-    return;
-  }
 
   const widgetPayload = {
     ok: source.ok !== false,
@@ -161,6 +164,9 @@ async function writeCombinedStaticFiles(source, generatedAtUtc) {
     generatedAtUtc,
     staticGeneratedAtUtc: generatedAtUtc,
     cachedForSeconds: numberValue(source.cachedForSeconds),
+    count: placeIds.length,
+    placeIds,
+    master,
     ccu,
     games: leaderboard,
     leaderboard,
@@ -170,49 +176,7 @@ async function writeCombinedStaticFiles(source, generatedAtUtc) {
   await writeJson(path.join(DATA_DIR, 'widget.json'), widgetPayload);
   await writeGlobalJs(path.join(DATA_DIR, 'widget.js'), 'grRobloxWidgetStatic', widgetPayload);
 
-  await writeJson(path.join(DATA_DIR, 'leaderboard.json'), {
-    generatedAtUtc,
-    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
-    cachedForSeconds: numberValue(source.cachedForSeconds),
-    ...leaderboard
-  });
-
-  await writeGlobalJs(path.join(DATA_DIR, 'leaderboard.js'), 'grRobloxLeaderboardStatic', {
-    generatedAtUtc,
-    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
-    cachedForSeconds: numberValue(source.cachedForSeconds),
-    ...leaderboard
-  });
-
-  await writeJson(path.join(DATA_DIR, 'roblox-ccu.json'), {
-    generatedAtUtc,
-    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
-    cachedForSeconds: numberValue(source.cachedForSeconds),
-    ...ccu
-  });
-
-  await writeGlobalJs(path.join(DATA_DIR, 'roblox-ccu.js'), 'grRobloxCcuStatic', {
-    generatedAtUtc,
-    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
-    cachedForSeconds: numberValue(source.cachedForSeconds),
-    ...ccu
-  });
-
-  await writeJson(path.join(DATA_DIR, 'hot-new-games.json'), {
-    generatedAtUtc,
-    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
-    cachedForSeconds: numberValue(source.cachedForSeconds),
-    ...hotNewGames
-  });
-
-  await writeGlobalJs(path.join(DATA_DIR, 'hot-new-games.js'), 'grRobloxHotNewGamesStatic', {
-    generatedAtUtc,
-    sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
-    cachedForSeconds: numberValue(source.cachedForSeconds),
-    ...hotNewGames
-  });
-
-  console.log('Updated Roblox widget static files.');
+  console.log('Updated Roblox widget static file.');
 }
 
 function normalizeLeaderboardPayload(value) {
