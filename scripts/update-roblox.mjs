@@ -243,32 +243,11 @@ function normalizeHotNewGamesPayload(value) {
   const items = Array.isArray(value.items)
     ? value.items.map(item => ({
         placeId: stringValue(item.placeId || item.place_id || ''),
-        universeId: stringValue(item.universeId || item.universe_id || ''),
         name: stringValue(item.name || ''),
         imageUrl: stringValue(item.imageUrl || item.image_url || ''),
-        firstSeenUtc: stringValue(item.firstSeenUtc || item.first_seen_utc || ''),
-        lastSeenUtc: stringValue(item.lastSeenUtc || item.last_seen_utc || ''),
-        hotNewRank: numberValue(item.hotNewRank || item.hot_new_rank),
-        latestRank: numberValue(item.latestRank || item.latest_rank),
-        bestRank: numberValue(item.bestRank || item.best_rank),
-        ageHours: numberValue(item.ageHours || item.age_hours),
-        latestPlaying: numberValue(item.latestPlaying || item.latest_playing),
-        growthSinceFirstSeen: numberValue(item.growthSinceFirstSeen || item.growth_since_first_seen),
-        growthSincePreviousScan: numberValue(item.growthSincePreviousScan || item.growth_since_previous_scan)
+        firstSeenUtc: stringValue(item.firstSeenUtc || item.first_seen_utc || '')
       })).filter(item => item.placeId && item.name)
     : [];
-
-  items.sort((a, b) => {
-    if (a.hotNewRank && b.hotNewRank && a.hotNewRank !== b.hotNewRank) {
-      return a.hotNewRank - b.hotNewRank;
-    }
-
-    if (b.latestPlaying !== a.latestPlaying) {
-      return b.latestPlaying - a.latestPlaying;
-    }
-
-    return stringValue(a.name).localeCompare(stringValue(b.name));
-  });
 
   return {
     count: numberValue(value.count || items.length),
