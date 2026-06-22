@@ -2,11 +2,11 @@
   "ok": true,
   "status": "static_widget",
   "sourceStatus": "combined",
-  "sourceGeneratedAtUtc": "2026-06-22 13:10:32",
-  "generatedAtUtc": "2026-06-22 13:10:36",
-  "staticGeneratedAtUtc": "2026-06-22 13:10:36",
+  "sourceGeneratedAtUtc": "2026-06-22 13:15:41",
+  "generatedAtUtc": "2026-06-22 13:15:45",
+  "staticGeneratedAtUtc": "2026-06-22 13:15:45",
   "cachedForSeconds": 300,
-  "count": 124,
+  "count": 125,
   "placeIds": [
     "97598239454123",
     "4924922222",
@@ -131,10 +131,11 @@
     "123721732588755",
     "93091759101123",
     "102582689397019",
-    "80610578881227"
+    "80610578881227",
+    "100429474155186"
   ],
   "master": {
-    "count": 124,
+    "count": 125,
     "placeIds": [
       "97598239454123",
       "4924922222",
@@ -259,18 +260,19 @@
       "123721732588755",
       "93091759101123",
       "102582689397019",
-      "80610578881227"
+      "80610578881227",
+      "100429474155186"
     ]
   },
   "ccu": {
     "latest": {
-      "timestampUtc": "2026-06-22 12:00:00",
-      "ccu": 12273793,
-      "fetchedAtUtc": "2026-06-22 12:43:54",
-      "sourceLastUpdated": "2026-06-22 12:00:00",
-      "sourceCacheTime": "2026-06-22 12:43:54"
+      "timestampUtc": "2026-06-22 13:00:00",
+      "ccu": 13088955,
+      "fetchedAtUtc": "2026-06-22 13:13:56",
+      "sourceLastUpdated": "2026-06-22 13:00:00",
+      "sourceCacheTime": "2026-06-22 13:13:54"
     },
-    "count": 1119,
+    "count": 1121,
     "series": [
       {
         "timestampUtc": "2026-05-30 11:30:00",
@@ -8104,1818 +8106,1832 @@
         "fetchedAtUtc": "2026-06-22 12:43:54",
         "sourceLastUpdated": "2026-06-22 12:00:00",
         "sourceCacheTime": "2026-06-22 12:43:54"
+      },
+      {
+        "timestampUtc": "2026-06-22 12:30:00",
+        "ccu": 12753357,
+        "fetchedAtUtc": "2026-06-22 13:13:56",
+        "sourceLastUpdated": "2026-06-22 13:00:00",
+        "sourceCacheTime": "2026-06-22 13:13:54"
+      },
+      {
+        "timestampUtc": "2026-06-22 13:00:00",
+        "ccu": 13088955,
+        "fetchedAtUtc": "2026-06-22 13:13:56",
+        "sourceLastUpdated": "2026-06-22 13:00:00",
+        "sourceCacheTime": "2026-06-22 13:13:54"
       }
     ]
   },
   "games": {
-    "snapshotUtc": "2026-06-22 13:07:05",
+    "snapshotUtc": "2026-06-22 13:12:04",
     "count": 100,
     "items": [
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 1,
         "placeId": "97598239454123",
         "universeId": "",
         "name": "Grow a Garden 2",
-        "playing": 644315,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-8c55f777cf5014524b754148b8534501/512/512/Image/Webp/noFilter"
+        "playing": 611470,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-a18a5ca59452af39ed53a69021aab978/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 2,
         "placeId": "4924922222",
         "universeId": "",
         "name": "Brookhaven 🏡RP",
-        "playing": 561016,
+        "playing": 584523,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-fba0af630ff4fcbfa247f30c7a0c8420/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 3,
         "placeId": "79546208627805",
         "universeId": "",
         "name": "99 Nights in the Forest 🔦",
-        "playing": 338869,
+        "playing": 343517,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a130d392387b34a1cbfd738c83aced21/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 4,
         "placeId": "95082159892680",
         "universeId": "",
         "name": "[UPD] +1 Speed Keyboard Escape | Candy & Chocolate",
-        "playing": 334901,
+        "playing": 331038,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-207e9d6ae7e65d6db5ce5963e2c68d61/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 5,
         "placeId": "920587237",
         "universeId": "",
         "name": "[🎣] Adopt Me!",
-        "playing": 311001,
+        "playing": 311799,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-9637418c51a98f1e7dc3ef5032b977b6/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 6,
         "placeId": "2753915549",
         "universeId": "",
         "name": "Blox Fruits",
-        "playing": 284640,
+        "playing": 295227,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a64f70da20fc1e80ee76fe5d49c1be0a/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 7,
         "placeId": "109983668079237",
         "universeId": "",
         "name": "Steal a Brainrot",
-        "playing": 262880,
+        "playing": 256777,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-4ce37dd3c0fbd2cda14ef0604143534a/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 8,
         "placeId": "142823291",
         "universeId": "",
         "name": "Murder Mystery 2",
-        "playing": 233753,
+        "playing": 238359,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3ac5af325970a745b0156a5358174169/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 9,
         "placeId": "17625359962",
         "universeId": "",
         "name": "RIVALS",
-        "playing": 212603,
+        "playing": 210815,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-1ef79fa35987dddabb7a5c6858ef234f/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 10,
         "placeId": "121864768012064",
         "universeId": "",
         "name": "[👑UPD] Fish It! 🐟",
-        "playing": 143347,
+        "playing": 143485,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-84be6c0b84c666b39ef7d4247ebe1ef7/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 11,
         "placeId": "9391468976",
         "universeId": "",
         "name": "[BLACK DEATH] Jujutsu Shenanigans",
-        "playing": 125777,
+        "playing": 132151,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e27277bbda2ba2efdb47a1863df2da3d/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 12,
         "placeId": "79268393072444",
         "universeId": "",
         "name": "Sell Lemons 🍋",
-        "playing": 116099,
+        "playing": 118957,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3d8fd895f358e86fb886c17fe06201d8/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 13,
         "placeId": "78515283254292",
         "universeId": "",
         "name": "Animal Hospital (Anomaly) 🧪",
-        "playing": 108748,
+        "playing": 116001,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a14df4c97ee49bf5846ef9b112091426/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 14,
         "placeId": "89469502395769",
         "universeId": "",
         "name": "[🏆] Kick a Lucky Block",
-        "playing": 104254,
+        "playing": 104030,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-38026099526c6add61519af86c04de71/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 15,
         "placeId": "8737899170",
         "universeId": "",
         "name": "[BACKROOMS] Pet Simulator 99!",
-        "playing": 88883,
+        "playing": 90065,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-81f73bcc24d061d0364ab637196a1bc7/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 16,
         "placeId": "93978595733734",
         "universeId": "",
         "name": "[CURE] Violence District",
-        "playing": 81402,
+        "playing": 87833,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-24a7fe15374c20384a33ba2f9d4dc362/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 17,
         "placeId": "126884695634066",
         "universeId": "",
         "name": "[🔥] Grow a Garden 🌶️",
-        "playing": 81257,
+        "playing": 83091,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-26ed211cab56d67bf95065a00e32b730/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 18,
         "placeId": "16732694052",
         "universeId": "",
         "name": "Fisch 🏖️ [FISCHFEST]",
-        "playing": 79262,
+        "playing": 80547,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-65e054c8977ee798a19ef77cd6f26574/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 19,
-        "placeId": "71132543521245",
-        "universeId": "",
-        "name": "[🌘UPD 0.5🩸] Anime Squadron",
-        "playing": 72926,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f2f99a1ac248135961833d6223ecfd4b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 20,
         "placeId": "18687417158",
         "universeId": "",
         "name": "Forsaken",
-        "playing": 72628,
+        "playing": 75463,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-46bb07b960c8036df7a55bcafef03c92/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 21,
-        "placeId": "10449761463",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 20,
+        "placeId": "71132543521245",
         "universeId": "",
-        "name": "The Strongest Battlegrounds",
-        "playing": 67886,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-68c92fc62a8753793f7963e146b5197f/512/512/Image/Webp/noFilter"
+        "name": "[🌘UPD 0.5🩸] Anime Squadron",
+        "playing": 73658,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f2f99a1ac248135961833d6223ecfd4b/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 22,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 21,
         "placeId": "7041939546",
         "universeId": "",
         "name": "Catalog Avatar Creator",
-        "playing": 67001,
+        "playing": 70336,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-64b7572edf1d42d0f4a0b8dcb49a0a62/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 22,
+        "placeId": "10449761463",
+        "universeId": "",
+        "name": "The Strongest Battlegrounds",
+        "playing": 69677,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-68c92fc62a8753793f7963e146b5197f/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 23,
         "placeId": "15101393044",
         "universeId": "",
         "name": "Dress To Impress⭐",
-        "playing": 66345,
+        "playing": 69301,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-682882ef8202ab9daff47e54cbc32f9e/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 24,
         "placeId": "16146832113",
         "universeId": "",
         "name": "Anime Vanguards: Eternal Adversaries",
-        "playing": 56022,
+        "playing": 56829,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e042b0f47adf3f820b424b1e67034d04/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 25,
         "placeId": "131346454575416",
         "universeId": "",
         "name": "[UPD] Mini War",
-        "playing": 51333,
+        "playing": 52602,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2de27139d24c3744c12c9be1e9f3818d/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 26,
-        "placeId": "128784467030899",
-        "universeId": "",
-        "name": "[UPD] Merge a Nuke!",
-        "playing": 49929,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-22ce1a75170b7a88d73be10f70b9840b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 27,
         "placeId": "16116270224",
         "universeId": "",
         "name": "🌻 Dandy’s World [ALPHA]",
-        "playing": 49441,
+        "playing": 52086,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-36941d9b7214ea43a04f9708ffc14aec/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 27,
+        "placeId": "128784467030899",
+        "universeId": "",
+        "name": "[UPD] Merge a Nuke!",
+        "playing": 51759,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-22ce1a75170b7a88d73be10f70b9840b/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 28,
         "placeId": "6961824067",
         "universeId": "",
         "name": "Fling Things and People",
-        "playing": 48477,
+        "playing": 48263,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-298897e01eeb244af09a923c7c0cdbcc/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 29,
         "placeId": "114204398207377",
         "universeId": "",
         "name": "Survive Zombie Arena",
-        "playing": 46704,
+        "playing": 46052,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-ccfc78577119d3c8ed223f580e05f222/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 30,
-        "placeId": "15532962292",
-        "universeId": "",
-        "name": "Sol's RNG [ Raid HELL Mode🔥]",
-        "playing": 44259,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-af7c10f839e0c7c2ade796f2e5039200/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 31,
         "placeId": "109881277752094",
         "universeId": "",
         "name": "Clean The Library 📖 [BOOK SAVE]",
-        "playing": 42478,
+        "playing": 45773,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-872472dbfee17e65e29ee80084008b16/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 32,
-        "placeId": "9872472334",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 31,
+        "placeId": "15532962292",
         "universeId": "",
-        "name": "Evade [💀3D NEXTBOTS]",
-        "playing": 41598,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f09792a9ed489236967323bd6a4aab4c/512/512/Image/Webp/noFilter"
+        "name": "Sol's RNG [ Raid HELL Mode🔥]",
+        "playing": 44114,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-af7c10f839e0c7c2ade796f2e5039200/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 33,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 32,
         "placeId": "70411440483149",
         "universeId": "",
         "name": "[❄️] 100 Days At Sea",
-        "playing": 41464,
+        "playing": 44057,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-cc495a5efcfd8a14967e16eec253ef05/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 33,
+        "placeId": "9872472334",
+        "universeId": "",
+        "name": "Evade [💀3D NEXTBOTS]",
+        "playing": 42873,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f09792a9ed489236967323bd6a4aab4c/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 34,
         "placeId": "107646426076756",
         "universeId": "",
         "name": "[🌽] Build A Ring Farm",
-        "playing": 41216,
+        "playing": 42328,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e50450640c8e147bebdda922b6c1bcf5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 35,
         "placeId": "78724049937437",
         "universeId": "",
         "name": "[🎨] Paint And SEEK!",
-        "playing": 37224,
+        "playing": 39662,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-212b66ac54105b17168649d01870d71f/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 36,
         "placeId": "73956553001240",
         "universeId": "",
         "name": "[UPD] Volleyball Legends",
-        "playing": 37016,
+        "playing": 39240,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-869d1e8a40fdb773e420f9e1014337f3/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 37,
-        "placeId": "537413528",
-        "universeId": "",
-        "name": "Build A Boat For Treasure",
-        "playing": 36731,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-a16e27d3d8380da38b43960549590ca2/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 38,
         "placeId": "3260590327",
         "universeId": "",
         "name": "[🛰️ OPERATOR]  Tower Defense Simulator",
-        "playing": 36298,
+        "playing": 37575,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-60ad5dd60264bde919da3667baf214ee/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 38,
+        "placeId": "537413528",
+        "universeId": "",
+        "name": "Build A Boat For Treasure",
+        "playing": 37434,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-a16e27d3d8380da38b43960549590ca2/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 39,
-        "placeId": "18923620224",
-        "universeId": "",
-        "name": "[🏖️ SUMMER PART 1] Anime Warriors III",
-        "playing": 35148,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-bc047fec5acf6c685110375fd3a9f436/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 40,
-        "placeId": "112490729816320",
-        "universeId": "",
-        "name": "[🔁] Spin a Soccer Card",
-        "playing": 34601,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-a2edf5f0d214d0516dad28bfa501decc/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 41,
-        "placeId": "13967668166",
-        "universeId": "",
-        "name": "LifeTogether 🏠 RP",
-        "playing": 34547,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-662f88fef8ef8dab0f8d8bad602a9d52/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 42,
         "placeId": "8481844229",
         "universeId": "",
         "name": "Berry Avenue 🏠 RP",
-        "playing": 34536,
+        "playing": 37318,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0ad132d9a875993bc0c73af94dcebddb/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 43,
-        "placeId": "86378115369061",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 40,
+        "placeId": "13967668166",
         "universeId": "",
-        "name": "+1 Backflip Obby Escape",
-        "playing": 33372,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-d49555b0a7b4658cac5482bbe9a06525/512/512/Image/Webp/noFilter"
+        "name": "LifeTogether 🏠 RP",
+        "playing": 37011,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-662f88fef8ef8dab0f8d8bad602a9d52/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 44,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 41,
+        "placeId": "112490729816320",
+        "universeId": "",
+        "name": "[🔁] Spin a Soccer Card",
+        "playing": 36474,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-a2edf5f0d214d0516dad28bfa501decc/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 42,
         "placeId": "18199615050",
         "universeId": "",
         "name": "[UPD] Demonology🕯️",
-        "playing": 33140,
+        "playing": 36045,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-9af89de7ad6fc08c91c10681a9e79be6/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 43,
+        "placeId": "18923620224",
+        "universeId": "",
+        "name": "[🏖️ SUMMER PART 1] Anime Warriors III",
+        "playing": 35201,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-bc047fec5acf6c685110375fd3a9f436/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 44,
+        "placeId": "86378115369061",
+        "universeId": "",
+        "name": "+1 Backflip Obby Escape",
+        "playing": 34229,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-d49555b0a7b4658cac5482bbe9a06525/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 45,
         "placeId": "5233782396",
         "universeId": "",
         "name": "🌊 Creatures of Sonaria ✨ Survive Kaiju Animals",
-        "playing": 32078,
+        "playing": 33905,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2f9cf26a30c077612cd973429284830c/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 46,
         "placeId": "133410800847665",
         "universeId": "",
         "name": "[🪲UNIVERSAL FINALE🐉] Universal Tower Defense X",
-        "playing": 29663,
+        "playing": 29918,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-173a2fd4ee18469a70952537b0a07a21/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 47,
-        "placeId": "84575720768520",
-        "universeId": "",
-        "name": "Lucky Block Rush",
-        "playing": 28248,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-2637a2ffa1da60156c36a6945bdaa454/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 48,
-        "placeId": "113236157544232",
-        "universeId": "",
-        "name": "[🍀UPDATE 3] Anime Astral Simulator",
-        "playing": 28036,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-383130d30c587124d2a850ed1edce171/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 49,
-        "placeId": "116495829188952",
-        "universeId": "",
-        "name": "Dead Rails [ENDLESS]",
-        "playing": 28028,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f305cb56061e478b368dca1d03dad855/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 50,
-        "placeId": "17516596118",
-        "universeId": "",
-        "name": "🔥Hypershot",
-        "playing": 27614,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-c9858f1b25c7aa6b0e6d675f55eeb890/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 51,
         "placeId": "18668065416",
         "universeId": "",
         "name": "[🏆NEL LEAGUE] Blue Lock: Rivals",
-        "playing": 27276,
+        "playing": 29214,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-8e968e434cf689d0f18b92467d160291/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 52,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 48,
+        "placeId": "116495829188952",
+        "universeId": "",
+        "name": "Dead Rails [ENDLESS]",
+        "playing": 29013,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f305cb56061e478b368dca1d03dad855/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 49,
+        "placeId": "17516596118",
+        "universeId": "",
+        "name": "🔥Hypershot",
+        "playing": 28653,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-c9858f1b25c7aa6b0e6d675f55eeb890/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 50,
+        "placeId": "113236157544232",
+        "universeId": "",
+        "name": "[🍀UPDATE 3] Anime Astral Simulator",
+        "playing": 28426,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-383130d30c587124d2a850ed1edce171/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 51,
         "placeId": "13379208636",
         "universeId": "",
         "name": "Attack on Titan Revolution",
-        "playing": 27025,
+        "playing": 27988,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-b5b0d5438b8f70eca4dc9311ac541afc/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 53,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 52,
         "placeId": "3351674303",
         "universeId": "",
         "name": "[NASCAR UPDATE] Driving Empire 🏎️ Car Racing📦RP",
-        "playing": 26756,
+        "playing": 27701,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-1db1d041d4063aae85cedba178648eb0/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 53,
+        "placeId": "84575720768520",
+        "universeId": "",
+        "name": "Lucky Block Rush",
+        "playing": 27574,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-2637a2ffa1da60156c36a6945bdaa454/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 54,
         "placeId": "74188431054457",
         "universeId": "",
         "name": "Mukbang Game [Testing]",
-        "playing": 25706,
+        "playing": 26286,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-5ff3f38515e902b33af1172ddc47c61b/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 55,
-        "placeId": "131378148336503",
-        "universeId": "",
-        "name": "(LIMITED x EVENT UPDATE 🐂) Drag Drive Simulator",
-        "playing": 24952,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-b722091cca44e695cd73ed89af4be42c/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 56,
-        "placeId": "86479448397834",
-        "universeId": "",
-        "name": "🍰 Bake or Die 💀",
-        "playing": 24173,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-7cd4b3de3fe0c015dfaa76c50d5d9b80/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 57,
-        "placeId": "96645548064314",
-        "universeId": "",
-        "name": "[🏖️] Catch And Tame!",
-        "playing": 23839,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f0347c218c869b915fe7b2e57dbf23bb/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 58,
         "placeId": "91177184562415",
         "universeId": "",
         "name": "🎨Paint Or OOF!",
-        "playing": 23552,
+        "playing": 25752,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3e277ce147dcb1169d51625abcd60e97/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 56,
+        "placeId": "131378148336503",
+        "universeId": "",
+        "name": "(LIMITED x EVENT UPDATE 🐂) Drag Drive Simulator",
+        "playing": 25111,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-b722091cca44e695cd73ed89af4be42c/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 57,
+        "placeId": "86479448397834",
+        "universeId": "",
+        "name": "🍰 Bake or Die 💀",
+        "playing": 24912,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-7cd4b3de3fe0c015dfaa76c50d5d9b80/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 58,
+        "placeId": "96645548064314",
+        "universeId": "",
+        "name": "[🏖️] Catch And Tame!",
+        "playing": 24725,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f0347c218c869b915fe7b2e57dbf23bb/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 59,
         "placeId": "8712817601",
         "universeId": "",
         "name": "🚨BARRY'S PRISON RUN! (OBBY)",
-        "playing": 23289,
+        "playing": 23734,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a9a88dd3aa64379495cb5b18a8e62850/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 60,
-        "placeId": "2768379856",
-        "universeId": "",
-        "name": "3008 [2.74]",
-        "playing": 23215,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-aae57122806f3b23aa41ecdebd63755a/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 61,
         "placeId": "77843161404023",
         "universeId": "",
         "name": "Run a Restaurant!",
-        "playing": 22950,
+        "playing": 23309,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-640060cd64fae6c5c35103cc9f82b956/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 61,
+        "placeId": "90148635862803",
+        "universeId": "",
+        "name": "[UPD] 🧟 Survive the Apocalypse",
+        "playing": 23282,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-23ed33fcd51617d1a54b3df4cc123281/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 62,
         "placeId": "11379739543",
         "universeId": "",
         "name": "Timebomb Duels [Alpha]",
-        "playing": 22315,
+        "playing": 22941,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3e83a97857642ce1a04de00b70360244/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 63,
-        "placeId": "12985361032",
-        "universeId": "",
-        "name": "Metro Life 🏡 City RP",
-        "playing": 22298,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-ce27ba551fab318b4eb79e8879e65ee8/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 64,
-        "placeId": "6872265039",
-        "universeId": "",
-        "name": "BedWars",
-        "playing": 22167,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-d9dfb35a8c8ed499e7ab76793ade8f22/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 65,
-        "placeId": "1962086868",
-        "universeId": "",
-        "name": "Tower of Hell",
-        "playing": 21992,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704151d9c8a70e7ebe0ced8cb2b95c1/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 66,
         "placeId": "99567941238278",
         "universeId": "",
         "name": "[🔥] Ink Game",
-        "playing": 21886,
+        "playing": 22932,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0d51510c6fa57df9031664a8fcb17249/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 64,
+        "placeId": "2768379856",
+        "universeId": "",
+        "name": "3008 [2.74]",
+        "playing": 22791,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-aae57122806f3b23aa41ecdebd63755a/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 65,
+        "placeId": "6872265039",
+        "universeId": "",
+        "name": "BedWars",
+        "playing": 22646,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-d9dfb35a8c8ed499e7ab76793ade8f22/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 66,
+        "placeId": "1962086868",
+        "universeId": "",
+        "name": "Tower of Hell",
+        "playing": 22290,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704151d9c8a70e7ebe0ced8cb2b95c1/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 67,
-        "placeId": "90148635862803",
+        "placeId": "12985361032",
         "universeId": "",
-        "name": "[UPD] 🧟 Survive the Apocalypse",
-        "playing": 21875,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-23ed33fcd51617d1a54b3df4cc123281/512/512/Image/Webp/noFilter"
+        "name": "Metro Life 🏡 City RP",
+        "playing": 22189,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-ce27ba551fab318b4eb79e8879e65ee8/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 68,
-        "placeId": "121330469999373",
-        "universeId": "",
-        "name": "MMV",
-        "playing": 21771,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-6f04369060213cc72bbec0d8dd5a47a4/512/512/GameIcon8/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 69,
         "placeId": "15318113891",
         "universeId": "",
         "name": "Lethal Ape (update)",
-        "playing": 21117,
+        "playing": 22083,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0197a2add25ac824e5e02fa13ce228e5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 70,
-        "placeId": "77747658251236",
-        "universeId": "",
-        "name": "[2X⚔️☘️] Sailor Piece",
-        "playing": 20969,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-ea59c246248beccb3ed1a9636107285a/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 71,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 69,
         "placeId": "14315258385",
         "universeId": "",
         "name": "Realistic Street Soccer",
-        "playing": 20455,
+        "playing": 22025,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-da0313825baab9d7810793c030c5bd21/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 72,
-        "placeId": "107467295209358",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 70,
+        "placeId": "121330469999373",
         "universeId": "",
-        "name": "A desrt [SANDBOX]",
-        "playing": 20399,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-e64cef0539a6a565698f98b17d1598ee/512/512/Image/Webp/noFilter"
+        "name": "MMV",
+        "playing": 21651,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-6f04369060213cc72bbec0d8dd5a47a4/512/512/GameIcon8/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 73,
-        "placeId": "7711635737",
-        "universeId": "",
-        "name": "Emergency Hamburg",
-        "playing": 20369,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704b4ec2df16ed8eb972c3a55acac68/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 74,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 71,
         "placeId": "12177325772",
         "universeId": "",
         "name": "[🏆⚽] FIFA Super Soccer",
-        "playing": 20087,
+        "playing": 21532,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-ab2fd786a6324611c9695abc4630a62b/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 75,
-        "placeId": "91746497060666",
-        "universeId": "",
-        "name": "My Jail Cell!",
-        "playing": 19829,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-3031381f4abda69f77eb61547c82a259/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 76,
-        "placeId": "90568084448279",
-        "universeId": "",
-        "name": "[FPS] One Tap",
-        "playing": 19820,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-eacb09b1ec1cb306593b344aadbe549b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 77,
-        "placeId": "136020512003847",
-        "universeId": "",
-        "name": "San Diego Border Roleplay",
-        "playing": 19820,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-b9f8703a2a52bb343359ee112b91c08e/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 78,
-        "placeId": "98664161516921",
-        "universeId": "",
-        "name": "[🏰] Catch a Monster",
-        "playing": 19568,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-0e256b37d77ad642efaf017c8013daf1/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 79,
-        "placeId": "104715542330896",
-        "universeId": "",
-        "name": "BlockSpin 🔪",
-        "playing": 19535,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-2a4c48dce5b0e82b0fbfc61acc0c053f/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 80,
-        "placeId": "136533956395153",
-        "universeId": "",
-        "name": "Car Flipper [TUNING SHOP]",
-        "playing": 18899,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-1ad8e255565b11a1904842c1d0e71087/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 81,
-        "placeId": "16389395869",
-        "universeId": "",
-        "name": "a dusty trip [🌵BIOME]",
-        "playing": 18655,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-6aff0e6d07a8265a3af658466058657b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 82,
-        "placeId": "13621938427",
-        "universeId": "",
-        "name": "untitled boxing game 🥊",
-        "playing": 18451,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-91b9e5091f844a9a2630ca702e4d4334/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 83,
-        "placeId": "13772394625",
-        "universeId": "",
-        "name": "Blade Ball",
-        "playing": 18293,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-b7317d44fd85c141d154cede4aacf4b0/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 84,
-        "placeId": "6516141723",
-        "universeId": "",
-        "name": "DOORS 👁️",
-        "playing": 18285,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-53f81a48fb348823169b97fd42a1094a/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 85,
-        "placeId": "92416421522960",
-        "universeId": "",
-        "name": "Slime RNG",
-        "playing": 18263,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-2f7978b674aeb4273e19ba6fa25bb846/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 86,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 72,
         "placeId": "6243699076",
         "universeId": "",
         "name": "[UPDATE] The Mimic",
-        "playing": 18222,
+        "playing": 21301,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2443badb936eb6c7c5be889c1024c1f5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 87,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 73,
+        "placeId": "77747658251236",
+        "universeId": "",
+        "name": "[2X⚔️☘️] Sailor Piece",
+        "playing": 21258,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-ea59c246248beccb3ed1a9636107285a/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 74,
+        "placeId": "7711635737",
+        "universeId": "",
+        "name": "Emergency Hamburg",
+        "playing": 21199,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704b4ec2df16ed8eb972c3a55acac68/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 75,
+        "placeId": "104715542330896",
+        "universeId": "",
+        "name": "BlockSpin 🔪",
+        "playing": 21125,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-2a4c48dce5b0e82b0fbfc61acc0c053f/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 76,
+        "placeId": "136020512003847",
+        "universeId": "",
+        "name": "San Diego Border Roleplay",
+        "playing": 20618,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-b9f8703a2a52bb343359ee112b91c08e/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 77,
+        "placeId": "91746497060666",
+        "universeId": "",
+        "name": "My Jail Cell!",
+        "playing": 20615,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-3031381f4abda69f77eb61547c82a259/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 78,
+        "placeId": "107467295209358",
+        "universeId": "",
+        "name": "A desrt [SANDBOX]",
+        "playing": 20348,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-e64cef0539a6a565698f98b17d1598ee/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 79,
+        "placeId": "90568084448279",
+        "universeId": "",
+        "name": "[FPS] One Tap",
+        "playing": 20278,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-eacb09b1ec1cb306593b344aadbe549b/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 80,
+        "placeId": "98664161516921",
+        "universeId": "",
+        "name": "[🏰] Catch a Monster",
+        "playing": 19906,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-0e256b37d77ad642efaf017c8013daf1/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 81,
+        "placeId": "13621938427",
+        "universeId": "",
+        "name": "untitled boxing game 🥊",
+        "playing": 19414,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-91b9e5091f844a9a2630ca702e4d4334/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 82,
+        "placeId": "136533956395153",
+        "universeId": "",
+        "name": "Car Flipper [TUNING SHOP]",
+        "playing": 19362,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-1ad8e255565b11a1904842c1d0e71087/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 83,
+        "placeId": "16389395869",
+        "universeId": "",
+        "name": "a dusty trip [🌵BIOME]",
+        "playing": 19063,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-6aff0e6d07a8265a3af658466058657b/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 84,
         "placeId": "76911729991355",
         "universeId": "",
         "name": "[UPD 1❄️] Noob Incremental",
-        "playing": 18053,
+        "playing": 18994,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-cc916a3826b4a396d302b6a8a8daaa7d/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 88,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 85,
+        "placeId": "6516141723",
+        "universeId": "",
+        "name": "DOORS 👁️",
+        "playing": 18954,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-53f81a48fb348823169b97fd42a1094a/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 86,
+        "placeId": "13772394625",
+        "universeId": "",
+        "name": "Blade Ball",
+        "playing": 18746,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-b7317d44fd85c141d154cede4aacf4b0/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 87,
         "placeId": "13076380114",
         "universeId": "",
         "name": "[WINGED ASSASSIN] Heroes Battlegrounds",
-        "playing": 18047,
+        "playing": 18724,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-ede35aadfc130ce362b5ffc90bc4906f/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 88,
+        "placeId": "92416421522960",
+        "universeId": "",
+        "name": "Slime RNG",
+        "playing": 18560,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-2f7978b674aeb4273e19ba6fa25bb846/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 89,
-        "placeId": "97387256206808",
-        "universeId": "",
-        "name": "Broken Blade [Yamato]",
-        "playing": 17869,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-0a2fbdebc9f2dd4e72d6c6f922a84476/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 90,
-        "placeId": "1537690962",
-        "universeId": "",
-        "name": "Bee Swarm Simulator",
-        "playing": 17712,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-d77b9b4652b7f3039df9ad2d1576197c/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 91,
-        "placeId": "123921593837160",
-        "universeId": "",
-        "name": "Climb and Jump Tower [NEW WORLD]",
-        "playing": 17601,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-1328e05c57631e7bbe86ced638b44c89/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 92,
         "placeId": "119048529960596",
         "universeId": "",
         "name": "[🏖️] Restaurant Tycoon 3",
-        "playing": 17236,
+        "playing": 18053,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-53d05815233a48defbfb29698b14a3b2/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 93,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 90,
+        "placeId": "123921593837160",
+        "universeId": "",
+        "name": "Climb and Jump Tower [NEW WORLD]",
+        "playing": 18020,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-1328e05c57631e7bbe86ced638b44c89/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 91,
         "placeId": "137826330724902",
         "universeId": "",
         "name": "Scary Shawarma Kiosk: the ANOMALY [horror]",
-        "playing": 17012,
+        "playing": 17976,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2fc0830a209194be781df4211a84f824/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 92,
+        "placeId": "97387256206808",
+        "universeId": "",
+        "name": "Broken Blade [Yamato]",
+        "playing": 17879,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-0a2fbdebc9f2dd4e72d6c6f922a84476/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 93,
+        "placeId": "1537690962",
+        "universeId": "",
+        "name": "Bee Swarm Simulator",
+        "playing": 17824,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-d77b9b4652b7f3039df9ad2d1576197c/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 94,
         "placeId": "79480724066456",
         "universeId": "",
         "name": "[🚐RVs🚐] Southern Mudding 🚜 OffRoading",
-        "playing": 15787,
+        "playing": 16551,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0c1509112d0de121a1bb268f7d752dbe/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 95,
         "placeId": "75387700043737",
         "universeId": "",
         "name": "🛍️ My Avatar!",
-        "playing": 15274,
+        "playing": 16157,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e1df1cabd097339bfad53fba3f090fa8/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 96,
-        "placeId": "122446657157717",
+        "placeId": "135856908115931",
         "universeId": "",
-        "name": "[UPD] Sniper Arena",
-        "playing": 15190,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-9484194bf967cdc231cc155911a60ccd/512/512/Image/Webp/noFilter"
+        "name": "[🏖️DUELS] Murderers VS Sheriffs",
+        "playing": 15974,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-e3ec01625d4eb72943a414fbfc6a4f02/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 97,
         "placeId": "7554888362",
         "universeId": "",
         "name": "[🦑] Squid Game X",
-        "playing": 15010,
+        "playing": 15545,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-334d65d70384d4b12926408dfd1fc3ad/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 98,
-        "placeId": "12355337193",
+        "placeId": "98629859043211",
         "universeId": "",
-        "name": "Murderers VS Sheriffs DUELS",
-        "playing": 14816,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-3feddcb72b6ec832c76b632d68ed3dba/512/512/Image/Webp/noFilter"
+        "name": "[UPDATE] M.E.G. Endless Reality",
+        "playing": 15540,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-e0b4d0c59772f605d4d9b7403c61b5a5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 99,
-        "placeId": "77184738329604",
+        "placeId": "185655149",
         "universeId": "",
-        "name": "Needoh Gear Tower",
-        "playing": 14662,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-7d184276444cbff986324a80d2e91874/512/512/Image/Webp/noFilter"
+        "name": "[🏛️] Welcome to Bloxburg 🏡",
+        "playing": 15509,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-c976e91d74b18b1d96128a576fdb90b0/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 100,
-        "placeId": "10834586502",
+        "placeId": "139937995319383",
         "universeId": "",
-        "name": "The Battle Bricks",
-        "playing": 14577,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-137fc342c73959983615b9ee33c4406b/512/512/Image/Webp/noFilter"
+        "name": "Librarian: Tidy Up Roblox Library",
+        "playing": 15496,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-ccaa26b91c17f251f6475a825c6910c4/512/512/Image/Webp/noFilter"
       }
     ]
   },
   "leaderboard": {
-    "snapshotUtc": "2026-06-22 13:07:05",
+    "snapshotUtc": "2026-06-22 13:12:04",
     "count": 100,
     "items": [
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 1,
         "placeId": "97598239454123",
         "universeId": "",
         "name": "Grow a Garden 2",
-        "playing": 644315,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-8c55f777cf5014524b754148b8534501/512/512/Image/Webp/noFilter"
+        "playing": 611470,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-a18a5ca59452af39ed53a69021aab978/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 2,
         "placeId": "4924922222",
         "universeId": "",
         "name": "Brookhaven 🏡RP",
-        "playing": 561016,
+        "playing": 584523,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-fba0af630ff4fcbfa247f30c7a0c8420/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 3,
         "placeId": "79546208627805",
         "universeId": "",
         "name": "99 Nights in the Forest 🔦",
-        "playing": 338869,
+        "playing": 343517,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a130d392387b34a1cbfd738c83aced21/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 4,
         "placeId": "95082159892680",
         "universeId": "",
         "name": "[UPD] +1 Speed Keyboard Escape | Candy & Chocolate",
-        "playing": 334901,
+        "playing": 331038,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-207e9d6ae7e65d6db5ce5963e2c68d61/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 5,
         "placeId": "920587237",
         "universeId": "",
         "name": "[🎣] Adopt Me!",
-        "playing": 311001,
+        "playing": 311799,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-9637418c51a98f1e7dc3ef5032b977b6/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 6,
         "placeId": "2753915549",
         "universeId": "",
         "name": "Blox Fruits",
-        "playing": 284640,
+        "playing": 295227,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a64f70da20fc1e80ee76fe5d49c1be0a/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 7,
         "placeId": "109983668079237",
         "universeId": "",
         "name": "Steal a Brainrot",
-        "playing": 262880,
+        "playing": 256777,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-4ce37dd3c0fbd2cda14ef0604143534a/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 8,
         "placeId": "142823291",
         "universeId": "",
         "name": "Murder Mystery 2",
-        "playing": 233753,
+        "playing": 238359,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3ac5af325970a745b0156a5358174169/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 9,
         "placeId": "17625359962",
         "universeId": "",
         "name": "RIVALS",
-        "playing": 212603,
+        "playing": 210815,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-1ef79fa35987dddabb7a5c6858ef234f/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 10,
         "placeId": "121864768012064",
         "universeId": "",
         "name": "[👑UPD] Fish It! 🐟",
-        "playing": 143347,
+        "playing": 143485,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-84be6c0b84c666b39ef7d4247ebe1ef7/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 11,
         "placeId": "9391468976",
         "universeId": "",
         "name": "[BLACK DEATH] Jujutsu Shenanigans",
-        "playing": 125777,
+        "playing": 132151,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e27277bbda2ba2efdb47a1863df2da3d/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 12,
         "placeId": "79268393072444",
         "universeId": "",
         "name": "Sell Lemons 🍋",
-        "playing": 116099,
+        "playing": 118957,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3d8fd895f358e86fb886c17fe06201d8/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 13,
         "placeId": "78515283254292",
         "universeId": "",
         "name": "Animal Hospital (Anomaly) 🧪",
-        "playing": 108748,
+        "playing": 116001,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a14df4c97ee49bf5846ef9b112091426/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 14,
         "placeId": "89469502395769",
         "universeId": "",
         "name": "[🏆] Kick a Lucky Block",
-        "playing": 104254,
+        "playing": 104030,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-38026099526c6add61519af86c04de71/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 15,
         "placeId": "8737899170",
         "universeId": "",
         "name": "[BACKROOMS] Pet Simulator 99!",
-        "playing": 88883,
+        "playing": 90065,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-81f73bcc24d061d0364ab637196a1bc7/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 16,
         "placeId": "93978595733734",
         "universeId": "",
         "name": "[CURE] Violence District",
-        "playing": 81402,
+        "playing": 87833,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-24a7fe15374c20384a33ba2f9d4dc362/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 17,
         "placeId": "126884695634066",
         "universeId": "",
         "name": "[🔥] Grow a Garden 🌶️",
-        "playing": 81257,
+        "playing": 83091,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-26ed211cab56d67bf95065a00e32b730/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 18,
         "placeId": "16732694052",
         "universeId": "",
         "name": "Fisch 🏖️ [FISCHFEST]",
-        "playing": 79262,
+        "playing": 80547,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-65e054c8977ee798a19ef77cd6f26574/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 19,
-        "placeId": "71132543521245",
-        "universeId": "",
-        "name": "[🌘UPD 0.5🩸] Anime Squadron",
-        "playing": 72926,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f2f99a1ac248135961833d6223ecfd4b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 20,
         "placeId": "18687417158",
         "universeId": "",
         "name": "Forsaken",
-        "playing": 72628,
+        "playing": 75463,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-46bb07b960c8036df7a55bcafef03c92/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 21,
-        "placeId": "10449761463",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 20,
+        "placeId": "71132543521245",
         "universeId": "",
-        "name": "The Strongest Battlegrounds",
-        "playing": 67886,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-68c92fc62a8753793f7963e146b5197f/512/512/Image/Webp/noFilter"
+        "name": "[🌘UPD 0.5🩸] Anime Squadron",
+        "playing": 73658,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f2f99a1ac248135961833d6223ecfd4b/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 22,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 21,
         "placeId": "7041939546",
         "universeId": "",
         "name": "Catalog Avatar Creator",
-        "playing": 67001,
+        "playing": 70336,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-64b7572edf1d42d0f4a0b8dcb49a0a62/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 22,
+        "placeId": "10449761463",
+        "universeId": "",
+        "name": "The Strongest Battlegrounds",
+        "playing": 69677,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-68c92fc62a8753793f7963e146b5197f/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 23,
         "placeId": "15101393044",
         "universeId": "",
         "name": "Dress To Impress⭐",
-        "playing": 66345,
+        "playing": 69301,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-682882ef8202ab9daff47e54cbc32f9e/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 24,
         "placeId": "16146832113",
         "universeId": "",
         "name": "Anime Vanguards: Eternal Adversaries",
-        "playing": 56022,
+        "playing": 56829,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e042b0f47adf3f820b424b1e67034d04/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 25,
         "placeId": "131346454575416",
         "universeId": "",
         "name": "[UPD] Mini War",
-        "playing": 51333,
+        "playing": 52602,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2de27139d24c3744c12c9be1e9f3818d/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 26,
-        "placeId": "128784467030899",
-        "universeId": "",
-        "name": "[UPD] Merge a Nuke!",
-        "playing": 49929,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-22ce1a75170b7a88d73be10f70b9840b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 27,
         "placeId": "16116270224",
         "universeId": "",
         "name": "🌻 Dandy’s World [ALPHA]",
-        "playing": 49441,
+        "playing": 52086,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-36941d9b7214ea43a04f9708ffc14aec/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 27,
+        "placeId": "128784467030899",
+        "universeId": "",
+        "name": "[UPD] Merge a Nuke!",
+        "playing": 51759,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-22ce1a75170b7a88d73be10f70b9840b/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 28,
         "placeId": "6961824067",
         "universeId": "",
         "name": "Fling Things and People",
-        "playing": 48477,
+        "playing": 48263,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-298897e01eeb244af09a923c7c0cdbcc/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 29,
         "placeId": "114204398207377",
         "universeId": "",
         "name": "Survive Zombie Arena",
-        "playing": 46704,
+        "playing": 46052,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-ccfc78577119d3c8ed223f580e05f222/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 30,
-        "placeId": "15532962292",
-        "universeId": "",
-        "name": "Sol's RNG [ Raid HELL Mode🔥]",
-        "playing": 44259,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-af7c10f839e0c7c2ade796f2e5039200/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 31,
         "placeId": "109881277752094",
         "universeId": "",
         "name": "Clean The Library 📖 [BOOK SAVE]",
-        "playing": 42478,
+        "playing": 45773,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-872472dbfee17e65e29ee80084008b16/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 32,
-        "placeId": "9872472334",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 31,
+        "placeId": "15532962292",
         "universeId": "",
-        "name": "Evade [💀3D NEXTBOTS]",
-        "playing": 41598,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f09792a9ed489236967323bd6a4aab4c/512/512/Image/Webp/noFilter"
+        "name": "Sol's RNG [ Raid HELL Mode🔥]",
+        "playing": 44114,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-af7c10f839e0c7c2ade796f2e5039200/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 33,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 32,
         "placeId": "70411440483149",
         "universeId": "",
         "name": "[❄️] 100 Days At Sea",
-        "playing": 41464,
+        "playing": 44057,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-cc495a5efcfd8a14967e16eec253ef05/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 33,
+        "placeId": "9872472334",
+        "universeId": "",
+        "name": "Evade [💀3D NEXTBOTS]",
+        "playing": 42873,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f09792a9ed489236967323bd6a4aab4c/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 34,
         "placeId": "107646426076756",
         "universeId": "",
         "name": "[🌽] Build A Ring Farm",
-        "playing": 41216,
+        "playing": 42328,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e50450640c8e147bebdda922b6c1bcf5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 35,
         "placeId": "78724049937437",
         "universeId": "",
         "name": "[🎨] Paint And SEEK!",
-        "playing": 37224,
+        "playing": 39662,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-212b66ac54105b17168649d01870d71f/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 36,
         "placeId": "73956553001240",
         "universeId": "",
         "name": "[UPD] Volleyball Legends",
-        "playing": 37016,
+        "playing": 39240,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-869d1e8a40fdb773e420f9e1014337f3/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 37,
-        "placeId": "537413528",
-        "universeId": "",
-        "name": "Build A Boat For Treasure",
-        "playing": 36731,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-a16e27d3d8380da38b43960549590ca2/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 38,
         "placeId": "3260590327",
         "universeId": "",
         "name": "[🛰️ OPERATOR]  Tower Defense Simulator",
-        "playing": 36298,
+        "playing": 37575,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-60ad5dd60264bde919da3667baf214ee/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 38,
+        "placeId": "537413528",
+        "universeId": "",
+        "name": "Build A Boat For Treasure",
+        "playing": 37434,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-a16e27d3d8380da38b43960549590ca2/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 39,
-        "placeId": "18923620224",
-        "universeId": "",
-        "name": "[🏖️ SUMMER PART 1] Anime Warriors III",
-        "playing": 35148,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-bc047fec5acf6c685110375fd3a9f436/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 40,
-        "placeId": "112490729816320",
-        "universeId": "",
-        "name": "[🔁] Spin a Soccer Card",
-        "playing": 34601,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-a2edf5f0d214d0516dad28bfa501decc/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 41,
-        "placeId": "13967668166",
-        "universeId": "",
-        "name": "LifeTogether 🏠 RP",
-        "playing": 34547,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-662f88fef8ef8dab0f8d8bad602a9d52/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 42,
         "placeId": "8481844229",
         "universeId": "",
         "name": "Berry Avenue 🏠 RP",
-        "playing": 34536,
+        "playing": 37318,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0ad132d9a875993bc0c73af94dcebddb/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 43,
-        "placeId": "86378115369061",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 40,
+        "placeId": "13967668166",
         "universeId": "",
-        "name": "+1 Backflip Obby Escape",
-        "playing": 33372,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-d49555b0a7b4658cac5482bbe9a06525/512/512/Image/Webp/noFilter"
+        "name": "LifeTogether 🏠 RP",
+        "playing": 37011,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-662f88fef8ef8dab0f8d8bad602a9d52/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 44,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 41,
+        "placeId": "112490729816320",
+        "universeId": "",
+        "name": "[🔁] Spin a Soccer Card",
+        "playing": 36474,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-a2edf5f0d214d0516dad28bfa501decc/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 42,
         "placeId": "18199615050",
         "universeId": "",
         "name": "[UPD] Demonology🕯️",
-        "playing": 33140,
+        "playing": 36045,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-9af89de7ad6fc08c91c10681a9e79be6/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 43,
+        "placeId": "18923620224",
+        "universeId": "",
+        "name": "[🏖️ SUMMER PART 1] Anime Warriors III",
+        "playing": 35201,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-bc047fec5acf6c685110375fd3a9f436/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 44,
+        "placeId": "86378115369061",
+        "universeId": "",
+        "name": "+1 Backflip Obby Escape",
+        "playing": 34229,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-d49555b0a7b4658cac5482bbe9a06525/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 45,
         "placeId": "5233782396",
         "universeId": "",
         "name": "🌊 Creatures of Sonaria ✨ Survive Kaiju Animals",
-        "playing": 32078,
+        "playing": 33905,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2f9cf26a30c077612cd973429284830c/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 46,
         "placeId": "133410800847665",
         "universeId": "",
         "name": "[🪲UNIVERSAL FINALE🐉] Universal Tower Defense X",
-        "playing": 29663,
+        "playing": 29918,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-173a2fd4ee18469a70952537b0a07a21/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 47,
-        "placeId": "84575720768520",
-        "universeId": "",
-        "name": "Lucky Block Rush",
-        "playing": 28248,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-2637a2ffa1da60156c36a6945bdaa454/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 48,
-        "placeId": "113236157544232",
-        "universeId": "",
-        "name": "[🍀UPDATE 3] Anime Astral Simulator",
-        "playing": 28036,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-383130d30c587124d2a850ed1edce171/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 49,
-        "placeId": "116495829188952",
-        "universeId": "",
-        "name": "Dead Rails [ENDLESS]",
-        "playing": 28028,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f305cb56061e478b368dca1d03dad855/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 50,
-        "placeId": "17516596118",
-        "universeId": "",
-        "name": "🔥Hypershot",
-        "playing": 27614,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-c9858f1b25c7aa6b0e6d675f55eeb890/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 51,
         "placeId": "18668065416",
         "universeId": "",
         "name": "[🏆NEL LEAGUE] Blue Lock: Rivals",
-        "playing": 27276,
+        "playing": 29214,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-8e968e434cf689d0f18b92467d160291/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 52,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 48,
+        "placeId": "116495829188952",
+        "universeId": "",
+        "name": "Dead Rails [ENDLESS]",
+        "playing": 29013,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f305cb56061e478b368dca1d03dad855/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 49,
+        "placeId": "17516596118",
+        "universeId": "",
+        "name": "🔥Hypershot",
+        "playing": 28653,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-c9858f1b25c7aa6b0e6d675f55eeb890/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 50,
+        "placeId": "113236157544232",
+        "universeId": "",
+        "name": "[🍀UPDATE 3] Anime Astral Simulator",
+        "playing": 28426,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-383130d30c587124d2a850ed1edce171/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 51,
         "placeId": "13379208636",
         "universeId": "",
         "name": "Attack on Titan Revolution",
-        "playing": 27025,
+        "playing": 27988,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-b5b0d5438b8f70eca4dc9311ac541afc/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 53,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 52,
         "placeId": "3351674303",
         "universeId": "",
         "name": "[NASCAR UPDATE] Driving Empire 🏎️ Car Racing📦RP",
-        "playing": 26756,
+        "playing": 27701,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-1db1d041d4063aae85cedba178648eb0/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 53,
+        "placeId": "84575720768520",
+        "universeId": "",
+        "name": "Lucky Block Rush",
+        "playing": 27574,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-2637a2ffa1da60156c36a6945bdaa454/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 54,
         "placeId": "74188431054457",
         "universeId": "",
         "name": "Mukbang Game [Testing]",
-        "playing": 25706,
+        "playing": 26286,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-5ff3f38515e902b33af1172ddc47c61b/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 55,
-        "placeId": "131378148336503",
-        "universeId": "",
-        "name": "(LIMITED x EVENT UPDATE 🐂) Drag Drive Simulator",
-        "playing": 24952,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-b722091cca44e695cd73ed89af4be42c/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 56,
-        "placeId": "86479448397834",
-        "universeId": "",
-        "name": "🍰 Bake or Die 💀",
-        "playing": 24173,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-7cd4b3de3fe0c015dfaa76c50d5d9b80/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 57,
-        "placeId": "96645548064314",
-        "universeId": "",
-        "name": "[🏖️] Catch And Tame!",
-        "playing": 23839,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-f0347c218c869b915fe7b2e57dbf23bb/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 58,
         "placeId": "91177184562415",
         "universeId": "",
         "name": "🎨Paint Or OOF!",
-        "playing": 23552,
+        "playing": 25752,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3e277ce147dcb1169d51625abcd60e97/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 56,
+        "placeId": "131378148336503",
+        "universeId": "",
+        "name": "(LIMITED x EVENT UPDATE 🐂) Drag Drive Simulator",
+        "playing": 25111,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-b722091cca44e695cd73ed89af4be42c/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 57,
+        "placeId": "86479448397834",
+        "universeId": "",
+        "name": "🍰 Bake or Die 💀",
+        "playing": 24912,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-7cd4b3de3fe0c015dfaa76c50d5d9b80/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 58,
+        "placeId": "96645548064314",
+        "universeId": "",
+        "name": "[🏖️] Catch And Tame!",
+        "playing": 24725,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-f0347c218c869b915fe7b2e57dbf23bb/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 59,
         "placeId": "8712817601",
         "universeId": "",
         "name": "🚨BARRY'S PRISON RUN! (OBBY)",
-        "playing": 23289,
+        "playing": 23734,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-a9a88dd3aa64379495cb5b18a8e62850/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 60,
-        "placeId": "2768379856",
-        "universeId": "",
-        "name": "3008 [2.74]",
-        "playing": 23215,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-aae57122806f3b23aa41ecdebd63755a/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 61,
         "placeId": "77843161404023",
         "universeId": "",
         "name": "Run a Restaurant!",
-        "playing": 22950,
+        "playing": 23309,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-640060cd64fae6c5c35103cc9f82b956/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 61,
+        "placeId": "90148635862803",
+        "universeId": "",
+        "name": "[UPD] 🧟 Survive the Apocalypse",
+        "playing": 23282,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-23ed33fcd51617d1a54b3df4cc123281/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 62,
         "placeId": "11379739543",
         "universeId": "",
         "name": "Timebomb Duels [Alpha]",
-        "playing": 22315,
+        "playing": 22941,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-3e83a97857642ce1a04de00b70360244/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 63,
-        "placeId": "12985361032",
-        "universeId": "",
-        "name": "Metro Life 🏡 City RP",
-        "playing": 22298,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-ce27ba551fab318b4eb79e8879e65ee8/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 64,
-        "placeId": "6872265039",
-        "universeId": "",
-        "name": "BedWars",
-        "playing": 22167,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-d9dfb35a8c8ed499e7ab76793ade8f22/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 65,
-        "placeId": "1962086868",
-        "universeId": "",
-        "name": "Tower of Hell",
-        "playing": 21992,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704151d9c8a70e7ebe0ced8cb2b95c1/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 66,
         "placeId": "99567941238278",
         "universeId": "",
         "name": "[🔥] Ink Game",
-        "playing": 21886,
+        "playing": 22932,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0d51510c6fa57df9031664a8fcb17249/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 64,
+        "placeId": "2768379856",
+        "universeId": "",
+        "name": "3008 [2.74]",
+        "playing": 22791,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-aae57122806f3b23aa41ecdebd63755a/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 65,
+        "placeId": "6872265039",
+        "universeId": "",
+        "name": "BedWars",
+        "playing": 22646,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-d9dfb35a8c8ed499e7ab76793ade8f22/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 66,
+        "placeId": "1962086868",
+        "universeId": "",
+        "name": "Tower of Hell",
+        "playing": 22290,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704151d9c8a70e7ebe0ced8cb2b95c1/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 67,
-        "placeId": "90148635862803",
+        "placeId": "12985361032",
         "universeId": "",
-        "name": "[UPD] 🧟 Survive the Apocalypse",
-        "playing": 21875,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-23ed33fcd51617d1a54b3df4cc123281/512/512/Image/Webp/noFilter"
+        "name": "Metro Life 🏡 City RP",
+        "playing": 22189,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-ce27ba551fab318b4eb79e8879e65ee8/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 68,
-        "placeId": "121330469999373",
-        "universeId": "",
-        "name": "MMV",
-        "playing": 21771,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-6f04369060213cc72bbec0d8dd5a47a4/512/512/GameIcon8/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 69,
         "placeId": "15318113891",
         "universeId": "",
         "name": "Lethal Ape (update)",
-        "playing": 21117,
+        "playing": 22083,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0197a2add25ac824e5e02fa13ce228e5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 70,
-        "placeId": "77747658251236",
-        "universeId": "",
-        "name": "[2X⚔️☘️] Sailor Piece",
-        "playing": 20969,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-ea59c246248beccb3ed1a9636107285a/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 71,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 69,
         "placeId": "14315258385",
         "universeId": "",
         "name": "Realistic Street Soccer",
-        "playing": 20455,
+        "playing": 22025,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-da0313825baab9d7810793c030c5bd21/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 72,
-        "placeId": "107467295209358",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 70,
+        "placeId": "121330469999373",
         "universeId": "",
-        "name": "A desrt [SANDBOX]",
-        "playing": 20399,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-e64cef0539a6a565698f98b17d1598ee/512/512/Image/Webp/noFilter"
+        "name": "MMV",
+        "playing": 21651,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-6f04369060213cc72bbec0d8dd5a47a4/512/512/GameIcon8/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 73,
-        "placeId": "7711635737",
-        "universeId": "",
-        "name": "Emergency Hamburg",
-        "playing": 20369,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704b4ec2df16ed8eb972c3a55acac68/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 74,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 71,
         "placeId": "12177325772",
         "universeId": "",
         "name": "[🏆⚽] FIFA Super Soccer",
-        "playing": 20087,
+        "playing": 21532,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-ab2fd786a6324611c9695abc4630a62b/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 75,
-        "placeId": "91746497060666",
-        "universeId": "",
-        "name": "My Jail Cell!",
-        "playing": 19829,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-3031381f4abda69f77eb61547c82a259/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 76,
-        "placeId": "90568084448279",
-        "universeId": "",
-        "name": "[FPS] One Tap",
-        "playing": 19820,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-eacb09b1ec1cb306593b344aadbe549b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 77,
-        "placeId": "136020512003847",
-        "universeId": "",
-        "name": "San Diego Border Roleplay",
-        "playing": 19820,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-b9f8703a2a52bb343359ee112b91c08e/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 78,
-        "placeId": "98664161516921",
-        "universeId": "",
-        "name": "[🏰] Catch a Monster",
-        "playing": 19568,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-0e256b37d77ad642efaf017c8013daf1/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 79,
-        "placeId": "104715542330896",
-        "universeId": "",
-        "name": "BlockSpin 🔪",
-        "playing": 19535,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-2a4c48dce5b0e82b0fbfc61acc0c053f/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 80,
-        "placeId": "136533956395153",
-        "universeId": "",
-        "name": "Car Flipper [TUNING SHOP]",
-        "playing": 18899,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-1ad8e255565b11a1904842c1d0e71087/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 81,
-        "placeId": "16389395869",
-        "universeId": "",
-        "name": "a dusty trip [🌵BIOME]",
-        "playing": 18655,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-6aff0e6d07a8265a3af658466058657b/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 82,
-        "placeId": "13621938427",
-        "universeId": "",
-        "name": "untitled boxing game 🥊",
-        "playing": 18451,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-91b9e5091f844a9a2630ca702e4d4334/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 83,
-        "placeId": "13772394625",
-        "universeId": "",
-        "name": "Blade Ball",
-        "playing": 18293,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-b7317d44fd85c141d154cede4aacf4b0/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 84,
-        "placeId": "6516141723",
-        "universeId": "",
-        "name": "DOORS 👁️",
-        "playing": 18285,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-53f81a48fb348823169b97fd42a1094a/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 85,
-        "placeId": "92416421522960",
-        "universeId": "",
-        "name": "Slime RNG",
-        "playing": 18263,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-2f7978b674aeb4273e19ba6fa25bb846/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 86,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 72,
         "placeId": "6243699076",
         "universeId": "",
         "name": "[UPDATE] The Mimic",
-        "playing": 18222,
+        "playing": 21301,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2443badb936eb6c7c5be889c1024c1f5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 87,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 73,
+        "placeId": "77747658251236",
+        "universeId": "",
+        "name": "[2X⚔️☘️] Sailor Piece",
+        "playing": 21258,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-ea59c246248beccb3ed1a9636107285a/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 74,
+        "placeId": "7711635737",
+        "universeId": "",
+        "name": "Emergency Hamburg",
+        "playing": 21199,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-9704b4ec2df16ed8eb972c3a55acac68/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 75,
+        "placeId": "104715542330896",
+        "universeId": "",
+        "name": "BlockSpin 🔪",
+        "playing": 21125,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-2a4c48dce5b0e82b0fbfc61acc0c053f/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 76,
+        "placeId": "136020512003847",
+        "universeId": "",
+        "name": "San Diego Border Roleplay",
+        "playing": 20618,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-b9f8703a2a52bb343359ee112b91c08e/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 77,
+        "placeId": "91746497060666",
+        "universeId": "",
+        "name": "My Jail Cell!",
+        "playing": 20615,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-3031381f4abda69f77eb61547c82a259/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 78,
+        "placeId": "107467295209358",
+        "universeId": "",
+        "name": "A desrt [SANDBOX]",
+        "playing": 20348,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-e64cef0539a6a565698f98b17d1598ee/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 79,
+        "placeId": "90568084448279",
+        "universeId": "",
+        "name": "[FPS] One Tap",
+        "playing": 20278,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-eacb09b1ec1cb306593b344aadbe549b/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 80,
+        "placeId": "98664161516921",
+        "universeId": "",
+        "name": "[🏰] Catch a Monster",
+        "playing": 19906,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-0e256b37d77ad642efaf017c8013daf1/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 81,
+        "placeId": "13621938427",
+        "universeId": "",
+        "name": "untitled boxing game 🥊",
+        "playing": 19414,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-91b9e5091f844a9a2630ca702e4d4334/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 82,
+        "placeId": "136533956395153",
+        "universeId": "",
+        "name": "Car Flipper [TUNING SHOP]",
+        "playing": 19362,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-1ad8e255565b11a1904842c1d0e71087/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 83,
+        "placeId": "16389395869",
+        "universeId": "",
+        "name": "a dusty trip [🌵BIOME]",
+        "playing": 19063,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-6aff0e6d07a8265a3af658466058657b/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 84,
         "placeId": "76911729991355",
         "universeId": "",
         "name": "[UPD 1❄️] Noob Incremental",
-        "playing": 18053,
+        "playing": 18994,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-cc916a3826b4a396d302b6a8a8daaa7d/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 88,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 85,
+        "placeId": "6516141723",
+        "universeId": "",
+        "name": "DOORS 👁️",
+        "playing": 18954,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-53f81a48fb348823169b97fd42a1094a/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 86,
+        "placeId": "13772394625",
+        "universeId": "",
+        "name": "Blade Ball",
+        "playing": 18746,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-b7317d44fd85c141d154cede4aacf4b0/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 87,
         "placeId": "13076380114",
         "universeId": "",
         "name": "[WINGED ASSASSIN] Heroes Battlegrounds",
-        "playing": 18047,
+        "playing": 18724,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-ede35aadfc130ce362b5ffc90bc4906f/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 88,
+        "placeId": "92416421522960",
+        "universeId": "",
+        "name": "Slime RNG",
+        "playing": 18560,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-2f7978b674aeb4273e19ba6fa25bb846/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 89,
-        "placeId": "97387256206808",
-        "universeId": "",
-        "name": "Broken Blade [Yamato]",
-        "playing": 17869,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-0a2fbdebc9f2dd4e72d6c6f922a84476/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 90,
-        "placeId": "1537690962",
-        "universeId": "",
-        "name": "Bee Swarm Simulator",
-        "playing": 17712,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-d77b9b4652b7f3039df9ad2d1576197c/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 91,
-        "placeId": "123921593837160",
-        "universeId": "",
-        "name": "Climb and Jump Tower [NEW WORLD]",
-        "playing": 17601,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-1328e05c57631e7bbe86ced638b44c89/512/512/Image/Webp/noFilter"
-      },
-      {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 92,
         "placeId": "119048529960596",
         "universeId": "",
         "name": "[🏖️] Restaurant Tycoon 3",
-        "playing": 17236,
+        "playing": 18053,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-53d05815233a48defbfb29698b14a3b2/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
-        "rank": 93,
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 90,
+        "placeId": "123921593837160",
+        "universeId": "",
+        "name": "Climb and Jump Tower [NEW WORLD]",
+        "playing": 18020,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-1328e05c57631e7bbe86ced638b44c89/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 91,
         "placeId": "137826330724902",
         "universeId": "",
         "name": "Scary Shawarma Kiosk: the ANOMALY [horror]",
-        "playing": 17012,
+        "playing": 17976,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-2fc0830a209194be781df4211a84f824/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 92,
+        "placeId": "97387256206808",
+        "universeId": "",
+        "name": "Broken Blade [Yamato]",
+        "playing": 17879,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-0a2fbdebc9f2dd4e72d6c6f922a84476/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
+        "rank": 93,
+        "placeId": "1537690962",
+        "universeId": "",
+        "name": "Bee Swarm Simulator",
+        "playing": 17824,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-d77b9b4652b7f3039df9ad2d1576197c/512/512/Image/Webp/noFilter"
+      },
+      {
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 94,
         "placeId": "79480724066456",
         "universeId": "",
         "name": "[🚐RVs🚐] Southern Mudding 🚜 OffRoading",
-        "playing": 15787,
+        "playing": 16551,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-0c1509112d0de121a1bb268f7d752dbe/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 95,
         "placeId": "75387700043737",
         "universeId": "",
         "name": "🛍️ My Avatar!",
-        "playing": 15274,
+        "playing": 16157,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-e1df1cabd097339bfad53fba3f090fa8/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 96,
-        "placeId": "122446657157717",
+        "placeId": "135856908115931",
         "universeId": "",
-        "name": "[UPD] Sniper Arena",
-        "playing": 15190,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-9484194bf967cdc231cc155911a60ccd/512/512/Image/Webp/noFilter"
+        "name": "[🏖️DUELS] Murderers VS Sheriffs",
+        "playing": 15974,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-e3ec01625d4eb72943a414fbfc6a4f02/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 97,
         "placeId": "7554888362",
         "universeId": "",
         "name": "[🦑] Squid Game X",
-        "playing": 15010,
+        "playing": 15545,
         "imageUrl": "https://tr.rbxcdn.com/180DAY-334d65d70384d4b12926408dfd1fc3ad/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 98,
-        "placeId": "12355337193",
+        "placeId": "98629859043211",
         "universeId": "",
-        "name": "Murderers VS Sheriffs DUELS",
-        "playing": 14816,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-3feddcb72b6ec832c76b632d68ed3dba/512/512/Image/Webp/noFilter"
+        "name": "[UPDATE] M.E.G. Endless Reality",
+        "playing": 15540,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-e0b4d0c59772f605d4d9b7403c61b5a5/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 99,
-        "placeId": "77184738329604",
+        "placeId": "185655149",
         "universeId": "",
-        "name": "Needoh Gear Tower",
-        "playing": 14662,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-7d184276444cbff986324a80d2e91874/512/512/Image/Webp/noFilter"
+        "name": "[🏛️] Welcome to Bloxburg 🏡",
+        "playing": 15509,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-c976e91d74b18b1d96128a576fdb90b0/512/512/Image/Webp/noFilter"
       },
       {
-        "snapshotUtc": "2026-06-22 13:07:05",
+        "snapshotUtc": "2026-06-22 13:12:04",
         "rank": 100,
-        "placeId": "10834586502",
+        "placeId": "139937995319383",
         "universeId": "",
-        "name": "The Battle Bricks",
-        "playing": 14577,
-        "imageUrl": "https://tr.rbxcdn.com/180DAY-137fc342c73959983615b9ee33c4406b/512/512/Image/Webp/noFilter"
+        "name": "Librarian: Tidy Up Roblox Library",
+        "playing": 15496,
+        "imageUrl": "https://tr.rbxcdn.com/180DAY-ccaa26b91c17f251f6475a825c6910c4/512/512/Image/Webp/noFilter"
       }
     ]
   },
