@@ -7,18 +7,18 @@
   "name": "UPDATE | Era Of Supes",
   "creatorName": "Supe Studios",
   "creatorType": "Group",
-  "playing": 169,
-  "visits": 4181633,
-  "favorites": 143982,
+  "playing": 155,
+  "visits": 4181729,
+  "favorites": 143981,
   "likes": 27287,
   "dislikes": 2323,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8d80bbe36eebc42e49e66f6c58e7bc13/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121389751796006",
-  "fetchedAtUtc": "2026-06-23 23:50:31",
+  "fetchedAtUtc": "2026-06-23 23:55:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23 23:50:31",
-    "updatedAtTs": 1782258631,
+    "updatedAt": "2026-06-23 23:55:26",
+    "updatedAtTs": 1782258926,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782258631,
-        169
+        1782258926,
+        155
       ],
       "peak7d": [
         1782241265,
@@ -471,6 +471,10 @@
         [
           1782258631,
           169
+        ],
+        [
+          1782258926,
+          155
         ]
       ]
     }
