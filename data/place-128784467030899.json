@@ -4,21 +4,21 @@
   "placeId": "128784467030899",
   "rootPlaceId": "128784467030899",
   "universeId": "10199301628",
-  "name": "[UPD] Merge a Nuke!",
+  "name": "Merge a Nuke!",
   "creatorName": "Nuke The Game",
   "creatorType": "Group",
-  "playing": 49780,
-  "visits": 63054678,
-  "favorites": 452369,
-  "likes": 261203,
-  "dislikes": 13240,
+  "playing": 50355,
+  "visits": 63076589,
+  "favorites": 452525,
+  "likes": 261223,
+  "dislikes": 13241,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-22ce1a75170b7a88d73be10f70b9840b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/128784467030899",
-  "fetchedAtUtc": "2026-06-23 11:50:35",
+  "fetchedAtUtc": "2026-06-23 11:55:28",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23 11:50:35",
-    "updatedAtTs": 1782215435,
+    "updatedAt": "2026-06-23 11:55:28",
+    "updatedAtTs": 1782215728,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782215435,
-        49780
+        1782215728,
+        50355
       ],
       "peak7d": [
-        1782215132,
-        49899
+        1782215728,
+        50355
       ]
     },
     "series": {
@@ -591,6 +591,10 @@
         [
           1782215435,
           49780
+        ],
+        [
+          1782215728,
+          50355
         ]
       ]
     }
