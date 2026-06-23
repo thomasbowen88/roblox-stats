@@ -7,18 +7,18 @@
   "name": "Hangout Follow",
   "creatorName": "The Fishy Friends Group. Idk Why I Maked This",
   "creatorType": "Group",
-  "playing": 1064,
-  "visits": 1771278,
-  "favorites": 28968,
-  "likes": 28344,
+  "playing": 1106,
+  "visits": 1771544,
+  "favorites": 28971,
+  "likes": 28348,
   "dislikes": 819,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-16a183b00561af61d1e55c2f6db974ff/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/102582689397019",
-  "fetchedAtUtc": "2026-06-23 10:00:44",
+  "fetchedAtUtc": "2026-06-23 10:05:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23 10:00:44",
-    "updatedAtTs": 1782208844,
+    "updatedAt": "2026-06-23 10:05:32",
+    "updatedAtTs": 1782209132,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782208844,
-        1064
+        1782209132,
+        1106
       ],
       "peak7d": [
-        1782205248,
-        1091
+        1782209132,
+        1106
       ]
     },
     "series": {
@@ -503,6 +503,10 @@
         [
           1782208844,
           1064
+        ],
+        [
+          1782209132,
+          1106
         ]
       ]
     }
