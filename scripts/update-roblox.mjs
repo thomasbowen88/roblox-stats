@@ -6,11 +6,14 @@ const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'data');
 const MAP_FILE = path.join(DATA_DIR, 'universe-map.json');
 const INDEX_FILE = path.join(DATA_DIR, 'index.json');
+const PLAYER_HISTORY_FILE = path.join(DATA_DIR, 'place-player-history.json');
 
 const MAX_IDS_PER_BATCH = 50;
 const RESOLVE_DELAY_MS = 750;
 const BATCH_DELAY_MS = 1000;
 const FETCH_RETRIES = 4;
+const PLAYER_HISTORY_DAYS = 7;
+const PLAYER_HISTORY_WINDOW_SECONDS = PLAYER_HISTORY_DAYS * 24 * 60 * 60;
 
 if (!MASTER_URL) {
   throw new Error('Missing GR_RBX_MASTER_URL.');
@@ -35,6 +38,8 @@ if (!placeIds.length) {
     count: 0,
     items: []
   });
+
+  await writeJson(PLAYER_HISTORY_FILE, {});
 
   console.log('No Roblox place IDs found.');
   process.exit(0);
@@ -83,6 +88,11 @@ for (const batch of chunk(universeIds, MAX_IDS_PER_BATCH)) {
   }
 }
 
+const playerHistoryStore = normalizePlayerHistoryStore(
+  await readJsonSafe(PLAYER_HISTORY_FILE, {}),
+  generatedAtUtc
+);
+
 const indexItems = [];
 
 for (const item of placeUniversePairs) {
@@ -116,6 +126,8 @@ for (const item of placeUniversePairs) {
     fetchedAtUtc: generatedAtUtc
   };
 
+  payload.chartData = buildPlayerChartData(playerHistoryStore, payload, generatedAtUtc);
+
   await writeJson(path.join(DATA_DIR, `place-${item.placeId}.json`), payload);
   await writePlaceJs(path.join(DATA_DIR, `place-${item.placeId}.js`), item.placeId, payload);
 
@@ -131,6 +143,8 @@ for (const item of placeUniversePairs) {
 }
 
 indexItems.sort((a, b) => numberValue(b.playing) - numberValue(a.playing));
+
+await writeJson(PLAYER_HISTORY_FILE, sortPlayerHistoryStore(playerHistoryStore));
 
 await writeJson(INDEX_FILE, {
   generatedAtUtc,
@@ -253,6 +267,100 @@ function normalizeHotNewGamesPayload(value) {
     count: numberValue(value.count || items.length),
     items
   };
+}
+
+function buildPlayerChartData(historyStore, payload, generatedAtUtc) {
+  const placeId = stringValue(payload.placeId);
+  const timestamp = unixTimestamp(generatedAtUtc);
+  const players = numberValue(payload.playing);
+  const cutoffTs = timestamp - PLAYER_HISTORY_WINDOW_SECONDS;
+  const existing = Array.isArray(historyStore[placeId]) ? historyStore[placeId] : [];
+
+  const series = existing
+    .map(normalizePlayerSample)
+    .filter(sample => sample && sample[0] >= cutoffTs && sample[0] !== timestamp);
+
+  series.push([timestamp, players]);
+  series.sort((a, b) => a[0] - b[0]);
+
+  historyStore[placeId] = series;
+
+  const peak7d = series.reduce((peak, sample) => {
+    if (!peak || sample[1] > peak[1]) return sample;
+    return peak;
+  }, null);
+
+  return {
+    schemaVersion: 1,
+    updatedAt: generatedAtUtc,
+    updatedAtTs: timestamp,
+    source: 'roblox',
+    sourceIntervalSeconds: null,
+    retention: {
+      playerHistorySeconds: PLAYER_HISTORY_WINDOW_SECONDS
+    },
+    summary: {
+      current: [timestamp, players],
+      peak7d: peak7d || [timestamp, players]
+    },
+    series: {
+      players: series
+    }
+  };
+}
+
+function normalizePlayerHistoryStore(value, generatedAtUtc) {
+  const output = {};
+  const cutoffTs = unixTimestamp(generatedAtUtc) - PLAYER_HISTORY_WINDOW_SECONDS;
+
+  for (const [placeId, items] of Object.entries(value || {})) {
+    const cleanPlaceId = stringValue(placeId).trim();
+
+    if (!/^\d{3,20}$/.test(cleanPlaceId) || !Array.isArray(items)) {
+      continue;
+    }
+
+    const series = items
+      .map(normalizePlayerSample)
+      .filter(sample => sample && sample[0] >= cutoffTs)
+      .sort((a, b) => a[0] - b[0]);
+
+    if (series.length) {
+      output[cleanPlaceId] = series;
+    }
+  }
+
+  return output;
+}
+
+function normalizePlayerSample(value) {
+  if (!Array.isArray(value) || value.length < 2) return null;
+
+  const timestamp = Number(value[0]);
+  const players = numberValue(value[1]);
+
+  if (!Number.isFinite(timestamp) || timestamp <= 0) return null;
+
+  return [Math.floor(timestamp), players];
+}
+
+function sortPlayerHistoryStore(value) {
+  return Object.keys(value)
+    .sort((a, b) => Number(a) - Number(b))
+    .reduce((output, placeId) => {
+      const series = Array.isArray(value[placeId])
+        ? value[placeId]
+            .map(normalizePlayerSample)
+            .filter(Boolean)
+            .sort((a, b) => a[0] - b[0])
+        : [];
+
+      if (series.length) {
+        output[placeId] = series;
+      }
+
+      return output;
+    }, {});
 }
 
 async function fetchUniverseId(placeId) {
@@ -425,6 +533,17 @@ function dateValue(value) {
   const date = new Date(String(value || '').replace(' ', 'T') + 'Z');
   const time = date.getTime();
   return Number.isFinite(time) ? time : 0;
+}
+
+function unixTimestamp(value) {
+  const date = new Date(String(value || '').replace(' ', 'T') + 'Z');
+  const time = date.getTime();
+
+  if (Number.isFinite(time)) {
+    return Math.floor(time / 1000);
+  }
+
+  return Math.floor(Date.now() / 1000);
 }
 
 function formatUtc(date) {
