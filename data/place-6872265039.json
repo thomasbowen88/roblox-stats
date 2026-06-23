@@ -7,18 +7,18 @@
   "name": "BedWars",
   "creatorName": "Easy.gg",
   "creatorType": "Group",
-  "playing": 32778,
-  "visits": 11376052697,
-  "favorites": 4503355,
+  "playing": 33073,
+  "visits": 11376065110,
+  "favorites": 4503359,
   "likes": 2416677,
-  "dislikes": 523237,
+  "dislikes": 523239,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d9dfb35a8c8ed499e7ab76793ade8f22/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6872265039",
-  "fetchedAtUtc": "2026-06-23 18:00:52",
+  "fetchedAtUtc": "2026-06-23 18:05:35",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23 18:00:52",
-    "updatedAtTs": 1782237652,
+    "updatedAt": "2026-06-23 18:05:35",
+    "updatedAtTs": 1782237935,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782237652,
-        32778
+        1782237935,
+        33073
       ],
       "peak7d": [
-        1782237652,
-        32778
+        1782237935,
+        33073
       ]
     },
     "series": {
@@ -875,6 +875,10 @@
         [
           1782237652,
           32778
+        ],
+        [
+          1782237935,
+          33073
         ]
       ]
     }
