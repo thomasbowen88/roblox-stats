@@ -7,12 +7,40 @@
   "name": "BlockSpin 🔪 ",
   "creatorName": "Cinnamon Go!",
   "creatorType": "Group",
-  "playing": 24973,
-  "visits": 993832134,
-  "favorites": 922385,
+  "playing": 24765,
+  "visits": 993842423,
+  "favorites": 922388,
   "likes": 247618,
   "dislikes": 69630,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-2a4c48dce5b0e82b0fbfc61acc0c053f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/104715542330896",
-  "fetchedAtUtc": "2026-06-23 00:15:32"
+  "fetchedAtUtc": "2026-06-23 00:20:30",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-23 00:20:30",
+    "updatedAtTs": 1782174030,
+    "source": "roblox",
+    "sourceIntervalSeconds": null,
+    "retention": {
+      "playerHistorySeconds": 604800
+    },
+    "summary": {
+      "current": [
+        1782174030,
+        24765
+      ],
+      "peak7d": [
+        1782174030,
+        24765
+      ]
+    },
+    "series": {
+      "players": [
+        [
+          1782174030,
+          24765
+        ]
+      ]
+    }
+  }
 }
