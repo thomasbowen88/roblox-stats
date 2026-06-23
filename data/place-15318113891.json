@@ -7,18 +7,18 @@
   "name": "Lethal Ape (update)",
   "creatorName": "gub_dev",
   "creatorType": "User",
-  "playing": 18128,
-  "visits": 172157416,
-  "favorites": 124487,
-  "likes": 40576,
+  "playing": 18483,
+  "visits": 172167537,
+  "favorites": 124500,
+  "likes": 40578,
   "dislikes": 6677,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0197a2add25ac824e5e02fa13ce228e5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/15318113891",
-  "fetchedAtUtc": "2026-06-23 11:45:32",
+  "fetchedAtUtc": "2026-06-23 11:50:35",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23 11:45:32",
-    "updatedAtTs": 1782215132,
+    "updatedAt": "2026-06-23 11:50:35",
+    "updatedAtTs": 1782215435,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782215132,
-        18128
+        1782215435,
+        18483
       ],
       "peak7d": [
-        1782182132,
-        18347
+        1782215435,
+        18483
       ]
     },
     "series": {
@@ -587,6 +587,10 @@
         [
           1782215132,
           18128
+        ],
+        [
+          1782215435,
+          18483
         ]
       ]
     }
