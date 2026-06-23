@@ -7,18 +7,18 @@
   "name": "Run a Restaurant!",
   "creatorName": "Burnt Toast Labs!",
   "creatorType": "Group",
-  "playing": 20840,
-  "visits": 42926356,
-  "favorites": 372895,
-  "likes": 318933,
-  "dislikes": 3802,
+  "playing": 20576,
+  "visits": 42931104,
+  "favorites": 372930,
+  "likes": 318971,
+  "dislikes": 3801,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d46b6bd1d82cd5465183121d626624f4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/77843161404023",
-  "fetchedAtUtc": "2026-06-23 21:35:25",
+  "fetchedAtUtc": "2026-06-23 21:40:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23 21:35:25",
-    "updatedAtTs": 1782250525,
+    "updatedAt": "2026-06-23 21:40:32",
+    "updatedAtTs": 1782250832,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782250525,
-        20840
+        1782250832,
+        20576
       ],
       "peak7d": [
         1782227438,
@@ -1047,6 +1047,10 @@
         [
           1782250525,
           20840
+        ],
+        [
+          1782250832,
+          20576
         ]
       ]
     }
