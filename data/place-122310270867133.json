@@ -7,18 +7,18 @@
   "name": "[RELEASE] DUELIST: PvP (BETA)",
   "creatorName": "only three devs",
   "creatorType": "Group",
-  "playing": 3097,
-  "visits": 736371,
-  "favorites": 4256,
-  "likes": 3347,
+  "playing": 2933,
+  "visits": 737862,
+  "favorites": 4261,
+  "likes": 3351,
   "dislikes": 99,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3fda1c96c162a777412c29bfb4d90f3f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122310270867133",
-  "fetchedAtUtc": "2026-06-24 22:05:30",
+  "fetchedAtUtc": "2026-06-24 22:10:34",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-24 22:05:30",
-    "updatedAtTs": 1782338730,
+    "updatedAt": "2026-06-24 22:10:34",
+    "updatedAtTs": 1782339034,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782338730,
-        3097
+        1782339034,
+        2933
       ],
       "peak7d": [
         1782336644,
@@ -747,6 +747,10 @@
         [
           1782338730,
           3097
+        ],
+        [
+          1782339034,
+          2933
         ]
       ]
     }
