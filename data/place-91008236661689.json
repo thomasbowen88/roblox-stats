@@ -7,18 +7,18 @@
   "name": "[New Cars]Car For Sale",
   "creatorName": "21 Interactive",
   "creatorType": "Group",
-  "playing": 700,
-  "visits": 1401551,
+  "playing": 667,
+  "visits": 1401804,
   "favorites": 7695,
   "likes": 2614,
-  "dislikes": 1114,
+  "dislikes": 1115,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d422c8fdaa7eb65fac13afafe1a51d87/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91008236661689",
-  "fetchedAtUtc": "2026-06-24 04:20:37",
+  "fetchedAtUtc": "2026-06-24 04:25:28",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-24 04:20:37",
-    "updatedAtTs": 1782274837,
+    "updatedAt": "2026-06-24 04:25:28",
+    "updatedAtTs": 1782275128,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782274837,
-        700
+        1782275128,
+        667
       ],
       "peak7d": [
         1782235532,
@@ -567,6 +567,10 @@
         [
           1782274837,
           700
+        ],
+        [
+          1782275128,
+          667
         ]
       ]
     }
