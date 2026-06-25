@@ -7,18 +7,18 @@
   "name": "Blade Ball",
   "creatorName": "Wiggity.",
   "creatorType": "Group",
-  "playing": 20550,
-  "visits": 6234307798,
-  "favorites": 12576573,
-  "likes": 8253867,
-  "dislikes": 569938,
+  "playing": 20584,
+  "visits": 6234315897,
+  "favorites": 12576589,
+  "likes": 8253884,
+  "dislikes": 569939,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b7317d44fd85c141d154cede4aacf4b0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/13772394625",
-  "fetchedAtUtc": "2026-06-25 18:30:42",
+  "fetchedAtUtc": "2026-06-25 18:35:27",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-25 18:30:42",
-    "updatedAtTs": 1782412242,
+    "updatedAt": "2026-06-25 18:35:27",
+    "updatedAtTs": 1782412527,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782412242,
-        20550
+        1782412527,
+        20584
       ],
       "peak7d": [
-        1782411929,
-        20567
+        1782412527,
+        20584
       ]
     },
     "series": {
@@ -3195,6 +3195,10 @@
         [
           1782412242,
           20550
+        ],
+        [
+          1782412527,
+          20584
         ]
       ]
     }
