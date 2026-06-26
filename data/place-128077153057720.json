@@ -7,18 +7,18 @@
   "name": "Space Racing 🚀",
   "creatorName": "Cosmic Flight Studio",
   "creatorType": "Group",
-  "playing": 1029,
-  "visits": 6572091,
+  "playing": 1098,
+  "visits": 6572342,
   "favorites": 15113,
   "likes": 18303,
   "dislikes": 1102,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8772e188942a59ff0782d1961adf871d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/128077153057720",
-  "fetchedAtUtc": "2026-06-26 22:50:30",
+  "fetchedAtUtc": "2026-06-26 22:55:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-26 22:50:30",
-    "updatedAtTs": 1782514230,
+    "updatedAt": "2026-06-26 22:55:25",
+    "updatedAtTs": 1782514525,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782514230,
-        1029
+        1782514525,
+        1098
       ],
       "peak7d": [
-        1782486932,
-        1095
+        1782514525,
+        1098
       ]
     },
     "series": {
@@ -407,6 +407,10 @@
         [
           1782514230,
           1029
+        ],
+        [
+          1782514525,
+          1098
         ]
       ]
     }
