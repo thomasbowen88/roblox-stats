@@ -7,18 +7,18 @@
   "name": "Giant Simulator CLASSIC",
   "creatorName": "Mithril Games",
   "creatorType": "Group",
-  "playing": 1709,
-  "visits": 1794862,
-  "favorites": 6203,
+  "playing": 1729,
+  "visits": 1795165,
+  "favorites": 6204,
   "likes": 3859,
   "dislikes": 465,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-26fe8725f965bb57c4bd2b651b2bd584/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/12645083079",
-  "fetchedAtUtc": "2026-06-26 14:10:40",
+  "fetchedAtUtc": "2026-06-26 14:15:38",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-26 14:10:40",
-    "updatedAtTs": 1782483040,
+    "updatedAt": "2026-06-26 14:15:38",
+    "updatedAtTs": 1782483338,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1782483040,
-        1709
+        1782483338,
+        1729
       ],
       "peak7d": [
-        1782482732,
-        1724
+        1782483338,
+        1729
       ]
     },
     "series": {
@@ -2395,6 +2395,10 @@
         [
           1782483040,
           1709
+        ],
+        [
+          1782483338,
+          1729
         ]
       ]
     }
