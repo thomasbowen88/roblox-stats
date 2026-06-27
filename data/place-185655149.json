@@ -7,18 +7,18 @@
   "name": "Welcome to Bloxburg 🏡",
   "creatorName": "Bloxburg Development",
   "creatorType": "Group",
-  "playing": 15603,
-  "visits": 9986353258,
-  "favorites": 13906538,
-  "likes": 5592124,
+  "playing": 15558,
+  "visits": 9986356256,
+  "favorites": 13906540,
+  "likes": 5592125,
   "dislikes": 733272,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-975ef139ad526667e977addf45793a71/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/185655149",
-  "fetchedAtUtc": "2026-06-27 08:30:38",
+  "fetchedAtUtc": "2026-06-27 08:35:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-27 08:30:38",
-    "updatedAtTs": 1782549038,
+    "updatedAt": "2026-06-27 08:35:25",
+    "updatedAtTs": 1782549325,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782549038,
-        15603
+        1782549325,
+        15558
       ],
       "peak7d": [
         1782503135,
@@ -871,6 +871,10 @@
         [
           1782549038,
           15603
+        ],
+        [
+          1782549325,
+          15558
         ]
       ]
     }
