@@ -7,18 +7,18 @@
   "name": "Robong: Megabonk [EVOLVE] [CO-OP]",
   "creatorName": "GNR Studio",
   "creatorType": "Group",
-  "playing": 326,
-  "visits": 4653508,
+  "playing": 336,
+  "visits": 4653595,
   "favorites": 29651,
   "likes": 26827,
   "dislikes": 1451,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0d0d665cda50df2276e32cdbad977099/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108026491991900",
-  "fetchedAtUtc": "2026-06-27 07:50:35",
+  "fetchedAtUtc": "2026-06-27 07:55:27",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-27 07:50:35",
-    "updatedAtTs": 1782546635,
+    "updatedAt": "2026-06-27 07:55:27",
+    "updatedAtTs": 1782546927,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782546635,
-        326
+        1782546927,
+        336
       ],
       "peak7d": [
         1782499837,
@@ -839,6 +839,10 @@
         [
           1782546635,
           326
+        ],
+        [
+          1782546927,
+          336
         ]
       ]
     }
