@@ -7,18 +7,18 @@
   "name": "Seishun: School Life Roleplay",
   "creatorName": "HanamiSoft",
   "creatorType": "Group",
-  "playing": 50,
-  "visits": 13139746,
-  "favorites": 78808,
+  "playing": 45,
+  "visits": 13139785,
+  "favorites": 78807,
   "likes": 18251,
   "dislikes": 3913,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-881305be45105e18bf5099647acea2f8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99916990523640",
-  "fetchedAtUtc": "2026-06-27 09:30:42",
+  "fetchedAtUtc": "2026-06-27 09:35:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-27 09:30:42",
-    "updatedAtTs": 1782552642,
+    "updatedAt": "2026-06-27 09:35:25",
+    "updatedAtTs": 1782552925,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782552642,
-        50
+        1782552925,
+        45
       ],
       "peak7d": [
         1782534327,
@@ -919,6 +919,10 @@
         [
           1782552642,
           50
+        ],
+        [
+          1782552925,
+          45
         ]
       ]
     }
