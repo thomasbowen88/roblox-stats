@@ -7,18 +7,18 @@
   "name": "Hatch A Cow! 🥚",
   "creatorName": "Alpha Dog Studios",
   "creatorType": "Group",
-  "playing": 999,
-  "visits": 11479454,
-  "favorites": 217882,
+  "playing": 1023,
+  "visits": 11479833,
+  "favorites": 217885,
   "likes": 45262,
   "dislikes": 998,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7714090490584765af9bec1c168e78ed/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/98624386999411",
-  "fetchedAtUtc": "2026-06-28 08:45:30",
+  "fetchedAtUtc": "2026-06-28 08:50:33",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-28 08:45:30",
-    "updatedAtTs": 1782636330,
+    "updatedAt": "2026-06-28 08:50:33",
+    "updatedAtTs": 1782636633,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782636330,
-        999
+        1782636633,
+        1023
       ],
       "peak7d": [
         1782569126,
@@ -971,6 +971,10 @@
         [
           1782636330,
           999
+        ],
+        [
+          1782636633,
+          1023
         ]
       ]
     }
