@@ -7,18 +7,18 @@
   "name": "[⌛]Ore Incremental",
   "creatorName": "Let's Increment",
   "creatorType": "Group",
-  "playing": 591,
-  "visits": 295293,
-  "favorites": 9566,
+  "playing": 581,
+  "visits": 295441,
+  "favorites": 9567,
   "likes": 2026,
   "dislikes": 216,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9ddabd692eb04a899e1d99c5237352a4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93445850351820",
-  "fetchedAtUtc": "2026-06-28 13:45:29",
+  "fetchedAtUtc": "2026-06-28 13:50:35",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-28 13:45:29",
-    "updatedAtTs": 1782654329,
+    "updatedAt": "2026-06-28 13:50:35",
+    "updatedAtTs": 1782654635,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782654329,
-        591
+        1782654635,
+        581
       ],
       "peak7d": [
         1782653439,
@@ -1323,6 +1323,10 @@
         [
           1782654329,
           591
+        ],
+        [
+          1782654635,
+          581
         ]
       ]
     }
