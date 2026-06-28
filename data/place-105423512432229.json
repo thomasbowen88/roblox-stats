@@ -7,18 +7,18 @@
   "name": "[UPD] 8-Ball X ",
   "creatorName": "The Ball Games",
   "creatorType": "Group",
-  "playing": 437,
-  "visits": 8346303,
-  "favorites": 85095,
+  "playing": 468,
+  "visits": 8346521,
+  "favorites": 85097,
   "likes": 95684,
   "dislikes": 2635,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d846a46ce1e973c3c88d46bac3004f0f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105423512432229",
-  "fetchedAtUtc": "2026-06-28 23:00:46",
+  "fetchedAtUtc": "2026-06-28 23:05:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-28 23:00:46",
-    "updatedAtTs": 1782687646,
+    "updatedAt": "2026-06-28 23:05:30",
+    "updatedAtTs": 1782687930,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782687646,
-        437
+        1782687930,
+        468
       ],
       "peak7d": [
         1782681034,
@@ -643,6 +643,10 @@
         [
           1782687646,
           437
+        ],
+        [
+          1782687930,
+          468
         ]
       ]
     }
