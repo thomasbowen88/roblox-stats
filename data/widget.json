@@ -2,9 +2,9 @@
   "ok": true,
   "status": "static_widget",
   "sourceStatus": "combined",
-  "sourceGeneratedAtUtc": "2026-06-28 05:12:52",
-  "generatedAtUtc": "2026-06-28 05:12:55",
-  "staticGeneratedAtUtc": "2026-06-28 05:12:55",
+  "sourceGeneratedAtUtc": "2026-06-28 05:16:44",
+  "generatedAtUtc": "2026-06-28 05:16:47",
+  "staticGeneratedAtUtc": "2026-06-28 05:16:47",
   "cachedForSeconds": 300,
   "count": 189,
   "placeIds": [
@@ -394,13 +394,13 @@
   },
   "ccu": {
     "latest": {
-      "timestampUtc": "2026-06-28 04:30:00",
-      "ccu": 14178295,
-      "fetchedAtUtc": "2026-06-28 04:43:55",
-      "sourceLastUpdated": "2026-06-28 04:30:00",
-      "sourceCacheTime": "2026-06-28 04:43:55"
+      "timestampUtc": "2026-06-28 05:00:00",
+      "ccu": 13836635,
+      "fetchedAtUtc": "2026-06-28 05:13:54",
+      "sourceLastUpdated": "2026-06-28 05:00:00",
+      "sourceCacheTime": "2026-06-28 05:13:54"
     },
-    "count": 1391,
+    "count": 1392,
     "series": [
       {
         "timestampUtc": "2026-05-30 11:30:00",
@@ -10138,6 +10138,13 @@
         "fetchedAtUtc": "2026-06-28 04:43:55",
         "sourceLastUpdated": "2026-06-28 04:30:00",
         "sourceCacheTime": "2026-06-28 04:43:55"
+      },
+      {
+        "timestampUtc": "2026-06-28 05:00:00",
+        "ccu": 13836635,
+        "fetchedAtUtc": "2026-06-28 05:13:54",
+        "sourceLastUpdated": "2026-06-28 05:00:00",
+        "sourceCacheTime": "2026-06-28 05:13:54"
       }
     ]
   },
