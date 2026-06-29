@@ -7,18 +7,18 @@
   "name": "[Release] Legacy Piece",
   "creatorName": "Gwynn's Shrine",
   "creatorType": "Group",
-  "playing": 637,
-  "visits": 54915,
-  "favorites": 672,
-  "likes": 694,
+  "playing": 625,
+  "visits": 55023,
+  "favorites": 673,
+  "likes": 695,
   "dislikes": 12,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-934cfcd3a84079ceaf35f27e36a4696d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111097829542198",
-  "fetchedAtUtc": "2026-06-29 01:50:33",
+  "fetchedAtUtc": "2026-06-29 01:55:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-29 01:50:33",
-    "updatedAtTs": 1782697833,
+    "updatedAt": "2026-06-29 01:55:26",
+    "updatedAtTs": 1782698126,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782697833,
-        637
+        1782698126,
+        625
       ],
       "peak7d": [
         1782671125,
@@ -683,6 +683,10 @@
         [
           1782697833,
           637
+        ],
+        [
+          1782698126,
+          625
         ]
       ]
     }
