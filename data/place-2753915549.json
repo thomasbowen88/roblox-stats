@@ -7,18 +7,18 @@
   "name": "Blox Fruits",
   "creatorName": "Gamer Robot Inc",
   "creatorType": "Group",
-  "playing": 189321,
-  "visits": 62457027434,
-  "favorites": 19255574,
-  "likes": 12261454,
-  "dislikes": 1044399,
+  "playing": 189756,
+  "visits": 62457080056,
+  "favorites": 19255597,
+  "likes": 12261474,
+  "dislikes": 1044400,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a64f70da20fc1e80ee76fe5d49c1be0a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/2753915549",
-  "fetchedAtUtc": "2026-06-30 23:50:30",
+  "fetchedAtUtc": "2026-06-30 23:55:21",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30 23:50:30",
-    "updatedAtTs": 1782863430,
+    "updatedAt": "2026-06-30 23:55:21",
+    "updatedAtTs": 1782863721,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782863430,
-        189321
+        1782863721,
+        189756
       ],
       "peak7d": [
         1782826831,
@@ -651,6 +651,10 @@
         [
           1782863430,
           189321
+        ],
+        [
+          1782863721,
+          189756
         ]
       ]
     }
