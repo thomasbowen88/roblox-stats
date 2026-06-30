@@ -7,18 +7,18 @@
   "name": "[NEW CASE] Defuse Division",
   "creatorName": "Fourteaṁ",
   "creatorType": "Group",
-  "playing": 463,
-  "visits": 36587797,
+  "playing": 451,
+  "visits": 36588005,
   "favorites": 211640,
-  "likes": 49231,
+  "likes": 49232,
   "dislikes": 8779,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7e01e01526c34567e81e66cbb596fd77/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/112757576021097",
-  "fetchedAtUtc": "2026-06-30 19:01:49",
+  "fetchedAtUtc": "2026-06-30 19:05:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30 19:01:49",
-    "updatedAtTs": 1782846109,
+    "updatedAt": "2026-06-30 19:05:20",
+    "updatedAtTs": 1782846320,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782846109,
-        463
+        1782846320,
+        451
       ],
       "peak7d": [
         1782831033,
@@ -419,6 +419,10 @@
         [
           1782846109,
           463
+        ],
+        [
+          1782846320,
+          451
         ]
       ]
     }
