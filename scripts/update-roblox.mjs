@@ -11,7 +11,7 @@ const PLAYER_HISTORY_FILE = path.join(DATA_DIR, 'place-player-history.json');
 const MAX_IDS_PER_BATCH = 50;
 const RESOLVE_DELAY_MS = 750;
 const BATCH_DELAY_MS = 1000;
-const FETCH_RETRIES = 4;
+const FETCH_RETRIES = 5;
 const PLAYER_HISTORY_DAYS = 7;
 const PLAYER_HISTORY_WINDOW_SECONDS = PLAYER_HISTORY_DAYS * 24 * 60 * 60;
 
@@ -166,24 +166,22 @@ async function writeCombinedStaticFiles(source, generatedAtUtc) {
     placeIds
   };
 
-  const leaderboard = normalizeLeaderboardPayload(source.leaderboard || source.games || {});
-  const ccu = normalizeCcuPayload(source.ccu || {});
+  const games = normalizeLeaderboardPayload(source.games || source.leaderboard || {});
+  const ccu = normalizeCcuPayload(source.ccu || []);
   const hotNewGames = normalizeHotNewGamesPayload(source.hotNewGames || {});
 
   const widgetPayload = {
     ok: source.ok !== false,
     status: 'static_widget',
     sourceStatus: stringValue(source.status || ''),
+    sourceVersion: numberValue(source.version),
     sourceGeneratedAtUtc: stringValue(source.generatedAtUtc || ''),
     generatedAtUtc,
     staticGeneratedAtUtc: generatedAtUtc,
     cachedForSeconds: numberValue(source.cachedForSeconds),
-    count: placeIds.length,
-    placeIds,
     master,
+    games,
     ccu,
-    games: leaderboard,
-    leaderboard,
     hotNewGames
   };
 
@@ -196,14 +194,12 @@ async function writeCombinedStaticFiles(source, generatedAtUtc) {
 function normalizeLeaderboardPayload(value) {
   const items = Array.isArray(value.items)
     ? value.items.map(item => ({
-        snapshotUtc: stringValue(item.snapshotUtc || item.snapshot_utc || value.snapshotUtc || ''),
         rank: numberValue(item.rank),
         placeId: stringValue(item.placeId || item.place_id || ''),
-        universeId: stringValue(item.universeId || item.universe_id || ''),
         name: stringValue(item.name || ''),
         playing: numberValue(item.playing),
         imageUrl: stringValue(item.imageUrl || item.image_url || '')
-      })).filter(item => item.placeId && item.name)
+      })).filter(item => item.rank && item.placeId && item.name)
     : [];
 
   items.sort((a, b) => {
@@ -215,42 +211,35 @@ function normalizeLeaderboardPayload(value) {
   });
 
   return {
-    snapshotUtc: stringValue(value.snapshotUtc || value.snapshot_utc || (items[0] ? items[0].snapshotUtc : '')),
     count: numberValue(value.count || items.length),
     items
   };
 }
 
 function normalizeCcuPayload(value) {
-  const series = Array.isArray(value.series)
-    ? value.series.map(item => ({
-        timestampUtc: stringValue(item.timestampUtc || item.timestamp_utc || ''),
-        ccu: numberValue(item.ccu || item.roblox_ccu),
-        fetchedAtUtc: stringValue(item.fetchedAtUtc || item.fetched_at_utc || ''),
-        sourceLastUpdated: stringValue(item.sourceLastUpdated || item.source_last_updated || ''),
-        sourceCacheTime: stringValue(item.sourceCacheTime || item.source_cache_time || '')
-      })).filter(item => item.timestampUtc && Number.isFinite(item.ccu))
-    : [];
+  const input = Array.isArray(value)
+    ? value
+    : Array.isArray(value.series)
+      ? value.series
+      : [];
 
-  series.sort((a, b) => dateValue(a.timestampUtc) - dateValue(b.timestampUtc));
+  const seen = new Map();
 
-  const latest = value.latest
-    ? {
-        timestampUtc: stringValue(value.latest.timestampUtc || value.latest.timestamp_utc || ''),
-        ccu: numberValue(value.latest.ccu || value.latest.roblox_ccu),
-        fetchedAtUtc: stringValue(value.latest.fetchedAtUtc || value.latest.fetched_at_utc || ''),
-        sourceLastUpdated: stringValue(value.latest.sourceLastUpdated || value.latest.source_last_updated || ''),
-        sourceCacheTime: stringValue(value.latest.sourceCacheTime || value.latest.source_cache_time || '')
-      }
-    : series.length
-      ? series[series.length - 1]
-      : null;
+  for (const item of input) {
+    const timestampUtc = Array.isArray(item)
+      ? stringValue(item[0]).trim()
+      : stringValue(item.timestampUtc || item.timestamp_utc || '').trim();
 
-  return {
-    latest,
-    count: numberValue(value.count || series.length),
-    series
-  };
+    const ccu = Array.isArray(item)
+      ? numberValue(item[1])
+      : numberValue(item.ccu || item.roblox_ccu);
+
+    if (timestampUtc && Number.isFinite(ccu) && ccu > 0) {
+      seen.set(timestampUtc, [timestampUtc, ccu]);
+    }
+  }
+
+  return [...seen.values()].sort((a, b) => dateValue(a[0]) - dateValue(b[0]));
 }
 
 function normalizeHotNewGamesPayload(value) {
@@ -258,8 +247,7 @@ function normalizeHotNewGamesPayload(value) {
     ? value.items.map(item => ({
         placeId: stringValue(item.placeId || item.place_id || ''),
         name: stringValue(item.name || ''),
-        imageUrl: stringValue(item.imageUrl || item.image_url || ''),
-        firstSeenUtc: stringValue(item.firstSeenUtc || item.first_seen_utc || '')
+        imageUrl: stringValue(item.imageUrl || item.image_url || '')
       })).filter(item => item.placeId && item.name)
     : [];
 
@@ -420,23 +408,50 @@ async function fetchIcons(universeIds) {
 }
 
 async function fetchJson(url, attempt = 1) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: 'application/json',
-      'User-Agent': 'GameRant-Roblox-Stats/1.0'
-    }
-  });
+  let response;
+  let text = '';
 
-  const text = await response.text();
+  try {
+    response = await fetch(url, {
+      headers: {
+        Accept: 'application/json',
+        'User-Agent': 'GameRant-Roblox-Stats/1.0'
+      }
+    });
+
+    text = await response.text();
+  } catch (error) {
+    if (attempt < FETCH_RETRIES) {
+      const waitMs = Math.min(30000, 1500 * Math.pow(2, attempt - 1));
+      console.warn(`Retrying fetch failure in ${waitMs}ms: ${url}`);
+      await sleep(waitMs);
+      return fetchJson(url, attempt + 1);
+    }
+
+    throw error;
+  }
+
+  const contentType = response.headers.get('content-type') || '';
+
+  const looksLikeHtml =
+    text.includes('<!DOCTYPE html>') ||
+    text.includes('<html') ||
+    text.includes('Web word processing, presentations and spreadsheets') ||
+    text.includes('docs.google.com');
+
+  const shouldRetry =
+    response.status === 404 ||
+    response.status === 408 ||
+    response.status === 409 ||
+    response.status === 425 ||
+    response.status === 429 ||
+    response.status === 500 ||
+    response.status === 502 ||
+    response.status === 503 ||
+    response.status === 504 ||
+    looksLikeHtml;
 
   if (!response.ok) {
-    const shouldRetry =
-      response.status === 429 ||
-      response.status === 500 ||
-      response.status === 502 ||
-      response.status === 503 ||
-      response.status === 504;
-
     if (shouldRetry && attempt < FETCH_RETRIES) {
       const waitMs = Math.min(30000, 1500 * Math.pow(2, attempt - 1));
       console.warn(`Retrying HTTP ${response.status} in ${waitMs}ms: ${url}`);
@@ -450,7 +465,14 @@ async function fetchJson(url, attempt = 1) {
   try {
     return JSON.parse(text);
   } catch {
-    throw new Error(`Invalid JSON: ${text.slice(0, 300)}`);
+    if (attempt < FETCH_RETRIES) {
+      const waitMs = Math.min(30000, 1500 * Math.pow(2, attempt - 1));
+      console.warn(`Retrying invalid JSON in ${waitMs}ms: ${url}`);
+      await sleep(waitMs);
+      return fetchJson(url, attempt + 1);
+    }
+
+    throw new Error(`Invalid JSON from ${url}: ${contentType}: ${text.slice(0, 300)}`);
   }
 }
 
