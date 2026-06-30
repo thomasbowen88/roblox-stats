@@ -7,18 +7,18 @@
   "name": "Restaurant Tycoon 3",
   "creatorName": "Ultraw",
   "creatorType": "User",
-  "playing": 19113,
-  "visits": 310432908,
-  "favorites": 760298,
+  "playing": 19051,
+  "visits": 310436037,
+  "favorites": 760305,
   "likes": 339103,
   "dislikes": 16643,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9148b0436884753c99790cf06670bcb2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119048529960596",
-  "fetchedAtUtc": "2026-06-30 20:30:39",
+  "fetchedAtUtc": "2026-06-30 20:35:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30 20:30:39",
-    "updatedAtTs": 1782851439,
+    "updatedAt": "2026-06-30 20:35:25",
+    "updatedAtTs": 1782851725,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782851439,
-        19113
+        1782851725,
+        19051
       ],
       "peak7d": [
         1782831642,
@@ -491,6 +491,10 @@
         [
           1782851439,
           19113
+        ],
+        [
+          1782851725,
+          19051
         ]
       ]
     }
