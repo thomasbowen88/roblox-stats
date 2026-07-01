@@ -7,18 +7,18 @@
   "name": "Encounters Smash Battles",
   "creatorName": "Alpha Engine 2",
   "creatorType": "Group",
-  "playing": 1634,
-  "visits": 3429687,
+  "playing": 1585,
+  "visits": 3431304,
   "favorites": 6787,
   "likes": 1783,
   "dislikes": 516,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e1b6b1e8379a9523048a7f51a07cc9a0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/112838150455902",
-  "fetchedAtUtc": "2026-07-01 02:00:39",
+  "fetchedAtUtc": "2026-07-01 02:05:23",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01 02:00:39",
-    "updatedAtTs": 1782871239,
+    "updatedAt": "2026-07-01 02:05:23",
+    "updatedAtTs": 1782871523,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1782871239,
-        1634
+        1782871523,
+        1585
       ],
       "peak7d": [
         1782826521,
@@ -727,6 +727,10 @@
         [
           1782871239,
           1634
+        ],
+        [
+          1782871523,
+          1585
         ]
       ]
     }
