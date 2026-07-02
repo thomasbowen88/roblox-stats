@@ -8,17 +8,17 @@
   "creatorName": "72982x",
   "creatorType": "User",
   "playing": 123,
-  "visits": 6816431,
+  "visits": 6816463,
   "favorites": 31023,
   "likes": 12409,
   "dislikes": 3298,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3ce227ea5ce75b743ef85698b562757b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/7150360576",
-  "fetchedAtUtc": "2026-07-02 15:10:35",
+  "fetchedAtUtc": "2026-07-02 15:15:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-02 15:10:35",
-    "updatedAtTs": 1783005035,
+    "updatedAt": "2026-07-02 15:15:26",
+    "updatedAtTs": 1783005326,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1783005035,
+        1783005326,
         123
       ],
       "peak7d": [
@@ -2538,6 +2538,10 @@
         ],
         [
           1783005035,
+          123
+        ],
+        [
+          1783005326,
           123
         ]
       ]
