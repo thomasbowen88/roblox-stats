@@ -7,18 +7,18 @@
   "name": "Tower of Hell",
   "creatorName": "YXceptional Studios",
   "creatorType": "Group",
-  "playing": 26073,
-  "visits": 27977904501,
-  "favorites": 11742759,
-  "likes": 4247001,
-  "dislikes": 1526229,
+  "playing": 26342,
+  "visits": 27977939470,
+  "favorites": 11742771,
+  "likes": 4247009,
+  "dislikes": 1526227,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9704151d9c8a70e7ebe0ced8cb2b95c1/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/1962086868",
-  "fetchedAtUtc": "2026-07-03 15:45:27",
+  "fetchedAtUtc": "2026-07-03 15:50:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 15:45:27",
-    "updatedAtTs": 1783093527,
+    "updatedAt": "2026-07-03 15:50:32",
+    "updatedAtTs": 1783093832,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783093527,
-        26073
+        1783093832,
+        26342
       ],
       "peak7d": [
-        1783089768,
-        26214
+        1783093832,
+        26342
       ]
     },
     "series": {
@@ -543,6 +543,10 @@
         [
           1783093527,
           26073
+        ],
+        [
+          1783093832,
+          26342
         ]
       ]
     }
