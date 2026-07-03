@@ -7,18 +7,18 @@
   "name": "Squishy Dumpling Duel",
   "creatorName": "CrashSmash",
   "creatorType": "Group",
-  "playing": 751,
-  "visits": 39528585,
-  "favorites": 2210887,
+  "playing": 707,
+  "visits": 39529402,
+  "favorites": 2210918,
   "likes": 9648,
   "dislikes": 2401,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-11fa4d198386e5365d70bbb440592754/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75555951777956",
-  "fetchedAtUtc": "2026-07-03 20:25:25",
+  "fetchedAtUtc": "2026-07-03 20:30:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 20:25:25",
-    "updatedAtTs": 1783110325,
+    "updatedAt": "2026-07-03 20:30:40",
+    "updatedAtTs": 1783110640,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783110325,
-        751
+        1783110640,
+        707
       ],
       "peak7d": [
         1783107038,
@@ -767,6 +767,10 @@
         [
           1783110325,
           751
+        ],
+        [
+          1783110640,
+          707
         ]
       ]
     }
