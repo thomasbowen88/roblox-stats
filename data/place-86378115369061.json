@@ -7,18 +7,18 @@
   "name": "+1 Backflip Obby Escape",
   "creatorName": "Jump = Backflip",
   "creatorType": "Group",
-  "playing": 35099,
-  "visits": 76507603,
-  "favorites": 5434178,
-  "likes": 49758,
-  "dislikes": 5456,
+  "playing": 35006,
+  "visits": 76523192,
+  "favorites": 5435117,
+  "likes": 49765,
+  "dislikes": 5457,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d49555b0a7b4658cac5482bbe9a06525/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/86378115369061",
-  "fetchedAtUtc": "2026-07-03 18:01:01",
+  "fetchedAtUtc": "2026-07-03 18:05:23",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 18:01:01",
-    "updatedAtTs": 1783101661,
+    "updatedAt": "2026-07-03 18:05:23",
+    "updatedAtTs": 1783101923,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783101661,
-        35099
+        1783101923,
+        35006
       ],
       "peak7d": [
         1783087830,
@@ -651,6 +651,10 @@
         [
           1783101661,
           35099
+        ],
+        [
+          1783101923,
+          35006
         ]
       ]
     }
