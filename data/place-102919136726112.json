@@ -7,18 +7,18 @@
   "name": "Aura Monster Simulator [UPDATE V1.75]",
   "creatorName": "Daniel's Birthday Gift!!!",
   "creatorType": "Group",
-  "playing": 822,
-  "visits": 481082,
-  "favorites": 2560,
+  "playing": 850,
+  "visits": 481444,
+  "favorites": 2562,
   "likes": 1597,
   "dislikes": 270,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ad34b887f6c025827cd7350b49042684/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/102919136726112",
-  "fetchedAtUtc": "2026-07-03 17:25:20",
+  "fetchedAtUtc": "2026-07-03 17:31:12",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 17:25:20",
-    "updatedAtTs": 1783099520,
+    "updatedAt": "2026-07-03 17:31:12",
+    "updatedAtTs": 1783099872,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783099520,
-        822
+        1783099872,
+        850
       ],
       "peak7d": [
-        1783097431,
-        849
+        1783099872,
+        850
       ]
     },
     "series": {
@@ -623,6 +623,10 @@
         [
           1783099520,
           822
+        ],
+        [
+          1783099872,
+          850
         ]
       ]
     }
