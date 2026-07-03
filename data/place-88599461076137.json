@@ -7,18 +7,18 @@
   "name": "Fishing Chef [🎣]",
   "creatorName": "Fishing Chef",
   "creatorType": "Group",
-  "playing": 750,
-  "visits": 4816746,
+  "playing": 740,
+  "visits": 4816965,
   "favorites": 32599,
-  "likes": 31963,
+  "likes": 31966,
   "dislikes": 805,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-41a3a836c74826e8bdf3afb5e5d42d35/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/88599461076137",
-  "fetchedAtUtc": "2026-07-03 16:10:38",
+  "fetchedAtUtc": "2026-07-03 16:15:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 16:10:38",
-    "updatedAtTs": 1783095038,
+    "updatedAt": "2026-07-03 16:15:26",
+    "updatedAtTs": 1783095326,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783095038,
-        750
+        1783095326,
+        740
       ],
       "peak7d": [
         1783087254,
@@ -563,6 +563,10 @@
         [
           1783095038,
           750
+        ],
+        [
+          1783095326,
+          740
         ]
       ]
     }
