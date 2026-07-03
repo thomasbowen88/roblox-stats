@@ -7,18 +7,18 @@
   "name": "The Strongest Battlegrounds",
   "creatorName": "Yielding Arts",
   "creatorType": "Group",
-  "playing": 89096,
-  "visits": 18554625502,
-  "favorites": 7346934,
-  "likes": 5166916,
-  "dislikes": 986294,
+  "playing": 89335,
+  "visits": 18554666910,
+  "favorites": 7346956,
+  "likes": 5166922,
+  "dislikes": 986295,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-68c92fc62a8753793f7963e146b5197f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/10449761463",
-  "fetchedAtUtc": "2026-07-03 13:40:36",
+  "fetchedAtUtc": "2026-07-03 13:45:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 13:40:36",
-    "updatedAtTs": 1783086036,
+    "updatedAt": "2026-07-03 13:45:25",
+    "updatedAtTs": 1783086325,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783086036,
-        89096
+        1783086325,
+        89335
       ],
       "peak7d": [
-        1783086036,
-        89096
+        1783086325,
+        89335
       ]
     },
     "series": {
@@ -443,6 +443,10 @@
         [
           1783086036,
           89096
+        ],
+        [
+          1783086325,
+          89335
         ]
       ]
     }
