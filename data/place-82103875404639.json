@@ -7,18 +7,18 @@
   "name": "Tap Incremental",
   "creatorName": "Topchart",
   "creatorType": "Group",
-  "playing": 1661,
-  "visits": 550919,
-  "favorites": 16383,
+  "playing": 1663,
+  "visits": 551270,
+  "favorites": 16391,
   "likes": 1696,
   "dislikes": 246,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-228f61bbb29bd85ef8124fd3afe84e3e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/82103875404639",
-  "fetchedAtUtc": "2026-07-03 09:05:21",
+  "fetchedAtUtc": "2026-07-03 09:10:35",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 09:05:21",
-    "updatedAtTs": 1783069521,
+    "updatedAt": "2026-07-03 09:10:35",
+    "updatedAtTs": 1783069835,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783069521,
-        1661
+        1783069835,
+        1663
       ],
       "peak7d": [
         1783062046,
@@ -223,6 +223,10 @@
         [
           1783069521,
           1661
+        ],
+        [
+          1783069835,
+          1663
         ]
       ]
     }
