@@ -7,18 +7,18 @@
   "name": "[⚽EVENT] Noob Incremental",
   "creatorName": "Ghoulax Games",
   "creatorType": "Group",
-  "playing": 18217,
-  "visits": 17579971,
+  "playing": 18328,
+  "visits": 17581750,
   "favorites": 57805,
-  "likes": 53923,
-  "dislikes": 2073,
+  "likes": 53925,
+  "dislikes": 2075,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cc916a3826b4a396d302b6a8a8daaa7d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/76911729991355",
-  "fetchedAtUtc": "2026-07-03 11:37:06",
+  "fetchedAtUtc": "2026-07-03 11:40:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 11:37:06",
-    "updatedAtTs": 1783078626,
+    "updatedAt": "2026-07-03 11:40:30",
+    "updatedAtTs": 1783078830,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783078626,
-        18217
+        1783078830,
+        18328
       ],
       "peak7d": [
-        1783078237,
-        18219
+        1783078830,
+        18328
       ]
     },
     "series": {
@@ -343,6 +343,10 @@
         [
           1783078626,
           18217
+        ],
+        [
+          1783078830,
+          18328
         ]
       ]
     }
