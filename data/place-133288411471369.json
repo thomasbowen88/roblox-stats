@@ -7,18 +7,18 @@
   "name": "Where Seasons Pass [BETA]",
   "creatorName": "Where Seasons Pass",
   "creatorType": "Group",
-  "playing": 594,
-  "visits": 327082,
-  "favorites": 8261,
+  "playing": 612,
+  "visits": 327236,
+  "favorites": 8264,
   "likes": 4042,
   "dislikes": 130,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8d5f55ea855fa2eb8a4e8f60cffc8e3f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/133288411471369",
-  "fetchedAtUtc": "2026-07-03 19:30:38",
+  "fetchedAtUtc": "2026-07-03 19:36:02",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 19:30:38",
-    "updatedAtTs": 1783107038,
+    "updatedAt": "2026-07-03 19:36:02",
+    "updatedAtTs": 1783107362,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783107038,
-        594
+        1783107362,
+        612
       ],
       "peak7d": [
         1783093832,
@@ -723,6 +723,10 @@
         [
           1783107038,
           594
+        ],
+        [
+          1783107362,
+          612
         ]
       ]
     }
