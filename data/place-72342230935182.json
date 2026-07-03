@@ -7,18 +7,18 @@
   "name": "Slap a Zombie",
   "creatorName": "ExtraJuicy",
   "creatorType": "Group",
-  "playing": 1077,
-  "visits": 7211794,
+  "playing": 1104,
+  "visits": 7212246,
   "favorites": 14585,
-  "likes": 9689,
+  "likes": 9690,
   "dislikes": 2462,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d746115d5822614c03b84ff49c3efe20/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72342230935182",
-  "fetchedAtUtc": "2026-07-03 18:40:33",
+  "fetchedAtUtc": "2026-07-03 18:45:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 18:40:33",
-    "updatedAtTs": 1783104033,
+    "updatedAt": "2026-07-03 18:45:40",
+    "updatedAtTs": 1783104340,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783104033,
-        1077
+        1783104340,
+        1104
       ],
       "peak7d": [
         1783090523,
@@ -683,6 +683,10 @@
         [
           1783104033,
           1077
+        ],
+        [
+          1783104340,
+          1104
         ]
       ]
     }
