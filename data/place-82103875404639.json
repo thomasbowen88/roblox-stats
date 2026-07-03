@@ -7,18 +7,18 @@
   "name": "[30m⏰] Tap Incremental",
   "creatorName": "Topchart",
   "creatorType": "Group",
-  "playing": 2601,
-  "visits": 584051,
-  "favorites": 17213,
-  "likes": 1797,
+  "playing": 2631,
+  "visits": 584397,
+  "favorites": 17227,
+  "likes": 1804,
   "dislikes": 258,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0a3a861d6f3a9303fe19fc211ad576fa/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/82103875404639",
-  "fetchedAtUtc": "2026-07-03 15:37:30",
+  "fetchedAtUtc": "2026-07-03 15:40:38",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 15:37:30",
-    "updatedAtTs": 1783093050,
+    "updatedAt": "2026-07-03 15:40:38",
+    "updatedAtTs": 1783093238,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783093050,
-        2601
+        1783093238,
+        2631
       ],
       "peak7d": [
-        1783093050,
-        2601
+        1783093238,
+        2631
       ]
     },
     "series": {
@@ -535,6 +535,10 @@
         [
           1783093050,
           2601
+        ],
+        [
+          1783093238,
+          2631
         ]
       ]
     }
