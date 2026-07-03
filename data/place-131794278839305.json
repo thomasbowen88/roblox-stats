@@ -7,18 +7,18 @@
   "name": "Dodge or Die",
   "creatorName": "AllOut Games.",
   "creatorType": "Group",
-  "playing": 999,
-  "visits": 4947387,
+  "playing": 989,
+  "visits": 4947967,
   "favorites": 12996,
   "likes": 14048,
-  "dislikes": 2803,
+  "dislikes": 2804,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a1b3429b1c13a2a62ce6c684e7556650/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131794278839305",
-  "fetchedAtUtc": "2026-07-03 15:25:48",
+  "fetchedAtUtc": "2026-07-03 15:30:44",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 15:25:48",
-    "updatedAtTs": 1783092348,
+    "updatedAt": "2026-07-03 15:30:44",
+    "updatedAtTs": 1783092644,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783092348,
-        999
+        1783092644,
+        989
       ],
       "peak7d": [
         1783087617,
@@ -527,6 +527,10 @@
         [
           1783092348,
           999
+        ],
+        [
+          1783092644,
+          989
         ]
       ]
     }
