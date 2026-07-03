@@ -7,18 +7,18 @@
   "name": "VV: ULTIMATUM",
   "creatorName": "Midnight Continent",
   "creatorType": "Group",
-  "playing": 8765,
-  "visits": 38448211,
-  "favorites": 441365,
-  "likes": 174161,
-  "dislikes": 17737,
+  "playing": 8895,
+  "visits": 38449878,
+  "favorites": 441372,
+  "likes": 174162,
+  "dislikes": 17738,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d1dfa5d11c4feb3ef86ec4d72409422f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6270290407",
-  "fetchedAtUtc": "2026-07-03 14:30:37",
+  "fetchedAtUtc": "2026-07-03 14:35:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 14:30:37",
-    "updatedAtTs": 1783089037,
+    "updatedAt": "2026-07-03 14:35:20",
+    "updatedAtTs": 1783089320,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783089037,
-        8765
+        1783089320,
+        8895
       ],
       "peak7d": [
-        1783055728,
-        8820
+        1783089320,
+        8895
       ]
     },
     "series": {
@@ -483,6 +483,10 @@
         [
           1783089037,
           8765
+        ],
+        [
+          1783089320,
+          8895
         ]
       ]
     }
