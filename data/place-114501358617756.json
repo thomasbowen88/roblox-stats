@@ -7,18 +7,18 @@
   "name": "Bridge Battles!",
   "creatorName": "STUDMASTER",
   "creatorType": "Group",
-  "playing": 3461,
-  "visits": 168339485,
-  "favorites": 6853475,
+  "playing": 3349,
+  "visits": 168340731,
+  "favorites": 6853503,
   "likes": 325520,
   "dislikes": 15308,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-95e22fa4e51b288d5ce66171e990b576/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/114501358617756",
-  "fetchedAtUtc": "2026-07-03 19:05:20",
+  "fetchedAtUtc": "2026-07-03 19:10:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 19:05:20",
-    "updatedAtTs": 1783105520,
+    "updatedAt": "2026-07-03 19:10:30",
+    "updatedAtTs": 1783105830,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783105520,
-        3461
+        1783105830,
+        3349
       ],
       "peak7d": [
         1783086921,
@@ -703,6 +703,10 @@
         [
           1783105520,
           3461
+        ],
+        [
+          1783105830,
+          3349
         ]
       ]
     }
