@@ -7,18 +7,18 @@
   "name": "[FPS] One Tap",
   "creatorName": "Stringless Banjo",
   "creatorType": "Group",
-  "playing": 17209,
-  "visits": 308400958,
-  "favorites": 343519,
-  "likes": 130200,
-  "dislikes": 18137,
+  "playing": 17369,
+  "visits": 308410469,
+  "favorites": 343533,
+  "likes": 130204,
+  "dislikes": 18138,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-eacb09b1ec1cb306593b344aadbe549b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/90568084448279",
-  "fetchedAtUtc": "2026-07-03 11:50:28",
+  "fetchedAtUtc": "2026-07-03 11:55:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 11:50:28",
-    "updatedAtTs": 1783079428,
+    "updatedAt": "2026-07-03 11:55:30",
+    "updatedAtTs": 1783079730,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783079428,
-        17209
+        1783079730,
+        17369
       ],
       "peak7d": [
-        1783079428,
-        17209
+        1783079730,
+        17369
       ]
     },
     "series": {
@@ -355,6 +355,10 @@
         [
           1783079428,
           17209
+        ],
+        [
+          1783079730,
+          17369
         ]
       ]
     }
