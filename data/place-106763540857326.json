@@ -7,18 +7,18 @@
   "name": "Blox Monsters",
   "creatorName": "kimi09",
   "creatorType": "Group",
-  "playing": 3918,
-  "visits": 13255827,
+  "playing": 4000,
+  "visits": 13256766,
   "favorites": 40709,
-  "likes": 18939,
+  "likes": 18941,
   "dislikes": 1302,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-1404083bc254813ad3a82abf31bc9af9/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/106763540857326",
-  "fetchedAtUtc": "2026-07-03 11:16:06",
+  "fetchedAtUtc": "2026-07-03 11:20:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 11:16:06",
-    "updatedAtTs": 1783077366,
+    "updatedAt": "2026-07-03 11:20:30",
+    "updatedAtTs": 1783077630,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783077366,
-        3918
+        1783077630,
+        4000
       ],
       "peak7d": [
-        1783077032,
-        3971
+        1783077630,
+        4000
       ]
     },
     "series": {
@@ -327,6 +327,10 @@
         [
           1783077366,
           3918
+        ],
+        [
+          1783077630,
+          4000
         ]
       ]
     }
