@@ -7,18 +7,18 @@
   "name": "3008 [2.74]",
   "creatorName": "uglyburger0",
   "creatorType": "User",
-  "playing": 19184,
-  "visits": 3225862689,
-  "favorites": 5666359,
+  "playing": 19251,
+  "visits": 3225868751,
+  "favorites": 5666364,
   "likes": 1973528,
   "dislikes": 178452,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d64adc40cb8a0c4369839f5002a5e4af/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/2768379856",
-  "fetchedAtUtc": "2026-07-03 13:20:38",
+  "fetchedAtUtc": "2026-07-03 13:26:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 13:20:38",
-    "updatedAtTs": 1783084838,
+    "updatedAt": "2026-07-03 13:26:04",
+    "updatedAtTs": 1783085164,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783084838,
-        19184
+        1783085164,
+        19251
       ],
       "peak7d": [
-        1783084540,
-        19235
+        1783085164,
+        19251
       ]
     },
     "series": {
@@ -427,6 +427,10 @@
         [
           1783084838,
           19184
+        ],
+        [
+          1783085164,
+          19251
         ]
       ]
     }
