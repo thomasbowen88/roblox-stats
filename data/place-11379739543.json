@@ -7,18 +7,18 @@
   "name": "Timebomb Duels [Alpha]",
   "creatorName": "Customs Community",
   "creatorType": "Group",
-  "playing": 25043,
-  "visits": 671825943,
-  "favorites": 421912,
-  "likes": 170076,
-  "dislikes": 97465,
+  "playing": 25013,
+  "visits": 671839472,
+  "favorites": 421890,
+  "likes": 170077,
+  "dislikes": 97467,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3e83a97857642ce1a04de00b70360244/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/11379739543",
-  "fetchedAtUtc": "2026-07-03 19:00:43",
+  "fetchedAtUtc": "2026-07-03 19:05:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 19:00:43",
-    "updatedAtTs": 1783105243,
+    "updatedAt": "2026-07-03 19:05:20",
+    "updatedAtTs": 1783105520,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783105243,
-        25043
+        1783105520,
+        25013
       ],
       "peak7d": [
         1783105243,
@@ -699,6 +699,10 @@
         [
           1783105243,
           25043
+        ],
+        [
+          1783105520,
+          25013
         ]
       ]
     }
