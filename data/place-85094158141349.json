@@ -7,18 +7,18 @@
   "name": "Jungle Life",
   "creatorName": "NOYO Productions",
   "creatorType": "Group",
-  "playing": 250,
-  "visits": 13534058,
-  "favorites": 34906,
+  "playing": 272,
+  "visits": 13534203,
+  "favorites": 34907,
   "likes": 25569,
   "dislikes": 1863,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a295607eb43f4b5da8adef1f29083208/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/85094158141349",
-  "fetchedAtUtc": "2026-07-03 09:35:25",
+  "fetchedAtUtc": "2026-07-03 09:40:31",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03 09:35:25",
-    "updatedAtTs": 1783071325,
+    "updatedAt": "2026-07-03 09:40:31",
+    "updatedAtTs": 1783071631,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783071325,
-        250
+        1783071631,
+        272
       ],
       "peak7d": [
-        1783064122,
-        271
+        1783071631,
+        272
       ]
     },
     "series": {
@@ -247,6 +247,10 @@
         [
           1783071325,
           250
+        ],
+        [
+          1783071631,
+          272
         ]
       ]
     }
