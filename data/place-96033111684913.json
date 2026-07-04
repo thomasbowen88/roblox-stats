@@ -7,18 +7,18 @@
   "name": "The Everything Factory",
   "creatorName": "Ghosdeeri Digital",
   "creatorType": "Group",
-  "playing": 621,
-  "visits": 4585975,
+  "playing": 642,
+  "visits": 4586063,
   "favorites": 46024,
   "likes": 22820,
   "dislikes": 1815,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f5d59403cecac88bf1ed7c6ae1e62608/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96033111684913",
-  "fetchedAtUtc": "2026-07-04 16:05:21",
+  "fetchedAtUtc": "2026-07-04 16:10:33",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-04 16:05:21",
-    "updatedAtTs": 1783181121,
+    "updatedAt": "2026-07-04 16:10:33",
+    "updatedAtTs": 1783181433,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783181121,
-        621
+        1783181433,
+        642
       ],
       "peak7d": [
-        1783175121,
-        624
+        1783181433,
+        642
       ]
     },
     "series": {
@@ -259,6 +259,10 @@
         [
           1783181121,
           621
+        ],
+        [
+          1783181433,
+          642
         ]
       ]
     }
