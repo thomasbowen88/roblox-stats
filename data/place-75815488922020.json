@@ -7,18 +7,18 @@
   "name": "[NOW!] Brainrot Block Tower",
   "creatorName": "Rise Realm",
   "creatorType": "Group",
-  "playing": 365,
-  "visits": 9438527,
-  "favorites": 448621,
+  "playing": 360,
+  "visits": 9438631,
+  "favorites": 448622,
   "likes": 7317,
   "dislikes": 1545,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-33cbb3c504b9ec0ce33264039c82decd/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75815488922020",
-  "fetchedAtUtc": "2026-07-04 19:10:29",
+  "fetchedAtUtc": "2026-07-04 19:15:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-04 19:10:29",
-    "updatedAtTs": 1783192229,
+    "updatedAt": "2026-07-04 19:15:26",
+    "updatedAtTs": 1783192526,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783192229,
-        365
+        1783192526,
+        360
       ],
       "peak7d": [
         1783178739,
@@ -1859,6 +1859,10 @@
         [
           1783192229,
           365
+        ],
+        [
+          1783192526,
+          360
         ]
       ]
     }

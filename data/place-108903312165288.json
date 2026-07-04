@@ -7,18 +7,18 @@
   "name": "Sleep For UGC",
   "creatorName": "Galanto Studios",
   "creatorType": "Group",
-  "playing": 993,
-  "visits": 11438748,
-  "favorites": 355559,
+  "playing": 1023,
+  "visits": 11439070,
+  "favorites": 355584,
   "likes": 25253,
   "dislikes": 827,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-08feca776302e57c4850ab6e8a193de2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108903312165288",
-  "fetchedAtUtc": "2026-07-04 19:10:29",
+  "fetchedAtUtc": "2026-07-04 19:15:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-04 19:10:29",
-    "updatedAtTs": 1783192229,
+    "updatedAt": "2026-07-04 19:15:26",
+    "updatedAtTs": 1783192526,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783192229,
-        993
+        1783192526,
+        1023
       ],
       "peak7d": [
         1783098322,
@@ -1859,6 +1859,10 @@
         [
           1783192229,
           993
+        ],
+        [
+          1783192526,
+          1023
         ]
       ]
     }
