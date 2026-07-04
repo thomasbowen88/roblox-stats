@@ -4,21 +4,21 @@
   "placeId": "114758508835875",
   "rootPlaceId": "114758508835875",
   "universeId": "9844129216",
-  "name": "[RELEASE!] Card Chronicles",
+  "name": "[UPDATE 0.5] Card Chronicles",
   "creatorName": "Chronicle Entertainment",
   "creatorType": "Group",
-  "playing": 3147,
-  "visits": 1459162,
-  "favorites": 3580,
+  "playing": 1,
+  "visits": 1459363,
+  "favorites": 3586,
   "likes": 2377,
   "dislikes": 555,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4c212af48fa811be7ffc92730d044ef9/512/512/Image/Png/noFilter",
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f2f2859569ee40ba1fc9da7159feccf2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/114758508835875",
-  "fetchedAtUtc": "2026-07-04 19:15:26",
+  "fetchedAtUtc": "2026-07-04 19:20:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-04 19:15:26",
-    "updatedAtTs": 1783192526,
+    "updatedAt": "2026-07-04 19:20:32",
+    "updatedAtTs": 1783192832,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783192526,
-        3147
+        1783192832,
+        1
       ],
       "peak7d": [
         1783097431,
@@ -1863,6 +1863,10 @@
         [
           1783192526,
           3147
+        ],
+        [
+          1783192832,
+          1
         ]
       ]
     }
