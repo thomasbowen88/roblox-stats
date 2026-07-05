@@ -7,18 +7,18 @@
   "name": "Mukbang Game [Testing]",
   "creatorName": "sorynn22",
   "creatorType": "User",
-  "playing": 64792,
-  "visits": 108904780,
-  "favorites": 412284,
-  "likes": 129397,
-  "dislikes": 6421,
+  "playing": 64924,
+  "visits": 108932833,
+  "favorites": 412338,
+  "likes": 129405,
+  "dislikes": 6422,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5ff3f38515e902b33af1172ddc47c61b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/74188431054457",
-  "fetchedAtUtc": "2026-07-05 11:25:21",
+  "fetchedAtUtc": "2026-07-05 11:30:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 11:25:21",
-    "updatedAtTs": 1783250721,
+    "updatedAt": "2026-07-05 11:30:39",
+    "updatedAtTs": 1783251039,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783250721,
-        64792
+        1783251039,
+        64924
       ],
       "peak7d": [
         1783133130,
@@ -2639,6 +2639,10 @@
         [
           1783250721,
           64792
+        ],
+        [
+          1783251039,
+          64924
         ]
       ]
     }
