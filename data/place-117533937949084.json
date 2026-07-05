@@ -7,18 +7,18 @@
   "name": "Iron Soul: Dungeon",
   "creatorName": "Iron Soul",
   "creatorType": "Group",
-  "playing": 7342,
-  "visits": 110980144,
-  "favorites": 167806,
+  "playing": 7210,
+  "visits": 110985177,
+  "favorites": 167811,
   "likes": 226135,
   "dislikes": 3778,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9f3937d807b20e7fa39828573229f4f0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/117533937949084",
-  "fetchedAtUtc": "2026-07-05 21:05:22",
+  "fetchedAtUtc": "2026-07-05 21:10:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 21:05:22",
-    "updatedAtTs": 1783285522,
+    "updatedAt": "2026-07-05 21:10:32",
+    "updatedAtTs": 1783285832,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783285522,
-        7342
+        1783285832,
+        7210
       ],
       "peak7d": [
         1783264523,
@@ -455,6 +455,10 @@
         [
           1783285522,
           7342
+        ],
+        [
+          1783285832,
+          7210
         ]
       ]
     }
