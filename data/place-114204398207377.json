@@ -7,18 +7,18 @@
   "name": "Survive Zombie Arena",
   "creatorName": "Nectarforge Studios",
   "creatorType": "Group",
-  "playing": 32793,
-  "visits": 549434442,
-  "favorites": 510167,
-  "likes": 343950,
+  "playing": 33088,
+  "visits": 549448440,
+  "favorites": 510174,
+  "likes": 343957,
   "dislikes": 15657,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ccfc78577119d3c8ed223f580e05f222/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/114204398207377",
-  "fetchedAtUtc": "2026-07-05 04:20:35",
+  "fetchedAtUtc": "2026-07-05 04:25:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 04:20:35",
-    "updatedAtTs": 1783225235,
+    "updatedAt": "2026-07-05 04:25:20",
+    "updatedAtTs": 1783225520,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783225235,
-        32793
+        1783225520,
+        33088
       ],
       "peak7d": [
-        1783169128,
-        32968
+        1783225520,
+        33088
       ]
     },
     "series": {
@@ -2299,6 +2299,10 @@
         [
           1783225235,
           32793
+        ],
+        [
+          1783225520,
+          33088
         ]
       ]
     }
