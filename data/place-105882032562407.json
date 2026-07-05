@@ -7,18 +7,18 @@
   "name": "[MAPS] Saber Unbound ⚔️",
   "creatorName": "Saber Unbound",
   "creatorType": "Group",
-  "playing": 1095,
-  "visits": 9402860,
-  "favorites": 50253,
-  "likes": 34930,
+  "playing": 1104,
+  "visits": 9403326,
+  "favorites": 50254,
+  "likes": 34931,
   "dislikes": 3878,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-293fd13b0e2f08e1a3fc648c9bedc817/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105882032562407",
-  "fetchedAtUtc": "2026-07-05 19:35:20",
+  "fetchedAtUtc": "2026-07-05 19:40:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 19:35:20",
-    "updatedAtTs": 1783280120,
+    "updatedAt": "2026-07-05 19:40:30",
+    "updatedAtTs": 1783280430,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783280120,
-        1095
+        1783280430,
+        1104
       ],
       "peak7d": [
-        1783280120,
-        1095
+        1783280430,
+        1104
       ]
     },
     "series": {
@@ -383,6 +383,10 @@
         [
           1783280120,
           1095
+        ],
+        [
+          1783280430,
+          1104
         ]
       ]
     }
