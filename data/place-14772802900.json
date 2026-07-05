@@ -7,18 +7,18 @@
   "name": "[🩻Event] Jailbird",
   "creatorName": "Jailbird Official",
   "creatorType": "Group",
-  "playing": 2768,
-  "visits": 51942813,
-  "favorites": 179222,
+  "playing": 2820,
+  "visits": 51944151,
+  "favorites": 179232,
   "likes": 84870,
   "dislikes": 7915,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ade8fcb83909eb951aa008a41fade2fe/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/14772802900",
-  "fetchedAtUtc": "2026-07-05 18:45:22",
+  "fetchedAtUtc": "2026-07-05 18:50:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 18:45:22",
-    "updatedAtTs": 1783277122,
+    "updatedAt": "2026-07-05 18:50:30",
+    "updatedAtTs": 1783277430,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783277122,
-        2768
+        1783277430,
+        2820
       ],
       "peak7d": [
-        1783275323,
-        2804
+        1783277430,
+        2820
       ]
     },
     "series": {
@@ -343,6 +343,10 @@
         [
           1783277122,
           2768
+        ],
+        [
+          1783277430,
+          2820
         ]
       ]
     }
