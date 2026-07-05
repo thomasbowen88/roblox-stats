@@ -7,18 +7,18 @@
   "name": "Phonk Clicker!",
   "creatorName": "Definitely Not Brainrot Games",
   "creatorType": "Group",
-  "playing": 123,
-  "visits": 14755115,
-  "favorites": 1765659,
+  "playing": 130,
+  "visits": 14755164,
+  "favorites": 1765667,
   "likes": 90804,
   "dislikes": 2614,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cde14ef657b360cf4938fc40ec7dd834/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/92728557730774",
-  "fetchedAtUtc": "2026-07-05 22:10:31",
+  "fetchedAtUtc": "2026-07-05 22:15:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 22:10:31",
-    "updatedAtTs": 1783289431,
+    "updatedAt": "2026-07-05 22:15:25",
+    "updatedAtTs": 1783289725,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783289431,
-        123
+        1783289725,
+        130
       ],
       "peak7d": [
         1783258238,
@@ -507,6 +507,10 @@
         [
           1783289431,
           123
+        ],
+        [
+          1783289725,
+          130
         ]
       ]
     }
