@@ -7,18 +7,18 @@
   "name": "Be a Director 🎥✨",
   "creatorName": "Abyssal Interactive",
   "creatorType": "Group",
-  "playing": 799,
-  "visits": 2456884,
+  "playing": 850,
+  "visits": 2457140,
   "favorites": 19651,
   "likes": 29263,
-  "dislikes": 1059,
+  "dislikes": 1060,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7395952238cddbfdb589ea1accf3274c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/98107380383657",
-  "fetchedAtUtc": "2026-07-05 19:25:20",
+  "fetchedAtUtc": "2026-07-05 19:30:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05 19:25:20",
-    "updatedAtTs": 1783279520,
+    "updatedAt": "2026-07-05 19:30:40",
+    "updatedAtTs": 1783279840,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783279520,
-        799
+        1783279840,
+        850
       ],
       "peak7d": [
         1783268126,
@@ -375,6 +375,10 @@
         [
           1783279520,
           799
+        ],
+        [
+          1783279840,
+          850
         ]
       ]
     }
