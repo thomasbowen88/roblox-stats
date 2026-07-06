@@ -7,18 +7,18 @@
   "name": "Terminal [Escape Room]",
   "creatorName": "CCF Studios",
   "creatorType": "Group",
-  "playing": 1602,
-  "visits": 57685942,
-  "favorites": 490235,
+  "playing": 1615,
+  "visits": 57686425,
+  "favorites": 490237,
   "likes": 96623,
   "dislikes": 12004,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a68449a52c14f992e0c51577204d483a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/14026026722",
-  "fetchedAtUtc": "2026-07-06 23:25:21",
+  "fetchedAtUtc": "2026-07-06 23:30:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-06 23:25:21",
-    "updatedAtTs": 1783380321,
+    "updatedAt": "2026-07-06 23:30:39",
+    "updatedAtTs": 1783380639,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783380321,
-        1602
+        1783380639,
+        1615
       ],
       "peak7d": [
         1783371321,
@@ -471,6 +471,10 @@
         [
           1783380321,
           1602
+        ],
+        [
+          1783380639,
+          1615
         ]
       ]
     }
