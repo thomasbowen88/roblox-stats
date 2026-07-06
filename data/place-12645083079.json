@@ -7,18 +7,18 @@
   "name": "Giant Simulator: REBORN",
   "creatorName": "Mithril Games",
   "creatorType": "Group",
-  "playing": 3974,
-  "visits": 3564179,
+  "playing": 3992,
+  "visits": 3564757,
   "favorites": 12516,
-  "likes": 8871,
-  "dislikes": 1133,
+  "likes": 8872,
+  "dislikes": 1134,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-1cabcdb3fa18c4b5a9512efe6d28483d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/12645083079",
-  "fetchedAtUtc": "2026-07-06 08:55:25",
+  "fetchedAtUtc": "2026-07-06 09:00:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-06 08:55:25",
-    "updatedAtTs": 1783328125,
+    "updatedAt": "2026-07-06 09:00:45",
+    "updatedAtTs": 1783328445,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783328125,
-        3974
+        1783328445,
+        3992
       ],
       "peak7d": [
-        1783327832,
-        3977
+        1783328445,
+        3992
       ]
     },
     "series": {
@@ -335,6 +335,10 @@
         [
           1783328125,
           3974
+        ],
+        [
+          1783328445,
+          3992
         ]
       ]
     }

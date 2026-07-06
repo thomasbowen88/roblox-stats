@@ -7,18 +7,18 @@
   "name": "[⚡️] BEYBLADE X-BATTLES [Beta9.5]",
   "creatorName": "BEYBLADE X",
   "creatorType": "Group",
-  "playing": 1896,
-  "visits": 147090025,
-  "favorites": 3212244,
-  "likes": 281636,
+  "playing": 1911,
+  "visits": 147091150,
+  "favorites": 3212282,
+  "likes": 281640,
   "dislikes": 5216,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ee458f2aa87879cde6799f6e77f28631/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/85070202669030",
-  "fetchedAtUtc": "2026-07-06 08:55:25",
+  "fetchedAtUtc": "2026-07-06 09:00:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-06 08:55:25",
-    "updatedAtTs": 1783328125,
+    "updatedAt": "2026-07-06 09:00:45",
+    "updatedAtTs": 1783328445,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783328125,
-        1896
+        1783328445,
+        1911
       ],
       "peak7d": [
-        1783327832,
-        1901
+        1783328445,
+        1911
       ]
     },
     "series": {
@@ -335,6 +335,10 @@
         [
           1783328125,
           1896
+        ],
+        [
+          1783328445,
+          1911
         ]
       ]
     }
