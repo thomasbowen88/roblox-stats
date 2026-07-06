@@ -7,18 +7,18 @@
   "name": "[TIER 10] Accelerator Incremental",
   "creatorName": "KayD",
   "creatorType": "Group",
-  "playing": 432,
-  "visits": 2812948,
-  "favorites": 22289,
+  "playing": 430,
+  "visits": 2813067,
+  "favorites": 22290,
   "likes": 5102,
   "dislikes": 1583,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e68b14213ffbe9a598afce5f5d380a20/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/86847139832769",
-  "fetchedAtUtc": "2026-07-06 22:50:31",
+  "fetchedAtUtc": "2026-07-06 22:55:22",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-06 22:50:31",
-    "updatedAtTs": 1783378231,
+    "updatedAt": "2026-07-06 22:55:22",
+    "updatedAtTs": 1783378522,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783378231,
-        432
+        1783378522,
+        430
       ],
       "peak7d": [
         1783374633,
@@ -443,6 +443,10 @@
         [
           1783378231,
           432
+        ],
+        [
+          1783378522,
+          430
         ]
       ]
     }
