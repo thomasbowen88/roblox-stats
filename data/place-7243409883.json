@@ -7,18 +7,18 @@
   "name": "Elemental Magic Arena",
   "creatorName": "anton25131",
   "creatorType": "User",
-  "playing": 3000,
-  "visits": 90077472,
-  "favorites": 155161,
-  "likes": 120617,
+  "playing": 2945,
+  "visits": 90079145,
+  "favorites": 155162,
+  "likes": 120619,
   "dislikes": 11116,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-99915bdf5936f4a46a866995eaae5dd8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/7243409883",
-  "fetchedAtUtc": "2026-07-07 04:40:34",
+  "fetchedAtUtc": "2026-07-07 04:45:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07 04:40:34",
-    "updatedAtTs": 1783399234,
+    "updatedAt": "2026-07-07 04:45:25",
+    "updatedAtTs": 1783399525,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783399234,
-        3000
+        1783399525,
+        2945
       ],
       "peak7d": [
         1783348253,
@@ -723,6 +723,10 @@
         [
           1783399234,
           3000
+        ],
+        [
+          1783399525,
+          2945
         ]
       ]
     }
