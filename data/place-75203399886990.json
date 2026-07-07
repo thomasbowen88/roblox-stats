@@ -7,18 +7,18 @@
   "name": "Mafia Clash",
   "creatorName": "Mafia Clash Community",
   "creatorType": "Group",
-  "playing": 196,
-  "visits": 2255060,
+  "playing": 210,
+  "visits": 2255125,
   "favorites": 25510,
   "likes": 6544,
   "dislikes": 1652,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-30db657ecd7c7d218401566ebdf154a5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75203399886990",
-  "fetchedAtUtc": "2026-07-07 16:20:38",
+  "fetchedAtUtc": "2026-07-07 16:25:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07 16:20:38",
-    "updatedAtTs": 1783441238,
+    "updatedAt": "2026-07-07 16:25:20",
+    "updatedAtTs": 1783441520,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783441238,
-        196
+        1783441520,
+        210
       ],
       "peak7d": [
-        1783437923,
-        202
+        1783441520,
+        210
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1783441238,
           196
+        ],
+        [
+          1783441520,
+          210
         ]
       ]
     }
