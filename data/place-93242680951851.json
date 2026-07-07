@@ -7,18 +7,18 @@
   "name": "Soccer Legend Incremental",
   "creatorName": "Become A Soccer Star",
   "creatorType": "Group",
-  "playing": 261,
-  "visits": 1315643,
+  "playing": 275,
+  "visits": 1315718,
   "favorites": 6843,
   "likes": 4385,
   "dislikes": 1255,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-95350a457c9e813f785752ca67537f7d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93242680951851",
-  "fetchedAtUtc": "2026-07-07 15:45:29",
+  "fetchedAtUtc": "2026-07-07 15:50:31",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07 15:45:29",
-    "updatedAtTs": 1783439129,
+    "updatedAt": "2026-07-07 15:50:31",
+    "updatedAtTs": 1783439431,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783439129,
-        261
+        1783439431,
+        275
       ],
       "peak7d": [
-        1783437033,
-        266
+        1783439431,
+        275
       ]
     },
     "series": {
@@ -111,6 +111,10 @@
         [
           1783439129,
           261
+        ],
+        [
+          1783439431,
+          275
         ]
       ]
     }
