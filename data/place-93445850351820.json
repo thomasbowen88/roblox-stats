@@ -8,17 +8,17 @@
   "creatorName": "Let's Increment",
   "creatorType": "Group",
   "playing": 450,
-  "visits": 548407,
-  "favorites": 12598,
+  "visits": 548519,
+  "favorites": 12601,
   "likes": 4244,
   "dislikes": 385,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9ddabd692eb04a899e1d99c5237352a4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93445850351820",
-  "fetchedAtUtc": "2026-07-07 21:25:24",
+  "fetchedAtUtc": "2026-07-07 21:30:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07 21:25:24",
-    "updatedAtTs": 1783459524,
+    "updatedAt": "2026-07-07 21:30:45",
+    "updatedAtTs": 1783459845,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1783459524,
+        1783459845,
         450
       ],
       "peak7d": [
@@ -378,6 +378,10 @@
         ],
         [
           1783459524,
+          450
+        ],
+        [
+          1783459845,
           450
         ]
       ]
