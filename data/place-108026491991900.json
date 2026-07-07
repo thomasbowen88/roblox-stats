@@ -7,18 +7,18 @@
   "name": "Robong Survivors [EVOLVE] [CO-OP]",
   "creatorName": "GNR Studio",
   "creatorType": "Group",
-  "playing": 604,
-  "visits": 5046469,
-  "favorites": 31238,
-  "likes": 28479,
+  "playing": 630,
+  "visits": 5046888,
+  "favorites": 31239,
+  "likes": 28483,
   "dislikes": 1551,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0d0d665cda50df2276e32cdbad977099/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108026491991900",
-  "fetchedAtUtc": "2026-07-07 19:05:26",
+  "fetchedAtUtc": "2026-07-07 19:15:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07 19:05:26",
-    "updatedAtTs": 1783451126,
+    "updatedAt": "2026-07-07 19:15:25",
+    "updatedAtTs": 1783451725,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783451126,
-        604
+        1783451725,
+        630
       ],
       "peak7d": [
-        1783450524,
-        611
+        1783451725,
+        630
       ]
     },
     "series": {
@@ -271,6 +271,10 @@
         [
           1783451126,
           604
+        ],
+        [
+          1783451725,
+          630
         ]
       ]
     }
