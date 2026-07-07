@@ -7,18 +7,18 @@
   "name": " [UPDATE] Incremental Piece",
   "creatorName": "Incremental Piece",
   "creatorType": "Group",
-  "playing": 34,
-  "visits": 417677,
+  "playing": 28,
+  "visits": 417687,
   "favorites": 3617,
-  "likes": 7387,
+  "likes": 7388,
   "dislikes": 426,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3014dffb8fe8c8d1bb46a6304d472fb1/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96090419825540",
-  "fetchedAtUtc": "2026-07-07 10:35:21",
+  "fetchedAtUtc": "2026-07-07 10:40:29",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07 10:35:21",
-    "updatedAtTs": 1783420521,
+    "updatedAt": "2026-07-07 10:40:29",
+    "updatedAtTs": 1783420829,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783420521,
-        34
+        1783420829,
+        28
       ],
       "peak7d": [
         1783419920,
@@ -87,6 +87,10 @@
         [
           1783420521,
           34
+        ],
+        [
+          1783420829,
+          28
         ]
       ]
     }
