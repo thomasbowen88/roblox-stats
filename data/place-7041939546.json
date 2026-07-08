@@ -7,18 +7,18 @@
   "name": "Catalog Avatar Creator",
   "creatorName": "Muneeb",
   "creatorType": "User",
-  "playing": 93696,
-  "visits": 7264734679,
-  "favorites": 5453546,
-  "likes": 2829297,
+  "playing": 93156,
+  "visits": 7264771880,
+  "favorites": 5453564,
+  "likes": 2829304,
   "dislikes": 189318,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-64b7572edf1d42d0f4a0b8dcb49a0a62/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/7041939546",
-  "fetchedAtUtc": "2026-07-08 02:35:25",
+  "fetchedAtUtc": "2026-07-08 02:40:41",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 02:35:25",
-    "updatedAtTs": 1783478125,
+    "updatedAt": "2026-07-08 02:40:41",
+    "updatedAtTs": 1783478441,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783478125,
-        93696
+        1783478441,
+        93156
       ],
       "peak7d": [
         1783453625,
@@ -627,6 +627,10 @@
         [
           1783478125,
           93696
+        ],
+        [
+          1783478441,
+          93156
         ]
       ]
     }

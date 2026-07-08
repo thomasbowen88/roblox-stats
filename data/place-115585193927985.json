@@ -7,18 +7,18 @@
   "name": "Cooking Chaos",
   "creatorName": "Hot Wok Studios",
   "creatorType": "Group",
-  "playing": 1035,
-  "visits": 17166115,
-  "favorites": 133712,
+  "playing": 1068,
+  "visits": 17166683,
+  "favorites": 133714,
   "likes": 62278,
   "dislikes": 987,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-c529ac855c755bfd02903b39eeea3be5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/115585193927985",
-  "fetchedAtUtc": "2026-07-08 02:35:25",
+  "fetchedAtUtc": "2026-07-08 02:40:41",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 02:35:25",
-    "updatedAtTs": 1783478125,
+    "updatedAt": "2026-07-08 02:40:41",
+    "updatedAtTs": 1783478441,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783478125,
-        1035
+        1783478441,
+        1068
       ],
       "peak7d": [
-        1783478125,
-        1035
+        1783478441,
+        1068
       ]
     },
     "series": {
@@ -627,6 +627,10 @@
         [
           1783478125,
           1035
+        ],
+        [
+          1783478441,
+          1068
         ]
       ]
     }
