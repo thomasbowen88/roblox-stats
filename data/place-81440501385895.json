@@ -7,18 +7,18 @@
   "name": "[❗] Youtuber Card Collection",
   "creatorName": "Nova Digital Games",
   "creatorType": "Group",
-  "playing": 160,
-  "visits": 5168928,
-  "favorites": 11648,
+  "playing": 159,
+  "visits": 5169003,
+  "favorites": 11649,
   "likes": 4531,
   "dislikes": 992,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0b174db425e4fd7d1bea9fcc2d3190ba/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/81440501385895",
-  "fetchedAtUtc": "2026-07-08 02:50:31",
+  "fetchedAtUtc": "2026-07-08 02:55:44",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 02:50:31",
-    "updatedAtTs": 1783479031,
+    "updatedAt": "2026-07-08 02:55:44",
+    "updatedAtTs": 1783479344,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783479031,
-        160
+        1783479344,
+        159
       ],
       "peak7d": [
         1783479031,
@@ -639,6 +639,10 @@
         [
           1783479031,
           160
+        ],
+        [
+          1783479344,
+          159
         ]
       ]
     }
