@@ -7,18 +7,18 @@
   "name": "Flee the Facility",
   "creatorName": "A.W. Apps",
   "creatorType": "Group",
-  "playing": 11507,
-  "visits": 5770574571,
+  "playing": 11096,
+  "visits": 5770578626,
   "favorites": 9568786,
-  "likes": 2717024,
-  "dislikes": 234505,
+  "likes": 2717025,
+  "dislikes": 234506,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-1db600e3b8e21b9e2ad54b7bfddbf005/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/893973440",
-  "fetchedAtUtc": "2026-07-08 08:01:39",
+  "fetchedAtUtc": "2026-07-08 08:05:33",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 08:01:39",
-    "updatedAtTs": 1783497699,
+    "updatedAt": "2026-07-08 08:05:33",
+    "updatedAtTs": 1783497933,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783497699,
-        11507
+        1783497933,
+        11096
       ],
       "peak7d": [
         1783470320,
@@ -887,6 +887,10 @@
         [
           1783497699,
           11507
+        ],
+        [
+          1783497933,
+          11096
         ]
       ]
     }
