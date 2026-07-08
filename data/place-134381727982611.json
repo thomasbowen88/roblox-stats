@@ -7,18 +7,18 @@
   "name": "Evomon[Release]",
   "creatorName": "Evomon Devs",
   "creatorType": "Group",
-  "playing": 49625,
-  "visits": 52450457,
-  "favorites": 167912,
-  "likes": 172868,
-  "dislikes": 4187,
+  "playing": 49369,
+  "visits": 52459668,
+  "favorites": 167943,
+  "likes": 172891,
+  "dislikes": 4189,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-645009a0ed7878ec09816f2b31fb62b0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/134381727982611",
-  "fetchedAtUtc": "2026-07-08 19:15:29",
+  "fetchedAtUtc": "2026-07-08 19:20:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 19:15:29",
-    "updatedAtTs": 1783538129,
+    "updatedAt": "2026-07-08 19:20:39",
+    "updatedAtTs": 1783538439,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783538129,
-        49625
+        1783538439,
+        49369
       ],
       "peak7d": [
         1783433731,
@@ -1427,6 +1427,10 @@
         [
           1783538129,
           49625
+        ],
+        [
+          1783538439,
+          49369
         ]
       ]
     }
