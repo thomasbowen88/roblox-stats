@@ -7,18 +7,18 @@
   "name": "San Diego Border Roleplay",
   "creatorName": "San Diego Border Community",
   "creatorType": "Group",
-  "playing": 12627,
-  "visits": 34856580,
-  "favorites": 74977,
-  "likes": 0,
-  "dislikes": 0,
+  "playing": 12708,
+  "visits": 34860466,
+  "favorites": 74987,
+  "likes": 34408,
+  "dislikes": 6860,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b9f8703a2a52bb343359ee112b91c08e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/136020512003847",
-  "fetchedAtUtc": "2026-07-08 07:21:01",
+  "fetchedAtUtc": "2026-07-08 07:26:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 07:21:01",
-    "updatedAtTs": 1783495261,
+    "updatedAt": "2026-07-08 07:26:37",
+    "updatedAtTs": 1783495597,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783495261,
-        12627
+        1783495597,
+        12708
       ],
       "peak7d": [
         1783451725,
@@ -855,6 +855,10 @@
         [
           1783495261,
           12627
+        ],
+        [
+          1783495597,
+          12708
         ]
       ]
     }
