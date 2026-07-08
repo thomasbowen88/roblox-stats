@@ -7,18 +7,18 @@
   "name": "Re:Aura",
   "creatorName": "c1z studio",
   "creatorType": "Group",
-  "playing": 150,
-  "visits": 6395819,
+  "playing": 142,
+  "visits": 6395865,
   "favorites": 29284,
-  "likes": 18102,
+  "likes": 18103,
   "dislikes": 3053,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e8c8c6309b065cd4607c282724641362/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96576822368326",
-  "fetchedAtUtc": "2026-07-08 00:25:20",
+  "fetchedAtUtc": "2026-07-08 00:30:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 00:25:20",
-    "updatedAtTs": 1783470320,
+    "updatedAt": "2026-07-08 00:30:39",
+    "updatedAtTs": 1783470639,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783470320,
-        150
+        1783470639,
+        142
       ],
       "peak7d": [
         1783452685,
@@ -523,6 +523,10 @@
         [
           1783470320,
           150
+        ],
+        [
+          1783470639,
+          142
         ]
       ]
     }
