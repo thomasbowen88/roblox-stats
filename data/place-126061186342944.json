@@ -7,18 +7,18 @@
   "name": "Backrooms Simulator [Deathmoth 🦋]",
   "creatorName": "Meow Dev Studio",
   "creatorType": "Group",
-  "playing": 1324,
-  "visits": 3361157,
+  "playing": 1349,
+  "visits": 3361666,
   "favorites": 9910,
   "likes": 2110,
   "dislikes": 751,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-72a2db50ad8330fa1109ae943e1ebf16/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/126061186342944",
-  "fetchedAtUtc": "2026-07-08 08:30:40",
+  "fetchedAtUtc": "2026-07-08 08:35:47",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 08:30:40",
-    "updatedAtTs": 1783499440,
+    "updatedAt": "2026-07-08 08:35:47",
+    "updatedAtTs": 1783499747,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783499440,
-        1324
+        1783499747,
+        1349
       ],
       "peak7d": [
-        1783496435,
-        1342
+        1783499747,
+        1349
       ]
     },
     "series": {
@@ -911,6 +911,10 @@
         [
           1783499440,
           1324
+        ],
+        [
+          1783499747,
+          1349
         ]
       ]
     }
