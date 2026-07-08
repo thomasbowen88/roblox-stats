@@ -7,18 +7,18 @@
   "name": "Murder Mystery 2",
   "creatorName": "Nikilis",
   "creatorType": "User",
-  "playing": 251001,
-  "visits": 27003165078,
-  "favorites": 22718476,
-  "likes": 9906633,
-  "dislikes": 1000384,
+  "playing": 249844,
+  "visits": 27003286768,
+  "favorites": 22718521,
+  "likes": 9906639,
+  "dislikes": 1000385,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3ac5af325970a745b0156a5358174169/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/142823291",
-  "fetchedAtUtc": "2026-07-08 00:55:23",
+  "fetchedAtUtc": "2026-07-08 01:00:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08 00:55:23",
-    "updatedAtTs": 1783472123,
+    "updatedAt": "2026-07-08 01:00:46",
+    "updatedAtTs": 1783472446,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783472123,
-        251001
+        1783472446,
+        249844
       ],
       "peak7d": [
         1783450524,
@@ -547,6 +547,10 @@
         [
           1783472123,
           251001
+        ],
+        [
+          1783472446,
+          249844
         ]
       ]
     }
