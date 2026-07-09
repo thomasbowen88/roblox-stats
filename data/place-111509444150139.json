@@ -8,17 +8,17 @@
   "creatorName": "3 CCU",
   "creatorType": "Group",
   "playing": 302,
-  "visits": 91840,
-  "favorites": 2132,
+  "visits": 91891,
+  "favorites": 2133,
   "likes": 728,
   "dislikes": 129,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-217ecd78293d5066ca1721798a738065/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111509444150139",
-  "fetchedAtUtc": "2026-07-09 13:52:21",
+  "fetchedAtUtc": "2026-07-09 13:57:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-09 13:52:21",
-    "updatedAtTs": 1783605141,
+    "updatedAt": "2026-07-09 13:57:00",
+    "updatedAtTs": 1783605420,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1783605141,
+        1783605420,
         302
       ],
       "peak7d": [
@@ -674,6 +674,10 @@
         ],
         [
           1783605141,
+          302
+        ],
+        [
+          1783605420,
           302
         ]
       ]
