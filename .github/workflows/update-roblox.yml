@@ -8,7 +8,7 @@ permissions:
 
 concurrency:
   group: update-roblox-stats
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -17,6 +17,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest data
+        run: git pull --rebase origin main
 
       - name: Setup Node
         uses: actions/setup-node@v4
