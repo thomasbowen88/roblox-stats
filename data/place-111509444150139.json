@@ -7,18 +7,18 @@
   "name": "BitShinobi",
   "creatorName": "3 CCU",
   "creatorType": "Group",
-  "playing": 437,
-  "visits": 82872,
-  "favorites": 1897,
-  "likes": 622,
+  "playing": 447,
+  "visits": 82936,
+  "favorites": 1901,
+  "likes": 624,
   "dislikes": 110,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-217ecd78293d5066ca1721798a738065/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111509444150139",
-  "fetchedAtUtc": "2026-07-09 02:10:41",
+  "fetchedAtUtc": "2026-07-09 02:15:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-09 02:10:41",
-    "updatedAtTs": 1783563041,
+    "updatedAt": "2026-07-09 02:15:26",
+    "updatedAtTs": 1783563326,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1783563041,
-        437
+        1783563326,
+        447
       ],
       "peak7d": [
-        1783560323,
-        442
+        1783563326,
+        447
       ]
     },
     "series": {
@@ -299,6 +299,10 @@
         [
           1783563041,
           437
+        ],
+        [
+          1783563326,
+          447
         ]
       ]
     }
