@@ -7,18 +7,18 @@
   "name": "Hitman Card Game",
   "creatorName": "Hitman Studio",
   "creatorType": "Group",
-  "playing": 250,
-  "visits": 28490033,
+  "playing": 256,
+  "visits": 28490095,
   "favorites": 318329,
-  "likes": 56529,
+  "likes": 56531,
   "dislikes": 4149,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-97b5dd29c3e50b652170828490e2455a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/92352895821733",
-  "fetchedAtUtc": "2026-07-10 05:02:42",
+  "fetchedAtUtc": "2026-07-10 05:07:02",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-10 05:02:42",
-    "updatedAtTs": 1783659762,
+    "updatedAt": "2026-07-10 05:07:02",
+    "updatedAtTs": 1783660022,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783659762,
-        250
+        1783660022,
+        256
       ],
       "peak7d": [
         1783480234,
@@ -2863,6 +2863,10 @@
         [
           1783659762,
           250
+        ],
+        [
+          1783660022,
+          256
         ]
       ]
     }
