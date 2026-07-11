@@ -7,18 +7,18 @@
   "name": "[CURE] Violence District",
   "creatorName": "VIOLENCE DISTRICT",
   "creatorType": "Group",
-  "playing": 86975,
-  "visits": 1074304737,
-  "favorites": 1338541,
-  "likes": 0,
-  "dislikes": 0,
-  "thumbnailUrl": "",
+  "playing": 85884,
+  "visits": 1074325411,
+  "favorites": 1338562,
+  "likes": 610186,
+  "dislikes": 44899,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-24a7fe15374c20384a33ba2f9d4dc362/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93978595733734",
-  "fetchedAtUtc": "2026-07-11 16:07:24",
+  "fetchedAtUtc": "2026-07-11 16:12:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11 16:07:24",
-    "updatedAtTs": 1783786044,
+    "updatedAt": "2026-07-11 16:12:11",
+    "updatedAtTs": 1783786331,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783786044,
-        86975
+        1783786331,
+        85884
       ],
       "peak7d": [
         1783777647,
@@ -323,6 +323,10 @@
         [
           1783786044,
           86975
+        ],
+        [
+          1783786331,
+          85884
         ]
       ]
     }

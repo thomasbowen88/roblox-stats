@@ -7,18 +7,18 @@
   "name": "[2H] Mini War",
   "creatorName": "M&M Community",
   "creatorType": "Group",
-  "playing": 41523,
-  "visits": 248360951,
-  "favorites": 1002878,
-  "likes": 0,
-  "dislikes": 0,
-  "thumbnailUrl": "",
+  "playing": 41934,
+  "visits": 248372049,
+  "favorites": 1002906,
+  "likes": 633047,
+  "dislikes": 17314,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d3376449c093da5fd6c70d46b8c20d26/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131346454575416",
-  "fetchedAtUtc": "2026-07-11 16:07:24",
+  "fetchedAtUtc": "2026-07-11 16:12:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11 16:07:24",
-    "updatedAtTs": 1783786044,
+    "updatedAt": "2026-07-11 16:12:11",
+    "updatedAtTs": 1783786331,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783786044,
-        41523
+        1783786331,
+        41934
       ],
       "peak7d": [
         1783782172,
@@ -323,6 +323,10 @@
         [
           1783786044,
           41523
+        ],
+        [
+          1783786331,
+          41934
         ]
       ]
     }

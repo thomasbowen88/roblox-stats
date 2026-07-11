@@ -7,18 +7,18 @@
   "name": "[UPD] Volleyball Legends",
   "creatorName": "Volleyball Game Group",
   "creatorType": "Group",
-  "playing": 93408,
-  "visits": 3571486572,
-  "favorites": 4725885,
-  "likes": 0,
-  "dislikes": 0,
-  "thumbnailUrl": "",
+  "playing": 91651,
+  "visits": 3571529799,
+  "favorites": 4725910,
+  "likes": 2455770,
+  "dislikes": 119478,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6b447a7e45dd90127cc4535b0eaf6100/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/73956553001240",
-  "fetchedAtUtc": "2026-07-11 16:07:24",
+  "fetchedAtUtc": "2026-07-11 16:12:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11 16:07:24",
-    "updatedAtTs": 1783786044,
+    "updatedAt": "2026-07-11 16:12:11",
+    "updatedAtTs": 1783786331,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783786044,
-        93408
+        1783786331,
+        91651
       ],
       "peak7d": [
         1783785445,
@@ -323,6 +323,10 @@
         [
           1783786044,
           93408
+        ],
+        [
+          1783786331,
+          91651
         ]
       ]
     }

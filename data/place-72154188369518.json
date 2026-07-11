@@ -7,18 +7,18 @@
   "name": "Portal Keeper",
   "creatorName": "Place Library",
   "creatorType": "Group",
-  "playing": 441,
-  "visits": 1331044,
-  "favorites": 14807,
-  "likes": 11960,
+  "playing": 429,
+  "visits": 1331099,
+  "favorites": 14808,
+  "likes": 11961,
   "dislikes": 588,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-16b38d94bf797403d30c9666a0764da0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72154188369518",
-  "fetchedAtUtc": "2026-07-11 16:07:24",
+  "fetchedAtUtc": "2026-07-11 16:12:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11 16:07:24",
-    "updatedAtTs": 1783786044,
+    "updatedAt": "2026-07-11 16:12:11",
+    "updatedAtTs": 1783786331,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783786044,
-        441
+        1783786331,
+        429
       ],
       "peak7d": [
         1783781561,
@@ -323,6 +323,10 @@
         [
           1783786044,
           441
+        ],
+        [
+          1783786331,
+          429
         ]
       ]
     }
