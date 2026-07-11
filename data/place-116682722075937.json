@@ -7,18 +7,18 @@
   "name": "2 Player Battle Tycoon",
   "creatorName": "Yvu Productions",
   "creatorType": "Group",
-  "playing": 624,
-  "visits": 57543312,
+  "playing": 611,
+  "visits": 57543529,
   "favorites": 1195697,
-  "likes": 157281,
+  "likes": 157282,
   "dislikes": 8017,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ae02e7a6d58eb48e658a133c4feec92e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/116682722075937",
-  "fetchedAtUtc": "2026-07-11 04:47:22",
+  "fetchedAtUtc": "2026-07-11 04:52:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11 04:47:22",
-    "updatedAtTs": 1783745242,
+    "updatedAt": "2026-07-11 04:52:32",
+    "updatedAtTs": 1783745552,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783745242,
-        624
+        1783745552,
+        611
       ],
       "peak7d": [
         1783696042,
@@ -747,6 +747,10 @@
         [
           1783745242,
           624
+        ],
+        [
+          1783745552,
+          611
         ]
       ]
     }
