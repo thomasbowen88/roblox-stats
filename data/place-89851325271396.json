@@ -7,18 +7,18 @@
   "name": "Age of Titans",
   "creatorName": "Age Of Titans (Official)",
   "creatorType": "Group",
-  "playing": 1257,
-  "visits": 51423968,
-  "favorites": 72566,
-  "likes": 36658,
-  "dislikes": 10162,
+  "playing": 1283,
+  "visits": 51424568,
+  "favorites": 72568,
+  "likes": 36660,
+  "dislikes": 10161,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-216a766f808ee96996ff19828036c67e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/89851325271396",
-  "fetchedAtUtc": "2026-07-11 22:03:00",
+  "fetchedAtUtc": "2026-07-11 22:07:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11 22:03:00",
-    "updatedAtTs": 1783807380,
+    "updatedAt": "2026-07-11 22:07:20",
+    "updatedAtTs": 1783807640,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783807380,
-        1257
+        1783807640,
+        1283
       ],
       "peak7d": [
         1783783362,
@@ -607,6 +607,10 @@
         [
           1783807380,
           1257
+        ],
+        [
+          1783807640,
+          1283
         ]
       ]
     }
