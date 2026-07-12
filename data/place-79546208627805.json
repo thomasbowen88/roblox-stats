@@ -8,17 +8,17 @@
   "creatorName": "Grandma's Favourite Games",
   "creatorType": "Group",
   "playing": 400865,
-  "visits": 28120955438,
-  "favorites": 8603229,
-  "likes": 5118775,
-  "dislikes": 540370,
+  "visits": 28121022485,
+  "favorites": 8603257,
+  "likes": 5118788,
+  "dislikes": 540372,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b4d26f287fe179206e8291453de23588/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/79546208627805",
-  "fetchedAtUtc": "2026-07-12 07:09:45",
+  "fetchedAtUtc": "2026-07-12 07:12:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-12 07:09:45",
-    "updatedAtTs": 1783840185,
+    "updatedAt": "2026-07-12 07:12:40",
+    "updatedAtTs": 1783840360,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1783840185,
+        1783840360,
         400865
       ],
       "peak7d": [
@@ -1030,6 +1030,10 @@
         ],
         [
           1783840185,
+          400865
+        ],
+        [
+          1783840360,
           400865
         ]
       ]
