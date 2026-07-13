@@ -7,18 +7,18 @@
   "name": "SCP: Anomaly Site",
   "creatorName": "Anomaly Arms",
   "creatorType": "Group",
-  "playing": 739,
-  "visits": 5645753,
-  "favorites": 11553,
+  "playing": 770,
+  "visits": 5645972,
+  "favorites": 11554,
   "likes": 3963,
   "dislikes": 1076,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b2b37c37981585b34df57b170f6cd3a5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/103506116893376",
-  "fetchedAtUtc": "2026-07-13 01:52:53",
+  "fetchedAtUtc": "2026-07-13 01:57:38",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13 01:52:53",
-    "updatedAtTs": 1783907573,
+    "updatedAt": "2026-07-13 01:57:38",
+    "updatedAtTs": 1783907858,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1783907573,
-        739
+        1783907858,
+        770
       ],
       "peak7d": [
         1783860560,
@@ -1835,6 +1835,10 @@
         [
           1783907573,
           739
+        ],
+        [
+          1783907858,
+          770
         ]
       ]
     }
