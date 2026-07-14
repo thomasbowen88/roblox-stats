@@ -7,18 +7,18 @@
   "name": "[BUGS FIX🔨] Turbo Grid",
   "creatorName": "Lasanheiros BR Community",
   "creatorType": "Group",
-  "playing": 588,
-  "visits": 3789615,
+  "playing": 622,
+  "visits": 3789885,
   "favorites": 11142,
   "likes": 4271,
   "dislikes": 1533,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ebada52bba64e431c114490b1936a9d7/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119941573290845",
-  "fetchedAtUtc": "2026-07-14 15:03:28",
+  "fetchedAtUtc": "2026-07-14 15:07:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-14 15:03:28",
-    "updatedAtTs": 1784041408,
+    "updatedAt": "2026-07-14 15:07:59",
+    "updatedAtTs": 1784041679,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784041408,
-        588
+        1784041679,
+        622
       ],
       "peak7d": [
-        1784040794,
-        613
+        1784041679,
+        622
       ]
     },
     "series": {
@@ -407,6 +407,10 @@
         [
           1784041408,
           588
+        ],
+        [
+          1784041679,
+          622
         ]
       ]
     }
