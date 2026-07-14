@@ -7,18 +7,18 @@
   "name": "[MATCHMAKING🌴] DUELIST: PvP (BETA)",
   "creatorName": "only three devs",
   "creatorType": "Group",
-  "playing": 1003,
-  "visits": 8312508,
+  "playing": 1060,
+  "visits": 8313306,
   "favorites": 17649,
   "likes": 15776,
-  "dislikes": 839,
+  "dislikes": 840,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9628f2753e070425b4a196e53562a2af/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122310270867133",
-  "fetchedAtUtc": "2026-07-14 15:33:16",
+  "fetchedAtUtc": "2026-07-14 15:38:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-14 15:33:16",
-    "updatedAtTs": 1784043196,
+    "updatedAt": "2026-07-14 15:38:01",
+    "updatedAtTs": 1784043481,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784043196,
-        1003
+        1784043481,
+        1060
       ],
       "peak7d": [
-        1784042872,
-        1055
+        1784043481,
+        1060
       ]
     },
     "series": {
@@ -431,6 +431,10 @@
         [
           1784043196,
           1003
+        ],
+        [
+          1784043481,
+          1060
         ]
       ]
     }
