@@ -7,18 +7,18 @@
   "name": "Bunny Tycoon",
   "creatorName": "Studio In Development",
   "creatorType": "Group",
-  "playing": 100,
-  "visits": 2095879,
-  "favorites": 15971,
+  "playing": 113,
+  "visits": 2095909,
+  "favorites": 15972,
   "likes": 16208,
   "dislikes": 661,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5675a785f1efe515ea71c52bc5325961/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75896946916488",
-  "fetchedAtUtc": "2026-07-15 20:28:00",
+  "fetchedAtUtc": "2026-07-15 20:33:24",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-15 20:28:00",
-    "updatedAtTs": 1784147280,
+    "updatedAt": "2026-07-15 20:33:24",
+    "updatedAtTs": 1784147604,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784147280,
-        100
+        1784147604,
+        113
       ],
       "peak7d": [
-        1784069580,
-        108
+        1784147604,
+        113
       ]
     },
     "series": {
@@ -1679,6 +1679,10 @@
         [
           1784147280,
           100
+        ],
+        [
+          1784147604,
+          113
         ]
       ]
     }
