@@ -7,18 +7,18 @@
   "name": "Survive the Backrooms",
   "creatorName": "Cozy Campfires",
   "creatorType": "Group",
-  "playing": 152,
-  "visits": 12428993,
-  "favorites": 86711,
+  "playing": 159,
+  "visits": 12429066,
+  "favorites": 86713,
   "likes": 28555,
   "dislikes": 2370,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-631b56bda1e63b0252ceef2276878f2b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105007075895966",
-  "fetchedAtUtc": "2026-07-15 01:37:47",
+  "fetchedAtUtc": "2026-07-15 01:43:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-15 01:37:47",
-    "updatedAtTs": 1784079467,
+    "updatedAt": "2026-07-15 01:43:04",
+    "updatedAtTs": 1784079784,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784079467,
-        152
+        1784079784,
+        159
       ],
       "peak7d": [
         1784046485,
@@ -911,6 +911,10 @@
         [
           1784079467,
           152
+        ],
+        [
+          1784079784,
+          159
         ]
       ]
     }
