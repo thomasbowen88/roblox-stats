@@ -34,7 +34,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 
 .layer-settings-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;margin:0;position:relative;z-index:2}.layer-settings-tabs button{width:100%;height:42px;padding:0;border-radius:8px 8px 0 0;border-bottom-color:var(--surface);display:grid;place-items:center}.layer-settings-tabs button+button{border-left-width:0}.layer-settings-tabs button.active{position:relative;z-index:3;background:var(--surface);color:var(--orange);border-color:var(--orange);border-bottom-color:var(--surface);margin-bottom:-1px}.layer-settings-tabs button.active+button{border-left-width:1px}.layer-settings-shell{margin-top:-1px;border-radius:0 0 8px 8px}.object-position-grid{grid-column:1/-1}.layer-settings-panel{display:none}.layer-settings-panel.active{display:block}.field textarea{width:100%;min-height:92px;resize:vertical;color:var(--text);background:var(--input);border:1px solid var(--line);border-radius:8px;padding:11px 12px;font:inherit}.field textarea:focus{border-color:var(--muted);outline:none}.multi-selection-note{padding:10px;border:1px dashed var(--orange);border-radius:8px;color:var(--muted);background:var(--panel2)}.layer-item.multi-active{border-color:var(--orange);box-shadow:inset 3px 0 var(--orange)}
 
-/* focused layer-settings layout fixes */
+
 #effectControls .offset-slider-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .text-background-options{display:grid;grid-template-columns:54px minmax(150px,1fr) minmax(90px,130px);gap:10px;align-items:end}
 .text-background-options .field{min-width:0}
@@ -49,7 +49,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 }
 @media(max-width:640px){.text-background-options,.right #textControls .text-background-options{grid-template-columns:1fr}.right #textControls{grid-template-columns:1fr}.right #effectControls .effect-grid{grid-template-columns:1fr}.right #effectControls .glow-opacity-field{padding-right:0}}
 
-/* v7 responsive alignment refinements */
+
 @media(max-width:1180px), (orientation:portrait){
 .right #effectControls .effect-grid{align-items:start}
 .right #effectControls .effect-grid>.effect-pair,
@@ -81,12 +81,12 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 }
 
 
-/* text border placement fix */
+
 .text-toggle-row{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:center}
 #textBorderOptions{width:100%;min-width:0}
 @media(max-width:640px){.text-toggle-row{grid-template-columns:1fr!important}}
 
-/* Effect control row alignment */
+
 @media(max-width:1180px), (orientation:portrait){
   .right #effectControls .effect-grid{align-items:start}
   .right #effectControls .effect-pair{align-items:start}
@@ -102,7 +102,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
   .right #effectControls .shadow-offset-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}
 }
 
-/* v11 text settings order and responsive layout */
+
 .right:not(.bottom-dock) #textControls .text-toggle-row{grid-template-columns:1fr!important;gap:0!important}
 .right:not(.bottom-dock) #textControls .text-toggle-row .field{width:100%;margin:5px 0}
 .right:not(.bottom-dock) #textControls .text-background-options{grid-template-columns:minmax(0,1fr) 54px!important;gap:10px;align-items:end}
@@ -128,7 +128,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 }
 
 
-/* v12 responsive text toggle groups */
+
 .text-toggle-row{align-items:start!important}
 .text-toggle-group{min-width:0;display:flex;flex-direction:column}
 .text-toggle-group>.field{width:100%;min-width:0}
@@ -164,7 +164,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 }
 
 
-/* v13 text background controls */
+
 .text-background-options .background-box-grid{display:grid;grid-template-columns:minmax(0,1fr) 54px;gap:10px;align-items:end;grid-column:1/-1}
 .text-background-options .background-box-grid .opacity-field{grid-column:1}
 .text-background-options .background-box-grid .color-field{grid-column:2}
