@@ -7,18 +7,18 @@
   "name": "Evomon[Season1]",
   "creatorName": "Evomon Devs",
   "creatorType": "Group",
-  "playing": 64380,
-  "visits": 83219305,
-  "favorites": 218283,
-  "likes": 225671,
-  "dislikes": 5647,
+  "playing": 64255,
+  "visits": 83233350,
+  "favorites": 218295,
+  "likes": 225703,
+  "dislikes": 5648,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-be6bae710ee2060f8558d20b08d36d3d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/134381727982611",
-  "fetchedAtUtc": "2026-07-18 03:48:34",
+  "fetchedAtUtc": "2026-07-18 03:53:42",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 03:48:34",
-    "updatedAtTs": 1784346514,
+    "updatedAt": "2026-07-18 03:53:42",
+    "updatedAtTs": 1784346822,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784346514,
-        64380
+        1784346822,
+        64255
       ],
       "peak7d": [
         1784345027,
@@ -403,6 +403,10 @@
         [
           1784346514,
           64380
+        ],
+        [
+          1784346822,
+          64255
         ]
       ]
     }
