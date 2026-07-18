@@ -7,18 +7,18 @@
   "name": "Slime RNG",
   "creatorName": "Stouts Studio",
   "creatorType": "Group",
-  "playing": 3538,
-  "visits": 526275398,
-  "favorites": 3504998,
+  "playing": 3593,
+  "visits": 526277129,
+  "favorites": 3505002,
   "likes": 811562,
   "dislikes": 19020,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-2f7978b674aeb4273e19ba6fa25bb846/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/92416421522960",
-  "fetchedAtUtc": "2026-07-18 08:28:34",
+  "fetchedAtUtc": "2026-07-18 08:34:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 08:28:34",
-    "updatedAtTs": 1784363314,
+    "updatedAt": "2026-07-18 08:34:46",
+    "updatedAtTs": 1784363686,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784363314,
-        3538
+        1784363686,
+        3593
       ],
       "peak7d": [
-        1784319226,
-        3571
+        1784363686,
+        3593
       ]
     },
     "series": {
@@ -615,6 +615,10 @@
         [
           1784363314,
           3538
+        ],
+        [
+          1784363686,
+          3593
         ]
       ]
     }
