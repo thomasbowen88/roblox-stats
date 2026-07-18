@@ -7,18 +7,18 @@
   "name": "Brainrot Sniper",
   "creatorName": "SuperLootify Studio",
   "creatorType": "Group",
-  "playing": 779,
-  "visits": 12990348,
+  "playing": 754,
+  "visits": 12990693,
   "favorites": 21231,
-  "likes": 17744,
+  "likes": 17745,
   "dislikes": 1128,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d67d6cdca1f1051ed8d42bb34dc7c634/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/95223801959482",
-  "fetchedAtUtc": "2026-07-18 08:43:38",
+  "fetchedAtUtc": "2026-07-18 08:48:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 08:43:38",
-    "updatedAtTs": 1784364218,
+    "updatedAt": "2026-07-18 08:48:40",
+    "updatedAtTs": 1784364520,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784364218,
-        779
+        1784364520,
+        754
       ],
       "peak7d": [
         1784348020,
@@ -627,6 +627,10 @@
         [
           1784364218,
           779
+        ],
+        [
+          1784364520,
+          754
         ]
       ]
     }
