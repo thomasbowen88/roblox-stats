@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Rant Fetch Method Tester</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111214;
+      --panel: #1b1d21;
+      --panel-2: #24272d;
+      --text: #f4f5f7;
+      --muted: #a9afb8;
+      --line: #343840;
+      --orange: #ff6a0d;
+      --green: #35c46a;
+      --red: #ff5c5c;
+      --yellow: #ffcf4a;
+      --blue: #55a7ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .app {
+      width: min(1180px, calc(100% - 32px));
+      margin: 32px auto;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1;
+    }
+
+    .intro {
+      margin: 0 0 24px;
+      color: var(--muted);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 10px;
+      padding: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    input,
+    button,
+    select {
+      min-height: 44px;
+      border-radius: 9px;
+      font: inherit;
+    }
+
+    input,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      color: var(--text);
+      padding: 0 13px;
+      outline: none;
+    }
+
+    input:focus,
+    select:focus {
+      border-color: var(--orange);
+      box-shadow: 0 0 0 3px rgba(255, 106, 13, 0.18);
+    }
+
+    button {
+      border: 0;
+      padding: 0 18px;
+      background: var(--orange);
+      color: #fff;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button.secondary {
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      color: var(--text);
+    }
+
+    button:disabled {
+      opacity: .55;
+      cursor: not-allowed;
+    }
+
+    .options {
+      display: grid;
+      grid-template-columns: 180px 180px minmax(0, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+      padding: 12px 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    .summary {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    .summary strong {
+      color: var(--text);
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+
+    .card-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 12px;
+      align-items: center;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .method {
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .time {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 84px;
+      min-height: 28px;
+      border-radius: 999px;
+      padding: 0 10px;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      background: #333;
+    }
+
+    .status.pending {
+      color: var(--yellow);
+      background: rgba(255, 207, 74, .12);
+    }
+
+    .status.success {
+      color: var(--green);
+      background: rgba(53, 196, 106, .12);
+    }
+
+    .status.partial {
+      color: var(--yellow);
+      background: rgba(255, 207, 74, .12);
+    }
+
+    .status.failed {
+      color: var(--red);
+      background: rgba(255, 92, 92, .12);
+    }
+
+    .status.aborted {
+      color: var(--muted);
+      background: rgba(169, 175, 184, .12);
+    }
+
+    .card-body {
+      display: grid;
+      grid-template-columns: 180px minmax(0, 1fr);
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .preview {
+      width: 180px;
+      aspect-ratio: 16 / 9;
+      border-radius: 9px;
+      background:
+        linear-gradient(45deg, #1e2024 25%, transparent 25%),
+        linear-gradient(-45deg, #1e2024 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #1e2024 75%),
+        linear-gradient(-45deg, transparent 75%, #1e2024 75%);
+      background-size: 18px 18px;
+      background-position: 0 0, 0 9px, 9px -9px, -9px 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+
+    .preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .details {
+      min-width: 0;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 130px minmax(0, 1fr);
+      gap: 10px;
+      margin-bottom: 9px;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .value {
+      overflow-wrap: anywhere;
+      font-size: 14px;
+    }
+
+    .value.ok {
+      color: var(--green);
+    }
+
+    .value.bad {
+      color: var(--red);
+    }
+
+    details {
+      margin-top: 10px;
+    }
+
+    summary {
+      cursor: pointer;
+      color: var(--blue);
+    }
+
+    pre {
+      margin: 10px 0 0;
+      padding: 12px;
+      max-height: 260px;
+      overflow: auto;
+      border-radius: 8px;
+      background: #0c0d0f;
+      border: 1px solid var(--line);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .winner {
+      border-color: var(--green);
+      box-shadow: 0 0 0 2px rgba(53, 196, 106, .14);
+    }
+
+    @media (max-width: 760px) {
+      .controls,
+      .options {
+        grid-template-columns: 1fr;
+      }
+
+      .card-head {
+        grid-template-columns: 1fr auto;
+      }
+
+      .time {
+        grid-column: 1 / -1;
+      }
+
+      .card-body {
+        grid-template-columns: 1fr;
+      }
+
+      .preview {
+        width: 100%;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+        gap: 3px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>Game Rant Fetch Method Tester</h1>
+    <p class="intro">Tests each article-fetch method independently and reports timing, title extraction, featured-image extraction, and image load success.</p>
+
+    <section class="controls">
+      <input id="urlInput" type="url" value="https://gamerant.com/roblox-anime-expeditions-codes-discord-link/" placeholder="Paste a Game Rant article URL" />
+      <button id="runBtn" type="button">Run Tests</button>
+      <button id="stopBtn" class="secondary" type="button" disabled>Stop</button>
+    </section>
+
+    <section class="options">
+      <select id="timeoutSelect" aria-label="Timeout">
+        <option value="3000">3 second timeout</option>
+        <option value="5000" selected>5 second timeout</option>
+        <option value="8000">8 second timeout</option>
+        <option value="12000">12 second timeout</option>
+      </select>
+
+      <select id="modeSelect" aria-label="Run mode">
+        <option value="parallel" selected>Run in parallel</option>
+        <option value="sequential">Run sequentially</option>
+      </select>
+
+      <select id="imageModeSelect" aria-label="Image validation">
+        <option value="validate" selected>Validate image load</option>
+        <option value="skip">Skip image validation</option>
+      </select>
+    </section>
+
+    <div id="summary" class="summary">Ready.</div>
+    <section id="results" class="grid"></section>
+  </main>
+
+  <script>
+    const urlInput = document.getElementById('urlInput');
+    const runBtn = document.getElementById('runBtn');
+    const stopBtn = document.getElementById('stopBtn');
+    const timeoutSelect = document.getElementById('timeoutSelect');
+    const modeSelect = document.getElementById('modeSelect');
+    const imageModeSelect = document.getElementById('imageModeSelect');
+    const results = document.getElementById('results');
+    const summary = document.getElementById('summary');
+
+    let activeControllers = [];
+
+    const methods = [
+      {
+        id: 'direct',
+        name: 'Direct fetch',
+        buildUrl: url => url,
+        parseResponse: async response => response.text()
+      },
+      {
+        id: 'allorigins-raw',
+        name: 'AllOrigins raw',
+        buildUrl: url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+        parseResponse: async response => response.text()
+      },
+      {
+        id: 'allorigins-json',
+        name: 'AllOrigins JSON',
+        buildUrl: url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+        parseResponse: async response => {
+          const data = await response.json();
+          return data.contents || '';
+        }
+      },
+      {
+        id: 'corsproxy',
+        name: 'corsproxy.io',
+        buildUrl: url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+        parseResponse: async response => response.text()
+      },
+      {
+        id: 'codetabs',
+        name: 'CodeTabs proxy',
+        buildUrl: url => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+        parseResponse: async response => response.text()
+      },
+      {
+        id: 'jina',
+        name: 'Jina AI reader',
+        buildUrl: url => `https://r.jina.ai/http://${url.replace(/^https?:\/\//i, '')}`,
+        parseResponse: async response => response.text(),
+        jina: true
+      }
+    ];
+
+    function normalizeUrl(value) {
+      const trimmed = value.trim();
+      const url = new URL(trimmed);
+      if (!/^https?:$/.test(url.protocol)) {
+        throw new Error('Only HTTP and HTTPS URLs are supported.');
+      }
+      return url.href;
+    }
+
+    function decodeHtml(value) {
+      const textarea = document.createElement('textarea');
+      textarea.innerHTML = value || '';
+      return textarea.value;
+    }
+
+    function cleanImageUrl(value, baseUrl) {
+      if (!value) return '';
+      let result = decodeHtml(value.trim());
+      try {
+        result = new URL(result, baseUrl).href;
+      } catch {}
+      return result;
+    }
+
+    function extractFromHtml(html, articleUrl) {
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+
+      const h1 =
+        doc.querySelector('h1.article-header-title')?.textContent?.trim() ||
+        doc.querySelector('article h1')?.textContent?.trim() ||
+        doc.querySelector('main h1')?.textContent?.trim() ||
+        doc.querySelector('h1')?.textContent?.trim() ||
+        '';
+
+      const ogImage = doc.querySelector('meta[property="og:image"]')?.getAttribute('content') || '';
+      const twitterImage = doc.querySelector('meta[name="twitter:image"]')?.getAttribute('content') || '';
+
+      let jsonLdHeadline = '';
+      let jsonLdImage = '';
+
+      for (const script of doc.querySelectorAll('script[type="application/ld+json"]')) {
+        try {
+          const data = JSON.parse(script.textContent);
+          const items = Array.isArray(data) ? data : [data];
+
+          for (const item of items) {
+            if (!item || typeof item !== 'object') continue;
+
+            const type = Array.isArray(item['@type']) ? item['@type'] : [item['@type']];
+            const isArticle = type.some(value => /Article|NewsArticle|BlogPosting/i.test(String(value || '')));
+
+            if (isArticle) {
+              if (!jsonLdHeadline && item.headline) {
+                jsonLdHeadline = String(item.headline).trim();
+              }
+
+              if (!jsonLdImage && item.image) {
+                if (typeof item.image === 'string') {
+                  jsonLdImage = item.image;
+                } else if (Array.isArray(item.image)) {
+                  const first = item.image[0];
+                  jsonLdImage = typeof first === 'string'
+                    ? first
+                    : first?.contentUrl || first?.url || '';
+                } else if (typeof item.image === 'object') {
+                  jsonLdImage = item.image.contentUrl || item.image.url || '';
+                }
+              }
+            }
+          }
+        } catch {}
+      }
+
+      const title =
+        h1 ||
+        jsonLdHeadline ||
+        doc.querySelector('meta[property="og:title"]')?.getAttribute('content')?.trim() ||
+        doc.querySelector('title')?.textContent?.trim() ||
+        '';
+
+      const image =
+        cleanImageUrl(ogImage, articleUrl) ||
+        cleanImageUrl(jsonLdImage, articleUrl) ||
+        cleanImageUrl(twitterImage, articleUrl);
+
+      return {
+        title,
+        image,
+        titleSource: h1
+          ? 'H1'
+          : jsonLdHeadline
+            ? 'JSON-LD headline'
+            : doc.querySelector('meta[property="og:title"]')
+              ? 'og:title'
+              : 'document title',
+        imageSource: ogImage
+          ? 'og:image'
+          : jsonLdImage
+            ? 'JSON-LD image'
+            : twitterImage
+              ? 'twitter:image'
+              : 'none'
+      };
+    }
+
+    function extractFromJina(text, articleUrl) {
+      const lines = text.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+
+      let title = '';
+      for (const line of lines) {
+        const match = line.match(/^#\s+(.+)/);
+        if (match) {
+          title = match[1].trim();
+          break;
+        }
+      }
+
+      if (!title) {
+        const titleLine = lines.find(line => /^Title:\s*/i.test(line));
+        title = titleLine ? titleLine.replace(/^Title:\s*/i, '').trim() : '';
+      }
+
+      let image = '';
+      const markdownImages = [...text.matchAll(/!\[[^\]]*]\((https?:\/\/[^)\s]+)\)/g)];
+      for (const match of markdownImages) {
+        const candidate = cleanImageUrl(match[1], articleUrl);
+        if (/gamerantimages\.com/i.test(candidate) && !/logo|avatar|profile|favicon/i.test(candidate)) {
+          image = candidate;
+          break;
+        }
+      }
+
+      return {
+        title,
+        image,
+        titleSource: title ? 'Markdown H1 / Title line' : 'none',
+        imageSource: image ? 'Markdown image' : 'none'
+      };
+    }
+
+    function validateImage(url, timeoutMs) {
+      return new Promise(resolve => {
+        if (!url) {
+          resolve({ ok: false, error: 'No image URL found', duration: 0 });
+          return;
+        }
+
+        const start = performance.now();
+        const img = new Image();
+        const timer = setTimeout(() => {
+          img.src = '';
+          resolve({
+            ok: false,
+            error: `Image load timed out after ${timeoutMs} ms`,
+            duration: Math.round(performance.now() - start)
+          });
+        }, timeoutMs);
+
+        img.onload = () => {
+          clearTimeout(timer);
+          resolve({
+            ok: true,
+            width: img.naturalWidth,
+            height: img.naturalHeight,
+            duration: Math.round(performance.now() - start)
+          });
+        };
+
+        img.onerror = () => {
+          clearTimeout(timer);
+          resolve({
+            ok: false,
+            error: 'Browser could not load the image',
+            duration: Math.round(performance.now() - start)
+          });
+        };
+
+        img.referrerPolicy = 'no-referrer';
+        img.src = url;
+      });
+    }
+
+    function createCard(method) {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.id = `result-${method.id}`;
+      card.innerHTML = `
+        <div class="card-head">
+          <div class="method">${method.name}</div>
+          <div class="time">—</div>
+          <div class="status pending">Waiting</div>
+        </div>
+        <div class="card-body">
+          <div class="preview"></div>
+          <div class="details">
+            <div class="row">
+              <div class="label">Request URL</div>
+              <div class="value request-url">—</div>
+            </div>
+            <div class="row">
+              <div class="label">HTTP status</div>
+              <div class="value http-status">—</div>
+            </div>
+            <div class="row">
+              <div class="label">Title</div>
+              <div class="value title">—</div>
+            </div>
+            <div class="row">
+              <div class="label">Title source</div>
+              <div class="value title-source">—</div>
+            </div>
+            <div class="row">
+              <div class="label">Featured image</div>
+              <div class="value image-url">—</div>
+            </div>
+            <div class="row">
+              <div class="label">Image source</div>
+              <div class="value image-source">—</div>
+            </div>
+            <div class="row">
+              <div class="label">Image validation</div>
+              <div class="value image-validation">—</div>
+            </div>
+            <div class="row">
+              <div class="label">Error</div>
+              <div class="value error">—</div>
+            </div>
+            <details>
+              <summary>Response preview</summary>
+              <pre class="response-preview">—</pre>
+            </details>
+          </div>
+        </div>
+      `;
+      results.appendChild(card);
+      return card;
+    }
+
+    function setCardState(card, state, label) {
+      const status = card.querySelector('.status');
+      status.className = `status ${state}`;
+      status.textContent = label;
+    }
+
+    function renderResult(card, result) {
+      card.querySelector('.time').textContent = `${result.duration} ms`;
+      card.querySelector('.request-url').textContent = result.requestUrl || '—';
+      card.querySelector('.http-status').textContent = result.httpStatus || '—';
+      card.querySelector('.title').textContent = result.title || 'Not found';
+      card.querySelector('.title-source').textContent = result.titleSource || '—';
+      card.querySelector('.image-url').textContent = result.image || 'Not found';
+      card.querySelector('.image-source').textContent = result.imageSource || '—';
+      card.querySelector('.error').textContent = result.error || '—';
+      card.querySelector('.response-preview').textContent = result.responsePreview || '—';
+
+      const titleValue = card.querySelector('.title');
+      const imageValue = card.querySelector('.image-url');
+      titleValue.className = `value title ${result.title ? 'ok' : 'bad'}`;
+      imageValue.className = `value image-url ${result.image ? 'ok' : 'bad'}`;
+
+      const validation = card.querySelector('.image-validation');
+      const preview = card.querySelector('.preview');
+
+      if (result.imageValidationSkipped) {
+        validation.textContent = 'Skipped';
+      } else if (result.imageValidation?.ok) {
+        validation.textContent =
+          `Loaded ${result.imageValidation.width}×${result.imageValidation.height} in ${result.imageValidation.duration} ms`;
+        validation.className = 'value image-validation ok';
+
+        const img = document.createElement('img');
+        img.src = result.image;
+        img.alt = '';
+        img.referrerPolicy = 'no-referrer';
+        preview.replaceChildren(img);
+      } else {
+        validation.textContent = result.imageValidation?.error || 'Not tested';
+        validation.className = 'value image-validation bad';
+      }
+
+      if (result.aborted) {
+        setCardState(card, 'aborted', 'Stopped');
+      } else if (result.title && result.image && (result.imageValidationSkipped || result.imageValidation?.ok)) {
+        setCardState(card, 'success', 'Success');
+      } else if (result.title || result.image) {
+        setCardState(card, 'partial', 'Partial');
+      } else {
+        setCardState(card, 'failed', 'Failed');
+      }
+    }
+
+    async function testMethod(method, articleUrl, timeoutMs, validateImages) {
+      const controller = new AbortController();
+      activeControllers.push(controller);
+
+      const requestUrl = method.buildUrl(articleUrl);
+      const start = performance.now();
+      const timeout = setTimeout(() => controller.abort('timeout'), timeoutMs);
+
+      try {
+        const response = await fetch(requestUrl, {
+          signal: controller.signal,
+          redirect: 'follow',
+          cache: 'no-store',
+          credentials: 'omit',
+          headers: {
+            'Accept': 'text/html,application/xhtml+xml,application/json,text/plain;q=0.9,*/*;q=0.8'
+          }
+        });
+
+        const body = await method.parseResponse(response);
+        clearTimeout(timeout);
+
+        const extracted = method.jina
+          ? extractFromJina(body, articleUrl)
+          : extractFromHtml(body, articleUrl);
+
+        const imageValidation = validateImages
+          ? await validateImage(extracted.image, timeoutMs)
+          : null;
+
+        return {
+          methodId: method.id,
+          methodName: method.name,
+          requestUrl,
+          httpStatus: `${response.status} ${response.statusText}`.trim(),
+          duration: Math.round(performance.now() - start),
+          title: extracted.title,
+          image: extracted.image,
+          titleSource: extracted.titleSource,
+          imageSource: extracted.imageSource,
+          imageValidation,
+          imageValidationSkipped: !validateImages,
+          responsePreview: body.slice(0, 3000),
+          error: response.ok ? '' : `HTTP ${response.status}`
+        };
+      } catch (error) {
+        clearTimeout(timeout);
+
+        const aborted = controller.signal.aborted;
+        return {
+          methodId: method.id,
+          methodName: method.name,
+          requestUrl,
+          httpStatus: '—',
+          duration: Math.round(performance.now() - start),
+          title: '',
+          image: '',
+          titleSource: '—',
+          imageSource: '—',
+          imageValidation: null,
+          imageValidationSkipped: !validateImages,
+          responsePreview: '—',
+          aborted,
+          error: aborted
+            ? (controller.signal.reason === 'timeout'
+              ? `Timed out after ${timeoutMs} ms`
+              : 'Stopped by user')
+            : `${error.name}: ${error.message}`
+        };
+      } finally {
+        activeControllers = activeControllers.filter(item => item !== controller);
+      }
+    }
+
+    function markWinner(allResults) {
+      document.querySelectorAll('.card').forEach(card => card.classList.remove('winner'));
+
+      const successes = allResults
+        .filter(item =>
+          item.title &&
+          item.image &&
+          (item.imageValidationSkipped || item.imageValidation?.ok)
+        )
+        .sort((a, b) => a.duration - b.duration);
+
+      if (successes.length) {
+        document.getElementById(`result-${successes[0].methodId}`)?.classList.add('winner');
+      }
+
+      return successes[0] || null;
+    }
+
+    function updateSummary(allResults, winner) {
+      const successCount = allResults.filter(item =>
+        item.title &&
+        item.image &&
+        (item.imageValidationSkipped || item.imageValidation?.ok)
+      ).length;
+
+      const partialCount = allResults.filter(item =>
+        (item.title || item.image) &&
+        !(item.title && item.image && (item.imageValidationSkipped || item.imageValidation?.ok))
+      ).length;
+
+      const failedCount = allResults.length - successCount - partialCount;
+
+      summary.innerHTML = winner
+        ? `<strong>Fastest complete method:</strong> ${winner.methodName} (${winner.duration} ms). ` +
+          `<strong>Complete:</strong> ${successCount}. <strong>Partial:</strong> ${partialCount}. <strong>Failed:</strong> ${failedCount}.`
+        : `<strong>No method returned a complete, validated title and featured image.</strong> ` +
+          `Partial: ${partialCount}. Failed: ${failedCount}.`;
+    }
+
+    async function runTests() {
+      let articleUrl;
+
+      try {
+        articleUrl = normalizeUrl(urlInput.value);
+      } catch (error) {
+        summary.textContent = error.message;
+        urlInput.focus();
+        return;
+      }
+
+      const timeoutMs = Number(timeoutSelect.value);
+      const mode = modeSelect.value;
+      const validateImages = imageModeSelect.value === 'validate';
+
+      activeControllers.forEach(controller => controller.abort('restart'));
+      activeControllers = [];
+
+      results.innerHTML = '';
+      summary.textContent = 'Running tests…';
+      runBtn.disabled = true;
+      stopBtn.disabled = false;
+
+      const cards = new Map();
+      for (const method of methods) {
+        cards.set(method.id, createCard(method));
+      }
+
+      const completed = [];
+
+      const runOne = async method => {
+        const card = cards.get(method.id);
+        setCardState(card, 'pending', 'Running');
+        const result = await testMethod(method, articleUrl, timeoutMs, validateImages);
+        completed.push(result);
+        renderResult(card, result);
+        return result;
+      };
+
+      let allResults;
+
+      if (mode === 'parallel') {
+        allResults = await Promise.all(methods.map(runOne));
+      } else {
+        allResults = [];
+        for (const method of methods) {
+          const result = await runOne(method);
+          allResults.push(result);
+        }
+      }
+
+      const winner = markWinner(allResults);
+      updateSummary(allResults, winner);
+
+      runBtn.disabled = false;
+      stopBtn.disabled = true;
+    }
+
+    runBtn.addEventListener('click', runTests);
+
+    stopBtn.addEventListener('click', () => {
+      activeControllers.forEach(controller => controller.abort('user'));
+      activeControllers = [];
+      stopBtn.disabled = true;
+      summary.textContent = 'Stopping active requests…';
+    });
+
+    urlInput.addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        runTests();
+      }
+    });
+  </script>
+</body>
+</html>
