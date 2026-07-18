@@ -7,18 +7,18 @@
   "name": "[RETURN + UPD6] Anime Astral Simulator",
   "creatorName": "StarX Inc",
   "creatorType": "Group",
-  "playing": 27412,
-  "visits": 6550391,
-  "favorites": 16221,
-  "likes": 8421,
+  "playing": 27361,
+  "visits": 6555792,
+  "favorites": 16224,
+  "likes": 8422,
   "dislikes": 104,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bb9fbe82c908e777993d6d0d8a47c0ea/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/102072869879193",
-  "fetchedAtUtc": "2026-07-18 06:18:39",
+  "fetchedAtUtc": "2026-07-18 06:23:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 06:18:39",
-    "updatedAtTs": 1784355519,
+    "updatedAt": "2026-07-18 06:23:59",
+    "updatedAtTs": 1784355839,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784355519,
-        27412
+        1784355839,
+        27361
       ],
       "peak7d": [
         1784318913,
@@ -515,6 +515,10 @@
         [
           1784355519,
           27412
+        ],
+        [
+          1784355839,
+          27361
         ]
       ]
     }

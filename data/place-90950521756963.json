@@ -7,18 +7,18 @@
   "name": "Missile Empire",
   "creatorName": "#Catalyst Games",
   "creatorType": "Group",
-  "playing": 315,
-  "visits": 11112992,
+  "playing": 323,
+  "visits": 11113149,
   "favorites": 29831,
   "likes": 31756,
   "dislikes": 1111,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bf2709cb52dc3f5b0267ed90a883fde3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/90950521756963",
-  "fetchedAtUtc": "2026-07-18 06:18:39",
+  "fetchedAtUtc": "2026-07-18 06:23:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 06:18:39",
-    "updatedAtTs": 1784355519,
+    "updatedAt": "2026-07-18 06:23:59",
+    "updatedAtTs": 1784355839,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784355519,
-        315
+        1784355839,
+        323
       ],
       "peak7d": [
-        1784319517,
-        320
+        1784355839,
+        323
       ]
     },
     "series": {
@@ -515,6 +515,10 @@
         [
           1784355519,
           315
+        ],
+        [
+          1784355839,
+          323
         ]
       ]
     }

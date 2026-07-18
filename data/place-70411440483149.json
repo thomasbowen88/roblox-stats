@@ -7,18 +7,18 @@
   "name": "100 Days At Sea",
   "creatorName": "Stranded Devs",
   "creatorType": "Group",
-  "playing": 65683,
-  "visits": 172965411,
-  "favorites": 4539139,
-  "likes": 398248,
+  "playing": 65610,
+  "visits": 172986401,
+  "favorites": 4539773,
+  "likes": 398278,
   "dislikes": 10926,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6b77758d38b48eb5a465740703515390/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/70411440483149",
-  "fetchedAtUtc": "2026-07-18 06:18:39",
+  "fetchedAtUtc": "2026-07-18 06:23:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 06:18:39",
-    "updatedAtTs": 1784355519,
+    "updatedAt": "2026-07-18 06:23:59",
+    "updatedAtTs": 1784355839,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784355519,
-        65683
+        1784355839,
+        65610
       ],
       "peak7d": [
         1784354314,
@@ -515,6 +515,10 @@
         [
           1784355519,
           65683
+        ],
+        [
+          1784355839,
+          65610
         ]
       ]
     }

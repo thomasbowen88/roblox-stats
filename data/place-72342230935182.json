@@ -7,18 +7,18 @@
   "name": "[COSMETICS] Slap a Zombie",
   "creatorName": "ExtraJuicy",
   "creatorType": "Group",
-  "playing": 409,
-  "visits": 8411058,
+  "playing": 400,
+  "visits": 8411258,
   "favorites": 16344,
   "likes": 10680,
-  "dislikes": 2720,
+  "dislikes": 2721,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d746115d5822614c03b84ff49c3efe20/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72342230935182",
-  "fetchedAtUtc": "2026-07-18 06:18:39",
+  "fetchedAtUtc": "2026-07-18 06:23:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 06:18:39",
-    "updatedAtTs": 1784355519,
+    "updatedAt": "2026-07-18 06:23:59",
+    "updatedAtTs": 1784355839,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784355519,
-        409
+        1784355839,
+        400
       ],
       "peak7d": [
         1784343213,
@@ -515,6 +515,10 @@
         [
           1784355519,
           409
+        ],
+        [
+          1784355839,
+          400
         ]
       ]
     }
