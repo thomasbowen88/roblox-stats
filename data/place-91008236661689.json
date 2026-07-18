@@ -4,21 +4,21 @@
   "placeId": "91008236661689",
   "rootPlaceId": "91008236661689",
   "universeId": "9766601170",
-  "name": "[UP]Car For Sale",
+  "name": "[EVENT]Car For Sale",
   "creatorName": "21 Interactive",
   "creatorType": "Group",
-  "playing": 571,
-  "visits": 3465333,
+  "playing": 581,
+  "visits": 3465575,
   "favorites": 15038,
   "likes": 5093,
   "dislikes": 1959,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d422c8fdaa7eb65fac13afafe1a51d87/512/512/Image/Png/noFilter",
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a2ff80349ed0ce3fbd643a479e6a0003/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91008236661689",
-  "fetchedAtUtc": "2026-07-18 15:08:45",
+  "fetchedAtUtc": "2026-07-18 15:13:35",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-18 15:08:45",
-    "updatedAtTs": 1784387325,
+    "updatedAt": "2026-07-18 15:13:35",
+    "updatedAtTs": 1784387615,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784387325,
-        571
+        1784387615,
+        581
       ],
       "peak7d": [
         1784319821,
@@ -879,6 +879,10 @@
         [
           1784387325,
           571
+        ],
+        [
+          1784387615,
+          581
         ]
       ]
     }
