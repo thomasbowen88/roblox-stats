@@ -7,18 +7,18 @@
   "name": "[FIXED] Missile Empire",
   "creatorName": "#Catalyst Games",
   "creatorType": "Group",
-  "playing": 345,
-  "visits": 11182721,
-  "favorites": 29903,
+  "playing": 369,
+  "visits": 11182886,
+  "favorites": 29904,
   "likes": 31825,
   "dislikes": 1119,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d9250c7229894f6bac1eaf7a8d3f13ee/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/90950521756963",
-  "fetchedAtUtc": "2026-07-19 05:53:53",
+  "fetchedAtUtc": "2026-07-19 05:57:34",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-19 05:53:53",
-    "updatedAtTs": 1784440433,
+    "updatedAt": "2026-07-19 05:57:34",
+    "updatedAtTs": 1784440654,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784440433,
-        345
+        1784440654,
+        369
       ],
       "peak7d": [
         1784391210,
@@ -1411,6 +1411,10 @@
         [
           1784440433,
           345
+        ],
+        [
+          1784440654,
+          369
         ]
       ]
     }
