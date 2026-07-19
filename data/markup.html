@@ -335,19 +335,22 @@ const fullscreenLogoUrl="https://static0.gamerantimages.com/wordpress/wp-content
 const fullscreenLogo=await loadImage(fullscreenLogoUrl,true);
 const vignetteSvg=`data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650"><defs><linearGradient id="g" x1="0" y1="${isBottom?1:0}" x2="0" y2="${isBottom?0:1}"><stop offset="0" stop-color="#000" stop-opacity="0.68"/><stop offset="0.48" stop-color="#000" stop-opacity="0.30"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient></defs><rect width="1080" height="650" fill="url(#g)"/></svg>`)}`;
 const vignette=await loadImage(vignetteSvg,false);
-const headline={id:2,type:"text",x:540,y:100,scale:1,rotation:0,text:title,fontSize:120,fontFamily:"Khand",fontWeight:"700",color:"#ffffff",textAlign:"center",lineHeight:1.0,letterSpacing:0,uppercase:true,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:highlightTags?[...tags]:[],tagColor:"#ff6b0f",layerName:"Headline",visible:true,opacity:100};
-const contentTypeText={id:3,type:"text",x:540,y:60,scale:1,rotation:0,text:contentType,fontSize:50,fontFamily:"Khand",fontWeight:"700",color:"#ffffff",textAlign:"center",lineHeight:1,letterSpacing:0,uppercase:true,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:[],tagColor:"#ff6b0f",layerName:"Content Type",visible:true,opacity:100};
+const headline={id:2,type:"text",x:540,y:100,scale:1,rotation:0,text:title,fontSize:120,fontFamily:"Khand",fontWeight:"700",color:"#ffffff",textAlign:"center",lineHeight:0.8,letterSpacing:0,uppercase:true,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:highlightTags?[...tags]:[],tagColor:"#ff6b0f",layerName:"Headline",visible:true,opacity:100};
+const contentTypeText={id:3,type:"text",x:540,y:60,scale:1,rotation:0,text:contentType,fontSize:50,fontFamily:"Khand",fontWeight:"700",color:"#ffffff",textAlign:"center",lineHeight:0.8,letterSpacing:0,uppercase:true,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:[],tagColor:"#ff6b0f",layerName:"Content Type",visible:true,opacity:100};
 await ensureTextFonts([headline,contentTypeText]);
 const headlineHeight=textBlockMetrics(headline).h,contentTypeHeight=textBlockMetrics(contentTypeText).h;
 const fullscreenLogoScale=330/fullscreenLogo.naturalWidth,fullscreenLogoHeight=fullscreenLogo.naturalHeight*fullscreenLogoScale;
 const edge=100;
 if(isBottom){
-const headlineBottom=1350-edge;
+const headlineBottom=1350-45;
 headline.y=headlineBottom-headlineHeight/2;
-contentTypeText.y=headline.y-headlineHeight/2-20-contentTypeHeight/2;
+const contentTypeBottom=headline.y-headlineHeight/2-10;
+contentTypeText.y=contentTypeBottom-contentTypeHeight/2;
 }else{
-contentTypeText.y=edge+contentTypeHeight/2+10;
-headline.y=contentTypeText.y+contentTypeHeight/2+20+headlineHeight/2;
+const contentTypeTop=45;
+contentTypeText.y=contentTypeTop+contentTypeHeight/2;
+const headlineTop=contentTypeText.y+contentTypeHeight/2+10;
+headline.y=headlineTop+headlineHeight/2;
 }
 const objects=[
 {id:1,type:"overlay",x:540,y:isBottom?1025:325,scale:1,rotation:0,src:vignetteSvg,image:vignette,name:isBottom?"bottom-vignette.svg":"top-vignette.svg",layerName:isBottom?"Bottom Vignette":"Top Vignette",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},
