@@ -203,7 +203,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 
 .cms-preview-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,300px);gap:18px;align-items:start}.cms-preview-stack{display:grid;gap:16px}.cms-preview-item h3{margin:0 0 8px;font:700 18px/1 Khand,Roboto,sans-serif;text-transform:uppercase}.cms-preview-frame{overflow:hidden;border:1px solid var(--line);background:#111}.cms-preview-frame img{display:block;width:100%;height:100%}.cms-preview-full{aspect-ratio:16/9}.cms-preview-full img{object-fit:contain}.cms-preview-mobile{aspect-ratio:4/3}.cms-preview-mobile img{object-fit:cover;object-position:center}.cms-preview-thumbnail{aspect-ratio:16/9}.cms-preview-thumbnail img{object-fit:cover;object-position:center}#cmsPreviewDialog{width:min(1100px,calc(100vw - 32px))}@media(max-width:760px){.cms-preview-grid{grid-template-columns:1fr}}@media(max-width:1180px), (orientation:portrait){.right #imageAdjustControls #resetAdjustmentsBtn{grid-column:1/-1;width:100%;align-self:end}}
 
-#templateChoiceDialog .section{width:100%}#templateChoiceDialog .field{width:100%}#templateChoiceDialog #templateArticleUrl{width:100%;min-height:126px;display:block;resize:vertical}#templateUrlActions{display:grid;grid-template-columns:1fr;gap:8px;align-items:stretch}#loadTemplateArticleBtn{width:100%}#templateLoadResult{display:grid;gap:8px;margin-top:10px}#templateLoadResult.hidden{display:none}.template-load-item{display:grid;grid-template-columns:72px minmax(0,1fr);gap:10px;align-items:center;padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--panel2)}.template-load-item img{width:72px;height:54px;object-fit:cover;border-radius:5px;background:#111}.template-load-item-title{min-width:0;font-weight:700;line-height:1.25;overflow-wrap:anywhere}.template-load-item-url{margin-top:3px;color:var(--muted);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#templateLoadStatus{margin-top:7px;color:var(--muted);font-size:12px}#templateLoadStatus.error{color:#ff6b6b}#templateLoadStatus.success{color:#55c77a}@media(max-width:520px){.template-load-item{grid-template-columns:58px minmax(0,1fr)}.template-load-item img{width:58px;height:44px}}
+#templateChoiceDialog .section{width:100%}#templateChoiceDialog .field{width:100%}#templateChoiceDialog #templateArticleUrl{width:100%;min-height:126px;display:block;resize:vertical}#templateUrlActions{display:grid;grid-template-columns:1fr;gap:8px;align-items:stretch}#loadTemplateArticleBtn{width:100%}#templateLoadResult{display:grid;gap:8px;margin-top:10px}#templateLoadResult.hidden{display:none}.social-template-checks{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.template-load-item{display:grid;grid-template-columns:72px minmax(0,1fr) 40px;gap:10px;align-items:center;padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--panel2)}.template-load-item img{width:72px;height:54px;object-fit:cover;border-radius:5px;background:#111}.template-load-item-title{min-width:0;font-weight:700;line-height:1.25;overflow-wrap:anywhere}.template-load-item-url{margin-top:3px;color:var(--muted);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.template-load-item-edit{width:38px;height:38px;padding:0;display:grid;place-items:center;font-size:20px;line-height:1}#templateLoadStatus{margin-top:7px;color:var(--muted);font-size:12px}#templateLoadStatus.error,#templateArticleEditStatus.error{color:#ff6b6b}#templateLoadStatus.success{color:#55c77a}#templateArticleEditDialog{width:min(620px,calc(100vw - 32px))}#templateArticleEditTitle{min-height:98px}#templateArticleEditTags{min-height:140px}#templateArticleEditStatus{min-height:18px;margin-top:8px;color:var(--muted);font-size:12px}@media(max-width:520px){.template-load-item{grid-template-columns:58px minmax(0,1fr) 38px}.template-load-item img{width:58px;height:44px}.social-template-checks{gap:12px}}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -229,7 +229,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 <div id="backgroundControls" class="hidden"><div class="settings-fields"><div class="field"><div class="slider-label-row"><label for="imageScale">Scale</label><span id="imageScaleValue" class="slider-readout">100%</span></div><input id="imageScale" type="range" min="10" max="500" value="100"></div><div class="field"><div class="slider-label-row"><label for="imageRotation">Rotation</label><span id="imageRotationValue" class="slider-readout">0°</span></div><input id="imageRotation" type="range" min="-180" max="180" value="0"></div><div class="field"><div class="slider-label-row"><label for="imageBlur">Blur</label><span class="slider-readout"><span id="imageBlurValue">0</span> px</span></div><input id="imageBlur" type="range" min="0" max="40" value="0"></div><div id="vignetteControl" class="field hidden"><div class="slider-label-row"><label for="vignette">Vignette</label><span class="slider-readout"><span id="vignetteValue">0</span>%</span></div><input id="vignette" type="range" min="0" max="100" value="0"></div></div><div class="layer-actions"><button id="fitImageBtn">Fit</button><button id="fillImageBtn">Fill</button><button id="centerBackgroundHorizontalBtn">Center Horizontally</button><button id="centerBackgroundVerticalBtn">Center Vertically</button><div id="backgroundFlipControls"><button id="flipBackgroundHorizontalBtn">Flip Horizontally</button><button id="flipBackgroundVerticalBtn">Flip Vertically</button></div></div></div>
 <div id="selectionControls" class="hidden"><div class="settings-fields"><div class="field"><div class="slider-label-row"><label for="objectScale">Size</label><span id="objectScaleValue" class="slider-readout">100%</span></div><input id="objectScale" type="range" min="5" max="500" value="100"></div><div class="field"><div class="slider-label-row"><label for="rotation">Rotation</label><span id="rotationValue" class="slider-readout">0°</span></div><input id="rotation" type="range" min="-180" max="180" value="0"></div><div id="assetControls" class="hidden"><div class="field"><label for="assetColor">Asset color</label><input id="assetColor" type="color" value="#f15a24"></div></div><div id="textControls" class="hidden"><div class="field"><label for="textValue">Text</label><input id="textValue" type="text"></div><div class="row two"><div class="field"><label for="fontSize">Font size</label><input id="fontSize" type="number" min="8" max="500" value="48"></div><div class="field"><label for="textColor">Color</label><input id="textColor" type="color" value="#f15a24"></div></div><div class="field"><label for="fontWeight">Weight</label><select id="fontWeight"><option value="400">Regular</option><option value="700" selected>Bold</option></select></div><div class="field"><label class="check-row"><input id="textBorderEnabled" type="checkbox"> Text border</label></div><div id="textBorderOptions" class="hidden"><div class="effect-pair"><div class="field"><div class="slider-label-row"><label for="textBorderSize">Border size</label><span class="slider-readout"><span id="textBorderSizeValue">2</span> px</span></div><input id="textBorderSize" type="range" min="1" max="30" value="2"></div><div class="field color-field"><label for="textBorderColor">Color</label><input id="textBorderColor" type="color" value="#000000"></div></div></div></div><div id="effectControls" class="hidden"><div class="effect-grid"><div class="effect-pair"><div class="field"><div class="slider-label-row"><label for="shadowBlur">Drop shadow</label><span class="slider-readout"><span id="shadowBlurValue">0</span> px</span></div><input id="shadowBlur" type="range" min="0" max="100" value="0"></div><div class="field color-field"><label for="shadowColor">Color</label><input id="shadowColor" type="color" value="#000000"></div></div><div class="row two"><div class="field"><label for="shadowOffsetX">Offset X</label><input id="shadowOffsetX" type="number" min="-200" max="200" value="0"></div><div class="field"><label for="shadowOffsetY">Offset Y</label><input id="shadowOffsetY" type="number" min="-200" max="200" value="12"></div></div><div class="effect-pair"><div class="field"><div class="slider-label-row"><label for="glowBlur">Glow</label><span class="slider-readout"><span id="glowBlurValue">0</span> px</span></div><input id="glowBlur" type="range" min="0" max="100" value="0"></div><div class="field color-field"><label for="glowColor">Color</label><input id="glowColor" type="color" value="#f15a24"></div></div></div></div></div><div class="layer-actions"><button id="centerItemBtn">Center Horizontally</button><button id="centerVerticalBtn">Center Vertically</button><button id="bringFrontBtn">Bring Forward</button><button id="sendBackBtn">Send Back</button><div id="flipControls" class="hidden"><button id="flipHorizontalBtn" class="mirror-action">Mirror Horizontally</button><button id="flipVerticalBtn" class="mirror-action">Mirror Vertically</button></div></div></div></div></aside>
 </div>
-<dialog id="templateChoiceDialog"><div class="dialog-head"><h2 id="templateChoiceTitle">Choose Template</h2><button id="closeTemplateChoiceBtn">Close</button></div><div class="dialog-body"><div class="section"><h3 id="templateChoicePrompt">Choose an option</h3><div class="field"><label for="templateChoiceSelect">Option</label><select id="templateChoiceSelect"></select></div><div id="socialTemplateThemeField" class="field hidden"><label for="socialTemplateThemeSelect">Template style</label><select id="socialTemplateThemeSelect"><option value="dark" selected>Dark</option><option value="light">Light</option></select></div><div id="socialTemplateOrangeTagsField" class="field hidden"><label class="check-row"><input id="socialTemplateOrangeTags" type="checkbox"> Orange tags</label></div><div id="templateUrlField" class="field hidden"><label for="templateArticleUrl">Article URLs</label><div id="templateUrlActions"><textarea id="templateArticleUrl" inputmode="url" placeholder="Paste one Game Rant article URL per line"></textarea><button id="loadTemplateArticleBtn" type="button">Load Articles</button></div><div id="templateLoadStatus"></div><div id="templateLoadResult" class="hidden"></div></div></div></div><div class="dialog-actions"><button id="cancelTemplateChoiceBtn">Cancel</button><button id="applyTemplateChoiceBtn" class="primary">Apply Template</button></div></dialog>
+<dialog id="templateChoiceDialog"><div class="dialog-head"><h2 id="templateChoiceTitle">Choose Template</h2><button id="closeTemplateChoiceBtn">Close</button></div><div class="dialog-body"><div class="section"><h3 id="templateChoicePrompt">Choose an option</h3><div class="field"><label for="templateChoiceSelect">Option</label><select id="templateChoiceSelect"></select></div><div id="socialTemplateThemeField" class="field hidden"><label for="socialTemplateThemeSelect">Template style</label><select id="socialTemplateThemeSelect"><option value="dark" selected>Dark</option><option value="light">Light</option><option value="orange">Orange</option></select></div><div id="socialTemplateOrangeTagsField" class="field hidden"><div class="social-template-checks"><label class="check-row"><input id="socialTemplateIcymi" type="checkbox"> ICYMI</label><label class="check-row"><input id="socialTemplateOrangeTags" type="checkbox"> Highlight tags</label></div></div><div id="templateUrlField" class="field hidden"><label for="templateArticleUrl">Article URLs</label><div id="templateUrlActions"><textarea id="templateArticleUrl" inputmode="url" placeholder="Paste one Game Rant article URL per line"></textarea><button id="loadTemplateArticleBtn" type="button">Load Articles</button></div><div id="templateLoadStatus"></div><div id="templateLoadResult" class="hidden"></div></div></div></div><div class="dialog-actions"><button id="cancelTemplateChoiceBtn">Cancel</button><button id="applyTemplateChoiceBtn" class="primary">Apply Template</button></div></dialog><dialog id="templateArticleEditDialog"><div class="dialog-head"><h2>Edit Article</h2><button id="closeTemplateArticleEditBtn">Close</button></div><div class="dialog-body"><div class="section"><div class="field"><label for="templateArticleEditTitle">Title</label><textarea id="templateArticleEditTitle"></textarea></div><div id="templateArticleEditTagsField" class="field hidden"><label for="templateArticleEditTags">Highlight tags</label><textarea id="templateArticleEditTags" placeholder="One tag per line"></textarea></div><div id="templateArticleEditStatus"></div></div></div><div class="dialog-actions"><button id="cancelTemplateArticleEditBtn">Cancel</button><button id="saveTemplateArticleEditBtn" class="primary">Save</button></div></dialog>
 <dialog id="newProjectDialog"><div class="dialog-head"><h2>New Project</h2><button id="closeNewProjectBtn">Close</button></div><div class="dialog-body"><div class="section"><h3>Start over?</h3><p style="margin:0;color:var(--muted)">This will clear the current canvas. Saved projects will not be affected.</p></div></div><div class="dialog-actions"><button id="cancelNewProjectBtn">Cancel</button><button id="confirmNewProjectBtn" class="primary">Start New Project</button></div></dialog>
 <dialog id="projectDialog"><div class="dialog-head"><h2>Load Project</h2><button id="closeProjectBtn">Close</button></div><div class="dialog-body"><div class="section"><h3>Saved projects</h3><div class="field"><label for="projectSelect">Project</label><select id="projectSelect"></select></div><div class="small" id="projectDetails">No saved projects.</div></div></div><div class="dialog-actions"><button id="deleteProjectBtn">Delete</button><button id="openProjectBtn" class="primary">Load</button></div></dialog>
 <dialog id="batchBackgroundDialog"><div class="dialog-head"><h2>Add Backgrounds</h2><button id="closeBatchBackgroundBtn">Close</button></div><div class="dialog-body"><div id="batchBackgroundList" class="batch-list"></div></div><div class="dialog-actions"><button id="cancelBatchBackgroundBtn">Cancel</button><button id="confirmBatchBackgroundBtn" class="primary">Create Canvases</button></div></dialog>
@@ -300,7 +300,7 @@ function deleteLayerTarget(target){snap();if(target.kind==="object"){state.objec
 function showLayerContextMenu(e,target){e.preventDefault();e.stopPropagation();const menu=layerContextMenu();menu.style.left=Math.min(e.clientX,window.innerWidth-170)+"px";menu.style.top=Math.min(e.clientY,window.innerHeight-130)+"px";menu.classList.remove("hidden");const isVisible=target.kind==="object"?state.objects.find(x=>x.id===target.id)?.visible!==false:state.poses[target.key]?.visible!==false;menu.querySelector('[data-action="visibility"]').textContent=isVisible?"Hide":"Show";menu.querySelector('[data-action="visibility"]').onclick=()=>{menu.classList.add("hidden");snap();if(target.kind==="object"){const o=state.objects.find(x=>x.id===target.id);if(o)o.visible=o.visible===false}else{const p=state.poses[target.key];if(p)p.visible=p.visible===false}render()};menu.querySelector('[data-action="rename"]').onclick=()=>{menu.classList.add("hidden");if(target.kind==="object"){const o=state.objects.find(x=>x.id===target.id);if(o)renameLayer(layerLabel(o),value=>o.layerName=value)}else renameLayer(state.layerNames[target.key],value=>state.layerNames[target.key]=value)};menu.querySelector('[data-action="duplicate"]').onclick=()=>{menu.classList.add("hidden");duplicateLayerTarget(target)};menu.querySelector('[data-action="delete"]').onclick=()=>{menu.classList.add("hidden");deleteLayerTarget(target)}}
 function renderLayers(){if(!c.layerList)return;c.layerList.innerHTML="";for(const o of [...state.objects].reverse()){const el=document.createElement("div");el.className="layer-item"+((state.selectedIds||[]).includes(o.id)?" multi-active":"");el.draggable=true;el.dataset.id=o.id;const fullLayerName=layerLabel(o);el.title=fullLayerName;el.classList.toggle("hidden-layer",o.visible===false);const icon=document.createElement("button");icon.type="button";icon.className="layer-icon";icon.title=o.visible===false?"Show layer":"Hide layer";icon.setAttribute("aria-label",icon.title);icon.textContent=o.visible===false?"◯":"👁";icon.onclick=e=>{e.preventDefault();e.stopPropagation();snap();o.visible=o.visible===false;render()};const name=document.createElement("span");name.className="layer-name";name.textContent=fullLayerName;name.title=fullLayerName;const preview=document.createElement("canvas");preview.className="layer-preview";preview.setAttribute("aria-hidden","true");const grip=document.createElement("span");grip.className="layer-grip";grip.textContent="⋮⋮";el.append(icon,name,preview,grip);el.onclick=e=>{selectObjectId(o.id,!!e.shiftKey);showLayersFromCanvasTab();selectionUI();render()};el.ondblclick=e=>{e.preventDefault();e.stopPropagation();renameLayer(layerLabel(o),value=>o.layerName=value)};el.oncontextmenu=e=>showLayerContextMenu(e,{kind:"object",id:o.id});el.addEventListener("dragstart",e=>{el.classList.add("dragging");e.dataTransfer.setData("text/plain",String(o.id));e.dataTransfer.effectAllowed="move"});el.addEventListener("dragend",()=>el.classList.remove("dragging"));el.addEventListener("dragover",e=>{e.preventDefault();e.dataTransfer.dropEffect="move"});el.addEventListener("drop",e=>{e.preventDefault();const fromId=Number(e.dataTransfer.getData("text/plain")),toId=o.id;if(!fromId||fromId===toId)return;const from=state.objects.findIndex(x=>x.id===fromId),to=state.objects.findIndex(x=>x.id===toId);if(from<0||to<0)return;snap();const [moved]=state.objects.splice(from,1);state.objects.splice(to,0,moved);render()});c.layerList.appendChild(el);drawLayerPreview(preview,"object",o)}const keys=[...activeBackgroundKeys()].reverse();for(const key of keys){if(!state.images[key])continue;const el=document.createElement("div");el.className="layer-item locked"+(state.selected?.kind==="image"&&state.selected.key===key?" active":"");const fullLayerName=state.layerNames[key];el.title=fullLayerName;el.classList.toggle("hidden-layer",state.poses[key]?.visible===false);const icon=document.createElement("button");icon.type="button";icon.className="layer-icon";icon.title=state.poses[key]?.visible===false?"Show layer":"Hide layer";icon.setAttribute("aria-label",icon.title);icon.textContent=state.poses[key]?.visible===false?"◯":"👁";icon.onclick=e=>{e.preventDefault();e.stopPropagation();snap();state.poses[key].visible=state.poses[key].visible===false;render()};const name=document.createElement("span");name.className="layer-name";name.textContent=fullLayerName;name.title=fullLayerName;const preview=document.createElement("canvas");preview.className="layer-preview";preview.setAttribute("aria-hidden","true");const lock=document.createElement("span");lock.textContent="🔒";el.append(icon,name,preview,lock);el.onclick=()=>{state.selectedIds=[];state.selected={kind:"image",key};showLayersFromCanvasTab();selectionUI();render()};el.ondblclick=e=>{e.preventDefault();e.stopPropagation();renameLayer(state.layerNames[key],value=>state.layerNames[key]=value)};el.oncontextmenu=e=>showLayerContextMenu(e,{kind:"image",key});c.layerList.appendChild(el);drawLayerPreview(preview,"image",key)}}
 function hasExistingWork(){return Boolean(state.objects.length||state.images.single||state.images.left||state.images.center||state.images.right)}let pendingTemplateCategory=null;
-let loadedTemplateArticles=[];
+let loadedTemplateArticles=[];let editingTemplateArticleIndex=-1;
 function decodeArticleValue(value){const area=document.createElement("textarea");area.innerHTML=String(value||"").replace(/\\u0026/g,"&");return area.value.trim()}
 function decodeArticleScriptString(literal){const value=String(literal||"");if(value.length<2)return value;const quote=value[0],body=value.slice(1,-1);if(quote==='"'){try{return JSON.parse(value)}catch{}}return body.replace(/\\u\{([0-9a-fA-F]+)\}/g,(_,hex)=>String.fromCodePoint(parseInt(hex,16))).replace(/\\u([0-9a-fA-F]{4})/g,(_,hex)=>String.fromCharCode(parseInt(hex,16))).replace(/\\x([0-9a-fA-F]{2})/g,(_,hex)=>String.fromCharCode(parseInt(hex,16))).replace(/\\n/g,"\n").replace(/\\r/g,"\r").replace(/\\t/g,"\t").replace(/\\(["'`\\/])/g,"$1")}
 function uniqueArticleTags(values){const out=[],seen=new Set;for(const value of values||[]){const tag=decodeArticleValue(value).replace(/\s+/g," ").trim();if(!tag)continue;const key=tag.toLocaleLowerCase();if(seen.has(key))continue;seen.add(key);out.push(tag)}return out}
@@ -308,17 +308,199 @@ function articleTagsFromHtml(html,doc){const source=String(html||""),values=[];c
 function articleDataFromHtml(html){const doc=new DOMParser().parseFromString(html,"text/html");const title=(doc.querySelector("h1.article-header-title")||doc.querySelector("article h1")||doc.querySelector("main h1")||doc.querySelector("h1"))?.textContent?.trim()||doc.querySelector('meta[property="og:title"]')?.content?.trim()||"";const image=doc.querySelector('meta[property="og:image"]')?.content?.trim()||doc.querySelector('meta[name="twitter:image"]')?.content?.trim()||"";return{title:decodeArticleValue(title).replace(/\s+/g," ").trim(),image:decodeArticleValue(image),tags:articleTagsFromHtml(html,doc)}}
 async function fetchArticleSocialData(url){const clean=String(url||"").trim();if(!/^https?:\/\//i.test(clean))throw new Error("Enter a valid article URL.");const response=await fetch(`https://corsproxy.io/?url=${encodeURIComponent(clean)}`,{cache:"no-store",headers:{Accept:"text/html,application/xhtml+xml"}});if(!response.ok)throw new Error(`Article request failed with HTTP ${response.status}.`);const body=await response.text();if(!body)throw new Error("The article response was empty.");const found=articleDataFromHtml(body);if(!found.title||!found.image)throw new Error("Could not find the article headline and featured image.");const imageObject=await loadImage(found.image,true);return{...found,imageObject,url:clean}}
 function socialCanvasName(article,index=0){try{const slug=new URL(article.url).pathname.split("/").filter(Boolean).pop();if(slug)return slug}catch{}return article.title?.slice(0,70)||`Social ${index+1}`}
-async function createSocialMediaTemplateData(source,articleData=null,templateStyle="dark",orangeTags=false){let title="Enter Text Here",top=null,topImage="",tags=[];if(source==="url"){if(!articleData?.title||!articleData?.image||!articleData?.imageObject)throw new Error("Load the article before applying the template.");title=articleData.title;topImage=articleData.image;top=articleData.imageObject;tags=Array.isArray(articleData.tags)?articleData.tags:[]}const light=templateStyle==="light",lowerUrl=light?"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gamerant-social-bottom-background-light.jpg":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gr-social-template-background.jpg",headlineColor=light?"#232935":"#ffffff",logoUrl="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gr-logo-small.png",lineSvg=`data:image/svg+xml;charset=utf-8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="10"><rect width="1080" height="10" fill="#ff6a0d"/></svg>')}`;const [lower,logo,line]=await Promise.all([loadImage(lowerUrl,true),loadImage(logoUrl,true),loadImage(lineSvg,false),document.fonts?.load?.("700 70px Poppins")||Promise.resolve()]);return{w:1080,h:1350,mode:"single",socialMediaTemplate:true,images:{single:top,left:null,center:null,right:null},names:{single:topImage?urlName(topImage,"Featured image"):"",left:"",center:"",right:""},poses:{single:{x:540,y:403.5,scale:top?807/top.naturalHeight:1,rotation:0,blur:0},left:{x:320,y:675,scale:1,rotation:0,blur:0},center:{x:540,y:675,scale:1,rotation:0,blur:0},right:{x:760,y:675,scale:1,rotation:0,blur:0}},objects:[{id:1,type:"overlay",x:540,y:1078.5,scale:1080/lower.naturalWidth,rotation:0,src:lowerUrl,image:lower,name:urlName(lowerUrl,"Social background"),layerName:"Lower Background",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},{id:2,type:"text",x:540,y:1020,scale:1,rotation:0,text:title,fontSize:70,fontFamily:"Poppins",fontWeight:"700",color:headlineColor,textAlign:"center",lineHeight:1.05,letterSpacing:-1.4,uppercase:false,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:orangeTags?[...tags]:[],tagColor:"#ff6b0f",layerName:"Headline",visible:true,opacity:100},{id:3,type:"overlay",x:102,y:48+(logo.naturalHeight*(128/logo.naturalWidth))/2,scale:128/logo.naturalWidth,rotation:0,src:logoUrl,image:logo,name:"gr-logo-small.png",layerName:"GR Logo",visible:true,shadowBlur:10,shadowOffsetX:10,shadowOffsetY:10,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},{id:4,type:"overlay",x:540,y:812,scale:1,rotation:0,src:lineSvg,image:line,name:"orange-line.svg",layerName:"Orange Line",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100}],selected:null,selectedIds:[],nextId:5,snapping:true,vignette:0,guides:{vertical:[],horizontal:[]},layerNames:{single:"Top Image",left:"Left background",center:"Center background",right:"Right background"}}}
-async function applySocialMediaTemplate(source,articles=[],templateStyle="dark",orangeTags=false){if(source==="scratch"){const data=await createSocialMediaTemplateData("scratch",null,templateStyle,orangeTags);restore(data);state.canvasPages=[{name:"Social Media",snapshot:capture()}];state.activeCanvasIndex=0;renderCanvasList();currentProjectName="";status("Created blank social media template.");return}if(!articles.length)throw new Error("Load at least one article before applying the template.");const pages=[];for(let i=0;i<articles.length;i++){const data=await createSocialMediaTemplateData("url",articles[i],templateStyle,orangeTags);pages.push({name:socialCanvasName(articles[i],i),snapshot:data})}state.canvasPages=pages;state.activeCanvasIndex=0;restore(pages[0].snapshot);state.history=[];state.future=[];buttons();showUtility("canvases");renderCanvasList();currentProjectName="";status(`Created ${pages.length} social media canvas${pages.length===1?"":"es"}.`)}
-function resetTemplateArticleLoad(){loadedTemplateArticles=[];$("templateLoadStatus").textContent="";$("templateLoadStatus").className="";$("templateLoadResult").classList.add("hidden");$("templateLoadResult").innerHTML=""}
+async function createSocialMediaTemplateData(source,articleData=null,templateStyle="dark",highlightTags=false,showIcymi=false){
+let title="Enter Text Here",top=null,topImage="",tags=[];
+if(source==="url"){
+if(!articleData?.title||!articleData?.image||!articleData?.imageObject)throw new Error("Load the article before applying the template.");
+title=articleData.title;
+topImage=articleData.image;
+top=articleData.imageObject;
+tags=Array.isArray(articleData.tags)?articleData.tags:[];
+}
+const light=templateStyle==="light",orange=templateStyle==="orange";
+const lowerUrl=orange?"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/social-background-orange.jpg":light?"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gamerant-social-bottom-background-light.jpg":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gr-social-template-background.jpg";
+const headlineColor=light?"#232935":"#ffffff",tagColor=orange?"#232935":"#ff6b0f",lineColor=orange?"#ffffff":"#ff6a0d";
+const logoUrl="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gr-logo-small.png",icymiUrl="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/icymi.jpg";
+const lineSvg=`data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="10"><rect width="1080" height="10" fill="${lineColor}"/></svg>`)}`;
+const [lower,logo,line,icymi]=await Promise.all([loadImage(lowerUrl,true),loadImage(logoUrl,true),loadImage(lineSvg,false),showIcymi?loadImage(icymiUrl,true):Promise.resolve(null),document.fonts?.load?.("700 70px Poppins")||Promise.resolve()]);
+const objects=[
+{id:1,type:"overlay",x:540,y:1078.5,scale:1080/lower.naturalWidth,rotation:0,src:lowerUrl,image:lower,name:urlName(lowerUrl,"Social background"),layerName:"Lower Background",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},
+{id:2,type:"text",x:540,y:1020,scale:1,rotation:0,text:title,fontSize:70,fontFamily:"Poppins",fontWeight:"700",color:headlineColor,textAlign:"center",lineHeight:1.05,letterSpacing:-1.4,uppercase:false,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:highlightTags?[...tags]:[],tagColor,layerName:"Headline",visible:true,opacity:100},
+{id:3,type:"overlay",x:102,y:48+(logo.naturalHeight*(128/logo.naturalWidth))/2,scale:128/logo.naturalWidth,rotation:0,src:logoUrl,image:logo,name:"gr-logo-small.png",layerName:"GR Logo",visible:true,shadowBlur:10,shadowOffsetX:10,shadowOffsetY:10,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},
+{id:4,type:"overlay",x:540,y:812,scale:1,rotation:0,src:lineSvg,image:line,name:orange?"white-line.svg":"orange-line.svg",layerName:orange?"White Line":"Orange Line",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100}
+];
+if(icymi){
+const icymiScale=174/icymi.naturalWidth,icymiHeight=icymi.naturalHeight*icymiScale;
+objects.push({id:5,type:"overlay",x:540,y:807-25-icymiHeight/2,scale:icymiScale,rotation:0,src:icymiUrl,image:icymi,name:"icymi.jpg",layerName:"ICYMI",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100});
+}
+return{w:1080,h:1350,mode:"single",socialMediaTemplate:true,images:{single:top,left:null,center:null,right:null},names:{single:topImage?urlName(topImage,"Featured image"):"",left:"",center:"",right:""},poses:{single:{x:540,y:403.5,scale:top?807/top.naturalHeight:1,rotation:0,blur:0},left:{x:320,y:675,scale:1,rotation:0,blur:0},center:{x:540,y:675,scale:1,rotation:0,blur:0},right:{x:760,y:675,scale:1,rotation:0,blur:0}},objects,selected:null,selectedIds:[],nextId:icymi?6:5,snapping:true,vignette:0,guides:{vertical:[],horizontal:[]},layerNames:{single:"Top Image",left:"Left background",center:"Center background",right:"Right background"}};
+}
+async function applySocialMediaTemplate(source,articles=[],templateStyle="dark",highlightTags=false,showIcymi=false){
+if(source==="scratch"){
+const data=await createSocialMediaTemplateData("scratch",null,templateStyle,highlightTags,showIcymi);
+restore(data);
+state.canvasPages=[{name:"Social Media",snapshot:capture()}];
+state.activeCanvasIndex=0;
+renderCanvasList();
+currentProjectName="";
+status("Created blank social media template.");
+return;
+}
+if(!articles.length)throw new Error("Load at least one article before applying the template.");
+const pages=[];
+for(let i=0;i<articles.length;i++){
+const data=await createSocialMediaTemplateData("url",articles[i],templateStyle,highlightTags,showIcymi);
+pages.push({name:socialCanvasName(articles[i],i),snapshot:data});
+}
+state.canvasPages=pages;
+state.activeCanvasIndex=0;
+restore(pages[0].snapshot);
+state.history=[];
+state.future=[];
+buttons();
+showUtility("canvases");
+renderCanvasList();
+currentProjectName="";
+status(`Created ${pages.length} social media canvas${pages.length===1?"":"es"}.`);
+}
+function resetTemplateArticleLoad(){
+loadedTemplateArticles=[];
+editingTemplateArticleIndex=-1;
+$("templateLoadStatus").textContent="";
+$("templateLoadStatus").className="";
+$("templateLoadResult").classList.add("hidden");
+$("templateLoadResult").innerHTML="";
+}
 function templateUrls(){return[...new Set($("templateArticleUrl").value.split(/\r?\n/).map(value=>value.trim()).filter(Boolean))]}
-function syncTemplateChoiceFields(){const template=pendingTemplateCategory,choice=template?.choices?.[Number($("templateChoiceSelect").value)],showSocialOptions=!!choice?.socialMedia,showUrl=choice?.socialMedia==="url";$("socialTemplateThemeField").classList.toggle("hidden",!showSocialOptions);$("socialTemplateOrangeTagsField").classList.toggle("hidden",!showSocialOptions);$("templateUrlField").classList.toggle("hidden",!showUrl);$("applyTemplateChoiceBtn").disabled=showUrl&&!loadedTemplateArticles.length;if(showUrl)requestAnimationFrame(()=>$("templateArticleUrl").focus())}
-function openTemplateCategory(template){pendingTemplateCategory=template;$("templateChoiceTitle").textContent=template.name;$("templateChoicePrompt").textContent=template.prompt||"Choose an option";const select=$("templateChoiceSelect");select.innerHTML="";for(let i=0;i<template.choices.length;i++){const option=document.createElement("option");option.value=String(i);option.textContent=template.choices[i].name;select.appendChild(option)}$("socialTemplateThemeSelect").value="dark";$("socialTemplateOrangeTags").checked=false;$("templateArticleUrl").value="";resetTemplateArticleLoad();syncTemplateChoiceFields();$("templateChoiceDialog").showModal()}
-function renderLoadedTemplateArticles(items){const result=$("templateLoadResult");result.innerHTML="";for(const data of items){const row=document.createElement("div");row.className="template-load-item";const image=document.createElement("img");image.src=data.image;image.alt="";const details=document.createElement("div");const title=document.createElement("div");title.className="template-load-item-title";title.textContent=data.title;const url=document.createElement("div");url.className="template-load-item-url";url.textContent=data.url;details.append(title,url);row.append(image,details);result.appendChild(row)}result.classList.toggle("hidden",!items.length)}
+function syncTemplateChoiceFields(){
+const template=pendingTemplateCategory,choice=template?.choices?.[Number($("templateChoiceSelect").value)],showSocialOptions=!!choice?.socialMedia,showUrl=choice?.socialMedia==="url";
+$("socialTemplateThemeField").classList.toggle("hidden",!showSocialOptions);
+$("socialTemplateOrangeTagsField").classList.toggle("hidden",!showSocialOptions);
+$("templateUrlField").classList.toggle("hidden",!showUrl);
+$("applyTemplateChoiceBtn").disabled=showUrl&&!loadedTemplateArticles.length;
+if(showUrl)requestAnimationFrame(()=>$("templateArticleUrl").focus());
+}
+function openTemplateCategory(template){
+pendingTemplateCategory=template;
+$("templateChoiceTitle").textContent=template.name;
+$("templateChoicePrompt").textContent=template.prompt||"Choose an option";
+const select=$("templateChoiceSelect");
+select.innerHTML="";
+for(let i=0;i<template.choices.length;i++){
+const option=document.createElement("option");
+option.value=String(i);
+option.textContent=template.choices[i].name;
+select.appendChild(option);
+}
+$("socialTemplateThemeSelect").value="dark";
+$("socialTemplateIcymi").checked=false;
+$("socialTemplateOrangeTags").checked=false;
+$("templateArticleUrl").value="";
+resetTemplateArticleLoad();
+syncTemplateChoiceFields();
+$("templateChoiceDialog").showModal();
+}
+function renderLoadedTemplateArticles(items){
+const result=$("templateLoadResult");
+result.innerHTML="";
+items.forEach((data,index)=>{
+const row=document.createElement("div");
+row.className="template-load-item";
+const image=document.createElement("img");
+image.src=data.image;
+image.alt="";
+const details=document.createElement("div");
+const title=document.createElement("div");
+title.className="template-load-item-title";
+title.textContent=data.title;
+const url=document.createElement("div");
+url.className="template-load-item-url";
+url.textContent=data.url;
+details.append(title,url);
+const edit=document.createElement("button");
+edit.type="button";
+edit.className="template-load-item-edit";
+edit.textContent="⚙";
+edit.title="Edit article title and highlight tags";
+edit.setAttribute("aria-label",edit.title);
+edit.onclick=()=>openTemplateArticleEditor(index);
+row.append(image,details,edit);
+result.appendChild(row);
+});
+result.classList.toggle("hidden",!items.length);
+}
+function openTemplateArticleEditor(index){
+const data=loadedTemplateArticles[index];
+if(!data)return;
+editingTemplateArticleIndex=index;
+$("templateArticleEditTitle").value=data.title||"";
+$("templateArticleEditTags").value=(data.tags||[]).join("\n");
+$("templateArticleEditTagsField").classList.toggle("hidden",!$("socialTemplateOrangeTags").checked);
+$("templateArticleEditStatus").textContent="";
+$("templateArticleEditStatus").className="";
+$("templateArticleEditDialog").showModal();
+requestAnimationFrame(()=>$("templateArticleEditTitle").focus());
+}
+function saveTemplateArticleEdit(){
+const data=loadedTemplateArticles[editingTemplateArticleIndex];
+if(!data)return $("templateArticleEditDialog").close();
+const title=$("templateArticleEditTitle").value.replace(/\s+/g," ").trim();
+if(!title){
+$("templateArticleEditStatus").textContent="Enter a title.";
+$("templateArticleEditStatus").className="error";
+$("templateArticleEditTitle").focus();
+return;
+}
+const tags=$("socialTemplateOrangeTags").checked?uniqueArticleTags($("templateArticleEditTags").value.split(/\r?\n/)):data.tags;
+loadedTemplateArticles[editingTemplateArticleIndex]={...data,title,tags};
+renderLoadedTemplateArticles(loadedTemplateArticles);
+$("templateArticleEditDialog").close();
+}
 async function loadTemplateArticle(){const urls=templateUrls(),button=$("loadTemplateArticleBtn"),statusEl=$("templateLoadStatus");resetTemplateArticleLoad();if(!urls.length){$("templateArticleUrl").focus();statusEl.textContent="Paste at least one article URL.";statusEl.className="error";return}button.disabled=true;button.textContent="Loading…";statusEl.textContent=`Loading ${urls.length} article${urls.length===1?"":"s"}…`;statusEl.className="";try{const settled=await Promise.allSettled(urls.map(fetchArticleSocialData));const loaded=[],errors=[];settled.forEach((result,index)=>{if(result.status==="fulfilled")loaded.push(result.value);else errors.push(`${urls[index]} — ${result.reason?.message||"Failed"}`)});loadedTemplateArticles=loaded;renderLoadedTemplateArticles(loaded);if(errors.length){statusEl.textContent=`Loaded ${loaded.length} of ${urls.length}. ${errors.join(" | ")}`;statusEl.className="error";$("applyTemplateChoiceBtn").disabled=true}else{statusEl.textContent=`Loaded ${loaded.length} article${loaded.length===1?"":"s"}.`;statusEl.className="success";$("applyTemplateChoiceBtn").disabled=false}}catch(e){console.error(e);statusEl.textContent=e.message||"Could not load the articles.";statusEl.className="error";$("applyTemplateChoiceBtn").disabled=true}finally{button.disabled=false;button.textContent="Load Articles"}}
-async function applyTemplateChoice(){const template=pendingTemplateCategory,choice=template?.choices?.[Number($("templateChoiceSelect").value)];if(choice?.socialMedia){if(choice.socialMedia==="url"&&!loadedTemplateArticles.length)return status("Load the articles before applying the template.");if(hasExistingWork()&&!confirm(`Apply “${template.name}: ${choice.name}”?\n\nThis will clear your current canvases and replace them with the selected template. This action cannot be undone.`))return;try{status("Loading social media template...");await applySocialMediaTemplate(choice.socialMedia,choice.socialMedia==="url"?loadedTemplateArticles:[],$("socialTemplateThemeSelect").value,$("socialTemplateOrangeTags").checked);$("templateChoiceDialog").close()}catch(e){console.error(e);status(e.message||"Could not load the social media template.")}return}if(!choice?.data)return;if(hasExistingWork()&&!confirm(`Apply “${template.name}: ${choice.name}”?\n\nThis will clear your current canvas and replace it with the selected template. This action can be undone.`))return;try{$("templateChoiceDialog").close();status(`Loading template “${choice.name}”...`);snap();const d=structuredClone(choice.data),images={single:null,left:null,center:null,right:null};for(const key of ["single","left","center","right"])if(d.images?.[key])images[key]=await loadImage(d.images[key],true);const objects=(d.objects||[]).map(o=>({...o,shadowBlur:10,shadowOffsetX:10,shadowOffsetY:10,shadowColor:"#000000",layerName:o.layerName||urlName(o.src||o.name||"Logo","Logo").replace(/\.[^.]+$/," ").replace(/[-_]+/g," ").replace(/\b\w/g,m=>m.toUpperCase())}));await Promise.all(objects.map(async o=>{if(o.src)o.image=await loadImage(o.src,true)}));restore({...d,images,objects,selected:null,selectedIds:[]});currentProjectName="";status(`Applied template “${template.name}: ${choice.name}”.`)}catch(e){console.error(e);status(`Could not load template “${choice.name}”.`)}}
+async function applyTemplateChoice(){
+const template=pendingTemplateCategory,choice=template?.choices?.[Number($("templateChoiceSelect").value)];
+if(choice?.socialMedia){
+if(choice.socialMedia==="url"&&!loadedTemplateArticles.length)return status("Load the articles before applying the template.");
+if(hasExistingWork()&&!confirm(`Apply “${template.name}: ${choice.name}”?\n\nThis will clear your current canvases and replace them with the selected template. This action cannot be undone.`))return;
+try{
+status("Loading social media template...");
+await applySocialMediaTemplate(choice.socialMedia,choice.socialMedia==="url"?loadedTemplateArticles:[],$("socialTemplateThemeSelect").value,$("socialTemplateOrangeTags").checked,$("socialTemplateIcymi").checked);
+$("templateChoiceDialog").close();
+}catch(e){
+console.error(e);
+status(e.message||"Could not load the social media template.");
+}
+return;
+}
+if(!choice?.data)return;
+if(hasExistingWork()&&!confirm(`Apply “${template.name}: ${choice.name}”?\n\nThis will clear your current canvas and replace it with the selected template. This action can be undone.`))return;
+try{
+$("templateChoiceDialog").close();
+status(`Loading template “${choice.name}”...`);
+snap();
+const d=structuredClone(choice.data),images={single:null,left:null,center:null,right:null};
+for(const key of ["single","left","center","right"])if(d.images?.[key])images[key]=await loadImage(d.images[key],true);
+const objects=(d.objects||[]).map(o=>({...o,shadowBlur:10,shadowOffsetX:10,shadowOffsetY:10,shadowColor:"#000000",layerName:o.layerName||urlName(o.src||o.name||"Logo","Logo").replace(/\.[^.]+$/," ").replace(/[-_]+/g," ").replace(/\b\w/g,m=>m.toUpperCase())}));
+await Promise.all(objects.map(async o=>{if(o.src)o.image=await loadImage(o.src,true)}));
+restore({...d,images,objects,selected:null,selectedIds:[]});
+currentProjectName="";
+status(`Applied template “${template.name}: ${choice.name}”.`);
+}catch(e){
+console.error(e);
+status(`Could not load template “${choice.name}”.`);
+}
+}
 function renderTemplates(){const grid=$("templateGrid");grid.innerHTML="";for(const template of TEMPLATES){const button=document.createElement("button");button.className="template-card";button.type="button";button.innerHTML=`<img src="${template.thumbnail}" alt=""><span>${template.name}</span>`;button.onclick=()=>openTemplateCategory(template);grid.appendChild(button)}}renderTemplates();
-$("templateChoiceSelect").onchange=()=>{resetTemplateArticleLoad();syncTemplateChoiceFields()};$("templateArticleUrl").addEventListener("input",()=>{resetTemplateArticleLoad();syncTemplateChoiceFields()});$("templateArticleUrl").addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key==="Enter"){e.preventDefault();loadTemplateArticle()}});$("loadTemplateArticleBtn").onclick=loadTemplateArticle;$("closeTemplateChoiceBtn").onclick=()=>$("templateChoiceDialog").close();$("cancelTemplateChoiceBtn").onclick=()=>$("templateChoiceDialog").close();$("applyTemplateChoiceBtn").onclick=applyTemplateChoice;
+$("templateChoiceSelect").onchange=()=>{resetTemplateArticleLoad();syncTemplateChoiceFields()};
+$("templateArticleUrl").addEventListener("input",()=>{resetTemplateArticleLoad();syncTemplateChoiceFields()});
+$("templateArticleUrl").addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key==="Enter"){e.preventDefault();loadTemplateArticle()}});
+$("loadTemplateArticleBtn").onclick=loadTemplateArticle;
+$("closeTemplateChoiceBtn").onclick=()=>$("templateChoiceDialog").close();
+$("cancelTemplateChoiceBtn").onclick=()=>$("templateChoiceDialog").close();
+$("applyTemplateChoiceBtn").onclick=applyTemplateChoice;
+$("closeTemplateArticleEditBtn").onclick=()=>$("templateArticleEditDialog").close();
+$("cancelTemplateArticleEditBtn").onclick=()=>$("templateArticleEditDialog").close();
+$("saveTemplateArticleEditBtn").onclick=saveTemplateArticleEdit;
 function pointerIsOnWorkspaceScrollbar(e){return Boolean(workspaceScrollbarAxis(e))}workspace.addEventListener("pointerdown",e=>{if(pointerIsOnWorkspaceScrollbar(e)||e.target.closest(".canvas-wrap,.ruler,.ruler-corner,.guide,.guide-tooltip"))return;clearSelection();selectionUI();render()});
 function showLeftPanel(name){const map={background:"backgroundPanel",markup:"markupPanel",overlay:"overlayPanel",templates:"templatesPanel"};for(const [key,id] of Object.entries(map)){$(id).classList.toggle("hidden",key!==name);$(key+"PanelBtn").classList.toggle("active",key===name)}}
 $("backgroundPanelBtn").onclick=()=>showLeftPanel("background");$("markupPanelBtn").onclick=()=>showLeftPanel("markup");$("overlayPanelBtn").onclick=()=>showLeftPanel("overlay");$("templatesPanelBtn").onclick=()=>showLeftPanel("templates");
