@@ -7,18 +7,18 @@
   "name": "BedWars [🎃 JACK + BALANCE]",
   "creatorName": "Easy.gg",
   "creatorType": "Group",
-  "playing": 30120,
-  "visits": 11465002324,
-  "favorites": 4529062,
-  "likes": 2431646,
+  "playing": 30424,
+  "visits": 11465014262,
+  "favorites": 4529071,
+  "likes": 2431647,
   "dislikes": 525650,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-64d005f239236e7f3577ec996d9ade4b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6872265039",
-  "fetchedAtUtc": "2026-07-20 13:18:45",
+  "fetchedAtUtc": "2026-07-20 13:24:05",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-20 13:18:45",
-    "updatedAtTs": 1784553525,
+    "updatedAt": "2026-07-20 13:24:05",
+    "updatedAtTs": 1784553845,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784553525,
-        30120
+        1784553845,
+        30424
       ],
       "peak7d": [
-        1784553525,
-        30120
+        1784553845,
+        30424
       ]
     },
     "series": {
@@ -83,6 +83,10 @@
         [
           1784553525,
           30120
+        ],
+        [
+          1784553845,
+          30424
         ]
       ]
     }
