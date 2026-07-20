@@ -7,18 +7,18 @@
   "name": "[AZURE] Forsaken",
   "creatorName": "Forsaken Dev Team",
   "creatorType": "Group",
-  "playing": 93522,
-  "visits": 5348578034,
-  "favorites": 3030946,
-  "likes": 2294533,
-  "dislikes": 410803,
+  "playing": 93579,
+  "visits": 5348605209,
+  "favorites": 3030961,
+  "likes": 2294540,
+  "dislikes": 410805,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d617c6321e19ca67bd096866ed2136ac/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/18687417158",
-  "fetchedAtUtc": "2026-07-20 09:08:51",
+  "fetchedAtUtc": "2026-07-20 09:13:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-20 09:08:51",
-    "updatedAtTs": 1784538531,
+    "updatedAt": "2026-07-20 09:13:55",
+    "updatedAtTs": 1784538835,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784538531,
-        93522
+        1784538835,
+        93579
       ],
       "peak7d": [
         1784327028,
@@ -2551,6 +2551,10 @@
         [
           1784538531,
           93522
+        ],
+        [
+          1784538835,
+          93579
         ]
       ]
     }
