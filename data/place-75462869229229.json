@@ -7,18 +7,18 @@
   "name": "Soccer: Zero ",
   "creatorName": "Current.",
   "creatorType": "Group",
-  "playing": 674,
-  "visits": 28364515,
-  "favorites": 96877,
-  "likes": 238719,
+  "playing": 684,
+  "visits": 28364805,
+  "favorites": 96878,
+  "likes": 238724,
   "dislikes": 12445,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-24b8af5539d3564ff2315c088f662507/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75462869229229",
-  "fetchedAtUtc": "2026-07-20 19:58:43",
+  "fetchedAtUtc": "2026-07-20 20:04:15",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-20 19:58:43",
-    "updatedAtTs": 1784577523,
+    "updatedAt": "2026-07-20 20:04:15",
+    "updatedAtTs": 1784577855,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784577523,
-        674
+        1784577855,
+        684
       ],
       "peak7d": [
         1784575441,
@@ -291,6 +291,10 @@
         [
           1784577523,
           674
+        ],
+        [
+          1784577855,
+          684
         ]
       ]
     }
