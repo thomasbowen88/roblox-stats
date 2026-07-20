@@ -7,18 +7,18 @@
   "name": "Duck Duck",
   "creatorName": "Quack Quack Co.",
   "creatorType": "Group",
-  "playing": 2681,
-  "visits": 6288648,
-  "favorites": 64343,
-  "likes": 28863,
-  "dislikes": 2371,
+  "playing": 2658,
+  "visits": 6289823,
+  "favorites": 64349,
+  "likes": 28867,
+  "dislikes": 2373,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6a9eb26810fba93d5a86f76f2508c646/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/135486323963203",
-  "fetchedAtUtc": "2026-07-20 18:18:50",
+  "fetchedAtUtc": "2026-07-20 18:24:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-20 18:18:50",
-    "updatedAtTs": 1784571530,
+    "updatedAt": "2026-07-20 18:24:00",
+    "updatedAtTs": 1784571840,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784571530,
-        2681
+        1784571840,
+        2658
       ],
       "peak7d": [
         1784571530,
@@ -211,6 +211,10 @@
         [
           1784571530,
           2681
+        ],
+        [
+          1784571840,
+          2658
         ]
       ]
     }
