@@ -7,18 +7,18 @@
   "name": "Zombie Survivors [CO-OP]",
   "creatorName": "GNR Studio",
   "creatorType": "Group",
-  "playing": 101,
-  "visits": 5649497,
-  "favorites": 33689,
+  "playing": 88,
+  "visits": 5649524,
+  "favorites": 33690,
   "likes": 30946,
   "dislikes": 1668,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0d0d665cda50df2276e32cdbad977099/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108026491991900",
-  "fetchedAtUtc": "2026-07-21 06:04:10",
+  "fetchedAtUtc": "2026-07-21 06:08:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21 06:04:10",
-    "updatedAtTs": 1784613850,
+    "updatedAt": "2026-07-21 06:08:43",
+    "updatedAtTs": 1784614123,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784613850,
-        101
+        1784614123,
+        88
       ],
       "peak7d": [
         1784576046,
@@ -763,6 +763,10 @@
         [
           1784613850,
           101
+        ],
+        [
+          1784614123,
+          88
         ]
       ]
     }
