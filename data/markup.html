@@ -403,10 +403,17 @@ const lowerUrl=orange?"https://static0.gamerantimages.com/wordpress/wp-content/u
 const headlineColor=light?"#232935":"#ffffff",tagColor=orange?"#232935":"#ff6b0f",lineColor=orange?"#ffffff":"#ff6a0d";
 const logoUrl="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gr-logo-small.png",icymiUrl="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/icymi.jpg";
 const lineSvg=`data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="10"><rect width="1080" height="10" fill="${lineColor}"/></svg>`)}`;
-const [lower,logo,line,icymi]=await Promise.all([loadImage(lowerUrl,true),loadImage(logoUrl,true),loadImage(lineSvg,false),showIcymi?loadImage(icymiUrl,true):Promise.resolve(null)]);await ensureTextFonts([{type:"text",fontWeight:"700",fontSize:70,fontFamily:"Poppins"}]);
+const [lower,logo,line,icymi]=await Promise.all([loadImage(lowerUrl,true),loadImage(logoUrl,true),loadImage(lineSvg,false),showIcymi?loadImage(icymiUrl,true):Promise.resolve(null)]);
+const headline={id:2,type:"text",x:540,y:1020,scale:1,rotation:0,text:title,fontSize:70,fontFamily:"Poppins",fontWeight:"700",color:headlineColor,textAlign:"center",lineHeight:1.05,letterSpacing:-1.4,uppercase:false,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:highlightTags?[...tags]:[],tagColor,layerName:"Headline",visible:true,opacity:100};
+await ensureTextFonts([headline]);
+const headlineTopLimit=850,headlineBottomLimit=1250,headlineMaxHeight=headlineBottomLimit-headlineTopLimit;
+let headlineHeight=textBlockMetrics(headline).h;
+while(headlineHeight>headlineMaxHeight&&headline.fontSize>8){headline.fontSize=Math.max(8,headline.fontSize-1);invalidateTextMetrics();headlineHeight=textBlockMetrics(headline).h}
+headline.y=Math.max(headline.y,headlineTopLimit+headlineHeight/2);
+headline.y=Math.min(headline.y,headlineBottomLimit-headlineHeight/2);
 const objects=[
 {id:1,type:"overlay",x:540,y:1078.5,scale:1080/lower.naturalWidth,rotation:0,src:lowerUrl,image:lower,name:urlName(lowerUrl,"Social background"),layerName:"Lower Background",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},
-{id:2,type:"text",x:540,y:1020,scale:1,rotation:0,text:title,fontSize:70,fontFamily:"Poppins",fontWeight:"700",color:headlineColor,textAlign:"center",lineHeight:1.05,letterSpacing:-1.4,uppercase:false,maxWidth:940,borderEnabled:false,backgroundEnabled:false,tagColorTags:highlightTags?[...tags]:[],tagColor,layerName:"Headline",visible:true,opacity:100},
+headline,
 {id:3,type:"overlay",x:102,y:48+(logo.naturalHeight*(128/logo.naturalWidth))/2,scale:128/logo.naturalWidth,rotation:0,src:logoUrl,image:logo,name:"gr-logo-small.png",layerName:"GR Logo",visible:true,shadowBlur:10,shadowOffsetX:10,shadowOffsetY:10,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100},
 {id:4,type:"overlay",x:540,y:812,scale:1,rotation:0,src:lineSvg,image:line,name:orange?"white-line.svg":"orange-line.svg",layerName:orange?"White Line":"Orange Line",visible:true,shadowBlur:0,shadowOffsetX:0,shadowOffsetY:0,shadowColor:"#000000",glowBlur:0,glowColor:"#f15a24",brightness:100,contrast:100,saturation:100,exposure:0,temperature:0,grayscale:0,opacity:100}
 ];
