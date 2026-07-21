@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Game Rant Markup Animator</title>
+<link rel="icon" type="image/png" href="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/markuplogoapple.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/markuplogoapple.png">
+<style>
+@font-face{font-family:Khand;font-style:normal;font-weight:400;font-display:swap;src:url("https://static1.gamerantimages.com/assets/fonts/khand/khand-regular.woff2") format("woff2")}
+@font-face{font-family:Khand;font-style:normal;font-weight:700;font-display:swap;src:url("https://static1.gamerantimages.com/assets/fonts/khand/khand-bold.woff2") format("woff2")}
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url("https://static1.gamerantimages.com/assets/fonts/roboto/roboto-regular.woff2") format("woff2")}
+@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:url("https://static1.gamerantimages.com/assets/fonts/roboto/roboto-bold.woff2") format("woff2")}
+:root{color-scheme:dark;--orange:#f47938;--orange2:#d4510c;--bg:#181818;--panel:#242424;--panel2:#333;--line:#515151;--text:#fff;--muted:#b6b4b5;--surface:#252525;--input:#181818;--shadow:0 4px 14px rgba(0,0,0,.34);--header:#252525;--checker:rgba(255,255,255,.055)}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;overflow:hidden;background:var(--bg);color:var(--text);font:14px/1.45 Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit}
+button{color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:10px 13px;cursor:pointer;font-weight:700;transition:background .18s,border-color .18s,color .18s,opacity .18s,transform .18s}
+button:hover:not(:disabled){border-color:var(--orange);color:var(--orange)}
+button:active:not(:disabled){transform:translateY(1px)}
+button.primary{background:var(--orange);border-color:var(--orange);color:#fff}
+button.primary:hover:not(:disabled){background:var(--orange2);border-color:var(--orange2);color:#fff}
+button:disabled{opacity:.4;cursor:not-allowed}
+select,input[type=file]{width:100%;color:var(--text);background:var(--input);border:1px solid var(--line);border-radius:8px;padding:11px 12px}
+select:hover,select:focus,input:hover,input:focus{border-color:var(--muted);outline:none}
+input[type=range]{width:100%;accent-color:var(--orange)}
+.app{display:grid;grid-template-columns:300px minmax(0,1fr);grid-template-rows:64px minmax(0,1fr);height:100%}
+header{grid-column:1/-1;display:flex;align-items:center;gap:8px;padding:8px 16px;border-bottom:1px solid var(--line);background:var(--header);box-shadow:0 2px 8px rgba(0,0,0,.16);z-index:10}
+.brand{display:flex;align-items:center;min-width:190px}
+.brand-lockup{display:flex;flex-direction:column;align-items:stretch;width:172px;padding:0 3px}
+.brand img{display:block;width:100%;height:auto;max-height:34px}
+.brand-subtitle{display:flex;justify-content:space-between;width:100%;margin-top:2px;padding:0 2px;color:var(--text);font:700 9.5px/1 Roboto,Arial,sans-serif;white-space:nowrap}
+.spacer{flex:1}
+.status{max-width:460px;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sidebar{min-height:0;overflow:auto;padding:16px;background:var(--panel);border-right:1px solid var(--line)}
+.section{padding:14px;margin-bottom:14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.section h2{margin:0 0 12px;padding-bottom:8px;border-bottom:3px solid var(--orange);font:700 20px/1 Khand,Roboto,sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.field{margin:11px 0}
+.field>label,.field-label{display:block;margin-bottom:6px;color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.slider-label{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+.slider-label label{margin:0;color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.readout{color:var(--muted);font-size:12px;font-weight:700;white-space:nowrap}
+.drop-zone{display:grid;place-items:center;min-height:126px;padding:18px 12px;border:2px dashed var(--line);border-radius:8px;background:var(--panel2);color:var(--muted);text-align:center;cursor:pointer;transition:border-color .18s,background .18s,color .18s}
+.drop-zone:hover,.drop-zone.dragover{border-color:var(--orange);background:color-mix(in srgb,var(--orange) 9%,var(--panel2));color:var(--text)}
+.drop-zone strong{display:block;margin-bottom:4px;color:var(--text);font:700 18px/1.1 Khand,Roboto,sans-serif;text-transform:uppercase}
+.drop-zone span{display:block;font-size:12px}
+.file-name{margin-top:8px;color:var(--muted);font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.button-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.button-row button{width:100%}
+.workspace{position:relative;min-width:0;min-height:0;overflow:auto;background-color:var(--bg);background-image:linear-gradient(45deg,var(--checker) 25%,transparent 25%),linear-gradient(-45deg,var(--checker) 25%,transparent 25%),linear-gradient(45deg,transparent 75%,var(--checker) 75%),linear-gradient(-45deg,transparent 75%,var(--checker) 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0}
+.stage-shell{min-width:100%;min-height:100%;display:grid;place-items:center;padding:46px}
+.stage{position:relative;display:grid;place-items:center;max-width:100%;max-height:100%;background:#111;box-shadow:var(--shadow);overflow:hidden}
+.stage canvas{display:block;max-width:min(72vw,760px);max-height:calc(100vh - 158px);width:auto;height:auto;background:#111}
+.stage-empty{position:absolute;inset:0;display:grid;place-items:center;padding:32px;color:rgba(255,255,255,.72);text-align:center;pointer-events:none}
+.stage-empty strong{display:block;margin-bottom:6px;font:700 28px/1 Khand,Roboto,sans-serif;text-transform:uppercase}
+.stage-empty span{font-size:13px;color:rgba(255,255,255,.5)}
+.stage-badge{position:absolute;right:10px;bottom:10px;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:999px;background:rgba(0,0,0,.58);color:rgba(255,255,255,.82);font-size:11px;font-weight:700;backdrop-filter:blur(8px)}
+.export-panel{display:grid;gap:8px}
+.export-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;color:var(--muted);font-size:12px}
+progress{width:100%;height:10px;accent-color:var(--orange)}
+.toast{position:fixed;right:18px;bottom:18px;z-index:50;max-width:360px;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:#101010;color:#fff;box-shadow:var(--shadow);font-size:13px;opacity:0;transform:translateY(10px);pointer-events:none;transition:opacity .2s,transform .2s}
+.toast.show{opacity:1;transform:translateY(0)}
+.hidden{display:none!important}
+*{scrollbar-width:thin;scrollbar-color:var(--orange) var(--panel2)}
+*::-webkit-scrollbar{width:11px;height:11px}
+*::-webkit-scrollbar-track{background:var(--panel2)}
+*::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--orange),var(--orange2));border:3px solid var(--panel2);border-radius:999px}
+@media(max-width:900px){body{overflow:auto}.app{grid-template-columns:1fr;grid-template-rows:64px auto minmax(520px,1fr);height:auto;min-height:100%}header{position:sticky;top:0}.sidebar{grid-row:2;border-right:0;border-bottom:1px solid var(--line)}.workspace{grid-row:3;min-height:620px}.stage-shell{padding:28px}.stage canvas{max-width:calc(100vw - 56px);max-height:none}.status{display:none}.brand{min-width:150px}.brand-lockup{width:150px}.brand-subtitle{font-size:7.5px}}
+</style>
+</head>
+<body>
+<div class="app">
+<header>
+<div class="brand">
+<div class="brand-lockup">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Game_Rant_new_logo.svg" alt="Game Rant">
+<div class="brand-subtitle" aria-label="Markup Animator"><span>M</span><span>A</span><span>R</span><span>K</span><span>U</span><span>P</span><span>&nbsp;</span><span>A</span><span>N</span><span>I</span><span>M</span><span>A</span><span>T</span><span>O</span><span>R</span></div>
+</div>
+</div>
+<button id="openButton" type="button">Open Card</button>
+<button id="resetButton" type="button">Reset</button>
+<div class="spacer"></div>
+<div id="headerStatus" class="status">Load a completed social card to begin.</div>
+<button id="exportButton" class="primary" type="button" disabled>Export Video</button>
+</header>
+
+<aside class="sidebar">
+<section class="section">
+<h2>Card</h2>
+<div id="dropZone" class="drop-zone" tabindex="0" role="button" aria-label="Upload completed card">
+<div>
+<strong>Drop completed card</strong>
+<span>PNG, JPEG, WebP, or GIF</span>
+</div>
+</div>
+<input id="imageInput" class="hidden" type="file" accept="image/*">
+<div id="fileName" class="file-name">No card loaded</div>
+</section>
+
+<section class="section">
+<h2>Smoke</h2>
+<div class="field">
+<label for="preset">Style</label>
+<select id="preset">
+<option value="fog" selected>Pale cinematic fog</option>
+<option value="orange">Burnt orange smoke</option>
+<option value="dark">Dark rolling fog</option>
+</select>
+</div>
+<div class="field">
+<label for="direction">Direction</label>
+<select id="direction">
+<option value="1" selected>Left to right</option>
+<option value="-1">Right to left</option>
+</select>
+</div>
+<div class="field">
+<div class="slider-label"><label for="density">Density</label><span id="densityValue" class="readout">38</span></div>
+<input id="density" type="range" min="12" max="70" value="38" step="1">
+</div>
+<div class="field">
+<div class="slider-label"><label for="speed">Flow</label><span id="speedValue" class="readout">0.72×</span></div>
+<input id="speed" type="range" min="0.35" max="1.8" value="0.72" step="0.05">
+</div>
+<div class="field">
+<div class="slider-label"><label for="size">Scale</label><span id="sizeValue" class="readout">1.38×</span></div>
+<input id="size" type="range" min="0.55" max="1.8" value="1.38" step="0.05">
+</div>
+<div class="field">
+<div class="slider-label"><label for="opacity">Opacity</label><span id="opacityValue" class="readout">38%</span></div>
+<input id="opacity" type="range" min="8" max="75" value="38" step="1">
+</div>
+<div class="field">
+<div class="slider-label"><label for="curl">Curl</label><span id="curlValue" class="readout">38%</span></div>
+<input id="curl" type="range" min="0" max="100" value="38" step="1">
+</div>
+<div class="field">
+<div class="slider-label"><label for="rise">Vertical drift</label><span id="riseValue" class="readout">-2%</span></div>
+<input id="rise" type="range" min="-30" max="30" value="-2" step="1">
+</div>
+<div class="button-row">
+<button id="pauseButton" type="button">Pause</button>
+<button id="shuffleButton" type="button">Shuffle</button>
+</div>
+</section>
+
+<section class="section">
+<h2>Export</h2>
+<div class="export-panel">
+<div class="export-meta"><span>Duration</span><strong>5 seconds</strong></div>
+<div class="export-meta"><span>Frame rate</span><strong>24 fps</strong></div>
+<div class="export-meta"><span>Output</span><strong id="outputReadout">Source size</strong></div>
+<progress id="progress" value="0" max="1" hidden></progress>
+<button id="sidebarExportButton" class="primary" type="button" disabled>Export Video</button>
+</div>
+</section>
+</aside>
+
+<main class="workspace">
+<div class="stage-shell">
+<div id="stage" class="stage">
+<canvas id="preview" width="432" height="540"></canvas>
+<div id="emptyState" class="stage-empty"><div><strong>Markup Animator</strong><span>Load a completed social card to add cinematic smoke.</span></div></div>
+<div id="stageBadge" class="stage-badge">1080 × 1350</div>
+</div>
+</div>
+</main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script>
+(()=>{"use strict";
+const preview=document.getElementById("preview");
+const ctx=preview.getContext("2d",{alpha:false});
+const imageInput=document.getElementById("imageInput");
+const openButton=document.getElementById("openButton");
+const resetButton=document.getElementById("resetButton");
+const dropZone=document.getElementById("dropZone");
+const presetInput=document.getElementById("preset");
+const directionInput=document.getElementById("direction");
+const densityInput=document.getElementById("density");
+const speedInput=document.getElementById("speed");
+const sizeInput=document.getElementById("size");
+const opacityInput=document.getElementById("opacity");
+const curlInput=document.getElementById("curl");
+const riseInput=document.getElementById("rise");
+const pauseButton=document.getElementById("pauseButton");
+const shuffleButton=document.getElementById("shuffleButton");
+const exportButton=document.getElementById("exportButton");
+const sidebarExportButton=document.getElementById("sidebarExportButton");
+const progress=document.getElementById("progress");
+const fileName=document.getElementById("fileName");
+const headerStatus=document.getElementById("headerStatus");
+const outputReadout=document.getElementById("outputReadout");
+const stageBadge=document.getElementById("stageBadge");
+const emptyState=document.getElementById("emptyState");
+const toast=document.getElementById("toast");
+const labels={
+density:document.getElementById("densityValue"),
+speed:document.getElementById("speedValue"),
+size:document.getElementById("sizeValue"),
+opacity:document.getElementById("opacityValue"),
+curl:document.getElementById("curlValue"),
+rise:document.getElementById("riseValue")
+};
+const PRESETS={
+orange:{color:[238,91,20],blend:"screen",density:42,speed:1,size:1.25,opacity:48,curl:52,rise:-4},
+fog:{color:[210,220,225],blend:"screen",density:38,speed:.72,size:1.38,opacity:38,curl:38,rise:-2},
+dark:{color:[62,64,69],blend:"source-over",density:44,speed:.82,size:1.35,opacity:54,curl:65,rise:-8}
+};
+let backgroundImage=null;
+let backgroundUrl="";
+let sourceWidth=1080;
+let sourceHeight=1350;
+let seed=Math.floor(Math.random()*0xffffffff);
+let puffs=[];
+let sprites=[];
+let spriteKey="";
+let running=true;
+let startTime=performance.now();
+let pausedTotal=0;
+let pauseStarted=0;
+let activeRecorder=null;
+let toastTimer=0;
+
+function showToast(message){
+clearTimeout(toastTimer);
+toast.textContent=message;
+toast.classList.add("show");
+toastTimer=setTimeout(()=>toast.classList.remove("show"),3200);
+}
+
+function setStatus(message){
+headerStatus.textContent=message;
+}
+
+function mulberry32(a){
+return function(){
+let t=a+=0x6D2B79F5;
+t=Math.imul(t^t>>>15,t|1);
+t^=t+Math.imul(t^t>>>7,t|61);
+return((t^t>>>14)>>>0)/4294967296;
+};
+}
+
+function makePuffs(){
+const rand=mulberry32(seed);
+const count=Number(densityInput.value);
+const list=[];
+for(let i=0;i<count;i++){
+const depth=rand()*.72+.28;
+list.push({
+offset:rand(),
+y:rand()*1.08-.04,
+depth,
+speed:.72+rand()*.55,
+baseScale:(.16+rand()*.22)*depth,
+rotation:rand()*Math.PI*2,
+spin:rand()*1.4-.7,
+phase:rand()*Math.PI*2,
+waveCount:1+Math.floor(rand()*3),
+waveAmp:(.008+rand()*.025)*depth,
+opacity:.5+rand()*.5,
+variant:Math.floor(rand()*4)
+});
+}
+puffs=list;
+}
+
+function createSmokeSprite(size,color,variantSeed){
+const sprite=document.createElement("canvas");
+sprite.width=size;
+sprite.height=size;
+const sctx=sprite.getContext("2d");
+const image=sctx.createImageData(size,size);
+const data=image.data;
+function hash2(ix,iy,seedValue){
+let h=(Math.imul(ix,374761393)+Math.imul(iy,668265263)+Math.imul(seedValue,69069))|0;
+h=(h^(h>>>13))|0;
+h=Math.imul(h,1274126177);
+h=(h^(h>>>16))>>>0;
+return h/4294967295;
+}
+function smooth(value){return value*value*(3-2*value)}
+function noise2(x,y,seedValue){
+const x0=Math.floor(x);
+const y0=Math.floor(y);
+const fx=smooth(x-x0);
+const fy=smooth(y-y0);
+const a=hash2(x0,y0,seedValue);
+const b=hash2(x0+1,y0,seedValue);
+const c=hash2(x0,y0+1,seedValue);
+const d=hash2(x0+1,y0+1,seedValue);
+const ab=a+(b-a)*fx;
+const cd=c+(d-c)*fx;
+return ab+(cd-ab)*fy;
+}
+for(let y=0;y<size;y++){
+const ny=y/(size-1);
+for(let x=0;x<size;x++){
+const nx=x/(size-1);
+const wx=nx+.08*Math.sin(ny*7.5+variantSeed*.01);
+const wy=ny+.06*Math.sin(nx*9.5+variantSeed*.017);
+let amplitude=.55;
+let frequency=2.2;
+let total=0;
+let normalization=0;
+for(let octave=0;octave<5;octave++){
+total+=amplitude*noise2(wx*frequency,wy*frequency,variantSeed+octave*97);
+normalization+=amplitude;
+amplitude*=.52;
+frequency*=2.05;
+}
+const noise=total/normalization;
+const dx=(nx-.5)/.47;
+const dy=(ny-.5)/.4;
+const envelope=Math.pow(Math.max(0,1-(dx*dx+dy*dy)),1.25);
+let wisps=Math.max(0,Math.min(1,(noise-.28)/.58));
+wisps=wisps*wisps*(3-2*wisps);
+const alpha=envelope*wisps*.5;
+const i=(y*size+x)*4;
+data[i]=color[0];
+data[i+1]=color[1];
+data[i+2]=color[2];
+data[i+3]=Math.round(alpha*255);
+}
+}
+sctx.putImageData(image,0,0);
+return sprite;
+}
+
+function ensureSprites(){
+const preset=PRESETS[presetInput.value];
+const key=preset.color.join(",");
+if(key===spriteKey&&sprites.length)return;
+spriteKey=key;
+sprites=[0,1,2,3].map(i=>createSmokeSprite(192,preset.color,1009+i*7919));
+}
+
+function drawBackground(targetCtx,image,width,height){
+targetCtx.fillStyle="#111";
+targetCtx.fillRect(0,0,width,height);
+if(!image)return;
+targetCtx.drawImage(image,0,0,width,height);
+}
+
+function getSettings(){
+const preset=PRESETS[presetInput.value];
+return{
+blend:preset.blend,
+direction:Number(directionInput.value),
+speed:Number(speedInput.value),
+size:Number(sizeInput.value),
+opacity:Number(opacityInput.value)/100,
+curl:Number(curlInput.value)/100,
+rise:Number(riseInput.value)/100
+};
+}
+
+function drawSmoke(targetCtx,width,height,loopT){
+ensureSprites();
+const settings=getSettings();
+targetCtx.save();
+targetCtx.globalCompositeOperation=settings.blend;
+for(const p of puffs){
+const baseLife=(loopT+p.offset)%1;
+const life=baseLife+Math.sin(baseLife*Math.PI*2+p.phase)*(settings.speed-1)*.035;
+const envelope=Math.pow(Math.sin(Math.PI*baseLife),1.45);
+if(envelope<.012)continue;
+const xRaw=-.3+life*1.6;
+const xNorm=settings.direction>0?xRaw:1-xRaw;
+const curl=Math.sin(life*Math.PI*2*p.waveCount+p.phase)*p.waveAmp*settings.curl;
+const yNorm=p.y+curl+settings.rise*(life-.5)*p.depth;
+const x=xNorm*width;
+const y=yNorm*height;
+const scale=p.baseScale*settings.size*(.72+life*1.35);
+const drawSize=width*scale;
+const alpha=settings.opacity*p.opacity*envelope;
+const rotation=p.rotation+p.spin*life;
+targetCtx.save();
+targetCtx.translate(x,y);
+targetCtx.rotate(rotation);
+targetCtx.globalAlpha=alpha;
+targetCtx.drawImage(sprites[p.variant],-drawSize/2,-drawSize/2,drawSize,drawSize);
+targetCtx.restore();
+}
+targetCtx.restore();
+}
+
+function renderScene(targetCtx,width,height,loopT){
+targetCtx.clearRect(0,0,width,height);
+drawBackground(targetCtx,backgroundImage,width,height);
+drawSmoke(targetCtx,width,height,loopT);
+}
+
+function previewDimensions(){
+const maxWidth=720;
+const maxHeight=900;
+const scale=Math.min(maxWidth/sourceWidth,maxHeight/sourceHeight,1);
+return{width:Math.max(1,Math.round(sourceWidth*scale)),height:Math.max(1,Math.round(sourceHeight*scale))};
+}
+
+function syncPreviewSize(){
+const dims=previewDimensions();
+preview.width=dims.width;
+preview.height=dims.height;
+stageBadge.textContent=`${sourceWidth} × ${sourceHeight}`;
+outputReadout.textContent=`${sourceWidth} × ${sourceHeight}`;
+}
+
+function currentLoopTime(now){
+const durationMs=5000;
+const clock=running?now-startTime-pausedTotal:pauseStarted-startTime-pausedTotal;
+return((clock%durationMs)+durationMs)%durationMs/durationMs;
+}
+
+function animate(now){
+renderScene(ctx,preview.width,preview.height,currentLoopTime(now));
+requestAnimationFrame(animate);
+}
+
+function updateLabels(){
+labels.density.textContent=densityInput.value;
+labels.speed.textContent=`${Number(speedInput.value).toFixed(2).replace(/0$/,"")}×`;
+labels.size.textContent=`${Number(sizeInput.value).toFixed(2).replace(/0$/,"")}×`;
+labels.opacity.textContent=`${opacityInput.value}%`;
+labels.curl.textContent=`${curlInput.value}%`;
+labels.rise.textContent=`${riseInput.value}%`;
+}
+
+function applyPreset(name){
+const p=PRESETS[name];
+densityInput.value=p.density;
+speedInput.value=p.speed;
+sizeInput.value=p.size;
+opacityInput.value=p.opacity;
+curlInput.value=p.curl;
+riseInput.value=p.rise;
+spriteKey="";
+ensureSprites();
+makePuffs();
+updateLabels();
+}
+
+function chooseVideoFormat(){
+if(typeof MediaRecorder==="undefined")return null;
+const candidates=[
+{mime:"video/mp4;codecs=avc1.42E01E",extension:"mp4",label:"MP4"},
+{mime:"video/mp4;codecs=avc1.4D401F",extension:"mp4",label:"MP4"},
+{mime:"video/mp4",extension:"mp4",label:"MP4"},
+{mime:"video/webm;codecs=vp9",extension:"webm",label:"WebM"},
+{mime:"video/webm;codecs=vp8",extension:"webm",label:"WebM"},
+{mime:"video/webm",extension:"webm",label:"WebM"}
+];
+return candidates.find(candidate=>{
+try{return MediaRecorder.isTypeSupported(candidate.mime)}catch{return false}
+})||null;
+}
+
+function downloadBlob(blob,filename){
+const url=URL.createObjectURL(blob);
+const link=document.createElement("a");
+link.href=url;
+link.download=filename;
+document.body.appendChild(link);
+link.click();
+link.remove();
+setTimeout(()=>URL.revokeObjectURL(url),5000);
+}
+
+function sleep(ms){return new Promise(resolve=>setTimeout(resolve,ms))}
+function nextPaint(){return new Promise(resolve=>requestAnimationFrame(resolve))}
+
+function setExportDisabled(disabled){
+exportButton.disabled=disabled||!backgroundImage;
+sidebarExportButton.disabled=disabled||!backgroundImage;
+openButton.disabled=disabled;
+resetButton.disabled=disabled;
+pauseButton.disabled=disabled;
+shuffleButton.disabled=disabled;
+}
+
+async function exportVideo(){
+if(activeRecorder||!backgroundImage)return;
+if(typeof MediaRecorder==="undefined"||!HTMLCanvasElement.prototype.captureStream){
+showToast("This browser cannot record canvas video.");
+return;
+}
+const format=chooseVideoFormat();
+if(!format){
+showToast("No supported video recording format was found.");
+return;
+}
+const width=sourceWidth;
+const height=sourceHeight;
+const fps=24;
+const duration=5;
+const totalFrames=fps*duration;
+const frameDuration=1000/fps;
+const bitrate=width>=1000?10000000:width>=700?7000000:4500000;
+const exportCanvas=document.createElement("canvas");
+exportCanvas.width=width;
+exportCanvas.height=height;
+const exportCtx=exportCanvas.getContext("2d",{alpha:false});
+let stream=null;
+let chunks=[];
+setExportDisabled(true);
+progress.hidden=false;
+progress.value=0;
+setStatus(`Preparing ${format.label} export…`);
+try{
+stream=exportCanvas.captureStream(0);
+let track=stream.getVideoTracks()[0];
+try{
+activeRecorder=new MediaRecorder(stream,{mimeType:format.mime,videoBitsPerSecond:bitrate});
+}catch{
+stream.getTracks().forEach(mediaTrack=>mediaTrack.stop());
+stream=exportCanvas.captureStream(fps);
+track=stream.getVideoTracks()[0];
+activeRecorder=new MediaRecorder(stream,{mimeType:format.mime,videoBitsPerSecond:bitrate});
+}
+activeRecorder.ondataavailable=event=>{
+if(event.data&&event.data.size>0)chunks.push(event.data);
+};
+const stopped=new Promise((resolve,reject)=>{
+activeRecorder.onstop=resolve;
+activeRecorder.onerror=event=>reject(event.error||new Error("Video recording failed."));
+});
+renderScene(exportCtx,width,height,0);
+activeRecorder.start(500);
+await nextPaint();
+await sleep(80);
+const start=performance.now();
+for(let frame=0;frame<totalFrames;frame++){
+const time=frame/totalFrames;
+renderScene(exportCtx,width,height,time);
+if(track&&typeof track.requestFrame==="function")track.requestFrame();
+progress.value=(frame+1)/totalFrames;
+setStatus(`Recording ${format.label} — ${Math.round(progress.value*100)}%`);
+const target=start+(frame+1)*frameDuration;
+await sleep(Math.max(0,target-performance.now()));
+}
+await sleep(Math.max(80,frameDuration));
+activeRecorder.stop();
+await stopped;
+stream.getTracks().forEach(mediaTrack=>mediaTrack.stop());
+const actualType=activeRecorder.mimeType||format.mime;
+const extension=actualType.includes("mp4")?"mp4":format.extension;
+const blob=new Blob(chunks,{type:actualType});
+const base=(fileName.textContent||"animated-card").replace(/\.[^.]+$/,"").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-+|-+$/g,"")||"animated-card";
+downloadBlob(blob,`${base}-smoke.${extension}`);
+progress.value=1;
+setStatus(`Exported ${extension.toUpperCase()} — ${(blob.size/1024/1024).toFixed(1)} MB`);
+showToast(`${extension.toUpperCase()} downloaded.`);
+}catch(error){
+if(activeRecorder&&activeRecorder.state!=="inactive"){
+try{activeRecorder.stop()}catch{}
+}
+if(stream)stream.getTracks().forEach(mediaTrack=>mediaTrack.stop());
+progress.hidden=true;
+setStatus("Export failed.");
+showToast(`Export failed: ${error.message||error}`);
+}finally{
+activeRecorder=null;
+setExportDisabled(false);
+setTimeout(()=>{if(progress.value===1)progress.hidden=true},1400);
+}
+}
+
+function loadFile(file){
+if(!file||!file.type.startsWith("image/")){
+showToast("Choose a PNG, JPEG, WebP, or GIF image.");
+return;
+}
+if(backgroundUrl)URL.revokeObjectURL(backgroundUrl);
+backgroundUrl=URL.createObjectURL(file);
+const image=new Image();
+image.onload=()=>{
+backgroundImage=image;
+sourceWidth=image.naturalWidth||1080;
+sourceHeight=image.naturalHeight||1350;
+syncPreviewSize();
+fileName.textContent=file.name;
+emptyState.classList.add("hidden");
+setExportDisabled(false);
+setStatus(`${file.name} — ${sourceWidth} × ${sourceHeight}`);
+showToast("Card loaded.");
+};
+image.onerror=()=>showToast("The selected image could not be loaded.");
+image.src=backgroundUrl;
+}
+
+function resetTool(){
+if(backgroundUrl)URL.revokeObjectURL(backgroundUrl);
+backgroundUrl="";
+backgroundImage=null;
+sourceWidth=1080;
+sourceHeight=1350;
+imageInput.value="";
+fileName.textContent="No card loaded";
+emptyState.classList.remove("hidden");
+presetInput.value="fog";
+directionInput.value="1";
+seed=Math.floor(Math.random()*0xffffffff);
+applyPreset("fog");
+syncPreviewSize();
+setExportDisabled(false);
+setStatus("Load a completed social card to begin.");
+progress.hidden=true;
+running=true;
+pauseButton.textContent="Pause";
+startTime=performance.now();
+pausedTotal=0;
+}
+
+openButton.addEventListener("click",()=>imageInput.click());
+dropZone.addEventListener("click",()=>imageInput.click());
+dropZone.addEventListener("keydown",event=>{
+if(event.key==="Enter"||event.key===" "){
+event.preventDefault();
+imageInput.click();
+}
+});
+imageInput.addEventListener("change",event=>loadFile(event.target.files&&event.target.files[0]));
+["dragenter","dragover"].forEach(type=>dropZone.addEventListener(type,event=>{
+event.preventDefault();
+dropZone.classList.add("dragover");
+}));
+["dragleave","drop"].forEach(type=>dropZone.addEventListener(type,event=>{
+event.preventDefault();
+dropZone.classList.remove("dragover");
+}));
+dropZone.addEventListener("drop",event=>loadFile(event.dataTransfer&&event.dataTransfer.files&&event.dataTransfer.files[0]));
+window.addEventListener("dragover",event=>event.preventDefault());
+window.addEventListener("drop",event=>{
+if(event.target.closest&&event.target.closest("#dropZone"))return;
+event.preventDefault();
+const file=event.dataTransfer&&event.dataTransfer.files&&event.dataTransfer.files[0];
+if(file)loadFile(file);
+});
+window.addEventListener("paste",event=>{
+const file=[...(event.clipboardData?.files||[])].find(item=>item.type.startsWith("image/"));
+if(file)loadFile(file);
+});
+presetInput.addEventListener("change",()=>applyPreset(presetInput.value));
+[densityInput,speedInput,sizeInput,opacityInput,curlInput,riseInput].forEach(input=>input.addEventListener("input",updateLabels));
+densityInput.addEventListener("input",makePuffs);
+pauseButton.addEventListener("click",()=>{
+if(running){
+running=false;
+pauseStarted=performance.now();
+pauseButton.textContent="Play";
+setStatus("Preview paused.");
+}else{
+pausedTotal+=performance.now()-pauseStarted;
+running=true;
+pauseButton.textContent="Pause";
+setStatus(backgroundImage?`${fileName.textContent} — ${sourceWidth} × ${sourceHeight}`:"Preview playing.");
+}
+});
+shuffleButton.addEventListener("click",()=>{
+seed=Math.floor(Math.random()*0xffffffff);
+makePuffs();
+setStatus("Generated a new smoke pattern.");
+});
+resetButton.addEventListener("click",resetTool);
+exportButton.addEventListener("click",exportVideo);
+sidebarExportButton.addEventListener("click",exportVideo);
+
+applyPreset("fog");
+syncPreviewSize();
+setExportDisabled(false);
+requestAnimationFrame(animate);
+})();
+</script>
+</body>
+</html>
