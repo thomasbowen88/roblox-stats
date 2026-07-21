@@ -7,18 +7,18 @@
   "name": "Wanted",
   "creatorName": "DevvGames",
   "creatorType": "Group",
-  "playing": 5928,
-  "visits": 74232784,
-  "favorites": 317637,
-  "likes": 246295,
-  "dislikes": 7189,
+  "playing": 5817,
+  "visits": 74234635,
+  "favorites": 317643,
+  "likes": 246309,
+  "dislikes": 7190,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0e0cdf82670a3b0eb1b30ca0536410f8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/14438406081",
-  "fetchedAtUtc": "2026-07-21 04:13:20",
+  "fetchedAtUtc": "2026-07-21 04:19:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21 04:13:20",
-    "updatedAtTs": 1784607200,
+    "updatedAt": "2026-07-21 04:19:00",
+    "updatedAtTs": 1784607540,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784607200,
-        5928
+        1784607540,
+        5817
       ],
       "peak7d": [
         1784572064,
@@ -683,6 +683,10 @@
         [
           1784607200,
           5928
+        ],
+        [
+          1784607540,
+          5817
         ]
       ]
     }
