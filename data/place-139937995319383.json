@@ -7,18 +7,18 @@
   "name": "[UPD] Librarian: Tidy Up Roblox Library",
   "creatorName": "Librarian Puzzles",
   "creatorType": "Group",
-  "playing": 322,
-  "visits": 17297400,
+  "playing": 323,
+  "visits": 17297448,
   "favorites": 184557,
   "likes": 54663,
   "dislikes": 11435,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ccaa26b91c17f251f6475a825c6910c4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139937995319383",
-  "fetchedAtUtc": "2026-07-23 12:09:24",
+  "fetchedAtUtc": "2026-07-23 12:13:13",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-23 12:09:24",
-    "updatedAtTs": 1784808564,
+    "updatedAt": "2026-07-23 12:13:13",
+    "updatedAtTs": 1784808793,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784808564,
-        322
+        1784808793,
+        323
       ],
       "peak7d": [
         1784577855,
@@ -3255,6 +3255,10 @@
         [
           1784808564,
           322
+        ],
+        [
+          1784808793,
+          323
         ]
       ]
     }
