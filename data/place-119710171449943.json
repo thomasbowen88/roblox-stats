@@ -7,18 +7,18 @@
   "name": "[MAINTENANCE] Anime Overseer",
   "creatorName": "v2 studio - anime overseer",
   "creatorType": "Group",
-  "playing": 1,
-  "visits": 904105,
+  "playing": 0,
+  "visits": 904106,
   "favorites": 13113,
   "likes": 17359,
   "dislikes": 675,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e936248be503c49e50be48a0d6a8ab13/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119710171449943",
-  "fetchedAtUtc": "2026-07-24 21:14:27",
+  "fetchedAtUtc": "2026-07-24 21:19:24",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-24 21:14:27",
-    "updatedAtTs": 1784927667,
+    "updatedAt": "2026-07-24 21:19:24",
+    "updatedAtTs": 1784927964,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784927667,
-        1
+        1784927964,
+        0
       ],
       "peak7d": [
         1784927667,
@@ -603,6 +603,10 @@
         [
           1784927667,
           1
+        ],
+        [
+          1784927964,
+          0
         ]
       ]
     }
