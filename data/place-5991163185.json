@@ -7,18 +7,18 @@
   "name": "Spray Paint!",
   "creatorName": "SheriffTaco",
   "creatorType": "User",
-  "playing": 361,
-  "visits": 1318288252,
+  "playing": 416,
+  "visits": 1318288535,
   "favorites": 2106584,
   "likes": 516358,
-  "dislikes": 107258,
+  "dislikes": 107259,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fb93f2a6cef0f0d2828a9d8d2cc879fd/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/5991163185",
-  "fetchedAtUtc": "2026-07-24 18:43:40",
+  "fetchedAtUtc": "2026-07-24 18:49:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-24 18:43:40",
-    "updatedAtTs": 1784918620,
+    "updatedAt": "2026-07-24 18:49:40",
+    "updatedAtTs": 1784918980,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784918620,
-        361
+        1784918980,
+        416
       ],
       "peak7d": [
-        1784905991,
-        415
+        1784918980,
+        416
       ]
     },
     "series": {
@@ -495,6 +495,10 @@
         [
           1784918620,
           361
+        ],
+        [
+          1784918980,
+          416
         ]
       ]
     }
