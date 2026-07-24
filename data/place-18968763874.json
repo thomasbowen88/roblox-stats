@@ -7,18 +7,18 @@
   "name": "A Niche Barista Game",
   "creatorName": "TCC Interactive",
   "creatorType": "Group",
-  "playing": 546,
-  "visits": 31281108,
-  "favorites": 334146,
+  "playing": 501,
+  "visits": 31281429,
+  "favorites": 334147,
   "likes": 85887,
   "dislikes": 2619,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-dbf2e6cbf1af1211293525e3b10d7ad7/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/18968763874",
-  "fetchedAtUtc": "2026-07-24 17:54:44",
+  "fetchedAtUtc": "2026-07-24 17:59:27",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-24 17:54:44",
-    "updatedAtTs": 1784915684,
+    "updatedAt": "2026-07-24 17:59:27",
+    "updatedAtTs": 1784915967,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784915684,
-        546
+        1784915967,
+        501
       ],
       "peak7d": [
         1784904270,
@@ -467,6 +467,10 @@
         [
           1784915684,
           546
+        ],
+        [
+          1784915967,
+          501
         ]
       ]
     }
