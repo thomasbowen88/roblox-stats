@@ -7,18 +7,18 @@
   "name": "Build A Keyboard!",
   "creatorName": "BAKGAME",
   "creatorType": "Group",
-  "playing": 600,
-  "visits": 7117326,
+  "playing": 626,
+  "visits": 7117584,
   "favorites": 28121,
   "likes": 70535,
-  "dislikes": 1158,
+  "dislikes": 1159,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9729f7defc08b546dbfb7dd9e46a6485/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91679585668032",
-  "fetchedAtUtc": "2026-07-25 01:19:36",
+  "fetchedAtUtc": "2026-07-25 01:24:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-25 01:19:36",
-    "updatedAtTs": 1784942376,
+    "updatedAt": "2026-07-25 01:24:39",
+    "updatedAtTs": 1784942679,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784942376,
-        600
+        1784942679,
+        626
       ],
       "peak7d": [
         1784912684,
@@ -795,6 +795,10 @@
         [
           1784942376,
           600
+        ],
+        [
+          1784942679,
+          626
         ]
       ]
     }
