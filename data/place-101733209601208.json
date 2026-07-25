@@ -7,18 +7,18 @@
   "name": "Forest Bound",
   "creatorName": "Axefall",
   "creatorType": "Group",
-  "playing": 484,
-  "visits": 1355633,
-  "favorites": 19183,
-  "likes": 9227,
+  "playing": 459,
+  "visits": 1355744,
+  "favorites": 19186,
+  "likes": 9228,
   "dislikes": 759,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8d24007613b397ab9b10123245ceaf72/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/101733209601208",
-  "fetchedAtUtc": "2026-07-25 01:44:43",
+  "fetchedAtUtc": "2026-07-25 01:49:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-25 01:44:43",
-    "updatedAtTs": 1784943883,
+    "updatedAt": "2026-07-25 01:49:43",
+    "updatedAtTs": 1784944183,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784943883,
-        484
+        1784944183,
+        459
       ],
       "peak7d": [
         1784903384,
@@ -811,6 +811,10 @@
         [
           1784943883,
           484
+        ],
+        [
+          1784944183,
+          459
         ]
       ]
     }
