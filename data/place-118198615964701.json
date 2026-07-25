@@ -7,18 +7,18 @@
   "name": "(⌛) Dummy Defense",
   "creatorName": "Mr Lazy Guy",
   "creatorType": "Group",
-  "playing": 600,
-  "visits": 24997331,
+  "playing": 628,
+  "visits": 24997516,
   "favorites": 33932,
   "likes": 27151,
   "dislikes": 2416,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ed2d2ff9ff10bdfbdcd57999ce84b8e3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/118198615964701",
-  "fetchedAtUtc": "2026-07-25 10:44:43",
+  "fetchedAtUtc": "2026-07-25 10:49:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-25 10:44:43",
-    "updatedAtTs": 1784976283,
+    "updatedAt": "2026-07-25 10:49:37",
+    "updatedAtTs": 1784976577,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1784976283,
-        600
+        1784976577,
+        628
       ],
       "peak7d": [
-        1784900374,
-        613
+        1784976577,
+        628
       ]
     },
     "series": {
@@ -1163,6 +1163,10 @@
         [
           1784976283,
           600
+        ],
+        [
+          1784976577,
+          628
         ]
       ]
     }
