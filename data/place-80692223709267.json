@@ -7,18 +7,18 @@
   "name": "Free UGC Obby (AFK or Play)",
   "creatorName": "Nectar Creations",
   "creatorType": "Group",
-  "playing": 476,
-  "visits": 108362824,
-  "favorites": 11201551,
-  "likes": 738150,
+  "playing": 502,
+  "visits": 108363040,
+  "favorites": 11201575,
+  "likes": 738155,
   "dislikes": 42832,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-c6416095ad4b2e98ed0579fc9ebc536f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/80692223709267",
-  "fetchedAtUtc": "2026-07-25 00:14:37",
+  "fetchedAtUtc": "2026-07-25 00:19:41",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-25 00:14:37",
-    "updatedAtTs": 1784938477,
+    "updatedAt": "2026-07-25 00:19:41",
+    "updatedAtTs": 1784938781,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1784938477,
-        476
+        1784938781,
+        502
       ],
       "peak7d": [
         1784901572,
@@ -743,6 +743,10 @@
         [
           1784938477,
           476
+        ],
+        [
+          1784938781,
+          502
         ]
       ]
     }
