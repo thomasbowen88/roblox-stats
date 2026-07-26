@@ -7,18 +7,18 @@
   "name": "[Maintenance] Anime Squadron",
   "creatorName": "Komplex Studio",
   "creatorType": "Group",
-  "playing": 2,
-  "visits": 78002560,
-  "favorites": 48268,
+  "playing": 19,
+  "visits": 78002582,
+  "favorites": 48269,
   "likes": 84316,
   "dislikes": 4014,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8a9559e51afaf89eec9fb49b49aaf839/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/71132543521245",
-  "fetchedAtUtc": "2026-07-26 14:59:54",
+  "fetchedAtUtc": "2026-07-26 15:29:50",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-26 14:59:54",
-    "updatedAtTs": 1785077994,
+    "updatedAt": "2026-07-26 15:29:50",
+    "updatedAtTs": 1785079790,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785077994,
-        2
+        1785079790,
+        19
       ],
       "peak7d": [
         1784901572,
@@ -1815,6 +1815,10 @@
         [
           1785077994,
           2
+        ],
+        [
+          1785079790,
+          19
         ]
       ]
     }
