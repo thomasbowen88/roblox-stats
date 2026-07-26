@@ -7,18 +7,18 @@
   "name": "[RELEASE] Zombie Survivors",
   "creatorName": "GNR Studio",
   "creatorType": "Group",
-  "playing": 161,
-  "visits": 5717850,
-  "favorites": 33872,
+  "playing": 173,
+  "visits": 5717970,
+  "favorites": 33871,
   "likes": 31168,
   "dislikes": 1693,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-012e07bbb255c56748e1de36a0eefd39/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108026491991900",
-  "fetchedAtUtc": "2026-07-26 22:09:46",
+  "fetchedAtUtc": "2026-07-26 22:19:44",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-26 22:09:46",
-    "updatedAtTs": 1785103786,
+    "updatedAt": "2026-07-26 22:19:44",
+    "updatedAtTs": 1785104384,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785103786,
-        161
+        1785104384,
+        173
       ],
       "peak7d": [
         1784992701,
@@ -1895,6 +1895,10 @@
         [
           1785103786,
           161
+        ],
+        [
+          1785104384,
+          173
         ]
       ]
     }
