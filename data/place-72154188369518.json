@@ -8,17 +8,17 @@
   "creatorName": "Place Library",
   "creatorType": "Group",
   "playing": 54,
-  "visits": 1415602,
-  "favorites": 15098,
+  "visits": 1415612,
+  "favorites": 15097,
   "likes": 12332,
   "dislikes": 618,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-db5aab5eb48bc32f17e7b08834a4a8de/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72154188369518",
-  "fetchedAtUtc": "2026-07-29 20:48:40",
+  "fetchedAtUtc": "2026-07-29 20:54:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-29 20:48:40",
-    "updatedAtTs": 1785358120,
+    "updatedAt": "2026-07-29 20:54:40",
+    "updatedAtTs": 1785358480,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1785358120,
+        1785358480,
         54
       ],
       "peak7d": [
@@ -350,6 +350,10 @@
         ],
         [
           1785358120,
+          54
+        ],
+        [
+          1785358480,
           54
         ]
       ]
