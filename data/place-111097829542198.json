@@ -7,18 +7,18 @@
   "name": "[Acheron UPD] Legacy Piece",
   "creatorName": "Gwynn's Shrine",
   "creatorType": "Group",
-  "playing": 328,
-  "visits": 3916329,
-  "favorites": 13816,
+  "playing": 313,
+  "visits": 3916831,
+  "favorites": 13817,
   "likes": 17402,
   "dislikes": 560,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-008cf0deca0af3d97842e86d5dd973bd/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111097829542198",
-  "fetchedAtUtc": "2026-07-30 09:29:39",
+  "fetchedAtUtc": "2026-07-30 09:59:58",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-30 09:29:39",
-    "updatedAtTs": 1785403779,
+    "updatedAt": "2026-07-30 09:59:58",
+    "updatedAtTs": 1785405598,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785403779,
-        328
+        1785405598,
+        313
       ],
       "peak7d": [
         1785250790,
@@ -543,6 +543,10 @@
         [
           1785403779,
           328
+        ],
+        [
+          1785405598,
+          313
         ]
       ]
     }
