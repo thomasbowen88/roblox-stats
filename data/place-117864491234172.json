@@ -7,18 +7,18 @@
   "name": "LOST ROOMS [VILLAGE]",
   "creatorName": "MorbidStudios",
   "creatorType": "Group",
-  "playing": 77,
-  "visits": 5296716,
-  "favorites": 109404,
+  "playing": 65,
+  "visits": 5296737,
+  "favorites": 109403,
   "likes": 12120,
   "dislikes": 1469,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6dbe5f7abd333e2596d36e082343df7c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/117864491234172",
-  "fetchedAtUtc": "2026-07-31 23:19:35",
+  "fetchedAtUtc": "2026-07-31 23:23:54",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-31 23:19:35",
-    "updatedAtTs": 1785539975,
+    "updatedAt": "2026-07-31 23:23:54",
+    "updatedAtTs": 1785540234,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785539975,
-        77
+        1785540234,
+        65
       ],
       "peak7d": [
         1785465586,
@@ -299,6 +299,10 @@
         [
           1785539975,
           77
+        ],
+        [
+          1785540234,
+          65
         ]
       ]
     }
