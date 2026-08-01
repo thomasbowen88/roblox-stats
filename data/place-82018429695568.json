@@ -7,18 +7,18 @@
   "name": "Flip A Boat!",
   "creatorName": "PolyCore Games",
   "creatorType": "Group",
-  "playing": 612,
-  "visits": 2676635,
+  "playing": 621,
+  "visits": 2676963,
   "favorites": 17830,
-  "likes": 21233,
+  "likes": 21236,
   "dislikes": 1360,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-81c767874af5c3a50546bd2ca8b3c729/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/82018429695568",
-  "fetchedAtUtc": "2026-08-01 15:54:07",
+  "fetchedAtUtc": "2026-08-01 15:59:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01 15:54:07",
-    "updatedAtTs": 1785599647,
+    "updatedAt": "2026-08-01 15:59:55",
+    "updatedAtTs": 1785599995,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785599647,
-        612
+        1785599995,
+        621
       ],
       "peak7d": [
         1785440036,
@@ -447,6 +447,10 @@
         [
           1785599647,
           612
+        ],
+        [
+          1785599995,
+          621
         ]
       ]
     }
