@@ -7,18 +7,18 @@
   "name": "[3.0] SPECTER",
   "creatorName": "Lithium Labs",
   "creatorType": "Group",
-  "playing": 638,
-  "visits": 235820497,
-  "favorites": 872706,
+  "playing": 631,
+  "visits": 235821010,
+  "favorites": 872710,
   "likes": 248835,
   "dislikes": 12105,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-57a70e1ea2a27ee7ba01c4f4a16aec7c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/8267733039",
-  "fetchedAtUtc": "2026-08-01 16:49:29",
+  "fetchedAtUtc": "2026-08-01 16:59:53",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01 16:49:29",
-    "updatedAtTs": 1785602969,
+    "updatedAt": "2026-08-01 16:59:53",
+    "updatedAtTs": 1785603593,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785602969,
-        638
+        1785603593,
+        631
       ],
       "peak7d": [
         1785528237,
@@ -455,6 +455,10 @@
         [
           1785602969,
           638
+        ],
+        [
+          1785603593,
+          631
         ]
       ]
     }
