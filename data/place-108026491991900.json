@@ -7,18 +7,18 @@
   "name": "[RELEASE] Robong Survivors",
   "creatorName": "GNR Studio",
   "creatorType": "Group",
-  "playing": 153,
-  "visits": 5794095,
-  "favorites": 34123,
-  "likes": 31411,
-  "dislikes": 1717,
+  "playing": 205,
+  "visits": 5795037,
+  "favorites": 34128,
+  "likes": 31417,
+  "dislikes": 1721,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-012e07bbb255c56748e1de36a0eefd39/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108026491991900",
-  "fetchedAtUtc": "2026-07-31 23:39:32",
+  "fetchedAtUtc": "2026-08-01 00:43:57",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-31 23:39:32",
-    "updatedAtTs": 1785541172,
+    "updatedAt": "2026-08-01 00:43:57",
+    "updatedAtTs": 1785545037,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1785541172,
-        153
+        1785545037,
+        205
       ],
       "peak7d": [
-        1785533340,
-        168
+        1785545037,
+        205
       ]
     },
     "series": {
@@ -311,6 +311,10 @@
         [
           1785541172,
           153
+        ],
+        [
+          1785545037,
+          205
         ]
       ]
     }
