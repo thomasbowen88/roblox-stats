@@ -7,18 +7,18 @@
   "name": "Muscle Military",
   "creatorName": "The Gang Stockholm",
   "creatorType": "Group",
-  "playing": 526,
-  "visits": 8896836,
-  "favorites": 229000,
-  "likes": 15788,
+  "playing": 595,
+  "visits": 8899219,
+  "favorites": 229068,
+  "likes": 15790,
   "dislikes": 1172,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5513530b7b14e646f789865aa83de39c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/124396690804338",
-  "fetchedAtUtc": "2026-08-01 12:04:18",
+  "fetchedAtUtc": "2026-08-01 13:00:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01 12:04:18",
-    "updatedAtTs": 1785585858,
+    "updatedAt": "2026-08-01 13:00:00",
+    "updatedAtTs": 1785589200,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1785585858,
-        526
+        1785589200,
+        595
       ],
       "peak7d": [
-        1785585858,
-        526
+        1785589200,
+        595
       ]
     },
     "series": {
@@ -427,6 +427,10 @@
         [
           1785585858,
           526
+        ],
+        [
+          1785589200,
+          595
         ]
       ]
     }
