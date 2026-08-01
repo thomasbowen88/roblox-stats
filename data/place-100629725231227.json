@@ -7,18 +7,18 @@
   "name": "Mog and Gym",
   "creatorName": "Mog Gurus",
   "creatorType": "Group",
-  "playing": 172,
-  "visits": 2805832,
+  "playing": 150,
+  "visits": 2806113,
   "favorites": 15875,
   "likes": 21724,
-  "dislikes": 2068,
+  "dislikes": 2069,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d6ce00948c7ee3a7d4887f269d624025/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/100629725231227",
-  "fetchedAtUtc": "2026-08-01 21:08:59",
+  "fetchedAtUtc": "2026-08-01 21:33:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01 21:08:59",
-    "updatedAtTs": 1785618539,
+    "updatedAt": "2026-08-01 21:33:49",
+    "updatedAtTs": 1785620029,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785618539,
-        172
+        1785620029,
+        150
       ],
       "peak7d": [
         1785618539,
@@ -491,6 +491,10 @@
         [
           1785618539,
           172
+        ],
+        [
+          1785620029,
+          150
         ]
       ]
     }
