@@ -4,21 +4,21 @@
   "placeId": "89469502395769",
   "rootPlaceId": "89469502395769",
   "universeId": "10004244222",
-  "name": "[x2] Kick a Lucky Block",
+  "name": "[X4] Kick a Lucky Block",
   "creatorName": "No More Flops",
   "creatorType": "Group",
-  "playing": 84449,
-  "visits": 1573418458,
-  "favorites": 23993642,
-  "likes": 1225912,
-  "dislikes": 60642,
+  "playing": 165212,
+  "visits": 1573924741,
+  "favorites": 23995895,
+  "likes": 1226067,
+  "dislikes": 60652,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3bf14fcf4eba335de025f64302b0a565/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/89469502395769",
-  "fetchedAtUtc": "2026-08-01 15:59:55",
+  "fetchedAtUtc": "2026-08-01 16:49:29",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01 15:59:55",
-    "updatedAtTs": 1785599995,
+    "updatedAt": "2026-08-01 16:49:29",
+    "updatedAtTs": 1785602969,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1785599995,
-        84449
+        1785602969,
+        165212
       ],
       "peak7d": [
-        1785599995,
-        84449
+        1785602969,
+        165212
       ]
     },
     "series": {
@@ -451,6 +451,10 @@
         [
           1785599995,
           84449
+        ],
+        [
+          1785602969,
+          165212
         ]
       ]
     }
