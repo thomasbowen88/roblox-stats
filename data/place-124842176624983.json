@@ -7,18 +7,18 @@
   "name": "OVERKILL",
   "creatorName": "One-Shot",
   "creatorType": "Group",
-  "playing": 601,
-  "visits": 22004242,
-  "favorites": 58261,
-  "likes": 74461,
+  "playing": 590,
+  "visits": 22008257,
+  "favorites": 58266,
+  "likes": 74465,
   "dislikes": 13261,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-125460237bd873a7e36ab300855644da/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/124842176624983",
-  "fetchedAtUtc": "2026-08-02 01:24:38",
+  "fetchedAtUtc": "2026-08-02 01:49:08",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-02 01:24:38",
-    "updatedAtTs": 1785633878,
+    "updatedAt": "2026-08-02 01:49:08",
+    "updatedAtTs": 1785635348,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785633878,
-        601
+        1785635348,
+        590
       ],
       "peak7d": [
         1785528237,
@@ -519,6 +519,10 @@
         [
           1785633878,
           601
+        ],
+        [
+          1785635348,
+          590
         ]
       ]
     }
