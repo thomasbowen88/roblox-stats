@@ -7,18 +7,18 @@
   "name": "REDLINER [UPD 1.1]",
   "creatorName": "REDLINER",
   "creatorType": "Group",
-  "playing": 1299,
-  "visits": 53738595,
-  "favorites": 290063,
+  "playing": 1210,
+  "visits": 53741607,
+  "favorites": 290079,
   "likes": 115208,
   "dislikes": 12466,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-584d516c4cf3f16f37a8efa4e86e9dfe/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/94987506187454",
-  "fetchedAtUtc": "2026-08-03 06:00:00",
+  "fetchedAtUtc": "2026-08-03 06:19:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03 06:00:00",
-    "updatedAtTs": 1785736800,
+    "updatedAt": "2026-08-03 06:19:25",
+    "updatedAtTs": 1785737965,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785736800,
-        1299
+        1785737965,
+        1210
       ],
       "peak7d": [
         1785556473,
@@ -707,6 +707,10 @@
         [
           1785736800,
           1299
+        ],
+        [
+          1785737965,
+          1210
         ]
       ]
     }
