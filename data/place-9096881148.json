@@ -7,18 +7,18 @@
   "name": "Peroxide",
   "creatorName": "[Peroxide]",
   "creatorType": "Group",
-  "playing": 1747,
-  "visits": 407570096,
-  "favorites": 842544,
-  "likes": 448492,
+  "playing": 1590,
+  "visits": 407577974,
+  "favorites": 842559,
+  "likes": 448496,
   "dislikes": 45115,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bbb929d0b4269b1ba3b9a9be9d8018f3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/9096881148",
-  "fetchedAtUtc": "2026-08-03 04:09:43",
+  "fetchedAtUtc": "2026-08-03 06:00:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03 04:09:43",
-    "updatedAtTs": 1785730183,
+    "updatedAt": "2026-08-03 06:00:00",
+    "updatedAtTs": 1785736800,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785730183,
-        1747
+        1785736800,
+        1590
       ],
       "peak7d": [
         1785695321,
@@ -703,6 +703,10 @@
         [
           1785730183,
           1747
+        ],
+        [
+          1785736800,
+          1590
         ]
       ]
     }

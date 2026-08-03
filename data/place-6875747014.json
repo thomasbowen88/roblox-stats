@@ -7,18 +7,18 @@
   "name": "Ronopoly [Gold]",
   "creatorName": "Late Shift Games",
   "creatorType": "Group",
-  "playing": 1084,
-  "visits": 64984273,
-  "favorites": 259257,
+  "playing": 967,
+  "visits": 64989101,
+  "favorites": 259262,
   "likes": 60529,
   "dislikes": 24688,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4b9b966207ce1783fbf3f1c35cde9208/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6875747014",
-  "fetchedAtUtc": "2026-08-03 04:09:43",
+  "fetchedAtUtc": "2026-08-03 06:00:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03 04:09:43",
-    "updatedAtTs": 1785730183,
+    "updatedAt": "2026-08-03 06:00:00",
+    "updatedAtTs": 1785736800,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785730183,
-        1084
+        1785736800,
+        967
       ],
       "peak7d": [
         1785605338,
@@ -703,6 +703,10 @@
         [
           1785730183,
           1084
+        ],
+        [
+          1785736800,
+          967
         ]
       ]
     }
