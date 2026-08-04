@@ -7,18 +7,18 @@
   "name": "[FFA] DUELIST: PvP",
   "creatorName": "only three devs",
   "creatorType": "Group",
-  "playing": 794,
-  "visits": 12935820,
-  "favorites": 20680,
-  "likes": 18634,
-  "dislikes": 1081,
+  "playing": 875,
+  "visits": 12952145,
+  "favorites": 20690,
+  "likes": 18645,
+  "dislikes": 1084,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-91c5246bb388bb673e75d1455fa0645a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122310270867133",
-  "fetchedAtUtc": "2026-08-03 22:23:59",
+  "fetchedAtUtc": "2026-08-04 00:23:54",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03 22:23:59",
-    "updatedAtTs": 1785795839,
+    "updatedAt": "2026-08-04 00:23:54",
+    "updatedAtTs": 1785803034,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1785795839,
-        794
+        1785803034,
+        875
       ],
       "peak7d": [
-        1785793145,
-        852
+        1785803034,
+        875
       ]
     },
     "series": {
@@ -87,6 +87,10 @@
         [
           1785795839,
           794
+        ],
+        [
+          1785803034,
+          875
         ]
       ]
     }
