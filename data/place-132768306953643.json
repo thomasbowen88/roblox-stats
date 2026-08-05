@@ -7,18 +7,18 @@
   "name": " 🎲 EMOTE RNG",
   "creatorName": "Emote Clan",
   "creatorType": "Group",
-  "playing": 736,
-  "visits": 23883619,
-  "favorites": 36370,
+  "playing": 731,
+  "visits": 23884680,
+  "favorites": 36369,
   "likes": 24462,
   "dislikes": 3276,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-c3159cbd9601e3af992211db04d8f851/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132768306953643",
-  "fetchedAtUtc": "2026-08-05 23:35:10",
+  "fetchedAtUtc": "2026-08-05 23:59:23",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-05 23:35:10",
-    "updatedAtTs": 1785972910,
+    "updatedAt": "2026-08-05 23:59:23",
+    "updatedAtTs": 1785974363,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1785972910,
-        736
+        1785974363,
+        731
       ],
       "peak7d": [
         1785880124,
@@ -311,6 +311,10 @@
         [
           1785972910,
           736
+        ],
+        [
+          1785974363,
+          731
         ]
       ]
     }
