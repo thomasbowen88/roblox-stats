@@ -7,18 +7,18 @@
   "name": "[CONSOLE] SMILES",
   "creatorName": "AXOY STUDIO",
   "creatorType": "Group",
-  "playing": 260,
-  "visits": 2747572,
-  "favorites": 55604,
+  "playing": 294,
+  "visits": 2747848,
+  "favorites": 55605,
   "likes": 6746,
   "dislikes": 2517,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b9abdf2a33c2407e689baabc8bf9ee5c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/81785856598505",
-  "fetchedAtUtc": "2026-08-07 16:14:16",
+  "fetchedAtUtc": "2026-08-07 16:23:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-07 16:14:16",
-    "updatedAtTs": 1786119256,
+    "updatedAt": "2026-08-07 16:23:20",
+    "updatedAtTs": 1786119800,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1786119256,
-        260
+        1786119800,
+        294
       ],
       "peak7d": [
-        1786117754,
-        273
+        1786119800,
+        294
       ]
     },
     "series": {
@@ -127,6 +127,10 @@
         [
           1786119256,
           260
+        ],
+        [
+          1786119800,
+          294
         ]
       ]
     }
