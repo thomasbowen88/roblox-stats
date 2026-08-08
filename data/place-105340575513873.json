@@ -7,18 +7,18 @@
   "name": "Charisma Hospital: Medical Simulator",
   "creatorName": "Charisma Digital",
   "creatorType": "Group",
-  "playing": 759,
-  "visits": 49851113,
-  "favorites": 317129,
-  "likes": 95706,
-  "dislikes": 6165,
+  "playing": 810,
+  "visits": 49853367,
+  "favorites": 317145,
+  "likes": 95711,
+  "dislikes": 6166,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a8074c59efee3a7ca18b46d29afc9405/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105340575513873",
-  "fetchedAtUtc": "2026-08-08 03:09:07",
+  "fetchedAtUtc": "2026-08-08 03:43:12",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-08 03:09:07",
-    "updatedAtTs": 1786158547,
+    "updatedAt": "2026-08-08 03:43:12",
+    "updatedAtTs": 1786160592,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1786158547,
-        759
+        1786160592,
+        810
       ],
       "peak7d": [
-        1786130067,
-        804
+        1786160592,
+        810
       ]
     },
     "series": {
@@ -103,6 +103,10 @@
         [
           1786158547,
           759
+        ],
+        [
+          1786160592,
+          810
         ]
       ]
     }
