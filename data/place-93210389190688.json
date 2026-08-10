@@ -7,18 +7,18 @@
   "name": "[CUSTOMIZATION] Soul Reaper Incremental",
   "creatorName": "M3 Industries.",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 465985,
-  "favorites": 7951,
+  "playing": 34,
+  "visits": 466054,
+  "favorites": 7954,
   "likes": 1442,
   "dislikes": 357,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a3b82fbe46f24867b5048abca4238c91/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93210389190688",
-  "fetchedAtUtc": "2026-08-10 06:23:54",
+  "fetchedAtUtc": "2026-08-10 06:44:41",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-10 06:23:54",
-    "updatedAtTs": 1786343034,
+    "updatedAt": "2026-08-10 06:44:41",
+    "updatedAtTs": 1786344281,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1786343034,
-        42
+        1786344281,
+        34
       ],
       "peak7d": [
         1786154347,
@@ -455,6 +455,10 @@
         [
           1786343034,
           42
+        ],
+        [
+          1786344281,
+          34
         ]
       ]
     }
