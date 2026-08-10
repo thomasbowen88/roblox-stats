@@ -7,18 +7,18 @@
   "name": "[Katana] Zombie Island",
   "creatorName": "Shoot Zombies",
   "creatorType": "Group",
-  "playing": 1312,
-  "visits": 13768517,
-  "favorites": 49193,
-  "likes": 67862,
-  "dislikes": 2529,
+  "playing": 1032,
+  "visits": 13780370,
+  "favorites": 49222,
+  "likes": 67904,
+  "dislikes": 2531,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-828b9bc704d5e2209b60c329a9c7de53/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/80610578881227",
-  "fetchedAtUtc": "2026-08-10 13:34:28",
+  "fetchedAtUtc": "2026-08-10 16:00:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-10 13:34:28",
-    "updatedAtTs": 1786368868,
+    "updatedAt": "2026-08-10 16:00:01",
+    "updatedAtTs": 1786377601,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1786368868,
-        1312
+        1786377601,
+        1032
       ],
       "peak7d": [
         1786120777,
@@ -511,6 +511,10 @@
         [
           1786368868,
           1312
+        ],
+        [
+          1786377601,
+          1032
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "[🌧️WEATHER] TRENCH: DECAY",
   "creatorName": "studio rook.",
   "creatorType": "Group",
-  "playing": 826,
-  "visits": 2942193,
-  "favorites": 44519,
-  "likes": 22008,
-  "dislikes": 1512,
+  "playing": 845,
+  "visits": 2954558,
+  "favorites": 44650,
+  "likes": 22080,
+  "dislikes": 1515,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-68c610d8cf75b564b698b1f6c9041c3e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127608823846098",
-  "fetchedAtUtc": "2026-08-10 13:34:28",
+  "fetchedAtUtc": "2026-08-10 16:00:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-10 13:34:28",
-    "updatedAtTs": 1786368868,
+    "updatedAt": "2026-08-10 16:00:01",
+    "updatedAtTs": 1786377601,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1786368868,
-        826
+        1786377601,
+        845
       ],
       "peak7d": [
         1786161487,
@@ -511,6 +511,10 @@
         [
           1786368868,
           826
+        ],
+        [
+          1786377601,
+          845
         ]
       ]
     }
