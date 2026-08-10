@@ -7,18 +7,18 @@
   "name": "DUELIST: PvP",
   "creatorName": "only three devs",
   "creatorType": "Group",
-  "playing": 316,
-  "visits": 13744690,
+  "playing": 256,
+  "visits": 13745434,
   "favorites": 21389,
-  "likes": 19102,
+  "likes": 19104,
   "dislikes": 1158,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7006aba52a4bc8d5ea1f8e630924266f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122310270867133",
-  "fetchedAtUtc": "2026-08-10 06:44:41",
+  "fetchedAtUtc": "2026-08-10 06:58:38",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-10 06:44:41",
-    "updatedAtTs": 1786344281,
+    "updatedAt": "2026-08-10 06:58:38",
+    "updatedAtTs": 1786345118,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1786344281,
-        316
+        1786345118,
+        256
       ],
       "peak7d": [
         1786153732,
@@ -459,6 +459,10 @@
         [
           1786344281,
           316
+        ],
+        [
+          1786345118,
+          256
         ]
       ]
     }
