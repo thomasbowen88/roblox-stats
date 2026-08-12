@@ -7,18 +7,18 @@
   "name": "[🐱] Cat Invaders",
   "creatorName": "OneBed Studio",
   "creatorType": "Group",
-  "playing": 681,
-  "visits": 19509410,
-  "favorites": 368139,
+  "playing": 667,
+  "visits": 19509686,
+  "favorites": 368140,
   "likes": 96601,
   "dislikes": 1761,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bbc5f5fe305598a0406c0a70bddfa84c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/78496323189083",
-  "fetchedAtUtc": "2026-08-12 11:54:36",
+  "fetchedAtUtc": "2026-08-12 11:59:10",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-12 11:54:36",
-    "updatedAtTs": 1786535676,
+    "updatedAt": "2026-08-12 11:59:10",
+    "updatedAtTs": 1786535950,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1786535676,
-        681
+        1786535950,
+        667
       ],
       "peak7d": [
         1786161487,
@@ -783,6 +783,10 @@
         [
           1786535676,
           681
+        ],
+        [
+          1786535950,
+          667
         ]
       ]
     }
