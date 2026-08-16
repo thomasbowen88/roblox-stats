@@ -7,18 +7,18 @@
   "name": "[UDP6⚙️] Tap Incremental",
   "creatorName": "Topchart",
   "creatorType": "Group",
-  "playing": 1007,
-  "visits": 3689256,
-  "favorites": 46064,
+  "playing": 1010,
+  "visits": 3689452,
+  "favorites": 46065,
   "likes": 7654,
   "dislikes": 928,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ddbbbdf6203b5c3ee6cab783ec0a2202/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/82103875404639",
-  "fetchedAtUtc": "2026-08-16 17:34:07",
+  "fetchedAtUtc": "2026-08-16 17:39:24",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-16 17:34:07",
-    "updatedAtTs": 1786901647,
+    "updatedAt": "2026-08-16 17:39:24",
+    "updatedAtTs": 1786901964,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1786901647,
-        1007
+        1786901964,
+        1010
       ],
       "peak7d": [
-        1786901647,
-        1007
+        1786901964,
+        1010
       ]
     },
     "series": {
@@ -431,6 +431,10 @@
         [
           1786901647,
           1007
+        ],
+        [
+          1786901964,
+          1010
         ]
       ]
     }
