@@ -7,18 +7,18 @@
   "name": "[Qol 2xEvent]Blox Monsters",
   "creatorName": "kimi09",
   "creatorType": "Group",
-  "playing": 632,
-  "visits": 18549815,
-  "favorites": 51149,
+  "playing": 623,
+  "visits": 18549971,
+  "favorites": 51150,
   "likes": 22940,
   "dislikes": 1619,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-26fd75ea1bc08fa88cbc186dc30aed68/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/106763540857326",
-  "fetchedAtUtc": "2026-08-19 16:14:51",
+  "fetchedAtUtc": "2026-08-19 16:19:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-19 16:14:51",
-    "updatedAtTs": 1787156091,
+    "updatedAt": "2026-08-19 16:19:25",
+    "updatedAtTs": 1787156365,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787156091,
-        632
+        1787156365,
+        623
       ],
       "peak7d": [
         1787145283,
@@ -99,6 +99,10 @@
         [
           1787156091,
           632
+        ],
+        [
+          1787156365,
+          623
         ]
       ]
     }
