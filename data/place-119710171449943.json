@@ -7,18 +7,18 @@
   "name": "[RELEASE] Anime Overseer",
   "creatorName": "v2 studio - anime overseer",
   "creatorType": "Group",
-  "playing": 18,
-  "visits": 909518,
-  "favorites": 13152,
+  "playing": 23,
+  "visits": 909551,
+  "favorites": 13153,
   "likes": 17421,
   "dislikes": 679,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e936248be503c49e50be48a0d6a8ab13/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119710171449943",
-  "fetchedAtUtc": "2026-08-20 10:29:14",
+  "fetchedAtUtc": "2026-08-20 10:43:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-20 10:29:14",
-    "updatedAtTs": 1787221754,
+    "updatedAt": "2026-08-20 10:43:49",
+    "updatedAtTs": 1787222629,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787221754,
-        18
+        1787222629,
+        23
       ],
       "peak7d": [
         1787203105,
@@ -299,6 +299,10 @@
         [
           1787221754,
           18
+        ],
+        [
+          1787222629,
+          23
         ]
       ]
     }
