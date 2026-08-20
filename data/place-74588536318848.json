@@ -7,18 +7,18 @@
   "name": "Nightfall",
   "creatorName": "Dead Already",
   "creatorType": "Group",
-  "playing": 999,
-  "visits": 6166697,
-  "favorites": 127475,
-  "likes": 48399,
-  "dislikes": 2007,
+  "playing": 1005,
+  "visits": 6166954,
+  "favorites": 127476,
+  "likes": 48401,
+  "dislikes": 2008,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-83d3cc0a4158f3b1a960b2114b714f94/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/74588536318848",
-  "fetchedAtUtc": "2026-08-20 23:09:29",
+  "fetchedAtUtc": "2026-08-20 23:13:52",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-20 23:09:29",
-    "updatedAtTs": 1787267369,
+    "updatedAt": "2026-08-20 23:13:52",
+    "updatedAtTs": 1787267632,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787267369,
-        999
+        1787267632,
+        1005
       ],
       "peak7d": [
         1787263192,
@@ -195,6 +195,10 @@
         [
           1787267369,
           999
+        ],
+        [
+          1787267632,
+          1005
         ]
       ]
     }
