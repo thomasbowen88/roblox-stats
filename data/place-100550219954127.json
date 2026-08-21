@@ -7,18 +7,18 @@
   "name": "Cog",
   "creatorName": "Cogs And Chainrings",
   "creatorType": "Group",
-  "playing": 333,
-  "visits": 22417235,
-  "favorites": 773952,
+  "playing": 368,
+  "visits": 22417535,
+  "favorites": 773958,
   "likes": 33660,
   "dislikes": 1719,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-51eab6e7e75c3530c2798817ef6db83c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/100550219954127",
-  "fetchedAtUtc": "2026-08-21 05:34:02",
+  "fetchedAtUtc": "2026-08-21 05:39:27",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-21 05:34:02",
-    "updatedAtTs": 1787290442,
+    "updatedAt": "2026-08-21 05:39:27",
+    "updatedAtTs": 1787290767,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1787290442,
-        333
+        1787290767,
+        368
       ],
       "peak7d": [
-        1787234980,
-        356
+        1787290767,
+        368
       ]
     },
     "series": {
@@ -303,6 +303,10 @@
         [
           1787290442,
           333
+        ],
+        [
+          1787290767,
+          368
         ]
       ]
     }
