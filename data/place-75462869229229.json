@@ -7,18 +7,18 @@
   "name": "[🐍 AIKU] Soccer: Zero ",
   "creatorName": "Current.",
   "creatorType": "Group",
-  "playing": 257,
-  "visits": 29831408,
+  "playing": 273,
+  "visits": 29831494,
   "favorites": 99351,
-  "likes": 244974,
+  "likes": 244975,
   "dislikes": 12825,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5e60ddffd1aba1efb2f028a415df4488/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75462869229229",
-  "fetchedAtUtc": "2026-08-21 07:54:40",
+  "fetchedAtUtc": "2026-08-21 07:59:21",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-21 07:54:40",
-    "updatedAtTs": 1787298880,
+    "updatedAt": "2026-08-21 07:59:21",
+    "updatedAtTs": 1787299161,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787298880,
-        257
+        1787299161,
+        273
       ],
       "peak7d": [
         1787268245,
@@ -339,6 +339,10 @@
         [
           1787298880,
           257
+        ],
+        [
+          1787299161,
+          273
         ]
       ]
     }
