@@ -7,18 +7,18 @@
   "name": "[🗡️JAEGER BOSS] TRENCH: DECAY",
   "creatorName": "studio rook.",
   "creatorType": "Group",
-  "playing": 1059,
-  "visits": 4142278,
-  "favorites": 58122,
-  "likes": 29700,
+  "playing": 1009,
+  "visits": 4143480,
+  "favorites": 58135,
+  "likes": 29706,
   "dislikes": 1884,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b228d6f01317a494662dc91177e3f7a3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127608823846098",
-  "fetchedAtUtc": "2026-08-21 14:44:40",
+  "fetchedAtUtc": "2026-08-21 14:59:47",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-21 14:44:40",
-    "updatedAtTs": 1787323480,
+    "updatedAt": "2026-08-21 14:59:47",
+    "updatedAtTs": 1787324387,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787323480,
-        1059
+        1787324387,
+        1009
       ],
       "peak7d": [
         1787323480,
@@ -471,6 +471,10 @@
         [
           1787323480,
           1059
+        ],
+        [
+          1787324387,
+          1009
         ]
       ]
     }
