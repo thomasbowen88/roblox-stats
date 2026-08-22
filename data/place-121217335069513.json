@@ -7,18 +7,18 @@
   "name": "Monkey Soccer",
   "creatorName": "Goody Foody",
   "creatorType": "Group",
-  "playing": 227,
-  "visits": 13299644,
-  "favorites": 22766,
-  "likes": 28593,
+  "playing": 251,
+  "visits": 13301347,
+  "favorites": 22769,
+  "likes": 28596,
   "dislikes": 3014,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-168aa60cd0a1309e847a4e461ada124e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121217335069513",
-  "fetchedAtUtc": "2026-08-22 20:29:03",
+  "fetchedAtUtc": "2026-08-22 21:19:03",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-22 20:29:03",
-    "updatedAtTs": 1787430543,
+    "updatedAt": "2026-08-22 21:19:03",
+    "updatedAtTs": 1787433543,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1787430543,
-        227
+        1787433543,
+        251
       ],
       "peak7d": [
-        1787427543,
-        239
+        1787433543,
+        251
       ]
     },
     "series": {
@@ -151,6 +151,10 @@
         [
           1787430543,
           227
+        ],
+        [
+          1787433543,
+          251
         ]
       ]
     }
