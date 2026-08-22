@@ -7,18 +7,18 @@
   "name": "Four Square",
   "creatorName": "Four Square Fans",
   "creatorType": "Group",
-  "playing": 170,
-  "visits": 3806209,
-  "favorites": 165185,
-  "likes": 44152,
+  "playing": 192,
+  "visits": 3806356,
+  "favorites": 165190,
+  "likes": 44153,
   "dislikes": 2201,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f4a34d379004557a4a7456ae4738a2e9/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/113235664220283",
-  "fetchedAtUtc": "2026-08-22 17:34:21",
+  "fetchedAtUtc": "2026-08-22 17:39:44",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-22 17:34:21",
-    "updatedAtTs": 1787420061,
+    "updatedAt": "2026-08-22 17:39:44",
+    "updatedAtTs": 1787420384,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1787420061,
-        170
+        1787420384,
+        192
       ],
       "peak7d": [
-        1787418272,
-        179
+        1787420384,
+        192
       ]
     },
     "series": {
@@ -115,6 +115,10 @@
         [
           1787420061,
           170
+        ],
+        [
+          1787420384,
+          192
         ]
       ]
     }
