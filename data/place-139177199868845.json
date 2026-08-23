@@ -8,17 +8,17 @@
   "creatorName": "this a good game",
   "creatorType": "Group",
   "playing": 1120,
-  "visits": 18449473,
-  "favorites": 929796,
-  "likes": 18569,
+  "visits": 18449850,
+  "favorites": 929814,
+  "likes": 18570,
   "dislikes": 1365,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3a9ba025117d80b991a566b69d13c4ed/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139177199868845",
-  "fetchedAtUtc": "2026-08-23 14:13:53",
+  "fetchedAtUtc": "2026-08-23 14:19:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-23 14:13:53",
-    "updatedAtTs": 1787494433,
+    "updatedAt": "2026-08-23 14:19:39",
+    "updatedAtTs": 1787494779,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1787494433,
+        1787494779,
         1120
       ],
       "peak7d": [
@@ -418,6 +418,10 @@
         ],
         [
           1787494433,
+          1120
+        ],
+        [
+          1787494779,
           1120
         ]
       ]
