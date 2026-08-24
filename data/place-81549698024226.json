@@ -7,18 +7,18 @@
   "name": "Power Your City",
   "creatorName": "Restore Power",
   "creatorType": "Group",
-  "playing": 2166,
-  "visits": 10819579,
-  "favorites": 23816,
+  "playing": 2215,
+  "visits": 10820577,
+  "favorites": 23817,
   "likes": 22698,
   "dislikes": 1521,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-329bc815a8a6ce26b74093b18ddee400/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/81549698024226",
-  "fetchedAtUtc": "2026-08-24 10:44:07",
+  "fetchedAtUtc": "2026-08-24 10:49:41",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-24 10:44:07",
-    "updatedAtTs": 1787568247,
+    "updatedAt": "2026-08-24 10:49:41",
+    "updatedAtTs": 1787568581,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1787568247,
-        2166
+        1787568581,
+        2215
       ],
       "peak7d": [
-        1787566781,
-        2194
+        1787568581,
+        2215
       ]
     },
     "series": {
@@ -127,6 +127,10 @@
         [
           1787568247,
           2166
+        ],
+        [
+          1787568581,
+          2215
         ]
       ]
     }
