@@ -7,18 +7,18 @@
   "name": "[⚖️Trade] Zombie Island",
   "creatorName": "Shoot Zombies",
   "creatorType": "Group",
-  "playing": 1613,
-  "visits": 15555407,
-  "favorites": 54700,
-  "likes": 73642,
+  "playing": 1523,
+  "visits": 15556512,
+  "favorites": 54701,
+  "likes": 73644,
   "dislikes": 2838,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e6846c30e4ffb74fdfeaaf50282be6d9/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/80610578881227",
-  "fetchedAtUtc": "2026-08-26 14:39:58",
+  "fetchedAtUtc": "2026-08-26 14:49:34",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-26 14:39:58",
-    "updatedAtTs": 1787755198,
+    "updatedAt": "2026-08-26 14:49:34",
+    "updatedAtTs": 1787755774,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787755198,
-        1613
+        1787755774,
+        1523
       ],
       "peak7d": [
         1787755198,
@@ -715,6 +715,10 @@
         [
           1787755198,
           1613
+        ],
+        [
+          1787755774,
+          1523
         ]
       ]
     }
