@@ -7,18 +7,18 @@
   "name": "Dumpling Stars",
   "creatorName": "xFrozen x Dudes",
   "creatorType": "Group",
-  "playing": 729,
-  "visits": 16457293,
+  "playing": 764,
+  "visits": 16459285,
   "favorites": 25140,
-  "likes": 25103,
+  "likes": 25104,
   "dislikes": 1537,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-1a1931fcfb030e056768e43234d331d6/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/95829667226336",
-  "fetchedAtUtc": "2026-08-26 23:08:38",
+  "fetchedAtUtc": "2026-08-26 23:39:22",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-26 23:08:38",
-    "updatedAtTs": 1787785718,
+    "updatedAt": "2026-08-26 23:39:22",
+    "updatedAtTs": 1787787562,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787785718,
-        729
+        1787787562,
+        764
       ],
       "peak7d": [
         1787575751,
@@ -771,6 +771,10 @@
         [
           1787785718,
           729
+        ],
+        [
+          1787787562,
+          764
         ]
       ]
     }

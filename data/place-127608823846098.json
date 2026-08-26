@@ -7,18 +7,18 @@
   "name": "[🛠️BUG FIXES!] TRENCH: DECAY",
   "creatorName": "studio rook.",
   "creatorType": "Group",
-  "playing": 512,
-  "visits": 4627046,
-  "favorites": 63454,
-  "likes": 32472,
-  "dislikes": 2061,
+  "playing": 536,
+  "visits": 4628247,
+  "favorites": 63461,
+  "likes": 32480,
+  "dislikes": 2060,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-eb41694f076b7375d0baec94b26c3ed8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127608823846098",
-  "fetchedAtUtc": "2026-08-26 23:08:38",
+  "fetchedAtUtc": "2026-08-26 23:39:22",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-26 23:08:38",
-    "updatedAtTs": 1787785718,
+    "updatedAt": "2026-08-26 23:39:22",
+    "updatedAtTs": 1787787562,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1787785718,
-        512
+        1787787562,
+        536
       ],
       "peak7d": [
         1787580832,
@@ -771,6 +771,10 @@
         [
           1787785718,
           512
+        ],
+        [
+          1787787562,
+          536
         ]
       ]
     }
