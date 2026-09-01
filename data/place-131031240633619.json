@@ -7,18 +7,18 @@
   "name": "Rintama High",
   "creatorName": "o7 Delinquent Café",
   "creatorType": "Group",
-  "playing": 706,
-  "visits": 10654440,
-  "favorites": 89752,
+  "playing": 750,
+  "visits": 10655443,
+  "favorites": 89760,
   "likes": 24198,
   "dislikes": 2397,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0124831b4f85b25af8df81dfee2ed594/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131031240633619",
-  "fetchedAtUtc": "2026-09-01 11:19:03",
+  "fetchedAtUtc": "2026-09-01 11:39:35",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01 11:19:03",
-    "updatedAtTs": 1788261543,
+    "updatedAt": "2026-09-01 11:39:35",
+    "updatedAtTs": 1788262775,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788261543,
-        706
+        1788262775,
+        750
       ],
       "peak7d": [
-        1788224389,
-        741
+        1788262775,
+        750
       ]
     },
     "series": {
@@ -151,6 +151,10 @@
         [
           1788261543,
           706
+        ],
+        [
+          1788262775,
+          750
         ]
       ]
     }
