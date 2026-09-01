@@ -7,18 +7,18 @@
   "name": "[LAUNCH CONTROL UPDATE] TR Legacy",
   "creatorName": "exrgarage",
   "creatorType": "Group",
-  "playing": 6560,
-  "visits": 27525514,
-  "favorites": 84891,
-  "likes": 66511,
-  "dislikes": 2179,
+  "playing": 6575,
+  "visits": 27532273,
+  "favorites": 84905,
+  "likes": 66516,
+  "dislikes": 2180,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-45601c78754f2ef9db8a82bcff6f950b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127089247654125",
-  "fetchedAtUtc": "2026-09-01 11:48:52",
+  "fetchedAtUtc": "2026-09-01 11:59:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01 11:48:52",
-    "updatedAtTs": 1788263332,
+    "updatedAt": "2026-09-01 11:59:45",
+    "updatedAtTs": 1788263985,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788263332,
-        6560
+        1788263985,
+        6575
       ],
       "peak7d": [
-        1788263332,
-        6560
+        1788263985,
+        6575
       ]
     },
     "series": {
@@ -159,6 +159,10 @@
         [
           1788263332,
           6560
+        ],
+        [
+          1788263985,
+          6575
         ]
       ]
     }
