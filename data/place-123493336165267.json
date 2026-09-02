@@ -7,18 +7,18 @@
   "name": "Smash Tape Simulator 💥",
   "creatorName": "smash tape club",
   "creatorType": "Group",
-  "playing": 135,
-  "visits": 36814748,
-  "favorites": 119617,
+  "playing": 116,
+  "visits": 36814830,
+  "favorites": 119618,
   "likes": 69304,
   "dislikes": 3510,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6bec7baef3a601e868b1562d848770ec/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/123493336165267",
-  "fetchedAtUtc": "2026-09-02 13:44:07",
+  "fetchedAtUtc": "2026-09-02 13:49:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-02 13:44:07",
-    "updatedAtTs": 1788356647,
+    "updatedAt": "2026-09-02 13:49:37",
+    "updatedAtTs": 1788356977,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788356647,
-        135
+        1788356977,
+        116
       ],
       "peak7d": [
         1788278397,
@@ -343,6 +343,10 @@
         [
           1788356647,
           135
+        ],
+        [
+          1788356977,
+          116
         ]
       ]
     }
