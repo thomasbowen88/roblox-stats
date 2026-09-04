@@ -7,18 +7,18 @@
   "name": "[QUICKMATCH FIX] TRENCH: DECAY",
   "creatorName": "studio rook.",
   "creatorType": "Group",
-  "playing": 331,
-  "visits": 5160010,
-  "favorites": 69973,
-  "likes": 34740,
-  "dislikes": 2204,
+  "playing": 403,
+  "visits": 5162772,
+  "favorites": 70005,
+  "likes": 34751,
+  "dislikes": 2205,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-57146e8d8b6624dbe31174956c5c6e07/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127608823846098",
-  "fetchedAtUtc": "2026-09-03 23:14:13",
+  "fetchedAtUtc": "2026-09-04 00:58:33",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-03 23:14:13",
-    "updatedAtTs": 1788477253,
+    "updatedAt": "2026-09-04 00:58:33",
+    "updatedAtTs": 1788483513,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788477253,
-        331
+        1788483513,
+        403
       ],
       "peak7d": [
         1788396841,
@@ -271,6 +271,10 @@
         [
           1788477253,
           331
+        ],
+        [
+          1788483513,
+          403
         ]
       ]
     }
