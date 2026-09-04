@@ -7,18 +7,18 @@
   "name": "Kawaii Anime RNG 🎲",
   "creatorName": "goodnight cloud",
   "creatorType": "Group",
-  "playing": 200,
-  "visits": 2503849,
-  "favorites": 97390,
+  "playing": 209,
+  "visits": 2503894,
+  "favorites": 97389,
   "likes": 7358,
   "dislikes": 641,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-c0de57b816f189bbfc4385834175ff2f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/104263864475588",
-  "fetchedAtUtc": "2026-09-04 07:53:27",
+  "fetchedAtUtc": "2026-09-04 07:59:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-04 07:53:27",
-    "updatedAtTs": 1788508407,
+    "updatedAt": "2026-09-04 07:59:49",
+    "updatedAtTs": 1788508789,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788508407,
-        200
+        1788508789,
+        209
       ],
       "peak7d": [
         1788369304,
@@ -339,6 +339,10 @@
         [
           1788508407,
           200
+        ],
+        [
+          1788508789,
+          209
         ]
       ]
     }
