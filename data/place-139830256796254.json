@@ -7,18 +7,18 @@
   "name": "[BETA] Blackrooms",
   "creatorName": "duckers fire group",
   "creatorType": "Group",
-  "playing": 2,
-  "visits": 3878833,
+  "playing": 12,
+  "visits": 3878849,
   "favorites": 57130,
   "likes": 56385,
   "dislikes": 2246,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-642118a9a8facf0b45223debe518ec70/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139830256796254",
-  "fetchedAtUtc": "2026-09-04 21:43:54",
+  "fetchedAtUtc": "2026-09-04 22:04:21",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-04 21:43:54",
-    "updatedAtTs": 1788558234,
+    "updatedAt": "2026-09-04 22:04:21",
+    "updatedAtTs": 1788559461,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788558234,
-        2
+        1788559461,
+        12
       ],
       "peak7d": [
-        1788542032,
-        9
+        1788559461,
+        12
       ]
     },
     "series": {
@@ -115,6 +115,10 @@
         [
           1788558234,
           2
+        ],
+        [
+          1788559461,
+          12
         ]
       ]
     }
