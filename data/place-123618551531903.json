@@ -4,21 +4,21 @@
   "placeId": "123618551531903",
   "rootPlaceId": "123618551531903",
   "universeId": "10576219283",
-  "name": "[UPD 2] Start Your Soccer Career!",
+  "name": "[MANAGER] Start Your Soccer Career!",
   "creatorName": "Start Soccer!",
   "creatorType": "Group",
-  "playing": 798,
-  "visits": 3311824,
-  "favorites": 35325,
-  "likes": 25332,
-  "dislikes": 1033,
+  "playing": 935,
+  "visits": 3318918,
+  "favorites": 35379,
+  "likes": 25370,
+  "dislikes": 1035,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e37c37d163f3d50b470a4a1b39117793/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/123618551531903",
-  "fetchedAtUtc": "2026-09-05 18:39:12",
+  "fetchedAtUtc": "2026-09-05 20:23:31",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05 18:39:12",
-    "updatedAtTs": 1788633552,
+    "updatedAt": "2026-09-05 20:23:31",
+    "updatedAtTs": 1788639811,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788633552,
-        798
+        1788639811,
+        935
       ],
       "peak7d": [
-        1788621261,
-        807
+        1788639811,
+        935
       ]
     },
     "series": {
@@ -259,6 +259,10 @@
         [
           1788633552,
           798
+        ],
+        [
+          1788639811,
+          935
         ]
       ]
     }
