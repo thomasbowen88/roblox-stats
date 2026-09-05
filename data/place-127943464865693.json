@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "status": "static",
+  "placeId": "127943464865693",
+  "rootPlaceId": "127943464865693",
+  "universeId": "10605173611",
+  "name": "[Beta] Bloxrooms",
+  "creatorName": "Bloxrooms Corporation",
+  "creatorType": "Group",
+  "playing": 1886,
+  "visits": 389021,
+  "favorites": 14344,
+  "likes": 3789,
+  "dislikes": 375,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4ca4ff8238de7af0b33599d215a9adc9/512/512/Image/Png/noFilter",
+  "robloxUrl": "https://www.roblox.com/games/127943464865693",
+  "fetchedAtUtc": "2026-09-05 18:39:12",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-05 18:39:12",
+    "updatedAtTs": 1788633552,
+    "source": "roblox",
+    "sourceIntervalSeconds": null,
+    "retention": {
+      "playerHistorySeconds": 604800
+    },
+    "summary": {
+      "current": [
+        1788633552,
+        1886
+      ],
+      "peak7d": [
+        1788633552,
+        1886
+      ]
+    },
+    "series": {
+      "players": [
+        [
+          1788633552,
+          1886
+        ]
+      ]
+    }
+  }
+}
