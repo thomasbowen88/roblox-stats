@@ -7,18 +7,18 @@
   "name": "[🌱] Grow a Garden 🌶️",
   "creatorName": "The Garden Game",
   "creatorType": "Group",
-  "playing": 32174,
-  "visits": 35888035513,
-  "favorites": 11393602,
-  "likes": 9415558,
-  "dislikes": 1052646,
+  "playing": 32768,
+  "visits": 35888065668,
+  "favorites": 11393622,
+  "likes": 9415563,
+  "dislikes": 1052647,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-78bda5734a02c4ff5f0394db4dc6a641/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/126884695634066",
-  "fetchedAtUtc": "2026-09-05 06:44:11",
+  "fetchedAtUtc": "2026-09-05 06:59:15",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05 06:44:11",
-    "updatedAtTs": 1788590651,
+    "updatedAt": "2026-09-05 06:59:15",
+    "updatedAtTs": 1788591555,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788590651,
-        32174
+        1788591555,
+        32768
       ],
       "peak7d": [
-        1788527963,
-        32724
+        1788591555,
+        32768
       ]
     },
     "series": {
@@ -163,6 +163,10 @@
         [
           1788590651,
           32174
+        ],
+        [
+          1788591555,
+          32768
         ]
       ]
     }
