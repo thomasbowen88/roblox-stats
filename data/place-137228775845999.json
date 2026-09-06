@@ -7,18 +7,18 @@
   "name": "Ghost Driver [PRE-ALPHA]",
   "creatorName": "Tilted Vehicles",
   "creatorType": "Group",
-  "playing": 17253,
-  "visits": 53221338,
-  "favorites": 702405,
-  "likes": 417016,
-  "dislikes": 7997,
+  "playing": 17057,
+  "visits": 53228439,
+  "favorites": 702456,
+  "likes": 417044,
+  "dislikes": 7998,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-91d4fe200c714ffe996958b6de51cb6e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/137228775845999",
-  "fetchedAtUtc": "2026-09-06 02:54:19",
+  "fetchedAtUtc": "2026-09-06 02:59:48",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06 02:54:19",
-    "updatedAtTs": 1788663259,
+    "updatedAt": "2026-09-06 02:59:48",
+    "updatedAtTs": 1788663588,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788663259,
-        17253
+        1788663588,
+        17057
       ],
       "peak7d": [
         1788644061,
@@ -319,6 +319,10 @@
         [
           1788663259,
           17253
+        ],
+        [
+          1788663588,
+          17057
         ]
       ]
     }
