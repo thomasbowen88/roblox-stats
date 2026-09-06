@@ -7,18 +7,18 @@
   "name": "[UPD 4] Coin Flip",
   "creatorName": "Fauna Studio",
   "creatorType": "Group",
-  "playing": 87,
-  "visits": 5011843,
+  "playing": 81,
+  "visits": 5011947,
   "favorites": 19643,
-  "likes": 37897,
+  "likes": 37899,
   "dislikes": 1517,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-059dfb2d78028d99b38312c23f25f1cc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99416896791343",
-  "fetchedAtUtc": "2026-09-06 02:59:48",
+  "fetchedAtUtc": "2026-09-06 03:29:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06 02:59:48",
-    "updatedAtTs": 1788663588,
+    "updatedAt": "2026-09-06 03:29:04",
+    "updatedAtTs": 1788665344,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788663588,
-        87
+        1788665344,
+        81
       ],
       "peak7d": [
         1788645568,
@@ -323,6 +323,10 @@
         [
           1788663588,
           87
+        ],
+        [
+          1788665344,
+          81
         ]
       ]
     }
