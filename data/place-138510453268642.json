@@ -7,18 +7,18 @@
   "name": "[UPD7] Saiyan Incremental",
   "creatorName": "Build&Blocks",
   "creatorType": "Group",
-  "playing": 501,
-  "visits": 831176,
-  "favorites": 35026,
+  "playing": 570,
+  "visits": 831716,
+  "favorites": 35035,
   "likes": 8483,
-  "dislikes": 938,
+  "dislikes": 939,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0f09f10c294f7191a86e91ec8222af30/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/138510453268642",
-  "fetchedAtUtc": "2026-09-06 14:18:40",
+  "fetchedAtUtc": "2026-09-06 15:04:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06 14:18:40",
-    "updatedAtTs": 1788704320,
+    "updatedAt": "2026-09-06 15:04:30",
+    "updatedAtTs": 1788707070,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788704320,
-        501
+        1788707070,
+        570
       ],
       "peak7d": [
-        1788639811,
-        529
+        1788707070,
+        570
       ]
     },
     "series": {
@@ -415,6 +415,10 @@
         [
           1788704320,
           501
+        ],
+        [
+          1788707070,
+          570
         ]
       ]
     }
