@@ -7,18 +7,18 @@
   "name": "Devil's Market",
   "creatorName": "Project Dukun",
   "creatorType": "Group",
-  "playing": 1825,
-  "visits": 4958781,
-  "favorites": 150027,
+  "playing": 1894,
+  "visits": 4959403,
+  "favorites": 150038,
   "likes": 19031,
   "dislikes": 1016,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-87b06d1d13483c09e9888474ca3f332d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108679402300081",
-  "fetchedAtUtc": "2026-09-05 23:49:04",
+  "fetchedAtUtc": "2026-09-05 23:59:54",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05 23:49:04",
-    "updatedAtTs": 1788652144,
+    "updatedAt": "2026-09-05 23:59:54",
+    "updatedAtTs": 1788652794,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788652144,
-        1825
+        1788652794,
+        1894
       ],
       "peak7d": [
         1788593036,
@@ -287,6 +287,10 @@
         [
           1788652144,
           1825
+        ],
+        [
+          1788652794,
+          1894
         ]
       ]
     }
