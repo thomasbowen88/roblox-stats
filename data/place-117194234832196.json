@@ -7,18 +7,18 @@
   "name": "Digital Doom 🎪",
   "creatorName": "zero's circus",
   "creatorType": "Group",
-  "playing": 488,
-  "visits": 4159410,
+  "playing": 476,
+  "visits": 4159660,
   "favorites": 40480,
   "likes": 39924,
-  "dislikes": 4248,
+  "dislikes": 4249,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-1ecce74849f345527a036b2e0e5a5872/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/117194234832196",
-  "fetchedAtUtc": "2026-09-06 19:54:17",
+  "fetchedAtUtc": "2026-09-06 19:59:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06 19:54:17",
-    "updatedAtTs": 1788724457,
+    "updatedAt": "2026-09-06 19:59:49",
+    "updatedAtTs": 1788724789,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788724457,
-        488
+        1788724789,
+        476
       ],
       "peak7d": [
         1788722639,
@@ -467,6 +467,10 @@
         [
           1788724457,
           488
+        ],
+        [
+          1788724789,
+          476
         ]
       ]
     }
