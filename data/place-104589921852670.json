@@ -7,18 +7,18 @@
   "name": "Secure the Checkpoint [BETA]",
   "creatorName": "The Evil Mafia",
   "creatorType": "Group",
-  "playing": 667,
-  "visits": 14722092,
-  "favorites": 75248,
+  "playing": 612,
+  "visits": 14722421,
+  "favorites": 75249,
   "likes": 17473,
   "dislikes": 2609,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-79fa305abf08dff9661a5ab89125022c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/104589921852670",
-  "fetchedAtUtc": "2026-09-07 02:54:21",
+  "fetchedAtUtc": "2026-09-07 02:59:48",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-07 02:54:21",
-    "updatedAtTs": 1788749661,
+    "updatedAt": "2026-09-07 02:59:48",
+    "updatedAtTs": 1788749988,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788749661,
-        667
+        1788749988,
+        612
       ],
       "peak7d": [
         1788614894,
@@ -519,6 +519,10 @@
         [
           1788749661,
           667
+        ],
+        [
+          1788749988,
+          612
         ]
       ]
     }
