@@ -7,18 +7,18 @@
   "name": "Choose An Ability",
   "creatorName": "Goofy Games_",
   "creatorType": "Group",
-  "playing": 140,
-  "visits": 16421842,
+  "playing": 124,
+  "visits": 16422265,
   "favorites": 29493,
   "likes": 28226,
-  "dislikes": 5200,
+  "dislikes": 5201,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7f5a7e4bbf40eee001cc463c18c21999/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/92115423063125",
-  "fetchedAtUtc": "2026-09-07 01:14:19",
+  "fetchedAtUtc": "2026-09-07 01:53:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-07 01:14:19",
-    "updatedAtTs": 1788743659,
+    "updatedAt": "2026-09-07 01:53:59",
+    "updatedAtTs": 1788746039,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788743659,
-        140
+        1788746039,
+        124
       ],
       "peak7d": [
         1788527963,
@@ -499,6 +499,10 @@
         [
           1788743659,
           140
+        ],
+        [
+          1788746039,
+          124
         ]
       ]
     }
