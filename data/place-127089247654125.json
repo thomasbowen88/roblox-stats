@@ -4,21 +4,21 @@
   "placeId": "127089247654125",
   "rootPlaceId": "127089247654125",
   "universeId": "8813969120",
-  "name": "[LAUNCH CONTROL UPDATE] TR Legacy",
+  "name": "[WEATHER UPDATE] TR Legacy",
   "creatorName": "exrgarage",
   "creatorType": "Group",
-  "playing": 3205,
-  "visits": 31085447,
-  "favorites": 94416,
-  "likes": 72972,
-  "dislikes": 2400,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-59646e333eef43a1f9a54c4e4472c4d5/512/512/Image/Png/noFilter",
+  "playing": 4011,
+  "visits": 31116567,
+  "favorites": 94518,
+  "likes": 73051,
+  "dislikes": 2404,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5558848d354eb65cde4a3cd915fb7185/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127089247654125",
-  "fetchedAtUtc": "2026-09-06 23:44:06",
+  "fetchedAtUtc": "2026-09-07 01:14:19",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06 23:44:06",
-    "updatedAtTs": 1788738246,
+    "updatedAt": "2026-09-07 01:14:19",
+    "updatedAtTs": 1788743659,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1788738246,
-        3205
+        1788743659,
+        4011
       ],
       "peak7d": [
         1788612799,
@@ -495,6 +495,10 @@
         [
           1788738246,
           3205
+        ],
+        [
+          1788743659,
+          4011
         ]
       ]
     }
