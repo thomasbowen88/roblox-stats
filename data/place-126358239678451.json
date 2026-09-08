@@ -7,18 +7,18 @@
   "name": "[UPDATE 4 Admin Abuse] Anime RNG",
   "creatorName": "Games by Yun",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 4168638,
-  "favorites": 11370,
+  "playing": 1,
+  "visits": 4168641,
+  "favorites": 11369,
   "likes": 11028,
   "dislikes": 608,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-12b15ae5e38cb52a21d9e3418aa0d792/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/126358239678451",
-  "fetchedAtUtc": "2026-09-08 02:58:48",
+  "fetchedAtUtc": "2026-09-08 05:09:31",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-08 02:58:48",
-    "updatedAtTs": 1788836328,
+    "updatedAt": "2026-09-08 05:09:31",
+    "updatedAtTs": 1788844171,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1788836328,
-        0
+        1788844171,
+        1
       ],
       "peak7d": [
-        1788790168,
-        0
+        1788844171,
+        1
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1788836328,
           0
+        ],
+        [
+          1788844171,
+          1
         ]
       ]
     }
