@@ -7,18 +7,18 @@
   "name": "BedWars [⚖️ BALANCE]",
   "creatorName": "Easy.gg",
   "creatorType": "Group",
-  "playing": 24764,
-  "visits": 11677407487,
-  "favorites": 4605768,
-  "likes": 2467681,
-  "dislikes": 531616,
+  "playing": 25000,
+  "visits": 11677416425,
+  "favorites": 4605770,
+  "likes": 2467682,
+  "dislikes": 531618,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-92dfbc55ac3653237f8a460aaf65f7e1/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6872265039",
-  "fetchedAtUtc": "2026-09-10 22:09:12",
+  "fetchedAtUtc": "2026-09-10 22:13:13",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-10 22:09:12",
-    "updatedAtTs": 1789078152,
+    "updatedAt": "2026-09-10 22:13:13",
+    "updatedAtTs": 1789078393,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789078152,
-        24764
+        1789078393,
+        25000
       ],
       "peak7d": [
-        1789078152,
-        24764
+        1789078393,
+        25000
       ]
     },
     "series": {
@@ -119,6 +119,10 @@
         [
           1789078152,
           24764
+        ],
+        [
+          1789078393,
+          25000
         ]
       ]
     }
