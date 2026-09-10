@@ -7,18 +7,18 @@
   "name": "A Bizarre Village",
   "creatorName": "72982x",
   "creatorType": "User",
-  "playing": 16,
-  "visits": 7023120,
+  "playing": 22,
+  "visits": 7023183,
   "favorites": 31685,
   "likes": 12762,
   "dislikes": 3406,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3ce227ea5ce75b743ef85698b562757b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/7150360576",
-  "fetchedAtUtc": "2026-09-10 13:30:07",
+  "fetchedAtUtc": "2026-09-10 14:29:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-10 13:30:07",
-    "updatedAtTs": 1789047007,
+    "updatedAt": "2026-09-10 14:29:55",
+    "updatedAtTs": 1789050595,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789047007,
-        16
+        1789050595,
+        22
       ],
       "peak7d": [
-        1789041606,
-        17
+        1789050595,
+        22
       ]
     },
     "series": {
@@ -75,6 +75,10 @@
         [
           1789047007,
           16
+        ],
+        [
+          1789050595,
+          22
         ]
       ]
     }
