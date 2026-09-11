@@ -4,21 +4,21 @@
   "placeId": "99521272836282",
   "rootPlaceId": "99521272836282",
   "universeId": "9551044479",
-  "name": "Final Swarm [⌛1 Hour]",
+  "name": "Final Swarm [⌛30 Minutes]",
   "creatorName": "Evolution Studio Games",
   "creatorType": "Group",
-  "playing": 3017,
-  "visits": 42082558,
-  "favorites": 218412,
-  "likes": 162995,
-  "dislikes": 4357,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4812a5743ef337fb5c1f7aa8b2097a12/512/512/Image/Png/noFilter",
+  "playing": 6819,
+  "visits": 42118034,
+  "favorites": 218516,
+  "likes": 163040,
+  "dislikes": 4362,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-261e2bb95b3fbc4175c10af1e74fda49/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99521272836282",
-  "fetchedAtUtc": "2026-09-11 14:24:58",
+  "fetchedAtUtc": "2026-09-11 15:30:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-11 14:24:58",
-    "updatedAtTs": 1789136698,
+    "updatedAt": "2026-09-11 15:30:04",
+    "updatedAtTs": 1789140604,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789136698,
-        3017
+        1789140604,
+        6819
       ],
       "peak7d": [
-        1789136698,
-        3017
+        1789140604,
+        6819
       ]
     },
     "series": {
@@ -251,6 +251,10 @@
         [
           1789136698,
           3017
+        ],
+        [
+          1789140604,
+          6819
         ]
       ]
     }
