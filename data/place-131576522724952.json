@@ -7,18 +7,18 @@
   "name": "Untitled Slayer",
   "creatorName": "MortelCraft",
   "creatorType": "User",
-  "playing": 128,
-  "visits": 3131386,
+  "playing": 121,
+  "visits": 3131683,
   "favorites": 19329,
-  "likes": 25675,
+  "likes": 25678,
   "dislikes": 1379,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fffa33e60c8ec311ba4ecaa69db2a6de/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131576522724952",
-  "fetchedAtUtc": "2026-09-11 23:29:11",
+  "fetchedAtUtc": "2026-09-11 23:59:16",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-11 23:29:11",
-    "updatedAtTs": 1789169351,
+    "updatedAt": "2026-09-11 23:59:16",
+    "updatedAtTs": 1789171156,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789169351,
-        128
+        1789171156,
+        121
       ],
       "peak7d": [
         1789169351,
@@ -307,6 +307,10 @@
         [
           1789169351,
           128
+        ],
+        [
+          1789171156,
+          121
         ]
       ]
     }
