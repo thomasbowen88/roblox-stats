@@ -7,18 +7,18 @@
   "name": "Bloxodachi Life 🏝️",
   "creatorName": "Carmite Creations",
   "creatorType": "Group",
-  "playing": 127,
-  "visits": 7794258,
+  "playing": 145,
+  "visits": 7794288,
   "favorites": 118312,
   "likes": 33443,
   "dislikes": 5962,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-58393b22a6e4beae323588739438e3cf/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99981471292876",
-  "fetchedAtUtc": "2026-09-12 20:14:38",
+  "fetchedAtUtc": "2026-09-12 20:18:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12 20:14:38",
-    "updatedAtTs": 1789244078,
+    "updatedAt": "2026-09-12 20:18:25",
+    "updatedAtTs": 1789244305,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789244078,
-        127
+        1789244305,
+        145
       ],
       "peak7d": [
-        1789241292,
-        132
+        1789244305,
+        145
       ]
     },
     "series": {
@@ -463,6 +463,10 @@
         [
           1789244078,
           127
+        ],
+        [
+          1789244305,
+          145
         ]
       ]
     }
