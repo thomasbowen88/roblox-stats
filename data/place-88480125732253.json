@@ -7,18 +7,18 @@
   "name": "Trade Squishy Dumplings",
   "creatorName": "SGR Studios",
   "creatorType": "Group",
-  "playing": 868,
-  "visits": 57549433,
+  "playing": 960,
+  "visits": 57551617,
   "favorites": 117142,
   "likes": 104371,
   "dislikes": 3747,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3f0ec73a34798c8ad02d0bd6aabe1737/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/88480125732253",
-  "fetchedAtUtc": "2026-09-12 12:09:09",
+  "fetchedAtUtc": "2026-09-12 12:34:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12 12:09:09",
-    "updatedAtTs": 1789214949,
+    "updatedAt": "2026-09-12 12:34:25",
+    "updatedAtTs": 1789216465,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789214949,
-        868
+        1789216465,
+        960
       ],
       "peak7d": [
-        1789213759,
-        897
+        1789216465,
+        960
       ]
     },
     "series": {
@@ -403,6 +403,10 @@
         [
           1789214949,
           868
+        ],
+        [
+          1789216465,
+          960
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "Haze Seas ",
   "creatorName": "[HS] Haze Studios",
   "creatorType": "Group",
-  "playing": 2100,
-  "visits": 304885624,
-  "favorites": 4426588,
-  "likes": 1786850,
-  "dislikes": 42404,
+  "playing": 2250,
+  "visits": 304888869,
+  "favorites": 4426653,
+  "likes": 1786860,
+  "dislikes": 42405,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a895963d76c0a0fe907f229e34e44576/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6918802270",
-  "fetchedAtUtc": "2026-09-12 12:09:09",
+  "fetchedAtUtc": "2026-09-12 12:34:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12 12:09:09",
-    "updatedAtTs": 1789214949,
+    "updatedAt": "2026-09-12 12:34:25",
+    "updatedAtTs": 1789216465,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789214949,
-        2100
+        1789216465,
+        2250
       ],
       "peak7d": [
-        1789180761,
-        2148
+        1789216465,
+        2250
       ]
     },
     "series": {
@@ -403,6 +403,10 @@
         [
           1789214949,
           2100
+        ],
+        [
+          1789216465,
+          2250
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "Jailbreak",
   "creatorName": "Badimo",
   "creatorType": "Group",
-  "playing": 9175,
-  "visits": 8033435861,
-  "favorites": 18648655,
-  "likes": 5796612,
-  "dislikes": 811039,
+  "playing": 9345,
+  "visits": 8033456702,
+  "favorites": 18648672,
+  "likes": 5796618,
+  "dislikes": 811040,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-468c4a0429ba9a5d0eb990a79a86b003/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/606849621",
-  "fetchedAtUtc": "2026-09-12 12:09:09",
+  "fetchedAtUtc": "2026-09-12 12:34:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12 12:09:09",
-    "updatedAtTs": 1789214949,
+    "updatedAt": "2026-09-12 12:34:25",
+    "updatedAtTs": 1789216465,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789214949,
-        9175
+        1789216465,
+        9345
       ],
       "peak7d": [
-        1789214949,
-        9175
+        1789216465,
+        9345
       ]
     },
     "series": {
@@ -403,6 +403,10 @@
         [
           1789214949,
           9175
+        ],
+        [
+          1789216465,
+          9345
         ]
       ]
     }
