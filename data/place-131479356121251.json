@@ -7,18 +7,18 @@
   "name": "50 Player BINGO!",
   "creatorName": "Turret Sims",
   "creatorType": "Group",
-  "playing": 10003,
-  "visits": 42251287,
-  "favorites": 91397,
-  "likes": 57922,
-  "dislikes": 12894,
+  "playing": 10459,
+  "visits": 42280550,
+  "favorites": 91453,
+  "likes": 57934,
+  "dislikes": 12899,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0eb88d32ebf08a45e6fab248df9eac72/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131479356121251",
-  "fetchedAtUtc": "2026-09-12 01:04:14",
+  "fetchedAtUtc": "2026-09-12 01:43:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12 01:04:14",
-    "updatedAtTs": 1789175054,
+    "updatedAt": "2026-09-12 01:43:59",
+    "updatedAtTs": 1789177439,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789175054,
-        10003
+        1789177439,
+        10459
       ],
       "peak7d": [
-        1789174764,
-        10124
+        1789177439,
+        10459
       ]
     },
     "series": {
@@ -323,6 +323,10 @@
         [
           1789175054,
           10003
+        ],
+        [
+          1789177439,
+          10459
         ]
       ]
     }
