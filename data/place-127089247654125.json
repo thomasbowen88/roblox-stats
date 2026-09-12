@@ -7,18 +7,18 @@
   "name": "[WEATHER UPDATE] TR Legacy",
   "creatorName": "exrgarage",
   "creatorType": "Group",
-  "playing": 3511,
-  "visits": 33904038,
-  "favorites": 101966,
-  "likes": 78194,
+  "playing": 3402,
+  "visits": 33907084,
+  "favorites": 101976,
+  "likes": 78201,
   "dislikes": 2595,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5558848d354eb65cde4a3cd915fb7185/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127089247654125",
-  "fetchedAtUtc": "2026-09-12 20:40:03",
+  "fetchedAtUtc": "2026-09-12 20:49:42",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12 20:40:03",
-    "updatedAtTs": 1789245603,
+    "updatedAt": "2026-09-12 20:49:42",
+    "updatedAtTs": 1789246182,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789245603,
-        3511
+        1789246182,
+        3402
       ],
       "peak7d": [
         1789220977,
@@ -471,6 +471,10 @@
         [
           1789245603,
           3511
+        ],
+        [
+          1789246182,
+          3402
         ]
       ]
     }
