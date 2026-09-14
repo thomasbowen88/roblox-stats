@@ -7,18 +7,18 @@
   "name": "Evomon[S2 AFK]",
   "creatorName": "Evomon Devs",
   "creatorType": "Group",
-  "playing": 3797,
-  "visits": 147716373,
-  "favorites": 351598,
-  "likes": 301845,
+  "playing": 3690,
+  "visits": 147720838,
+  "favorites": 351603,
+  "likes": 301851,
   "dislikes": 8592,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-194e53374e4ad22dbc90583dde2a7ff3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/134381727982611",
-  "fetchedAtUtc": "2026-09-14 23:33:31",
+  "fetchedAtUtc": "2026-09-14 23:59:13",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-14 23:33:31",
-    "updatedAtTs": 1789428811,
+    "updatedAt": "2026-09-14 23:59:13",
+    "updatedAtTs": 1789430353,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789428811,
-        3797
+        1789430353,
+        3690
       ],
       "peak7d": [
         1789306159,
@@ -315,6 +315,10 @@
         [
           1789428811,
           3797
+        ],
+        [
+          1789430353,
+          3690
         ]
       ]
     }
