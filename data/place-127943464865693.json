@@ -7,18 +7,18 @@
   "name": "Bloxrooms [Beta]",
   "creatorName": "Bloxrooms Corporation",
   "creatorType": "Group",
-  "playing": 826,
-  "visits": 2400651,
-  "favorites": 68670,
-  "likes": 12065,
-  "dislikes": 2032,
+  "playing": 935,
+  "visits": 2408113,
+  "favorites": 68979,
+  "likes": 12103,
+  "dislikes": 2041,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-339d517cbb7bac7c0ce60f5cad81f22e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127943464865693",
-  "fetchedAtUtc": "2026-09-15 21:04:06",
+  "fetchedAtUtc": "2026-09-15 22:29:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15 21:04:06",
-    "updatedAtTs": 1789506246,
+    "updatedAt": "2026-09-15 22:29:20",
+    "updatedAtTs": 1789511360,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789506246,
-        826
+        1789511360,
+        935
       ],
       "peak7d": [
-        1789504473,
-        834
+        1789511360,
+        935
       ]
     },
     "series": {
@@ -155,6 +155,10 @@
         [
           1789506246,
           826
+        ],
+        [
+          1789511360,
+          935
         ]
       ]
     }
