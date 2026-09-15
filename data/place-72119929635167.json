@@ -7,18 +7,18 @@
   "name": "[UPD1] Chess Incremental",
   "creatorName": "3Face",
   "creatorType": "Group",
-  "playing": 607,
-  "visits": 2548994,
-  "favorites": 25336,
+  "playing": 624,
+  "visits": 2549236,
+  "favorites": 25338,
   "likes": 7515,
   "dislikes": 1253,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-29eb0a5e559025d3cbb151b5b7d83bad/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72119929635167",
-  "fetchedAtUtc": "2026-09-15 22:38:26",
+  "fetchedAtUtc": "2026-09-15 22:45:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15 22:38:26",
-    "updatedAtTs": 1789511906,
+    "updatedAt": "2026-09-15 22:45:00",
+    "updatedAtTs": 1789512300,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789511906,
-        607
+        1789512300,
+        624
       ],
       "peak7d": [
         1789492200,
@@ -163,6 +163,10 @@
         [
           1789511906,
           607
+        ],
+        [
+          1789512300,
+          624
         ]
       ]
     }

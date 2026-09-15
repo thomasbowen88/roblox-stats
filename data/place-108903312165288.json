@@ -7,18 +7,18 @@
   "name": "[PETS] Sleep For UGC",
   "creatorName": "Galanto Studios",
   "creatorType": "Group",
-  "playing": 642,
-  "visits": 21527170,
-  "favorites": 734435,
+  "playing": 628,
+  "visits": 21527501,
+  "favorites": 734440,
   "likes": 35004,
   "dislikes": 1302,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-08feca776302e57c4850ab6e8a193de2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108903312165288",
-  "fetchedAtUtc": "2026-09-15 22:38:26",
+  "fetchedAtUtc": "2026-09-15 22:45:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15 22:38:26",
-    "updatedAtTs": 1789511906,
+    "updatedAt": "2026-09-15 22:45:00",
+    "updatedAtTs": 1789512300,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789511906,
-        642
+        1789512300,
+        628
       ],
       "peak7d": [
         1789469050,
@@ -163,6 +163,10 @@
         [
           1789511906,
           642
+        ],
+        [
+          1789512300,
+          628
         ]
       ]
     }
