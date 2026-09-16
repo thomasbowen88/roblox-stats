@@ -7,18 +7,18 @@
   "name": "[🐝Bug] Slime Card Collection",
   "creatorName": "Idle Workers",
   "creatorType": "Group",
-  "playing": 593,
-  "visits": 11913618,
-  "favorites": 96621,
-  "likes": 58300,
-  "dislikes": 1447,
+  "playing": 625,
+  "visits": 11914208,
+  "favorites": 96626,
+  "likes": 58302,
+  "dislikes": 1448,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-131bb5c39fef925ea365cbcfe99b8759/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/98951612738714",
-  "fetchedAtUtc": "2026-09-16 16:29:43",
+  "fetchedAtUtc": "2026-09-16 16:44:17",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-16 16:29:43",
-    "updatedAtTs": 1789576183,
+    "updatedAt": "2026-09-16 16:44:17",
+    "updatedAtTs": 1789577057,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789576183,
-        593
+        1789577057,
+        625
       ],
       "peak7d": [
-        1789574347,
-        613
+        1789577057,
+        625
       ]
     },
     "series": {
@@ -315,6 +315,10 @@
         [
           1789576183,
           593
+        ],
+        [
+          1789577057,
+          625
         ]
       ]
     }
