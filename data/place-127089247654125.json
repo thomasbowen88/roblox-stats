@@ -7,18 +7,18 @@
   "name": "[DYNO UPDATE] TR Legacy",
   "creatorName": "exrgarage",
   "creatorType": "Group",
-  "playing": 3418,
-  "visits": 35514516,
-  "favorites": 105793,
-  "likes": 81195,
-  "dislikes": 2666,
+  "playing": 3413,
+  "visits": 35516200,
+  "favorites": 105798,
+  "likes": 81197,
+  "dislikes": 2667,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3619bdfb120e6a0b1ff7a38ef28ffabd/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127089247654125",
-  "fetchedAtUtc": "2026-09-16 11:43:56",
+  "fetchedAtUtc": "2026-09-16 11:49:15",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-16 11:43:56",
-    "updatedAtTs": 1789559036,
+    "updatedAt": "2026-09-16 11:49:15",
+    "updatedAtTs": 1789559355,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789559036,
-        3418
+        1789559355,
+        3413
       ],
       "peak7d": [
         1789478069,
@@ -267,6 +267,10 @@
         [
           1789559036,
           3418
+        ],
+        [
+          1789559355,
+          3413
         ]
       ]
     }
