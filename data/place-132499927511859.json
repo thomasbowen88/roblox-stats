@@ -4,21 +4,21 @@
   "placeId": "132499927511859",
   "rootPlaceId": "132499927511859",
   "universeId": "10417987249",
-  "name": "[PVP MODE] Nebulous",
+  "name": "Nebulous",
   "creatorName": "latent//state",
   "creatorType": "Group",
-  "playing": 1395,
-  "visits": 3413446,
-  "favorites": 40587,
-  "likes": 17124,
-  "dislikes": 2843,
+  "playing": 1433,
+  "visits": 3414294,
+  "favorites": 40599,
+  "likes": 17126,
+  "dislikes": 2844,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cd88931f2d63a336141db4fe928a1c4e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132499927511859",
-  "fetchedAtUtc": "2026-09-17 16:28:31",
+  "fetchedAtUtc": "2026-09-17 16:40:08",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-17 16:28:31",
-    "updatedAtTs": 1789662511,
+    "updatedAt": "2026-09-17 16:40:08",
+    "updatedAtTs": 1789663208,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789662511,
-        1395
+        1789663208,
+        1433
       ],
       "peak7d": [
-        1789662511,
-        1395
+        1789663208,
+        1433
       ]
     },
     "series": {
@@ -43,6 +43,10 @@
         [
           1789662511,
           1395
+        ],
+        [
+          1789663208,
+          1433
         ]
       ]
     }
