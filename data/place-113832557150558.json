@@ -7,18 +7,18 @@
   "name": "[RELEASE] BloxNote",
   "creatorName": "PageBound",
   "creatorType": "Group",
-  "playing": 1901,
-  "visits": 1169888,
-  "favorites": 18146,
-  "likes": 4060,
-  "dislikes": 479,
+  "playing": 1775,
+  "visits": 1176581,
+  "favorites": 18213,
+  "likes": 4174,
+  "dislikes": 483,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5f7faec433ec5d45ed414549ab550817/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/113832557150558",
-  "fetchedAtUtc": "2026-09-17 21:24:01",
+  "fetchedAtUtc": "2026-09-17 21:59:21",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-17 21:24:01",
-    "updatedAtTs": 1789680241,
+    "updatedAt": "2026-09-17 21:59:21",
+    "updatedAtTs": 1789682361,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789680241,
-        1901
+        1789682361,
+        1775
       ],
       "peak7d": [
         1789495179,
@@ -503,6 +503,10 @@
         [
           1789680241,
           1901
+        ],
+        [
+          1789682361,
+          1775
         ]
       ]
     }
