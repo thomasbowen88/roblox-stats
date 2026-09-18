@@ -7,18 +7,18 @@
   "name": "Somni's Engine",
   "creatorName": "Somni Foundation",
   "creatorType": "Group",
-  "playing": 1424,
-  "visits": 2741214,
-  "favorites": 27747,
+  "playing": 1409,
+  "visits": 2741600,
+  "favorites": 27748,
   "likes": 9879,
   "dislikes": 693,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-12d0481d5ddce9044d3de71a314731e4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105106190351825",
-  "fetchedAtUtc": "2026-09-18 12:23:46",
+  "fetchedAtUtc": "2026-09-18 12:29:08",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-18 12:23:46",
-    "updatedAtTs": 1789734226,
+    "updatedAt": "2026-09-18 12:29:08",
+    "updatedAtTs": 1789734548,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789734226,
-        1424
+        1789734548,
+        1409
       ],
       "peak7d": [
         1789519442,
@@ -655,6 +655,10 @@
         [
           1789734226,
           1424
+        ],
+        [
+          1789734548,
+          1409
         ]
       ]
     }
