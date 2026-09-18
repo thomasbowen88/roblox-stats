@@ -7,18 +7,18 @@
   "name": "The Wild West",
   "creatorName": "Starboard Studios",
   "creatorType": "Group",
-  "playing": 1080,
-  "visits": 342453225,
-  "favorites": 1629647,
-  "likes": 625033,
-  "dislikes": 89140,
+  "playing": 1098,
+  "visits": 342458062,
+  "favorites": 1629651,
+  "likes": 625037,
+  "dislikes": 89139,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b10f208afff39595a5fb88df239cdcfc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/2317712696",
-  "fetchedAtUtc": "2026-09-18 15:49:21",
+  "fetchedAtUtc": "2026-09-18 17:09:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-18 15:49:21",
-    "updatedAtTs": 1789746561,
+    "updatedAt": "2026-09-18 17:09:26",
+    "updatedAtTs": 1789751366,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789746561,
-        1080
+        1789751366,
+        1098
       ],
       "peak7d": [
-        1789746561,
-        1080
+        1789751366,
+        1098
       ]
     },
     "series": {
@@ -687,6 +687,10 @@
         [
           1789746561,
           1080
+        ],
+        [
+          1789751366,
+          1098
         ]
       ]
     }
