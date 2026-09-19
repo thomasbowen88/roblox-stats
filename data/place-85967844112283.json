@@ -7,18 +7,18 @@
   "name": "Last Stop [Beta]",
   "creatorName": "The Hidden Route",
   "creatorType": "Group",
-  "playing": 21438,
-  "visits": 19553627,
-  "favorites": 221551,
-  "likes": 99591,
-  "dislikes": 3062,
+  "playing": 21903,
+  "visits": 19571171,
+  "favorites": 221701,
+  "likes": 99655,
+  "dislikes": 3064,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ef5eb9de373ef569330b07298063f822/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/85967844112283",
-  "fetchedAtUtc": "2026-09-19 06:59:22",
+  "fetchedAtUtc": "2026-09-19 07:14:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19 06:59:22",
-    "updatedAtTs": 1789801162,
+    "updatedAt": "2026-09-19 07:14:32",
+    "updatedAtTs": 1789802072,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789801162,
-        21438
+        1789802072,
+        21903
       ],
       "peak7d": [
-        1789742369,
-        21703
+        1789802072,
+        21903
       ]
     },
     "series": {
@@ -867,6 +867,10 @@
         [
           1789801162,
           21438
+        ],
+        [
+          1789802072,
+          21903
         ]
       ]
     }
