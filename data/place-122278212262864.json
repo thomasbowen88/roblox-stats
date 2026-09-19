@@ -7,18 +7,18 @@
   "name": "Race for Eggs",
   "creatorName": "xFrozen x Dudes",
   "creatorType": "Group",
-  "playing": 8601,
-  "visits": 1528494,
-  "favorites": 9629,
-  "likes": 5367,
-  "dislikes": 110,
+  "playing": 11090,
+  "visits": 1588223,
+  "favorites": 9992,
+  "likes": 5600,
+  "dislikes": 113,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4626b0f68bae1c4df2c901eb939deaa9/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122278212262864",
-  "fetchedAtUtc": "2026-09-19 11:19:25",
+  "fetchedAtUtc": "2026-09-19 12:54:17",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19 11:19:25",
-    "updatedAtTs": 1789816765,
+    "updatedAt": "2026-09-19 12:54:17",
+    "updatedAtTs": 1789822457,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789816765,
-        8601
+        1789822457,
+        11090
       ],
       "peak7d": [
-        1789808060,
-        9615
+        1789822457,
+        11090
       ]
     },
     "series": {
@@ -479,6 +479,10 @@
         [
           1789816765,
           8601
+        ],
+        [
+          1789822457,
+          11090
         ]
       ]
     }
