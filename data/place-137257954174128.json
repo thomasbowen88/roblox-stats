@@ -7,18 +7,18 @@
   "name": "🎰 Bugmon [Early Access]",
   "creatorName": "Hypolygon Server",
   "creatorType": "Group",
-  "playing": 23,
-  "visits": 1442553,
-  "favorites": 89161,
-  "likes": 40648,
+  "playing": 16,
+  "visits": 1442576,
+  "favorites": 89164,
+  "likes": 40649,
   "dislikes": 1626,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-45d801b73f6cb8bdc48058187068bbf5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/137257954174128",
-  "fetchedAtUtc": "2026-09-19 00:58:19",
+  "fetchedAtUtc": "2026-09-19 01:09:20",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19 00:58:19",
-    "updatedAtTs": 1789779499,
+    "updatedAt": "2026-09-19 01:09:20",
+    "updatedAtTs": 1789780160,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789779499,
-        23
+        1789780160,
+        16
       ],
       "peak7d": [
         1789775315,
@@ -791,6 +791,10 @@
         [
           1789779499,
           23
+        ],
+        [
+          1789780160,
+          16
         ]
       ]
     }
