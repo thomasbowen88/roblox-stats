@@ -7,18 +7,18 @@
   "name": "My Shiny Teeth",
   "creatorName": "Simple and Fiya Games",
   "creatorType": "Group",
-  "playing": 2,
-  "visits": 4477410,
+  "playing": 11,
+  "visits": 4477419,
   "favorites": 140498,
   "likes": 22021,
   "dislikes": 908,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bc540fb121ca8bcc21207ba0729c2f6e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/103376279822921",
-  "fetchedAtUtc": "2026-09-19 00:38:18",
+  "fetchedAtUtc": "2026-09-19 00:58:19",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19 00:38:18",
-    "updatedAtTs": 1789778298,
+    "updatedAt": "2026-09-19 00:58:19",
+    "updatedAtTs": 1789779499,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789778298,
-        2
+        1789779499,
+        11
       ],
       "peak7d": [
-        1789656875,
-        9
+        1789779499,
+        11
       ]
     },
     "series": {
@@ -787,6 +787,10 @@
         [
           1789778298,
           2
+        ],
+        [
+          1789779499,
+          11
         ]
       ]
     }
