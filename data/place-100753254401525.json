@@ -7,18 +7,18 @@
   "name": "+1 DMG FPS",
   "creatorName": "Mappy Tappy",
   "creatorType": "Group",
-  "playing": 2661,
-  "visits": 1786212,
-  "favorites": 94797,
-  "likes": 28591,
-  "dislikes": 1216,
+  "playing": 3285,
+  "visits": 1801112,
+  "favorites": 95565,
+  "likes": 28723,
+  "dislikes": 1221,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d82c9d6957a21b06c5a1027f3848d80f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/100753254401525",
-  "fetchedAtUtc": "2026-09-21 11:34:08",
+  "fetchedAtUtc": "2026-09-21 12:44:27",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-21 11:34:08",
-    "updatedAtTs": 1789990448,
+    "updatedAt": "2026-09-21 12:44:27",
+    "updatedAtTs": 1789994667,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1789990448,
-        2661
+        1789994667,
+        3285
       ],
       "peak7d": [
-        1789990448,
-        2661
+        1789994667,
+        3285
       ]
     },
     "series": {
@@ -127,6 +127,10 @@
         [
           1789990448,
           2661
+        ],
+        [
+          1789994667,
+          3285
         ]
       ]
     }
