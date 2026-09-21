@@ -7,18 +7,18 @@
   "name": "[🧠] Chiidoku",
   "creatorName": "Chiidoku",
   "creatorType": "Group",
-  "playing": 1000,
-  "visits": 4061262,
-  "favorites": 80824,
+  "playing": 995,
+  "visits": 4061594,
+  "favorites": 80827,
   "likes": 15006,
-  "dislikes": 1300,
+  "dislikes": 1301,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fad4fb5f4d606e59c77a3edacf74e1e8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139705352041000",
-  "fetchedAtUtc": "2026-09-21 13:25:01",
+  "fetchedAtUtc": "2026-09-21 13:28:47",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-21 13:25:01",
-    "updatedAtTs": 1789997101,
+    "updatedAt": "2026-09-21 13:28:47",
+    "updatedAtTs": 1789997327,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1789997101,
-        1000
+        1789997327,
+        995
       ],
       "peak7d": [
         1789958672,
@@ -135,6 +135,10 @@
         [
           1789997101,
           1000
+        ],
+        [
+          1789997327,
+          995
         ]
       ]
     }
