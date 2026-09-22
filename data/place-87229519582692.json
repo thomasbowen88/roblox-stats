@@ -7,18 +7,18 @@
   "name": "[REVAMP] Ultimate Gym Game",
   "creatorName": "UGG - Gym Simulator",
   "creatorType": "Group",
-  "playing": 217,
-  "visits": 6724195,
-  "favorites": 152097,
+  "playing": 186,
+  "visits": 6724537,
+  "favorites": 152101,
   "likes": 30010,
   "dislikes": 1985,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-1b53a18514629f9f892f0df952256163/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/87229519582692",
-  "fetchedAtUtc": "2026-09-22 05:34:07",
+  "fetchedAtUtc": "2026-09-22 05:59:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22 05:34:07",
-    "updatedAtTs": 1790055247,
+    "updatedAt": "2026-09-22 05:59:40",
+    "updatedAtTs": 1790056780,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1790055247,
-        217
+        1790056780,
+        186
       ],
       "peak7d": [
         1790028849,
@@ -107,6 +107,10 @@
         [
           1790055247,
           217
+        ],
+        [
+          1790056780,
+          186
         ]
       ]
     }
