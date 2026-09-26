@@ -4,21 +4,21 @@
   "placeId": "131346454575416",
   "rootPlaceId": "131346454575416",
   "universeId": "9837612476",
-  "name": "[6H] Mini War",
+  "name": "[5H] Mini War",
   "creatorName": "M&M Community",
   "creatorType": "Group",
-  "playing": 13472,
-  "visits": 344463371,
-  "favorites": 1225224,
-  "likes": 782843,
-  "dislikes": 28216,
+  "playing": 13756,
+  "visits": 344486558,
+  "favorites": 1225302,
+  "likes": 782884,
+  "dislikes": 28218,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-62b356244fa163036d1b83f2617ef603/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131346454575416",
-  "fetchedAtUtc": "2026-09-26 13:09:04",
+  "fetchedAtUtc": "2026-09-26 13:44:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26 13:09:04",
-    "updatedAtTs": 1790428144,
+    "updatedAt": "2026-09-26 13:44:01",
+    "updatedAtTs": 1790430241,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790428144,
-        13472
+        1790430241,
+        13756
       ],
       "peak7d": [
-        1790424804,
-        13560
+        1790430241,
+        13756
       ]
     },
     "series": {
@@ -199,6 +199,10 @@
         [
           1790428144,
           13472
+        ],
+        [
+          1790430241,
+          13756
         ]
       ]
     }
