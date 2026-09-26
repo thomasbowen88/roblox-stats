@@ -4,21 +4,21 @@
   "placeId": "132499927511859",
   "rootPlaceId": "132499927511859",
   "universeId": "10417987249",
-  "name": "Nebulous",
+  "name": "[LEVEL EDITOR] Nebulous",
   "creatorName": "latent//state",
   "creatorType": "Group",
-  "playing": 3045,
-  "visits": 4318000,
-  "favorites": 58889,
-  "likes": 22169,
-  "dislikes": 3382,
+  "playing": 3309,
+  "visits": 4325499,
+  "favorites": 59035,
+  "likes": 22212,
+  "dislikes": 3388,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cd88931f2d63a336141db4fe928a1c4e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132499927511859",
-  "fetchedAtUtc": "2026-09-26 18:49:21",
+  "fetchedAtUtc": "2026-09-26 19:44:03",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26 18:49:21",
-    "updatedAtTs": 1790448561,
+    "updatedAt": "2026-09-26 19:44:03",
+    "updatedAtTs": 1790451843,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790448561,
-        3045
+        1790451843,
+        3309
       ],
       "peak7d": [
-        1790448561,
-        3045
+        1790451843,
+        3309
       ]
     },
     "series": {
@@ -251,6 +251,10 @@
         [
           1790448561,
           3045
+        ],
+        [
+          1790451843,
+          3309
         ]
       ]
     }
