@@ -7,18 +7,18 @@
   "name": "[WORLD 11] Needoh Tower",
   "creatorName": "[SOON] Needoh Tower",
   "creatorType": "Group",
-  "playing": 819,
-  "visits": 206034628,
-  "favorites": 484380,
-  "likes": 120263,
-  "dislikes": 18501,
+  "playing": 1270,
+  "visits": 206042655,
+  "favorites": 484403,
+  "likes": 120264,
+  "dislikes": 18503,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-571842a33dd19fc7b5efe8b389149c8a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/107645101488133",
-  "fetchedAtUtc": "2026-09-25 23:08:58",
+  "fetchedAtUtc": "2026-09-25 23:59:19",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-25 23:08:58",
-    "updatedAtTs": 1790377738,
+    "updatedAt": "2026-09-25 23:59:19",
+    "updatedAtTs": 1790380759,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790377738,
-        819
+        1790380759,
+        1270
       ],
       "peak7d": [
-        1790352017,
-        853
+        1790380759,
+        1270
       ]
     },
     "series": {
@@ -91,6 +91,10 @@
         [
           1790377738,
           819
+        ],
+        [
+          1790380759,
+          1270
         ]
       ]
     }

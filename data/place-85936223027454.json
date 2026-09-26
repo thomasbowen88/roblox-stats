@@ -7,18 +7,18 @@
   "name": "[UPD2] TNT Rampage",
   "creatorName": "TNT Universes",
   "creatorType": "Group",
-  "playing": 860,
-  "visits": 2321872,
-  "favorites": 6892,
-  "likes": 1201,
-  "dislikes": 191,
+  "playing": 1081,
+  "visits": 2327355,
+  "favorites": 6912,
+  "likes": 1206,
+  "dislikes": 192,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6c076f696f32cc0ec56c85f84864d394/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/85936223027454",
-  "fetchedAtUtc": "2026-09-25 23:08:58",
+  "fetchedAtUtc": "2026-09-25 23:59:19",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-25 23:08:58",
-    "updatedAtTs": 1790377738,
+    "updatedAt": "2026-09-25 23:59:19",
+    "updatedAtTs": 1790380759,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790377738,
-        860
+        1790380759,
+        1081
       ],
       "peak7d": [
-        1790377738,
-        860
+        1790380759,
+        1081
       ]
     },
     "series": {
@@ -91,6 +91,10 @@
         [
           1790377738,
           860
+        ],
+        [
+          1790380759,
+          1081
         ]
       ]
     }
