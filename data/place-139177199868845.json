@@ -7,18 +7,18 @@
   "name": "[UPD9] +1 Fan per Step",
   "creatorName": "this a good game",
   "creatorType": "Group",
-  "playing": 117,
-  "visits": 19287101,
-  "favorites": 959820,
+  "playing": 130,
+  "visits": 19287264,
+  "favorites": 959826,
   "likes": 19280,
   "dislikes": 1443,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-db1d60db5e56148142c9a2146226db4d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139177199868845",
-  "fetchedAtUtc": "2026-09-27 11:28:16",
+  "fetchedAtUtc": "2026-09-27 11:48:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-27 11:28:16",
-    "updatedAtTs": 1790508496,
+    "updatedAt": "2026-09-27 11:48:32",
+    "updatedAtTs": 1790509712,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790508496,
-        117
+        1790509712,
+        130
       ],
       "peak7d": [
-        1790428144,
-        125
+        1790509712,
+        130
       ]
     },
     "series": {
@@ -431,6 +431,10 @@
         [
           1790508496,
           117
+        ],
+        [
+          1790509712,
+          130
         ]
       ]
     }
