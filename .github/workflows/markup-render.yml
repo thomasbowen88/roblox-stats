@@ -1,0 +1,52 @@
+name: MarkUP render
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: MarkUP job id
+        required: true
+        type: string
+      project_payload:
+        description: Gzipped MarkUP project payload
+        required: true
+        type: string
+      markup_url:
+        description: MarkUP app URL
+        required: true
+        type: string
+      callback_url:
+        description: Cloudflare Worker callback URL
+        required: true
+        type: string
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install renderer
+        working-directory: renderer
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium
+        working-directory: renderer
+        run: npx playwright install --with-deps chromium
+
+      - name: Render MarkUP image
+        working-directory: renderer
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          PROJECT_PAYLOAD: ${{ inputs.project_payload }}
+          MARKUP_URL: ${{ inputs.markup_url }}
+          CALLBACK_URL: ${{ inputs.callback_url }}
+          CALLBACK_TOKEN: ${{ secrets.MARKUP_RENDER_CALLBACK_TOKEN }}
+        run: node render-markup.mjs
