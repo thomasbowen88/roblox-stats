@@ -7,18 +7,18 @@
   "name": "[WATCHER] Anomaly Cafe ",
   "creatorName": "Anomaly Cafe",
   "creatorType": "Group",
-  "playing": 3695,
-  "visits": 21062335,
-  "favorites": 236999,
-  "likes": 46259,
+  "playing": 3840,
+  "visits": 21071242,
+  "favorites": 237071,
+  "likes": 46270,
   "dislikes": 2714,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-26c515fde5f348f40e03f514e20e7445/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121781732399469",
-  "fetchedAtUtc": "2026-09-28 19:20:04",
+  "fetchedAtUtc": "2026-09-28 20:00:13",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-28 19:20:04",
-    "updatedAtTs": 1790623204,
+    "updatedAt": "2026-09-28 20:00:13",
+    "updatedAtTs": 1790625613,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790623204,
-        3695
+        1790625613,
+        3840
       ],
       "peak7d": [
-        1790617808,
-        3827
+        1790625613,
+        3840
       ]
     },
     "series": {
@@ -91,6 +91,10 @@
         [
           1790623204,
           3695
+        ],
+        [
+          1790625613,
+          3840
         ]
       ]
     }
