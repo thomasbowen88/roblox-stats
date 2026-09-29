@@ -7,18 +7,18 @@
   "name": "[⭐ QOL] Soccer: Zero ",
   "creatorName": "Current.",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 30580619,
+  "playing": 52,
+  "visits": 30580921,
   "favorites": 100250,
-  "likes": 247813,
+  "likes": 247814,
   "dislikes": 13053,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5e60ddffd1aba1efb2f028a415df4488/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75462869229229",
-  "fetchedAtUtc": "2026-09-29 11:19:37",
+  "fetchedAtUtc": "2026-09-29 12:19:25",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29 11:19:37",
-    "updatedAtTs": 1790680777,
+    "updatedAt": "2026-09-29 12:19:25",
+    "updatedAtTs": 1790684365,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1790680777,
-        42
+        1790684365,
+        52
       ],
       "peak7d": [
         1790654059,
@@ -71,6 +71,10 @@
         [
           1790680777,
           42
+        ],
+        [
+          1790684365,
+          52
         ]
       ]
     }
