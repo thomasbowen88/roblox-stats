@@ -7,18 +7,18 @@
   "name": "FISH.OS",
   "creatorName": "ORCO",
   "creatorType": "Group",
-  "playing": 48,
-  "visits": 1967233,
+  "playing": 51,
+  "visits": 1967237,
   "favorites": 54730,
   "likes": 44299,
   "dislikes": 1422,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f74ad0a18449bc54cbd4a1c5ae8ea64f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/123368132872113",
-  "fetchedAtUtc": "2026-09-29 01:49:06",
+  "fetchedAtUtc": "2026-09-29 01:53:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29 01:49:06",
-    "updatedAtTs": 1790646546,
+    "updatedAt": "2026-09-29 01:53:26",
+    "updatedAtTs": 1790646806,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790646546,
-        48
+        1790646806,
+        51
       ],
       "peak7d": [
-        1790620487,
-        49
+        1790646806,
+        51
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1790646546,
           48
+        ],
+        [
+          1790646806,
+          51
         ]
       ]
     }
