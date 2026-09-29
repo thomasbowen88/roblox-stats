@@ -7,18 +7,18 @@
   "name": "[MAPS] Beatball",
   "creatorName": "Lucentum Games",
   "creatorType": "Group",
-  "playing": 955,
-  "visits": 108576714,
-  "favorites": 323115,
-  "likes": 24022,
-  "dislikes": 8942,
+  "playing": 1694,
+  "visits": 108641168,
+  "favorites": 323203,
+  "likes": 24027,
+  "dislikes": 8943,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b1c7c8a3a634ca1ad6b2fd031a6bd1c3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105452889569708",
-  "fetchedAtUtc": "2026-09-29 12:19:25",
+  "fetchedAtUtc": "2026-09-29 14:30:23",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29 12:19:25",
-    "updatedAtTs": 1790684365,
+    "updatedAt": "2026-09-29 14:30:23",
+    "updatedAtTs": 1790692223,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790684365,
-        955
+        1790692223,
+        1694
       ],
       "peak7d": [
-        1790653764,
-        1692
+        1790692223,
+        1694
       ]
     },
     "series": {
@@ -75,6 +75,10 @@
         [
           1790684365,
           955
+        ],
+        [
+          1790692223,
+          1694
         ]
       ]
     }
