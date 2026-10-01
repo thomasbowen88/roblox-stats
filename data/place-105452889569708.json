@@ -4,21 +4,21 @@
   "placeId": "105452889569708",
   "rootPlaceId": "105452889569708",
   "universeId": "10370802481",
-  "name": "[MAPS] Beatball",
+  "name": "[UPDATE] Beatball",
   "creatorName": "Lucentum Games",
   "creatorType": "Group",
-  "playing": 597,
-  "visits": 110520447,
-  "favorites": 326208,
+  "playing": 443,
+  "visits": 110525304,
+  "favorites": 326228,
   "likes": 24234,
-  "dislikes": 9001,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b1c7c8a3a634ca1ad6b2fd031a6bd1c3/512/512/Image/Png/noFilter",
+  "dislikes": 9002,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e9a21667e2394bdf67dfdc9e43dcf834/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105452889569708",
-  "fetchedAtUtc": "2026-10-01 06:28:24",
+  "fetchedAtUtc": "2026-10-01 07:19:23",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-01 06:28:24",
-    "updatedAtTs": 1790836104,
+    "updatedAt": "2026-10-01 07:19:23",
+    "updatedAtTs": 1790839163,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1790836104,
-        597
+        1790839163,
+        443
       ],
       "peak7d": [
         1790813649,
@@ -267,6 +267,10 @@
         [
           1790836104,
           597
+        ],
+        [
+          1790839163,
+          443
         ]
       ]
     }
