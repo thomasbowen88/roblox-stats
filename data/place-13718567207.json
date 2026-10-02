@@ -7,18 +7,18 @@
   "name": "Wonderland",
   "creatorName": "ScaryPlay",
   "creatorType": "Group",
-  "playing": 306,
-  "visits": 37962605,
-  "favorites": 400672,
-  "likes": 204035,
-  "dislikes": 28253,
+  "playing": 360,
+  "visits": 37963218,
+  "favorites": 400675,
+  "likes": 204038,
+  "dislikes": 28254,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-eae5301fd6a542b6f0c3d717af776b7d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/13718567207",
-  "fetchedAtUtc": "2026-10-01 23:59:20",
+  "fetchedAtUtc": "2026-10-02 00:19:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-01 23:59:20",
-    "updatedAtTs": 1790899160,
+    "updatedAt": "2026-10-02 00:19:26",
+    "updatedAtTs": 1790900366,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1790899160,
-        306
+        1790900366,
+        360
       ],
       "peak7d": [
-        1790869503,
-        314
+        1790900366,
+        360
       ]
     },
     "series": {
@@ -167,6 +167,10 @@
         [
           1790899160,
           306
+        ],
+        [
+          1790900366,
+          360
         ]
       ]
     }
