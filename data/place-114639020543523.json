@@ -7,18 +7,18 @@
   "name": "[BETA]  Hotel Tycoon 2",
   "creatorName": "Lycke",
   "creatorType": "Group",
-  "playing": 1545,
-  "visits": 4344891,
-  "favorites": 83360,
+  "playing": 1581,
+  "visits": 4346523,
+  "favorites": 83370,
   "likes": 8602,
-  "dislikes": 2539,
+  "dislikes": 2540,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e0f1654e05e6f463895047d15b564ddf/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/114639020543523",
-  "fetchedAtUtc": "2026-10-04 10:03:51",
+  "fetchedAtUtc": "2026-10-04 10:29:08",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-04 10:03:51",
-    "updatedAtTs": 1791108231,
+    "updatedAt": "2026-10-04 10:29:08",
+    "updatedAtTs": 1791109748,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1791108231,
-        1545
+        1791109748,
+        1581
       ],
       "peak7d": [
-        1791103701,
-        1579
+        1791109748,
+        1581
       ]
     },
     "series": {
@@ -151,6 +151,10 @@
         [
           1791108231,
           1545
+        ],
+        [
+          1791109748,
+          1581
         ]
       ]
     }
