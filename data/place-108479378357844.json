@@ -7,18 +7,18 @@
   "name": "Farmers Market 🍓",
   "creatorName": "Silly Farming Co.",
   "creatorType": "Group",
-  "playing": 1000,
-  "visits": 4732986,
-  "favorites": 150283,
+  "playing": 998,
+  "visits": 4733848,
+  "favorites": 150307,
   "likes": 6069,
   "dislikes": 351,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a8491ff2e560a3ff292526fb24bb76e0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/108479378357844",
-  "fetchedAtUtc": "2026-10-06 13:28:41",
+  "fetchedAtUtc": "2026-10-06 13:44:16",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-06 13:28:41",
-    "updatedAtTs": 1791293321,
+    "updatedAt": "2026-10-06 13:44:16",
+    "updatedAtTs": 1791294256,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1791293321,
-        1000
+        1791294256,
+        998
       ],
       "peak7d": [
         1791293321,
@@ -59,6 +59,10 @@
         [
           1791293321,
           1000
+        ],
+        [
+          1791294256,
+          998
         ]
       ]
     }
