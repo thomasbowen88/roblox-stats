@@ -7,18 +7,18 @@
   "name": "[EVENTS] Case Simulator RNG",
   "creatorName": "games by cool people",
   "creatorType": "Group",
-  "playing": 1599,
-  "visits": 9078525,
-  "favorites": 162402,
-  "likes": 125162,
-  "dislikes": 2713,
+  "playing": 1666,
+  "visits": 9082855,
+  "favorites": 162439,
+  "likes": 125168,
+  "dislikes": 2714,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d0bf6db0f82acf159e9ed430dcdb14f4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/125906853713277",
-  "fetchedAtUtc": "2026-10-07 10:00:44",
+  "fetchedAtUtc": "2026-10-07 10:45:16",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-07 10:00:44",
-    "updatedAtTs": 1791367244,
+    "updatedAt": "2026-10-07 10:45:16",
+    "updatedAtTs": 1791369916,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1791367244,
-        1599
+        1791369916,
+        1666
       ],
       "peak7d": [
-        1791331464,
-        1615
+        1791369916,
+        1666
       ]
     },
     "series": {
@@ -123,6 +123,10 @@
         [
           1791367244,
           1599
+        ],
+        [
+          1791369916,
+          1666
         ]
       ]
     }
