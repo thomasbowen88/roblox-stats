@@ -7,18 +7,18 @@
   "name": "[EVENT]Car For Sale",
   "creatorName": "21 Interactive",
   "creatorType": "Group",
-  "playing": 72,
-  "visits": 4769774,
+  "playing": 82,
+  "visits": 4769810,
   "favorites": 18632,
   "likes": 6256,
   "dislikes": 2363,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a2ff80349ed0ce3fbd643a479e6a0003/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91008236661689",
-  "fetchedAtUtc": "2026-10-09 11:33:54",
+  "fetchedAtUtc": "2026-10-09 11:39:24",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-09 11:33:54",
-    "updatedAtTs": 1791545634,
+    "updatedAt": "2026-10-09 11:39:24",
+    "updatedAtTs": 1791545964,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1791545634,
-        72
+        1791545964,
+        82
       ],
       "peak7d": [
-        1791545634,
-        72
+        1791545964,
+        82
       ]
     },
     "series": {
@@ -187,6 +187,10 @@
         [
           1791545634,
           72
+        ],
+        [
+          1791545964,
+          82
         ]
       ]
     }
