@@ -7,18 +7,18 @@
   "name": "Brawl RNG ⭐",
   "creatorName": "ChillyTea Studios",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 7561931,
+  "playing": 1,
+  "visits": 7561941,
   "favorites": 28741,
   "likes": 73928,
   "dislikes": 3170,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-06394a1f63a90ad63b2258d4fb85591a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/85771135139600",
-  "fetchedAtUtc": "2026-10-09 06:58:24",
+  "fetchedAtUtc": "2026-10-09 08:08:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-09 06:58:24",
-    "updatedAtTs": 1791529104,
+    "updatedAt": "2026-10-09 08:08:45",
+    "updatedAtTs": 1791533325,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1791529104,
-        0
+        1791533325,
+        1
       ],
       "peak7d": [
-        1791502433,
-        0
+        1791533325,
+        1
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1791529104,
           0
+        ],
+        [
+          1791533325,
+          1
         ]
       ]
     }
