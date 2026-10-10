@@ -7,18 +7,18 @@
   "name": "[QOL] Anime Paradox X",
   "creatorName": "Lunmei",
   "creatorType": "Group",
-  "playing": 2,
+  "playing": 4,
   "visits": 28609075,
   "favorites": 31654,
   "likes": 70869,
   "dislikes": 3254,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0bfbb9827220d90f83a2b6cddab9822d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/76806550943352",
-  "fetchedAtUtc": "2026-10-10 06:23:27",
+  "fetchedAtUtc": "2026-10-10 06:29:06",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-10 06:23:27",
-    "updatedAtTs": 1791613407,
+    "updatedAt": "2026-10-10 06:29:06",
+    "updatedAtTs": 1791613746,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1791613407,
-        2
+        1791613746,
+        4
       ],
       "peak7d": [
-        1791594815,
-        3
+        1791613746,
+        4
       ]
     },
     "series": {
@@ -111,6 +111,10 @@
         [
           1791613407,
           2
+        ],
+        [
+          1791613746,
+          4
         ]
       ]
     }
