@@ -7,18 +7,18 @@
   "name": "Perlerbeads Simulator",
   "creatorName": "Pixel Beads",
   "creatorType": "Group",
-  "playing": 50,
-  "visits": 2969011,
+  "playing": 81,
+  "visits": 2969282,
   "favorites": 19452,
-  "likes": 7968,
+  "likes": 7969,
   "dislikes": 828,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9a3f5e7988a87ee616060ca4e8a4b8c0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105050916713182",
-  "fetchedAtUtc": "2026-10-11 23:29:19",
+  "fetchedAtUtc": "2026-10-11 23:59:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-11 23:29:19",
-    "updatedAtTs": 1791761359,
+    "updatedAt": "2026-10-11 23:59:26",
+    "updatedAtTs": 1791763166,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1791761359,
-        50
+        1791763166,
+        81
       ],
       "peak7d": [
-        1791758025,
-        64
+        1791763166,
+        81
       ]
     },
     "series": {
@@ -75,6 +75,10 @@
         [
           1791761359,
           50
+        ],
+        [
+          1791763166,
+          81
         ]
       ]
     }
