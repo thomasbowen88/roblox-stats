@@ -7,18 +7,18 @@
   "name": "[🛕] Bee ReMasters Simulator! 🐝✨",
   "creatorName": "17Games!",
   "creatorType": "Group",
-  "playing": 0,
+  "playing": 1,
   "visits": 1231230,
   "favorites": 5771,
   "likes": 3577,
   "dislikes": 777,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3956ea6ce3c61402c481c4097c46aaf7/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/107295289838118",
-  "fetchedAtUtc": "2026-10-15 02:38:11",
+  "fetchedAtUtc": "2026-10-15 02:44:29",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-15 02:38:11",
-    "updatedAtTs": 1792031891,
+    "updatedAt": "2026-10-15 02:44:29",
+    "updatedAtTs": 1792032269,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792031891,
-        0
+        1792032269,
+        1
       ],
       "peak7d": [
-        1792009433,
-        0
+        1792032269,
+        1
       ]
     },
     "series": {
@@ -115,6 +115,10 @@
         [
           1792031891,
           0
+        ],
+        [
+          1792032269,
+          1
         ]
       ]
     }
