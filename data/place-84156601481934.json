@@ -4,21 +4,21 @@
   "placeId": "84156601481934",
   "rootPlaceId": "84156601481934",
   "universeId": "10469426282",
-  "name": "[🐻5M Event] 🔩 Resource Incremental",
+  "name": "[🐻UPD 10.5] 🔩 Resource Incremental",
   "creatorName": "PGS Squad",
   "creatorType": "Group",
-  "playing": 1500,
-  "visits": 5945628,
-  "favorites": 14376,
-  "likes": 21399,
+  "playing": 1686,
+  "visits": 5947964,
+  "favorites": 14378,
+  "likes": 21402,
   "dislikes": 927,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0ec013a77ee6f2a5bf45a68a970ce550/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/84156601481934",
-  "fetchedAtUtc": "2026-10-16 15:49:23",
+  "fetchedAtUtc": "2026-10-16 16:09:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-16 15:49:23",
-    "updatedAtTs": 1792165763,
+    "updatedAt": "2026-10-16 16:09:45",
+    "updatedAtTs": 1792166985,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792165763,
-        1500
+        1792166985,
+        1686
       ],
       "peak7d": [
-        1792165763,
-        1500
+        1792166985,
+        1686
       ]
     },
     "series": {
@@ -115,6 +115,10 @@
         [
           1792165763,
           1500
+        ],
+        [
+          1792166985,
+          1686
         ]
       ]
     }
