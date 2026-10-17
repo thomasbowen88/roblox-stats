@@ -4,21 +4,21 @@
   "placeId": "111600158364583",
   "rootPlaceId": "111600158364583",
   "universeId": "10390082880",
-  "name": "[RANKED] One Shot",
+  "name": "[1vs1] One Shot",
   "creatorName": "Shooter Game Group",
   "creatorType": "Group",
-  "playing": 614,
-  "visits": 19676744,
-  "favorites": 71913,
-  "likes": 52344,
-  "dislikes": 3046,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-dceb1e722c0f393df880d9f2ee7cb346/512/512/Image/Png/noFilter",
+  "playing": 762,
+  "visits": 19680662,
+  "favorites": 71922,
+  "likes": 52350,
+  "dislikes": 3047,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-52dc28cf048b40bdf2214ebd88def4a8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111600158364583",
-  "fetchedAtUtc": "2026-10-17 17:38:25",
+  "fetchedAtUtc": "2026-10-17 18:04:06",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-17 17:38:25",
-    "updatedAtTs": 1792258705,
+    "updatedAt": "2026-10-17 18:04:06",
+    "updatedAtTs": 1792260246,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792258705,
-        614
+        1792260246,
+        762
       ],
       "peak7d": [
-        1792258705,
-        614
+        1792260246,
+        762
       ]
     },
     "series": {
@@ -175,6 +175,10 @@
         [
           1792258705,
           614
+        ],
+        [
+          1792260246,
+          762
         ]
       ]
     }
