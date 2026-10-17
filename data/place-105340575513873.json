@@ -4,21 +4,21 @@
   "placeId": "105340575513873",
   "rootPlaceId": "105340575513873",
   "universeId": "8156335562",
-  "name": "Charisma Hospital: Medical Simulator",
+  "name": "[MINIGAMES] Charisma Hospital: Medical Simulator",
   "creatorName": "Charisma Digital",
   "creatorType": "Group",
-  "playing": 202,
-  "visits": 52284636,
-  "favorites": 327963,
+  "playing": 188,
+  "visits": 52285387,
+  "favorites": 327967,
   "likes": 99455,
   "dislikes": 6827,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0e01ec9452b8ec4bcbfef8bcaa702547/512/512/Image/Png/noFilter",
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b656fe432e0e8dbc3e6bb3caa15ddf8f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105340575513873",
-  "fetchedAtUtc": "2026-10-17 22:03:48",
+  "fetchedAtUtc": "2026-10-17 22:33:57",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-17 22:03:48",
-    "updatedAtTs": 1792274628,
+    "updatedAt": "2026-10-17 22:33:57",
+    "updatedAtTs": 1792276437,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792274628,
-        202
+        1792276437,
+        188
       ],
       "peak7d": [
         1792268909,
@@ -223,6 +223,10 @@
         [
           1792274628,
           202
+        ],
+        [
+          1792276437,
+          188
         ]
       ]
     }
