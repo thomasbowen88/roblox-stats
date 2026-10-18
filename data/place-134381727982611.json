@@ -7,18 +7,18 @@
   "name": "Evomon[S3 TRADE]",
   "creatorName": "Evomon Devs",
   "creatorType": "Group",
-  "playing": 5017,
-  "visits": 156417003,
-  "favorites": 369084,
-  "likes": 309616,
+  "playing": 5094,
+  "visits": 156420393,
+  "favorites": 369093,
+  "likes": 309622,
   "dislikes": 8955,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-903018c8766ea465401f9f142f2e9f7e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/134381727982611",
-  "fetchedAtUtc": "2026-10-18 13:43:20",
+  "fetchedAtUtc": "2026-10-18 13:59:09",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-18 13:43:20",
-    "updatedAtTs": 1792331000,
+    "updatedAt": "2026-10-18 13:59:09",
+    "updatedAtTs": 1792331949,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792331000,
-        5017
+        1792331949,
+        5094
       ],
       "peak7d": [
-        1792331000,
-        5017
+        1792331949,
+        5094
       ]
     },
     "series": {
@@ -167,6 +167,10 @@
         [
           1792331000,
           5017
+        ],
+        [
+          1792331949,
+          5094
         ]
       ]
     }

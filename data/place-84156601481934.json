@@ -7,18 +7,18 @@
   "name": "[🐻UPD 10.5] 🔩 Resource Incremental",
   "creatorName": "PGS Squad",
   "creatorType": "Group",
-  "playing": 1565,
-  "visits": 6075604,
+  "playing": 1585,
+  "visits": 6076307,
   "favorites": 14482,
-  "likes": 21558,
-  "dislikes": 930,
+  "likes": 21559,
+  "dislikes": 931,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0ec013a77ee6f2a5bf45a68a970ce550/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/84156601481934",
-  "fetchedAtUtc": "2026-10-18 13:43:20",
+  "fetchedAtUtc": "2026-10-18 13:59:09",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-18 13:43:20",
-    "updatedAtTs": 1792331000,
+    "updatedAt": "2026-10-18 13:59:09",
+    "updatedAtTs": 1792331949,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792331000,
-        1565
+        1792331949,
+        1585
       ],
       "peak7d": [
-        1792331000,
-        1565
+        1792331949,
+        1585
       ]
     },
     "series": {
@@ -167,6 +167,10 @@
         [
           1792331000,
           1565
+        ],
+        [
+          1792331949,
+          1585
         ]
       ]
     }
