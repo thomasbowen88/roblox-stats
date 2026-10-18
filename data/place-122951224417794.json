@@ -7,18 +7,18 @@
   "name": "Unscathed RNG",
   "creatorName": "Happy Goof Games!",
   "creatorType": "Group",
-  "playing": 383,
-  "visits": 14453507,
-  "favorites": 50464,
+  "playing": 380,
+  "visits": 14453875,
+  "favorites": 50465,
   "likes": 22749,
   "dislikes": 2238,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f1e73176d654ceca014f27f387ed4eda/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122951224417794",
-  "fetchedAtUtc": "2026-10-18 15:04:04",
+  "fetchedAtUtc": "2026-10-18 15:24:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-18 15:04:04",
-    "updatedAtTs": 1792335844,
+    "updatedAt": "2026-10-18 15:24:00",
+    "updatedAtTs": 1792337040,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792335844,
-        383
+        1792337040,
+        380
       ],
       "peak7d": [
         1792313972,
@@ -183,6 +183,10 @@
         [
           1792335844,
           383
+        ],
+        [
+          1792337040,
+          380
         ]
       ]
     }
