@@ -7,18 +7,18 @@
   "name": "[UPDATE 6] Anime Capture",
   "creatorName": "StarX Inc",
   "creatorType": "Group",
-  "playing": 11,
-  "visits": 4505696,
+  "playing": 14,
+  "visits": 4505704,
   "favorites": 72965,
   "likes": 15023,
-  "dislikes": 388,
+  "dislikes": 389,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a4bd7fb3e2b78935ff717525d67f5b9d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/94717504417144",
-  "fetchedAtUtc": "2026-10-19 17:18:40",
+  "fetchedAtUtc": "2026-10-19 17:28:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-19 17:18:40",
-    "updatedAtTs": 1792430320,
+    "updatedAt": "2026-10-19 17:28:46",
+    "updatedAtTs": 1792430926,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792430320,
-        11
+        1792430926,
+        14
       ],
       "peak7d": [
         1792379307,
@@ -159,6 +159,10 @@
         [
           1792430320,
           11
+        ],
+        [
+          1792430926,
+          14
         ]
       ]
     }
