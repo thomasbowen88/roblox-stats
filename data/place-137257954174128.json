@@ -7,18 +7,18 @@
   "name": "Bugmon[RELEASE] ",
   "creatorName": "Hypolygon Server",
   "creatorType": "Group",
-  "playing": 96,
-  "visits": 2174039,
-  "favorites": 125554,
+  "playing": 84,
+  "visits": 2174112,
+  "favorites": 125553,
   "likes": 49373,
   "dislikes": 1911,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-047b12c3245c90cb4765d68c70aaaadc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/137257954174128",
-  "fetchedAtUtc": "2026-10-19 05:09:04",
+  "fetchedAtUtc": "2026-10-19 05:23:44",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-19 05:09:04",
-    "updatedAtTs": 1792386544,
+    "updatedAt": "2026-10-19 05:23:44",
+    "updatedAtTs": 1792387424,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792386544,
-        96
+        1792387424,
+        84
       ],
       "peak7d": [
         1792384730,
@@ -63,6 +63,10 @@
         [
           1792386544,
           96
+        ],
+        [
+          1792387424,
+          84
         ]
       ]
     }
