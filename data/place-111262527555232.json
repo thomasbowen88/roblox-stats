@@ -7,18 +7,18 @@
   "name": "Huss Rooms | [Locust]",
   "creatorName": "Survive Clark Community",
   "creatorType": "Group",
-  "playing": 858,
-  "visits": 21575314,
-  "favorites": 65675,
+  "playing": 892,
+  "visits": 21575876,
+  "favorites": 65677,
   "likes": 17689,
   "dislikes": 3373,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f819fb38f839880550add5eedb5c0632/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111262527555232",
-  "fetchedAtUtc": "2026-10-21 21:49:07",
+  "fetchedAtUtc": "2026-10-21 21:53:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21 21:49:07",
-    "updatedAtTs": 1792619347,
+    "updatedAt": "2026-10-21 21:53:37",
+    "updatedAtTs": 1792619617,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792619347,
-        858
+        1792619617,
+        892
       ],
       "peak7d": [
         1792539266,
@@ -303,6 +303,10 @@
         [
           1792619347,
           858
+        ],
+        [
+          1792619617,
+          892
         ]
       ]
     }

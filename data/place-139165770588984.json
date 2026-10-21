@@ -7,18 +7,18 @@
   "name": "Fix My Phone!",
   "creatorName": "Doubloons",
   "creatorType": "Group",
-  "playing": 13000,
-  "visits": 2848456,
-  "favorites": 128614,
-  "likes": 3987,
+  "playing": 12983,
+  "visits": 2853034,
+  "favorites": 128858,
+  "likes": 3999,
   "dislikes": 453,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9bd60b2fe84495de930361eaaa852ea9/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139165770588984",
-  "fetchedAtUtc": "2026-10-21 21:49:07",
+  "fetchedAtUtc": "2026-10-21 21:53:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21 21:49:07",
-    "updatedAtTs": 1792619347,
+    "updatedAt": "2026-10-21 21:53:37",
+    "updatedAtTs": 1792619617,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792619347,
-        13000
+        1792619617,
+        12983
       ],
       "peak7d": [
         1792604679,
@@ -303,6 +303,10 @@
         [
           1792619347,
           13000
+        ],
+        [
+          1792619617,
+          12983
         ]
       ]
     }
