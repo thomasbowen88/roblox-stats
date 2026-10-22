@@ -14,11 +14,11 @@
   "dislikes": 580,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-58f770c775358650f60de9a662b72425/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99713568470959",
-  "fetchedAtUtc": "2026-10-22 00:18:35",
+  "fetchedAtUtc": "2026-10-22 00:23:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22 00:18:35",
-    "updatedAtTs": 1792628315,
+    "updatedAt": "2026-10-22 00:23:55",
+    "updatedAtTs": 1792628635,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1792628315,
+        1792628635,
         10
       ],
       "peak7d": [
@@ -338,6 +338,10 @@
         ],
         [
           1792628315,
+          10
+        ],
+        [
+          1792628635,
           10
         ]
       ]
