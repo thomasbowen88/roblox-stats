@@ -7,18 +7,18 @@
   "name": "Rogue Piece: Rebirth",
   "creatorName": "Vox's House",
   "creatorType": "Group",
-  "playing": 188,
-  "visits": 51538438,
-  "favorites": 53948,
+  "playing": 201,
+  "visits": 51538794,
+  "favorites": 53949,
   "likes": 89555,
   "dislikes": 5327,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f65927f595d54b0765778b7e0b4771cc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/84988808589910",
-  "fetchedAtUtc": "2026-10-22 17:00:40",
+  "fetchedAtUtc": "2026-10-22 17:44:09",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22 17:00:40",
-    "updatedAtTs": 1792688440,
+    "updatedAt": "2026-10-22 17:44:09",
+    "updatedAtTs": 1792691049,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792688440,
-        188
+        1792691049,
+        201
       ],
       "peak7d": [
         1792506828,
@@ -535,6 +535,10 @@
         [
           1792688440,
           188
+        ],
+        [
+          1792691049,
+          201
         ]
       ]
     }
