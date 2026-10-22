@@ -7,18 +7,18 @@
   "name": "OVERTAKE ⚡",
   "creatorName": "Based Racers",
   "creatorType": "Group",
-  "playing": 50,
-  "visits": 12175192,
-  "favorites": 29589,
+  "playing": 45,
+  "visits": 12175477,
+  "favorites": 29592,
   "likes": 8010,
   "dislikes": 1001,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-85eea10c44d7a5c2a1682a0ce405a80d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/115162546306190",
-  "fetchedAtUtc": "2026-10-22 20:18:58",
+  "fetchedAtUtc": "2026-10-22 20:58:33",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22 20:18:58",
-    "updatedAtTs": 1792700338,
+    "updatedAt": "2026-10-22 20:58:33",
+    "updatedAtTs": 1792702713,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792700338,
-        50
+        1792702713,
+        45
       ],
       "peak7d": [
         1792508025,
@@ -571,6 +571,10 @@
         [
           1792700338,
           50
+        ],
+        [
+          1792702713,
+          45
         ]
       ]
     }
