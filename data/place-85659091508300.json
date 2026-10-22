@@ -7,18 +7,18 @@
   "name": "[TAG] Meow Madness",
   "creatorName": "Battle Bacon Development",
   "creatorType": "Group",
-  "playing": 375,
-  "visits": 7948139,
-  "favorites": 134215,
+  "playing": 350,
+  "visits": 7948319,
+  "favorites": 134223,
   "likes": 24080,
   "dislikes": 2239,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-de23053d4ea09eda8c32488793a87aed/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/85659091508300",
-  "fetchedAtUtc": "2026-10-22 07:34:07",
+  "fetchedAtUtc": "2026-10-22 07:40:16",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22 07:34:07",
-    "updatedAtTs": 1792654447,
+    "updatedAt": "2026-10-22 07:40:16",
+    "updatedAtTs": 1792654816,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792654447,
-        375
+        1792654816,
+        350
       ],
       "peak7d": [
         1792629825,
@@ -411,6 +411,10 @@
         [
           1792654447,
           375
+        ],
+        [
+          1792654816,
+          350
         ]
       ]
     }
