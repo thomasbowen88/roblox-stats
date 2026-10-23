@@ -7,18 +7,18 @@
   "name": "[REVAMP] Bloxrooms ",
   "creatorName": "Bloxrooms Corporation",
   "creatorType": "Group",
-  "playing": 114,
-  "visits": 3358542,
-  "favorites": 79478,
+  "playing": 103,
+  "visits": 3358783,
+  "favorites": 79477,
   "likes": 14963,
   "dislikes": 3396,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-61c6fca833fa862edc156a9284fbbbae/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127943464865693",
-  "fetchedAtUtc": "2026-10-23 15:14:30",
+  "fetchedAtUtc": "2026-10-23 15:40:10",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 15:14:30",
-    "updatedAtTs": 1792768470,
+    "updatedAt": "2026-10-23 15:40:10",
+    "updatedAtTs": 1792770010,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792768470,
-        114
+        1792770010,
+        103
       ],
       "peak7d": [
         1792713243,
@@ -771,6 +771,10 @@
         [
           1792768470,
           114
+        ],
+        [
+          1792770010,
+          103
         ]
       ]
     }
