@@ -7,18 +7,18 @@
   "name": "[🎃UPD 3] Pet Dice",
   "creatorName": "RAC Studio",
   "creatorType": "Group",
-  "playing": 942,
-  "visits": 735358,
+  "playing": 945,
+  "visits": 735535,
   "favorites": 3024,
-  "likes": 3407,
+  "likes": 3408,
   "dislikes": 238,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d154f784b54f16542098eafb3b7b201d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139815684286865",
-  "fetchedAtUtc": "2026-10-23 17:24:11",
+  "fetchedAtUtc": "2026-10-23 17:30:17",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 17:24:11",
-    "updatedAtTs": 1792776251,
+    "updatedAt": "2026-10-23 17:30:17",
+    "updatedAtTs": 1792776617,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792776251,
-        942
+        1792776617,
+        945
       ],
       "peak7d": [
         1792507119,
@@ -803,6 +803,10 @@
         [
           1792776251,
           942
+        ],
+        [
+          1792776617,
+          945
         ]
       ]
     }

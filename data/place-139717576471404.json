@@ -7,18 +7,18 @@
   "name": "RoChess!",
   "creatorName": "1 Elo Chess",
   "creatorType": "Group",
-  "playing": 7694,
-  "visits": 9911784,
-  "favorites": 11658,
-  "likes": 4060,
-  "dislikes": 1524,
+  "playing": 7776,
+  "visits": 9921411,
+  "favorites": 11670,
+  "likes": 4065,
+  "dislikes": 1525,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6fef4cc25a61fe9888e062b12339bde0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139717576471404",
-  "fetchedAtUtc": "2026-10-23 17:24:11",
+  "fetchedAtUtc": "2026-10-23 17:30:17",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 17:24:11",
-    "updatedAtTs": 1792776251,
+    "updatedAt": "2026-10-23 17:30:17",
+    "updatedAtTs": 1792776617,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792776251,
-        7694
+        1792776617,
+        7776
       ],
       "peak7d": [
-        1792776251,
-        7694
+        1792776617,
+        7776
       ]
     },
     "series": {
@@ -803,6 +803,10 @@
         [
           1792776251,
           7694
+        ],
+        [
+          1792776617,
+          7776
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "[BETA EVENT!] Turbo Soccer : Beta 1.0",
   "creatorName": "Turbo Soccer",
   "creatorType": "Group",
-  "playing": 30314,
-  "visits": 82957245,
-  "favorites": 141607,
-  "likes": 89627,
+  "playing": 30895,
+  "visits": 82998000,
+  "favorites": 141634,
+  "likes": 89648,
   "dislikes": 7127,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5baee8e7c587991b64096c66b4499642/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/101880234193261",
-  "fetchedAtUtc": "2026-10-23 17:24:11",
+  "fetchedAtUtc": "2026-10-23 17:30:17",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 17:24:11",
-    "updatedAtTs": 1792776251,
+    "updatedAt": "2026-10-23 17:30:17",
+    "updatedAtTs": 1792776617,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792776251,
-        30314
+        1792776617,
+        30895
       ],
       "peak7d": [
-        1792776251,
-        30314
+        1792776617,
+        30895
       ]
     },
     "series": {
@@ -803,6 +803,10 @@
         [
           1792776251,
           30314
+        ],
+        [
+          1792776617,
+          30895
         ]
       ]
     }
