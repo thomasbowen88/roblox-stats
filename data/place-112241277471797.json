@@ -7,18 +7,18 @@
   "name": "Trading Tycoon",
   "creatorName": "Mentole Studios",
   "creatorType": "Group",
-  "playing": 1501,
-  "visits": 4283456,
+  "playing": 1414,
+  "visits": 4283990,
   "favorites": 20677,
-  "likes": 5121,
+  "likes": 5123,
   "dislikes": 331,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-99e0f7df8babedd7b7880973a8c0aafb/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/112241277471797",
-  "fetchedAtUtc": "2026-10-22 23:54:03",
+  "fetchedAtUtc": "2026-10-23 00:00:19",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22 23:54:03",
-    "updatedAtTs": 1792713243,
+    "updatedAt": "2026-10-23 00:00:19",
+    "updatedAtTs": 1792713619,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792713243,
-        1501
+        1792713619,
+        1414
       ],
       "peak7d": [
         1792508025,
@@ -607,6 +607,10 @@
         [
           1792713243,
           1501
+        ],
+        [
+          1792713619,
+          1414
         ]
       ]
     }
