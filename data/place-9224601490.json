@@ -7,18 +7,18 @@
   "name": "[OPE V2] Fruit Battlegrounds",
   "creatorName": "P O P O",
   "creatorType": "Group",
-  "playing": 2250,
-  "visits": 1075621696,
+  "playing": 2275,
+  "visits": 1075622501,
   "favorites": 1010688,
-  "likes": 1138563,
+  "likes": 1138564,
   "dislikes": 130108,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5b331270d0a5c1096a3acc6cf62b0414/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/9224601490",
-  "fetchedAtUtc": "2026-10-23 12:53:43",
+  "fetchedAtUtc": "2026-10-23 13:00:16",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 12:53:43",
-    "updatedAtTs": 1792760023,
+    "updatedAt": "2026-10-23 13:00:16",
+    "updatedAtTs": 1792760416,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792760023,
-        2250
+        1792760416,
+        2275
       ],
       "peak7d": [
-        1792510737,
-        2261
+        1792760416,
+        2275
       ]
     },
     "series": {
@@ -739,6 +739,10 @@
         [
           1792760023,
           2250
+        ],
+        [
+          1792760416,
+          2275
         ]
       ]
     }
