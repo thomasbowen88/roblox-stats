@@ -7,18 +7,18 @@
   "name": "Roll Your Height",
   "creatorName": "Some Hyper Games",
   "creatorType": "Group",
-  "playing": 668,
-  "visits": 2928940,
-  "favorites": 8462,
+  "playing": 656,
+  "visits": 2929122,
+  "favorites": 8461,
   "likes": 6735,
   "dislikes": 736,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ab3c8a1720a3c9a1861ac9e00bf9e7dc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72770967353024",
-  "fetchedAtUtc": "2026-10-23 23:24:02",
+  "fetchedAtUtc": "2026-10-23 23:30:22",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 23:24:02",
-    "updatedAtTs": 1792797842,
+    "updatedAt": "2026-10-23 23:30:22",
+    "updatedAtTs": 1792798222,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792797842,
-        668
+        1792798222,
+        656
       ],
       "peak7d": [
         1792519176,
@@ -847,6 +847,10 @@
         [
           1792797842,
           668
+        ],
+        [
+          1792798222,
+          656
         ]
       ]
     }
