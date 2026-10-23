@@ -7,18 +7,18 @@
   "name": "🐟 How to Fisch!",
   "creatorName": "A Fishy Game",
   "creatorType": "Group",
-  "playing": 402,
-  "visits": 12376687,
-  "favorites": 154577,
+  "playing": 386,
+  "visits": 12376876,
+  "favorites": 154578,
   "likes": 76137,
   "dislikes": 3072,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9fd126068c0eae1e7bee07441002957d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119870009085173",
-  "fetchedAtUtc": "2026-10-23 12:49:02",
+  "fetchedAtUtc": "2026-10-23 12:53:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 12:49:02",
-    "updatedAtTs": 1792759742,
+    "updatedAt": "2026-10-23 12:53:43",
+    "updatedAtTs": 1792760023,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792759742,
-        402
+        1792760023,
+        386
       ],
       "peak7d": [
         1792713619,
@@ -735,6 +735,10 @@
         [
           1792759742,
           402
+        ],
+        [
+          1792760023,
+          386
         ]
       ]
     }
