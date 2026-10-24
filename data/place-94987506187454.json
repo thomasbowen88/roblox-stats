@@ -4,21 +4,21 @@
   "placeId": "94987506187454",
   "rootPlaceId": "94987506187454",
   "universeId": "7265339759",
-  "name": "[⚔️ RANKED] REDLINER",
+  "name": "[MAINTENANCE] REDLINER",
   "creatorName": "REDLINER",
   "creatorType": "Group",
-  "playing": 860,
-  "visits": 70416561,
-  "favorites": 409943,
-  "likes": 162584,
+  "playing": 18,
+  "visits": 70417246,
+  "favorites": 409949,
+  "likes": 162585,
   "dislikes": 16014,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5da2b124681f1ae4ec96f16cf2a95a37/512/512/Image/Png/noFilter",
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-28705f08ec9f34781f6e34eae48910c5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/94987506187454",
-  "fetchedAtUtc": "2026-10-24 15:59:06",
+  "fetchedAtUtc": "2026-10-24 16:44:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-24 15:59:06",
-    "updatedAtTs": 1792857546,
+    "updatedAt": "2026-10-24 16:44:26",
+    "updatedAtTs": 1792860266,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792857546,
-        860
+        1792860266,
+        18
       ],
       "peak7d": [
         1792789133,
@@ -987,6 +987,10 @@
         [
           1792857546,
           860
+        ],
+        [
+          1792860266,
+          18
         ]
       ]
     }
