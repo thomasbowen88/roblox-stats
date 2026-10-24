@@ -7,18 +7,18 @@
   "name": "[🎥REPLAY] Jailbird",
   "creatorName": "Jailbird Official",
   "creatorType": "Group",
-  "playing": 2225,
-  "visits": 97405261,
-  "favorites": 326628,
-  "likes": 109532,
-  "dislikes": 12151,
+  "playing": 2402,
+  "visits": 97412738,
+  "favorites": 326646,
+  "likes": 109537,
+  "dislikes": 12152,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-025a2034f52769c317b10ec60d8fb85e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/14772802900",
-  "fetchedAtUtc": "2026-10-23 23:30:22",
+  "fetchedAtUtc": "2026-10-23 23:59:08",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-23 23:30:22",
-    "updatedAtTs": 1792798222,
+    "updatedAt": "2026-10-23 23:59:08",
+    "updatedAtTs": 1792799948,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792798222,
-        2225
+        1792799948,
+        2402
       ],
       "peak7d": [
-        1792629032,
-        2334
+        1792799948,
+        2402
       ]
     },
     "series": {
@@ -851,6 +851,10 @@
         [
           1792798222,
           2225
+        ],
+        [
+          1792799948,
+          2402
         ]
       ]
     }
