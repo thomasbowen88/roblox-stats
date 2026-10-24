@@ -7,18 +7,18 @@
   "name": "[🧠] Catdoku",
   "creatorName": "Chiidoku",
   "creatorType": "Group",
-  "playing": 768,
-  "visits": 8483409,
-  "favorites": 135510,
+  "playing": 750,
+  "visits": 8483724,
+  "favorites": 135509,
   "likes": 23506,
   "dislikes": 3097,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-88cb4c7b7253dd051acca96ba3683325/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/139705352041000",
-  "fetchedAtUtc": "2026-10-24 11:54:14",
+  "fetchedAtUtc": "2026-10-24 11:59:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-24 11:54:14",
-    "updatedAtTs": 1792842854,
+    "updatedAt": "2026-10-24 11:59:30",
+    "updatedAtTs": 1792843170,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792842854,
-        768
+        1792843170,
+        750
       ],
       "peak7d": [
         1792809862,
@@ -947,6 +947,10 @@
         [
           1792842854,
           768
+        ],
+        [
+          1792843170,
+          750
         ]
       ]
     }
