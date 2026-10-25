@@ -7,18 +7,18 @@
   "name": "Ronopoly",
   "creatorName": "Late Shift Games",
   "creatorType": "Group",
-  "playing": 2700,
-  "visits": 79602186,
+  "playing": 2741,
+  "visits": 79603208,
   "favorites": 284514,
-  "likes": 66233,
-  "dislikes": 27078,
+  "likes": 66232,
+  "dislikes": 27080,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-074f1219f0f009630cbee7b592656cd3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/6875747014",
-  "fetchedAtUtc": "2026-10-25 14:23:30",
+  "fetchedAtUtc": "2026-10-25 14:29:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-25 14:23:30",
-    "updatedAtTs": 1792938210,
+    "updatedAt": "2026-10-25 14:29:30",
+    "updatedAtTs": 1792938570,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1792938210,
-        2700
+        1792938570,
+        2741
       ],
       "peak7d": [
-        1792900730,
-        2739
+        1792938570,
+        2741
       ]
     },
     "series": {
@@ -239,6 +239,10 @@
         [
           1792938210,
           2700
+        ],
+        [
+          1792938570,
+          2741
         ]
       ]
     }
