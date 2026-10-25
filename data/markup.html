@@ -280,7 +280,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 <div id="backgroundControls" class="hidden"><div class="settings-fields"><div class="field"><div class="slider-label-row"><label for="imageScale">Scale</label><span id="imageScaleValue" class="slider-readout">100%</span></div><input id="imageScale" type="range" min="10" max="500" value="100"></div><div class="field"><div class="slider-label-row"><label for="imageRotation">Rotation</label><span id="imageRotationValue" class="slider-readout">0°</span></div><input id="imageRotation" type="range" min="-180" max="180" value="0"></div><div class="field"><div class="slider-label-row"><label for="imageBlur">Blur</label><span class="slider-readout"><span id="imageBlurValue">0</span> px</span></div><input id="imageBlur" type="range" min="0" max="40" value="0"></div><div id="vignetteControl" class="field hidden"><div class="slider-label-row"><label for="vignette">Vignette</label><span class="slider-readout"><span id="vignetteValue">0</span>%</span></div><input id="vignette" type="range" min="0" max="100" value="0"></div></div><div class="layer-actions"><button id="fitImageBtn">Fit</button><button id="fillImageBtn">Fill</button><button id="centerBackgroundHorizontalBtn">Center Horizontally</button><button id="centerBackgroundVerticalBtn">Center Vertically</button><div id="backgroundFlipControls"><button id="flipBackgroundHorizontalBtn">Flip Horizontally</button><button id="flipBackgroundVerticalBtn">Flip Vertically</button></div></div></div>
 <div id="selectionControls" class="hidden"><div class="settings-fields"><div class="field"><div class="slider-label-row"><label for="objectScale">Size</label><span id="objectScaleValue" class="slider-readout">100%</span></div><input id="objectScale" type="range" min="5" max="500" value="100"></div><div class="field"><div class="slider-label-row"><label for="rotation">Rotation</label><span id="rotationValue" class="slider-readout">0°</span></div><input id="rotation" type="range" min="-180" max="180" value="0"></div><div id="assetControls" class="hidden"><div class="field"><label for="assetColor">Asset color</label><input id="assetColor" type="color" value="#f15a24"></div></div><div id="textControls" class="hidden"><div class="field"><label for="textValue">Text</label><input id="textValue" type="text"></div><div class="row two"><div class="field"><label for="fontSize">Font size</label><input id="fontSize" type="number" min="8" max="500" value="48"></div><div class="field"><label for="textColor">Color</label><input id="textColor" type="color" value="#f15a24"></div></div><div class="field"><label for="fontWeight">Weight</label><select id="fontWeight"><option value="400">Regular</option><option value="700" selected>Bold</option></select></div><div class="field"><label class="check-row"><input id="textBorderEnabled" type="checkbox"> Text border</label></div><div id="textBorderOptions" class="hidden"><div class="effect-pair"><div class="field"><div class="slider-label-row"><label for="textBorderSize">Border size</label><span class="slider-readout"><span id="textBorderSizeValue">2</span> px</span></div><input id="textBorderSize" type="range" min="1" max="30" value="2"></div><div class="field color-field"><label for="textBorderColor">Color</label><input id="textBorderColor" type="color" value="#000000"></div></div></div></div><div id="effectControls" class="hidden"><div class="effect-grid"><div class="effect-pair"><div class="field"><div class="slider-label-row"><label for="shadowBlur">Drop shadow</label><span class="slider-readout"><span id="shadowBlurValue">0</span> px</span></div><input id="shadowBlur" type="range" min="0" max="100" value="0"></div><div class="field color-field"><label for="shadowColor">Color</label><input id="shadowColor" type="color" value="#000000"></div></div><div class="row two"><div class="field"><label for="shadowOffsetX">Offset X</label><input id="shadowOffsetX" type="number" min="-200" max="200" value="0"></div><div class="field"><label for="shadowOffsetY">Offset Y</label><input id="shadowOffsetY" type="number" min="-200" max="200" value="12"></div></div><div class="effect-pair"><div class="field"><div class="slider-label-row"><label for="glowBlur">Glow</label><span class="slider-readout"><span id="glowBlurValue">0</span> px</span></div><input id="glowBlur" type="range" min="0" max="100" value="0"></div><div class="field color-field"><label for="glowColor">Color</label><input id="glowColor" type="color" value="#f15a24"></div></div></div></div></div><div class="layer-actions"><button id="centerItemBtn">Center Horizontally</button><button id="centerVerticalBtn">Center Vertically</button><button id="bringFrontBtn">Bring Forward</button><button id="sendBackBtn">Send Back</button><div id="flipControls" class="hidden"><button id="flipHorizontalBtn" class="mirror-action">Mirror Horizontally</button><button id="flipVerticalBtn" class="mirror-action">Mirror Vertically</button></div></div></div></div></aside>
 </div>
-<dialog id="templateChoiceDialog"><div class="dialog-head"><h2 id="templateChoiceTitle">Choose Template</h2><button id="closeTemplateChoiceBtn">Close</button></div><div class="dialog-body"><div class="section"><h3 id="templateChoicePrompt">Choose an option</h3><div class="field"><label for="templateChoiceSelect">Option</label><select id="templateChoiceSelect"></select></div><div id="freeGamesEffectsField" class="field hidden"><label for="freeGamesEffectsSelect">EFFECTS</label><select id="freeGamesEffectsSelect"><option value="none" selected>None</option><option value="inferno">Inferno</option><option value="storm">Storm</option><option value="sparks">Sparks</option></select></div><div id="socialTemplateDepartmentField" class="field hidden"><label for="socialTemplateDepartmentSelect">Department</label><select id="socialTemplateDepartmentSelect"><option value="gaming" selected>News</option><option value="originals">Features</option><option value="lists">Lists</option></select></div><div id="socialTemplateThemeField" class="field hidden"><label for="socialTemplateThemeSelect">Template layout</label><select id="socialTemplateThemeSelect"><option value="dark" selected>Dark</option><option value="light">Light</option><option value="orange">Orange</option><option value="fullscreenTop">Fullscreen (Top)</option><option value="fullscreenBottom">Fullscreen (Bottom)</option><option value="random">Random</option></select></div><div id="socialTemplateOrangeTagsField" class="field hidden"><div class="social-template-checks"><label class="check-row"><input id="socialTemplateIcymi" type="checkbox"> ICYMI</label><label class="check-row"><input id="socialTemplateOrangeTags" type="checkbox"> Highlight tags</label></div></div><div id="templateUrlField" class="field hidden"><label for="templateArticleUrl">Article URLs</label><textarea id="templateArticleUrl" inputmode="url" placeholder="Paste one Game Rant article URL per line"></textarea></div><div id="templateLoadField" class="field hidden"><button id="loadTemplateArticleBtn" type="button">Load Articles</button><div id="templateLoadStatus"></div><div id="templateLoadResult" class="hidden"></div></div></div></div><div class="dialog-actions"><button id="cancelTemplateChoiceBtn">Cancel</button><button id="applyTemplateChoiceBtn" class="primary">Apply Template</button></div></dialog><dialog id="templateArticleEditDialog"><div class="dialog-head"><h2>Edit Article</h2><button id="closeTemplateArticleEditBtn">Close</button></div><div class="dialog-body"><div class="section"><div class="field"><label for="templateArticleEditTemplate">Template layout</label><select id="templateArticleEditTemplate"><option value="dark">Dark</option><option value="light">Light</option><option value="orange">Orange</option><option value="fullscreenTop">Fullscreen (Top)</option><option value="fullscreenBottom">Fullscreen (Bottom)</option><option value="random">Random</option></select></div><div class="field"><label for="templateArticleEditTitle">Title</label><textarea id="templateArticleEditTitle"></textarea></div><div id="templateArticleEditTagsField" class="field hidden"><label for="templateArticleEditTags">Highlight tags</label><textarea id="templateArticleEditTags" placeholder="One tag per line"></textarea></div><div id="templateArticleEditStatus"></div></div></div><div class="dialog-actions"><button id="cancelTemplateArticleEditBtn">Cancel</button><button id="saveTemplateArticleEditBtn" class="primary">Save</button></div></dialog>
+<dialog id="templateChoiceDialog"><div class="dialog-head"><h2 id="templateChoiceTitle">Choose Template</h2><button id="closeTemplateChoiceBtn">Close</button></div><div class="dialog-body"><div class="section"><h3 id="templateChoicePrompt">Choose an option</h3><div class="field"><label for="templateChoiceSelect">Option</label><select id="templateChoiceSelect"></select></div><div id="freeGamesEffectsField" class="field hidden"><label for="freeGamesEffectsSelect">EFFECTS</label><select id="freeGamesEffectsSelect"><option value="none" selected>None</option><option value="inferno">Inferno</option><option value="storm">Storm</option><option value="plasma">Plasma Field</option><option value="condensation">Condensation</option></select></div><div id="socialTemplateDepartmentField" class="field hidden"><label for="socialTemplateDepartmentSelect">Department</label><select id="socialTemplateDepartmentSelect"><option value="gaming" selected>News</option><option value="originals">Features</option><option value="lists">Lists</option></select></div><div id="socialTemplateThemeField" class="field hidden"><label for="socialTemplateThemeSelect">Template layout</label><select id="socialTemplateThemeSelect"><option value="dark" selected>Dark</option><option value="light">Light</option><option value="orange">Orange</option><option value="fullscreenTop">Fullscreen (Top)</option><option value="fullscreenBottom">Fullscreen (Bottom)</option><option value="random">Random</option></select></div><div id="socialTemplateOrangeTagsField" class="field hidden"><div class="social-template-checks"><label class="check-row"><input id="socialTemplateIcymi" type="checkbox"> ICYMI</label><label class="check-row"><input id="socialTemplateOrangeTags" type="checkbox"> Highlight tags</label></div></div><div id="templateUrlField" class="field hidden"><label for="templateArticleUrl">Article URLs</label><textarea id="templateArticleUrl" inputmode="url" placeholder="Paste one Game Rant article URL per line"></textarea></div><div id="templateLoadField" class="field hidden"><button id="loadTemplateArticleBtn" type="button">Load Articles</button><div id="templateLoadStatus"></div><div id="templateLoadResult" class="hidden"></div></div></div></div><div class="dialog-actions"><button id="cancelTemplateChoiceBtn">Cancel</button><button id="applyTemplateChoiceBtn" class="primary">Apply Template</button></div></dialog><dialog id="templateArticleEditDialog"><div class="dialog-head"><h2>Edit Article</h2><button id="closeTemplateArticleEditBtn">Close</button></div><div class="dialog-body"><div class="section"><div class="field"><label for="templateArticleEditTemplate">Template layout</label><select id="templateArticleEditTemplate"><option value="dark">Dark</option><option value="light">Light</option><option value="orange">Orange</option><option value="fullscreenTop">Fullscreen (Top)</option><option value="fullscreenBottom">Fullscreen (Bottom)</option><option value="random">Random</option></select></div><div class="field"><label for="templateArticleEditTitle">Title</label><textarea id="templateArticleEditTitle"></textarea></div><div id="templateArticleEditTagsField" class="field hidden"><label for="templateArticleEditTags">Highlight tags</label><textarea id="templateArticleEditTags" placeholder="One tag per line"></textarea></div><div id="templateArticleEditStatus"></div></div></div><div class="dialog-actions"><button id="cancelTemplateArticleEditBtn">Cancel</button><button id="saveTemplateArticleEditBtn" class="primary">Save</button></div></dialog>
 <dialog id="opencriticTemplateDialog"><div class="dialog-head"><h2>Opencritic</h2><button id="closeOpencriticTemplateBtn" type="button">Close</button></div><div class="dialog-body"><div class="section"><h3>Score ring</h3><div class="field"><label for="opencriticScoreRange">Critic average</label><div class="opencritic-score-row"><input id="opencriticScoreRange" type="range" min="0" max="100" step="1" value="86"><input id="opencriticScoreNumber" type="number" min="0" max="100" step="1" value="86" inputmode="numeric"></div></div></div><div class="section"><h3>Tier figure</h3><div class="opencritic-option-row"><div class="field"><label for="opencriticTierFigureSelect">Tier figure</label><select id="opencriticTierFigureSelect"><option value="mighty" selected>Mighty</option><option value="strong">Strong</option><option value="fair">Fair</option><option value="weak">Weak</option></select></div><label class="check-row"><input id="opencriticTierFigureEnabled" type="checkbox"> Include</label></div></div><div class="section"><h3>Outline</h3><div class="field"><label class="check-row"><input id="opencriticOutlineEnabled" type="checkbox" checked> Include outline</label></div><div class="opencritic-outline-grid"><div class="field"><label for="opencriticOutlineColor">Color</label><input id="opencriticOutlineColor" type="color" value="#ffffff"></div><div class="field"><div class="slider-label-row"><label for="opencriticOutlineWidth">Outline width</label><span class="slider-readout"><span id="opencriticOutlineWidthValue">12</span> px</span></div><input id="opencriticOutlineWidth" type="range" min="1" max="64" step="1" value="12"></div></div></div></div><div class="dialog-actions"><button id="cancelOpencriticTemplateBtn" type="button">Cancel</button><button id="applyOpencriticTemplateBtn" class="primary" type="button">Apply Template</button></div></dialog><dialog id="newProjectDialog"><div class="dialog-head"><h2>New Project</h2><button id="closeNewProjectBtn">Close</button></div><div class="dialog-body"><div class="section"><h3>Start over?</h3><p style="margin:0;color:var(--muted)">This will clear the current canvas. Saved projects will not be affected.</p></div></div><div class="dialog-actions"><button id="cancelNewProjectBtn">Cancel</button><button id="confirmNewProjectBtn" class="primary">Start New Project</button></div></dialog>
 <dialog id="projectDialog"><div class="dialog-head"><h2>Load Project</h2><button id="closeProjectBtn">Close</button></div><div class="dialog-body"><div class="section"><h3>Saved projects</h3><div class="field"><label for="projectSelect">Project</label><select id="projectSelect"></select></div><div class="small" id="projectDetails">No saved projects.</div></div></div><div class="dialog-actions"><button id="deleteProjectBtn">Delete</button><button id="openProjectBtn" class="primary">Load</button></div></dialog>
 <dialog id="batchBackgroundDialog"><div class="dialog-head"><h2>Add Backgrounds</h2><button id="closeBatchBackgroundBtn">Close</button></div><div class="dialog-body"><div id="batchBackgroundList" class="batch-list"></div></div><div class="dialog-actions"><button id="cancelBatchBackgroundBtn">Cancel</button><button id="confirmBatchBackgroundBtn" class="primary">Create Canvases</button></div></dialog>
@@ -291,7 +291,7 @@ dialog::backdrop{background:rgba(0,0,0,.65);backdrop-filter:blur(4px)}.dialog-he
 <dialog id="storeBackgroundPreviewDialog"><div class="dialog-head"><h2 id="storeBackgroundPreviewTitle">Screenshot Preview</h2><button id="closeStoreBackgroundPreviewBtn" type="button">Close</button></div><div class="store-background-preview-body"><img id="storeBackgroundPreviewImage" alt="Screenshot preview"></div></dialog>
 <script>
 (()=>{"use strict";
-const TEMPLATES=[{"name":"Free Games","thumbnail":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/free-games.jpg","prompt":"Choose a free-games treatment","choices":[{"name":"Steam","data":{"version":2,"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"right":null},"names":{"single":"","left":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":2,"type":"overlay","x":960,"y":540,"scale":0.3599876093523782,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/steam-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"steam-logo.png","layerName":"Steam Logo","visible":true,"freeGamesFxAnchor":true,"freeGamesOutlineWidth":10,"freeGamesOutlineColor":"#ffffff"},{"id":3,"type":"overlay","x":615.8808063102543,"y":335.607476635514,"scale":1.42,"rotation":0.3141592653589793,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/steam-minus-100-percent.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"steam-minus-100-percent.png","layerName":"-100%","visible":true},{"id":1,"type":"overlay","x":1263,"y":747.4659400544961,"scale":1.0284045389680692,"rotation":-0.3490658503988659,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/steam-add-to-account.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"steam-add-to-account.png","layerName":"Add to Account","visible":true}],"nextId":4,"snapping":true,"vignette":0,"layerNames":{"single":"Background","left":"Left background","right":"Right background"},"selected":null,"selectedIds":[]}},{"name":"Epic","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"right":null},"names":{"single":"","left":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":-1944.5081967213114,"y":540,"scale":1.2},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":4,"type":"overlay","x":960,"y":540,"scale":0.3028760680132294,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/epic-games-store-logo-gray.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"epic-games-store-logo-gray.png","flipX":false,"layerName":"Epic Games Store Logo","visible":true,"freeGamesFxAnchor":true},{"id":1,"type":"overlay","x":719.7175979774663,"y":130.41920619694142,"scale":0.565156204178592,"rotation":-0.6108652381980153,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/epic-game-store-minus-100.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"epic-game-store-minus-100.png","layerName":"-100%","visible":true}],"selected":null,"nextId":5,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","right":"Right background"},"selectedIds":[]}},{"name":"Luna","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"center":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":1.15,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/10/prime-gaming.png","shadowBlur":16,"shadowOffsetX":8,"shadowOffsetY":8,"shadowColor":"#000000","shadowOpacity":85,"glowBlur":0,"glowColor":"#f15a24","name":"Luna Logo","layerName":"Amazon Prime Logo","visible":true,"freeGamesFxAnchor":true,"freeGamesOutlineWidth":8,"freeGamesOutlineColor":"#ffffff"}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}}]},{"name":"Subscription Service Logos","thumbnail":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/playstation-plus-xbox-game-pass.jpg","prompt":"Choose a subscription service","choices":[{"name":"PlayStation Plus","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":1.0733928219597426,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/playstation-plus-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"playstation-plus-logo.png","glowOpacity":100,"layerName":"PlayStation Plus Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Xbox Game Pass","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.4581668278891778,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/xbox-game-pass-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"xbox-game-pass-logo.png","glowOpacity":100,"visible":true,"layerName":"Xbox Game Pass Logo"}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}}]},{"name":"Publisher Logos","thumbnail":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/publisher-logos.jpg","prompt":"Choose a publisher or platform","choices":[{"name":"2K","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.31463100512247727,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/2k-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"2k-logo.png","layerName":"2K Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Activision","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.22857142857142856,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/activision-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"activision-logo.png","glowOpacity":100,"layerName":"Activision Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Bandai Namco","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.225,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/bandai-namco-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"bandai-namco-logo.png","layerName":"Bandai Namco Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Bethesda","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.23427331887201736,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/bethesda-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"bethesda-logo.png","glowOpacity":100,"layerName":"Bethesda Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Capcom","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.16520076481835563,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/capcom-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"capcom-logo.png","layerName":"Capcom Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"EA","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.7179355909647113,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/ea-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"ea-logo.png","layerName":"EA Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Konami","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.22748815165876776,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/konami-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"konami-logo.png","layerName":"Konami Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Nintendo","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.2584504935686509,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/nintendo-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"nintendo-logo.png","glowOpacity":100,"layerName":"Nintendo Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"PlayStation","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.6618151636762529,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/playstation-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"playstation-logo.png","glowOpacity":100,"layerName":"PlayStation Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Rockstar Games","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.7679175778975685,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/rockstar-games-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"rockstar-games-logo.png","layerName":"Rockstar Games Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Sega","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.2875207986688852,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/sega-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"sega-logo.png","glowOpacity":100,"layerName":"Sega Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Square Enix","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.37435008665511266,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/square-enix-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"square-enix-logo.png","layerName":"Square Enix Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Ubisoft","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.46672896691950005,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/ubisoft-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"ubisoft-logo.png","layerName":"Ubisoft Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Warner Bros. Games","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.6600994082968502,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/warner-bros-games-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"warner-bros-games-logo.png","layerName":"Warner Bros. Games Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Xbox","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.30116320614606074,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/xbox-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"xbox-logo.png","glowOpacity":100,"layerName":"Xbox Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}}]}];
+const TEMPLATES=[{"name":"Free Games","thumbnail":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/free-games.jpg","prompt":"Choose a free-games treatment","choices":[{"name":"Steam","data":{"version":2,"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"right":null},"names":{"single":"","left":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":2,"type":"overlay","x":960,"y":540,"scale":0.3599876093523782,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/steam-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"steam-logo.png","layerName":"Steam Logo","visible":true,"freeGamesFxAnchor":true,"freeGamesOutlineWidth":10,"freeGamesOutlineColor":"#ffffff"},{"id":3,"type":"overlay","x":615.8808063102543,"y":335.607476635514,"scale":1.42,"rotation":0.3141592653589793,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/steam-minus-100-percent.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"steam-minus-100-percent.png","layerName":"-100%","visible":true},{"id":1,"type":"overlay","x":1263,"y":747.4659400544961,"scale":1.0284045389680692,"rotation":-0.3490658503988659,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/steam-add-to-account.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"steam-add-to-account.png","layerName":"Add to Account","visible":true}],"nextId":4,"snapping":true,"vignette":0,"layerNames":{"single":"Background","left":"Left background","right":"Right background"},"selected":null,"selectedIds":[]}},{"name":"Epic","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"right":null},"names":{"single":"","left":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":-1944.5081967213114,"y":540,"scale":1.2},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":4,"type":"overlay","x":960,"y":540,"scale":0.3028760680132294,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/epic-games-store-logo-gray.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"epic-games-store-logo-gray.png","flipX":false,"layerName":"Epic Games Store Logo","visible":true,"freeGamesFxAnchor":true},{"id":1,"type":"overlay","x":719.7175979774663,"y":130.41920619694142,"scale":0.565156204178592,"rotation":-0.6108652381980153,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/epic-game-store-minus-100.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","name":"epic-game-store-minus-100.png","layerName":"-100%","visible":true}],"selected":null,"nextId":5,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","right":"Right background"},"selectedIds":[]}},{"name":"Luna","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"center":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":1.7,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/10/prime-gaming-logo.png","shadowBlur":16,"shadowOffsetX":8,"shadowOffsetY":8,"shadowColor":"#000000","shadowOpacity":85,"glowBlur":0,"glowColor":"#f15a24","name":"Luna Logo","layerName":"Amazon Prime Logo","visible":true,"freeGamesFxAnchor":true,"freeGamesOutlineWidth":5,"freeGamesOutlineColor":"#ffffff"}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}}]},{"name":"Subscription Service Logos","thumbnail":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/playstation-plus-xbox-game-pass.jpg","prompt":"Choose a subscription service","choices":[{"name":"PlayStation Plus","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":1.0733928219597426,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/playstation-plus-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"playstation-plus-logo.png","glowOpacity":100,"layerName":"PlayStation Plus Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Xbox Game Pass","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1},"left":{"rotation":0,"blur":0,"x":480,"y":540,"scale":1},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0},"right":{"rotation":0,"blur":0,"x":1440,"y":540,"scale":1}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.4581668278891778,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/xbox-game-pass-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"xbox-game-pass-logo.png","glowOpacity":100,"visible":true,"layerName":"Xbox Game Pass Logo"}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}}]},{"name":"Publisher Logos","thumbnail":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/publisher-logos.jpg","prompt":"Choose a publisher or platform","choices":[{"name":"2K","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.31463100512247727,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/2k-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"2k-logo.png","layerName":"2K Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Activision","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.22857142857142856,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/activision-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"activision-logo.png","glowOpacity":100,"layerName":"Activision Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Bandai Namco","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.225,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/bandai-namco-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"bandai-namco-logo.png","layerName":"Bandai Namco Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Bethesda","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.23427331887201736,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/bethesda-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"bethesda-logo.png","glowOpacity":100,"layerName":"Bethesda Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Capcom","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.16520076481835563,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/capcom-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"capcom-logo.png","layerName":"Capcom Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"EA","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.7179355909647113,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/ea-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"ea-logo.png","layerName":"EA Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Konami","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.22748815165876776,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/konami-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"konami-logo.png","layerName":"Konami Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Nintendo","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.2584504935686509,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/nintendo-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"nintendo-logo.png","glowOpacity":100,"layerName":"Nintendo Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"PlayStation","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.6618151636762529,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/playstation-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"playstation-logo.png","glowOpacity":100,"layerName":"PlayStation Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Rockstar Games","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.7679175778975685,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/rockstar-games-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"rockstar-games-logo.png","layerName":"Rockstar Games Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Sega","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.2875207986688852,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/sega-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"sega-logo.png","glowOpacity":100,"layerName":"Sega Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Square Enix","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.37435008665511266,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/square-enix-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"square-enix-logo.png","layerName":"Square Enix Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Ubisoft","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.46672896691950005,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/ubisoft-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"ubisoft-logo.png","layerName":"Ubisoft Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Warner Bros. Games","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.6600994082968502,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/warner-bros-games-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"warner-bros-games-logo.png","layerName":"Warner Bros. Games Logo","glowOpacity":100,"visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}},{"name":"Xbox","data":{"w":1920,"h":1080,"mode":"single","images":{"single":null,"left":null,"center":null,"right":null},"names":{"single":"","left":"","center":"","right":""},"poses":{"single":{"rotation":0,"blur":0,"x":960,"y":540,"scale":1,"flipX":false,"flipY":false},"left":{"rotation":0,"blur":0,"x":320,"y":540,"scale":1,"flipX":false,"flipY":false},"center":{"x":960,"y":540,"scale":1,"rotation":0,"blur":0,"flipX":false,"flipY":false},"right":{"rotation":0,"blur":0,"x":1600,"y":540,"scale":1,"flipX":false,"flipY":false}},"objects":[{"id":1,"type":"overlay","x":960,"y":540,"scale":0.30116320614606074,"rotation":0,"src":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/xbox-logo.png","shadowBlur":10,"shadowOffsetX":10,"shadowOffsetY":10,"shadowColor":"#000000","glowBlur":0,"glowColor":"#f15a24","brightness":100,"contrast":100,"saturation":100,"exposure":0,"temperature":0,"grayscale":0,"opacity":100,"name":"xbox-logo.png","glowOpacity":100,"layerName":"Xbox Logo","visible":true}],"selected":null,"selectedIds":[],"nextId":2,"snapping":true,"vignette":0,"guides":{"vertical":[],"horizontal":[]},"layerNames":{"single":"Background","left":"Left background","center":"Center background","right":"Right background"}}}]}];
 const OPENCRITIC_TEMPLATE_THUMBNAIL="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/opencritic-template.jpg";
 TEMPLATES.push({name:"Opencritic",thumbnail:OPENCRITIC_TEMPLATE_THUMBNAIL,opencritic:true});
 TEMPLATES.push({name:"Social media",thumbnail:"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/07/gr-social-template-background.jpg",prompt:"Choose how to begin",choices:[{name:"Fill from URL",socialMedia:"url"},{name:"Batch Fill",socialMedia:"batch"},{name:"Start from scratch",socialMedia:"scratch"}]});
@@ -300,7 +300,7 @@ const ASSETS={
 const $=id=>document.getElementById(id),canvas=$("canvas"),ctx=canvas.getContext("2d"),workspace=$("workspace"),topRuler=$("topRuler"),leftRuler=$("leftRuler"),guideLayer=$("guideLayer"),guideTooltip=$("guideTooltip"),zoomSlider=$("zoomSlider"),zoomValue=$("zoomValue");
 const state={w:1920,h:1080,mode:"single",images:{single:null,left:null,center:null,right:null},names:{single:"",left:"",center:"",right:""},poses:{single:{x:960,y:540,scale:1,rotation:0,blur:0},left:{x:480,y:540,scale:1,rotation:0,blur:0},center:{x:960,y:540,scale:1,rotation:0,blur:0},right:{x:1440,y:540,scale:1,rotation:0,blur:0}},objects:[],selected:null,tool:"select",action:null,start:null,history:[],future:[],cache:new Map(),tintCache:new Map(),nextId:1,viewScale:1,fitToScreen:true,snapping:true,vignette:0,guides:{vertical:[],horizontal:[]},layerNames:{single:"Background",left:"Left background",center:"Center background",right:"Right background"},canvasPages:[],activeCanvasIndex:0,selectedIds:[],socialMediaTemplate:false,socialMediaLayout:"",freeGamesFxPreset:"none"};
 const c={imageScale:$("imageScale"),imageScaleValue:$("imageScaleValue"),imageRotation:$("imageRotation"),imageRotationValue:$("imageRotationValue"),imageBlur:$("imageBlur"),imageBlurValue:$("imageBlurValue"),backgroundControls:$("backgroundControls"),objectScale:$("objectScale"),objectScaleValue:$("objectScaleValue"),rotation:$("rotation"),rotationValue:$("rotationValue"),assetColor:$("assetColor"),textValue:$("textValue"),fontSize:$("fontSize"),textColor:$("textColor"),fontWeight:$("fontWeight"),textBorderEnabled:$("textBorderEnabled"),textBorderOptions:$("textBorderOptions"),textBorderSize:$("textBorderSize"),textBorderSizeValue:$("textBorderSizeValue"),textBorderColor:$("textBorderColor"),noSelection:$("noSelection"),selectionControls:$("selectionControls"),assetControls:$("assetControls"),textControls:$("textControls"),themeSelect:$("themeSelect"),canvasWidth:$("canvasWidth"),canvasHeight:$("canvasHeight"),exportFormat:$("exportFormat"),jpegQuality:$("jpegQuality"),jpegQualityValue:$("jpegQualityValue"),jpegQualityField:$("jpegQualityField"),overlayUrl:$("overlayUrl"),effectControls:$("effectControls"),shadowBlur:$("shadowBlur"),shadowBlurValue:$("shadowBlurValue"),shadowOffsetX:$("shadowOffsetX"),shadowOffsetY:$("shadowOffsetY"),shadowColor:$("shadowColor"),glowBlur:$("glowBlur"),glowBlurValue:$("glowBlurValue"),glowColor:$("glowColor"),snapToggle:$("snapToggle"),wheelBehavior:$("wheelBehavior"),backgroundUrl:$("backgroundUrl"),vignette:$("vignette"),vignetteValue:$("vignetteValue"),vignetteControl:$("vignetteControl"),layerList:$("layerList")};
-let pendingControlSnapshot=null;function status(s){$("status").textContent=s}function capture(){return{w:state.w,h:state.h,mode:state.mode,images:{...state.images},names:{...state.names},poses:{single:{...state.poses.single},left:{...state.poses.left},center:{...state.poses.center},right:{...state.poses.right}},objects:state.objects.map(o=>({...o})),selected:state.selected?{...state.selected}:null,selectedIds:[...(state.selectedIds||[])],nextId:state.nextId,snapping:state.snapping,vignette:state.vignette,guides:{vertical:[...state.guides.vertical],horizontal:[...state.guides.horizontal]},layerNames:{...state.layerNames},socialMediaTemplate:!!state.socialMediaTemplate,socialMediaLayout:state.socialMediaLayout||"",freeGamesFxPreset:state.freeGamesFxPreset||"none"}}function snap(){state.history.push(pendingControlSnapshot||capture());pendingControlSnapshot=null;if(state.history.length>80)state.history.shift();state.future=[];buttons()}function restore(d){state.w=d.w;state.h=d.h;state.mode=d.mode;state.images={...d.images};state.names={...d.names};state.poses={single:{rotation:0,blur:0,...d.poses.single},left:{rotation:0,blur:0,...d.poses.left},center:{x:state.w/2,y:state.h/2,scale:1,rotation:0,blur:0,...(d.poses?.center||{})},right:{rotation:0,blur:0,...d.poses.right}};state.objects=d.objects.map(o=>({...o}));state.selected=d.selected?{...d.selected}:null;state.selectedIds=[...(d.selectedIds||[])];state.nextId=d.nextId;state.fitToScreen=true;state.snapping=d.snapping!==false;state.vignette=d.vignette||0;state.guides={vertical:[...(d.guides?.vertical||[])],horizontal:[...(d.guides?.horizontal||[])]};state.images={single:null,left:null,center:null,right:null,...state.images};state.names={single:"",left:"",center:"",right:"",...state.names};state.layerNames={single:"Background",left:"Left background",center:"Center background",right:"Right background",...(d.layerNames||{})};state.socialMediaTemplate=!!d.socialMediaTemplate;state.socialMediaLayout=d.socialMediaLayout||(state.socialMediaTemplate?"standard":"");state.freeGamesFxPreset=["inferno","storm","sparks"].includes(d.freeGamesFxPreset)?d.freeGamesFxPreset:"none";invalidateTextMetrics();c.vignette.value=state.vignette;c.vignetteValue.textContent=state.vignette;c.snapToggle.checked=state.snapping;canvas.width=state.w;canvas.height=state.h;syncMode();fitWorkspace();selectionUI();buttons();render()}function undo(){if(!state.history.length)return;state.future.push(capture());restore(state.history.pop())}function redo(){if(!state.future.length)return;state.history.push(capture());restore(state.future.pop())}function buttons(){$("undoBtn").disabled=!state.history.length;$("redoBtn").disabled=!state.future.length;$("deleteBtn").disabled=!(state.selected&&state.selected.kind==="object")}
+let pendingControlSnapshot=null;function status(s){$("status").textContent=s}function capture(){return{w:state.w,h:state.h,mode:state.mode,images:{...state.images},names:{...state.names},poses:{single:{...state.poses.single},left:{...state.poses.left},center:{...state.poses.center},right:{...state.poses.right}},objects:state.objects.map(o=>({...o})),selected:state.selected?{...state.selected}:null,selectedIds:[...(state.selectedIds||[])],nextId:state.nextId,snapping:state.snapping,vignette:state.vignette,guides:{vertical:[...state.guides.vertical],horizontal:[...state.guides.horizontal]},layerNames:{...state.layerNames},socialMediaTemplate:!!state.socialMediaTemplate,socialMediaLayout:state.socialMediaLayout||"",freeGamesFxPreset:state.freeGamesFxPreset||"none",freeGamesFxSeed:state.freeGamesFxSeed>>>0}}function snap(){state.history.push(pendingControlSnapshot||capture());pendingControlSnapshot=null;if(state.history.length>80)state.history.shift();state.future=[];buttons()}function restore(d){state.w=d.w;state.h=d.h;state.mode=d.mode;state.images={...d.images};state.names={...d.names};state.poses={single:{rotation:0,blur:0,...d.poses.single},left:{rotation:0,blur:0,...d.poses.left},center:{x:state.w/2,y:state.h/2,scale:1,rotation:0,blur:0,...(d.poses?.center||{})},right:{rotation:0,blur:0,...d.poses.right}};state.objects=d.objects.map(o=>({...o}));state.selected=d.selected?{...d.selected}:null;state.selectedIds=[...(d.selectedIds||[])];state.nextId=d.nextId;state.fitToScreen=true;state.snapping=d.snapping!==false;state.vignette=d.vignette||0;state.guides={vertical:[...(d.guides?.vertical||[])],horizontal:[...(d.guides?.horizontal||[])]};state.images={single:null,left:null,center:null,right:null,...state.images};state.names={single:"",left:"",center:"",right:"",...state.names};state.layerNames={single:"Background",left:"Left background",center:"Center background",right:"Right background",...(d.layerNames||{})};state.socialMediaTemplate=!!d.socialMediaTemplate;state.socialMediaLayout=d.socialMediaLayout||(state.socialMediaTemplate?"standard":"");state.freeGamesFxPreset=normalizeFreeGamesFxPreset(d.freeGamesFxPreset);state.freeGamesFxSeed=Number.isFinite(d.freeGamesFxSeed)&&d.freeGamesFxSeed>0?(d.freeGamesFxSeed>>>0):newFreeGamesFxSeed();invalidateTextMetrics();c.vignette.value=state.vignette;c.vignetteValue.textContent=state.vignette;c.snapToggle.checked=state.snapping;canvas.width=state.w;canvas.height=state.h;syncMode();fitWorkspace();selectionUI();buttons();render()}function undo(){if(!state.history.length)return;state.future.push(capture());restore(state.history.pop())}function redo(){if(!state.future.length)return;state.history.push(capture());restore(state.future.pop())}function buttons(){$("undoBtn").disabled=!state.history.length;$("redoBtn").disabled=!state.future.length;$("deleteBtn").disabled=!(state.selected&&state.selected.kind==="object")}
 function cleanImageUrl(value){try{const u=new URL(value.trim());u.search="";u.hash="";return u.href}catch{return value.trim().split(/[?#]/)[0]}}function urlName(value,fallback="Remote image"){try{return decodeURIComponent(new URL(value).pathname.split("/").filter(Boolean).pop()||fallback)}catch{return fallback}}function loadImage(src,cross=true){if(state.cache.has(src))return state.cache.get(src);const p=new Promise((res,rej)=>{const i=new Image();if(cross&&!src.startsWith("data:"))i.crossOrigin="anonymous";i.onload=()=>{i._projectSrc=src;res(i)};i.onerror=rej;i.src=src});state.cache.set(src,p);return p}function fileImage(file){return new Promise((res,rej)=>{if(!file||!file.type.startsWith("image/"))return rej(new Error("Choose an image file."));const reader=new FileReader();reader.onerror=()=>rej(new Error("Could not open image."));reader.onload=()=>{const i=new Image();i.onload=()=>{i._projectSrc=reader.result;res(i)};i.onerror=()=>rej(new Error("Could not open image."));i.src=reader.result};reader.readAsDataURL(file)})}async function hydrate(){await Promise.all(state.objects.map(async o=>{if(o.src)try{o.image=await loadImage(o.src)}catch{}}))}
 function splitAngle(index){if(state.mode==="tripleOpposed")return(index===0?7.5:-7.5)*Math.PI/180;if(state.mode==="tripleOpposedReverse")return(index===0?-7.5:7.5)*Math.PI/180;return 0}function dividerX(center,y,angle){return center+Math.tan(angle)*(y-state.h/2)}function circleSpec(){return{x:state.w/2,y:state.h/2,r:state.h*.25,line:10}}function sideRect(key){if(state.socialMediaTemplate&&!state.socialMediaLayout.startsWith("fullscreen")&&key==="single")return{x:0,y:0,w:state.w,h:807};if(state.mode==="split"||state.mode==="splitCircle"){if(key==="left")return{x:0,y:0,w:(state.w-10)/2,h:state.h};if(key==="right")return{x:(state.w+10)/2,y:0,w:(state.w-10)/2,h:state.h};if(key==="center"){const q=circleSpec();return{x:q.x-q.r,y:q.y-q.r,w:q.r*2,h:q.r*2}}}if(state.mode==="splitHorizontal"||state.mode==="splitHorizontalCircle"){if(key==="left")return{x:0,y:0,w:state.w,h:(state.h-10)/2};if(key==="right")return{x:0,y:(state.h+10)/2,w:state.w,h:(state.h-10)/2};if(key==="center"){const q=circleSpec();return{x:q.x-q.r,y:q.y-q.r,w:q.r*2,h:q.r*2}}}if(state.mode==="tripleHorizontal"){if(key==="left")return{x:0,y:0,w:state.w,h:state.h/3};if(key==="center")return{x:0,y:state.h/3,w:state.w,h:state.h/3};if(key==="right")return{x:0,y:state.h*2/3,w:state.w,h:state.h/3}}if(state.mode==="tripleParallel"||state.mode==="tripleOpposed"||state.mode==="tripleOpposedReverse"){if(key==="left")return{x:0,y:0,w:state.w/3,h:state.h};if(key==="center")return{x:state.w/3,y:0,w:state.w/3,h:state.h};if(key==="right")return{x:state.w*2/3,y:0,w:state.w/3,h:state.h}}return{x:0,y:0,w:state.w,h:state.h}}function activeBackgroundKeys(){if(state.mode==="single")return["single"];if(["split","splitHorizontal"].includes(state.mode))return["left","right"];return["left","center","right"]}function slotPath(t,key){if((state.mode==="splitCircle"||state.mode==="splitHorizontalCircle")&&key==="center"){const q=circleSpec();t.arc(q.x,q.y,q.r,0,Math.PI*2);return}if(state.mode==="tripleOpposed"||state.mode==="tripleOpposedReverse"){const a1=splitAngle(0),a2=splitAngle(1),x1t=dividerX(state.w/3,0,a1),x1b=dividerX(state.w/3,state.h,a1),x2t=dividerX(state.w*2/3,0,a2),x2b=dividerX(state.w*2/3,state.h,a2);if(key==="left"){t.moveTo(0,0);t.lineTo(x1t,0);t.lineTo(x1b,state.h);t.lineTo(0,state.h)}else if(key==="center"){t.moveTo(x1t,0);t.lineTo(x2t,0);t.lineTo(x2b,state.h);t.lineTo(x1b,state.h)}else{t.moveTo(x2t,0);t.lineTo(state.w,0);t.lineTo(state.w,state.h);t.lineTo(x2b,state.h)}t.closePath();return}const r=sideRect(key);t.rect(r.x,r.y,r.w,r.h)}function defaultScale(key,img){const r=sideRect(key);if(state.socialMediaTemplate&&state.socialMediaLayout.startsWith("fullscreen")&&key==="single")return Math.max(r.w/img.naturalWidth,r.h/img.naturalHeight);if(state.socialMediaTemplate&&key==="single")return r.h/img.naturalHeight;return state.mode==="single"?Math.min(r.w/img.naturalWidth,r.h/img.naturalHeight):Math.max(r.w/img.naturalWidth,r.h/img.naturalHeight)}function blurCoverScale(key,blur){const img=state.images[key],r=sideRect(key),pad=Math.max(0,Number(blur)||0)*4;if(!img)return 0;return Math.max((r.w+pad)/img.naturalWidth,(r.h+pad)/img.naturalHeight)}function ensureBlurCoverage(key){const p=state.poses[key];if(!p||!state.images[key]||!(p.blur>0))return;p.scale=Math.max(p.scale,blurCoverScale(key,p.blur))}function fitPose(key,mode="fit"){const img=state.images[key];if(!img)return;const r=sideRect(key),p=state.poses[key];p.scale=mode==="fill"?Math.max(r.w/img.naturalWidth,r.h/img.naturalHeight):defaultScale(key,img);p.x=r.x+r.w/2;p.y=r.y+r.h/2;syncScale();render()}
 async function openFile(key,file){try{const img=await fileImage(file);if(key==="single")ensureCanvasPage();const renameCanvas=key==="single"&&isDefaultCanvasName(state.canvasPages[state.activeCanvasIndex]?.name);snap();state.images[key]=img;delete state.poses[key].foregroundSrc;delete state.poses[key].foregroundMaskSrc;delete state.poses[key].foregroundSourceKey;state.names[key]=file.name;state.selectedIds=[];if(renameCanvas){state.canvasPages[state.activeCanvasIndex].name=defaultCanvasFilename(file);renderCanvasList()}fitPose(key,"fit");state.selected={kind:"image",key};showLayersFromCanvasTab();selectionUI();status(`${file.name} — ${img.naturalWidth} × ${img.naturalHeight}px`)}catch(e){status(e.message)}}
@@ -336,31 +336,58 @@ function colorWithAlpha(hex,opacity){const v=String(hex||"#000000").replace("#",
 const relightOverlayCache=new Map();
 function sceneVectorToObjectLocal(o,dx,dy){const a=-(Number(o.rotation)||0),c=Math.cos(a),s=Math.sin(a);let x=dx*c-dy*s,y=dx*s+dy*c;if(o.flipX)x=-x;if(o.flipY)y=-y;const m=Math.hypot(x,y)||1;return{x:x/m,y:y/m}}
 function lightingAdjustedOverlay(o){if(!o?.image||!o.matchLightingApplied||!(Number(o.matchLightingGamma)>0&&Number(o.matchLightingGamma)<.999))return null;const gamma=Math.max(.62,Math.min(.999,Number(o.matchLightingGamma)||1)),src=o.image._projectSrc||o.src||o.image.currentSrc||o.image.src||`${o.image.naturalWidth}x${o.image.naturalHeight}`,key=[src,o.image.naturalWidth,o.image.naturalHeight,o.brightness??100,o.contrast??100,o.saturation??100,o.exposure??0,o.temperature??0,o.grayscale??0,o.invert??0,gamma].join("|");if(relightOverlayCache.has(key))return relightOverlayCache.get(key);const maxSide=2048,scale=Math.min(1,maxSide/Math.max(o.image.naturalWidth,o.image.naturalHeight)),w=Math.max(1,Math.round(o.image.naturalWidth*scale)),h=Math.max(1,Math.round(o.image.naturalHeight*scale)),q=document.createElement("canvas");q.width=w;q.height=h;const x=q.getContext("2d",{willReadFrequently:true});x.imageSmoothingEnabled=true;x.imageSmoothingQuality="high";x.filter=imageFilter(o);x.drawImage(o.image,0,0,w,h);x.filter="none";let imageData;try{imageData=x.getImageData(0,0,w,h)}catch{return null}const d=imageData.data,smooth=(a,b,v)=>{const t=Math.max(0,Math.min(1,(v-a)/Math.max(.0001,b-a)));return t*t*(3-2*t)};for(let i=0;i<d.length;i+=4){if(d[i+3]<8)continue;const r=d[i],g=d[i+1],b=d[i+2],lum=.2126*r+.7152*g+.0722*b;if(lum<=1)continue;const n=lum/255,lifted=Math.pow(n,gamma),highlight=smooth(.58,.96,n),strength=1-highlight*.9,target=n+(lifted-n)*strength,targetLum=Math.min(250,target*255),maxChannel=Math.max(r,g,b),ratio=Math.min(targetLum/lum,maxChannel>0?250/maxChannel:1.6,1.75);d[i]=Math.max(0,Math.min(255,Math.round(r*ratio)));d[i+1]=Math.max(0,Math.min(255,Math.round(g*ratio)));d[i+2]=Math.max(0,Math.min(255,Math.round(b*ratio)))}x.putImageData(imageData,0,0);relightOverlayCache.set(key,q);if(relightOverlayCache.size>24)relightOverlayCache.delete(relightOverlayCache.keys().next().value);return q}
+let freeGamesSeedCounter=0;
+function newFreeGamesFxSeed(){let value=0;try{if(typeof crypto!=='undefined'&&crypto.getRandomValues){const bytes=new Uint32Array(1);crypto.getRandomValues(bytes);value=bytes[0]>>>0}}catch{}if(!value)value=(Math.random()*4294967296)>>>0;freeGamesSeedCounter=(freeGamesSeedCounter+1)>>>0;return(value^Math.imul(freeGamesSeedCounter,0x9e3779b9))>>>0||1}
+function normalizeFreeGamesFxPreset(value){const p=String(value||'none').toLowerCase().trim();return p==='sparks'?'plasma':['none','inferno','storm','plasma','condensation'].includes(p)?p:'none'}
+function freeGamesIsPrimeLogo(obj){return !!obj&&(/prime-gaming(?:-logo)?\.png/i.test(String(obj.src||''))||/^(?:Luna Logo|Amazon Prime Logo)$/i.test(String(obj.name||obj.layerName||'')))}
+function freeGamesScalePrimeLogo(obj){if(!freeGamesIsPrimeLogo(obj)||!obj.image)return;const w=obj.image.naturalWidth||obj.image.width||1,h=obj.image.naturalHeight||obj.image.height||1,base=Math.max(280,Math.min(960,440*w/Math.max(1,h)));obj.scale=base*1.7/w;obj.freeGamesOutlineWidth=5;obj.freeGamesOutlineColor='#ffffff';obj.freeGamesFxAnchor=true}
 const FreeGamesTemplateFX=(()=>{
 const W=1920,H=1080;
-const effectDefaults={flames:{on:false,power:85,color:'#ff6518',front:75,behind:88,height:100},electricity:{on:false,power:78,color:'#74c6ff'},clouds:{on:false,power:54,color:'#c5e4ff'},sparks:{on:false,power:48,color:'#ffc061',reach:7},smoke:{on:false,power:45,color:'#97979b'},rain:{on:false,power:52,color:'#b4dcff'}};
-const presets={none:[],inferno:['flames','smoke','sparks'],storm:['clouds','rain','electricity','smoke'],sparks:['sparks']};
-const state={seed:74219,logoX:960,logoY:540,logoScale:100,effects:effectDefaults};
-let anchor=null,logoRaster=null,boundaryCache=null,boundaryKey='';
+const effectDefaults={flames:{on:false,power:85,color:'#ff6518',front:75,behind:88,height:100},electricity:{on:false,power:87,color:'#00edff',style:'plasma',density:81,branching:65,glow:81,spread:100,swirl:72,turbulence:63,core:57,blue:'#193bff'},clouds:{on:false,power:42,color:'#9984d9'},smoke:{on:false,power:45,color:'#97979b'},rain:{on:false,power:52,color:'#b4dcff',behind:100,front:68},condensation:{on:false,power:82,color:'#c4e7f5',density:52,dropSize:77,drips:24,fog:71}};
+const presets={none:[],inferno:['flames','smoke'],storm:['clouds','rain','electricity','smoke'],plasma:['electricity'],condensation:['condensation']};
+const state={seed:0,logoX:960,logoY:540,logoScale:170,effects:effectDefaults};
+let anchor=null,logoRaster=null;
+const logoIdentity=new WeakMap();let logoIdentitySequence=0;
+function imageId(im){if(!im)return 0;let id=logoIdentity.get(im);if(!id){id=++logoIdentitySequence;logoIdentity.set(im,id)}return id}
 function clamp(x,a,b){return Math.max(a,Math.min(b,x))}
 function lerp(a,b,p){return a+(b-a)*p}
 function rgb(hex){const s=String(hex).replace('#','');return[parseInt(s.substring(0,2),16),parseInt(s.substring(2,4),16),parseInt(s.substring(4,6),16)]}
 function rgba(hex,a){const [r,g,b]=rgb(hex);return`rgba(${r},${g},${b},${a})`}
 function seeded(seed){return function(){let t=seed+=0x6D2B79F5;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296}}
 function offscreen(w,h){const c=document.createElement('canvas');c.width=Math.max(1,Math.round(w));c.height=Math.max(1,Math.round(h));return c}
-function logoGeometry(){const im=anchor?.image,w=(im?.naturalWidth||im?.width||0)*(anchor?.scale||1)*(anchor?.fxWidthScale||1),h=(im?.naturalHeight||im?.height||0)*(anchor?.scale||1)*(anchor?.fxHeightScale||1);return{x:state.logoX,y:state.logoY,w,h,left:state.logoX-w/2,top:state.logoY-h/2}}
-function getLogoRaster(){const im=anchor?.image;if(!im)return null;const l=logoGeometry(),key=[anchor.src||im.src,l.w.toFixed(2),l.h.toFixed(2)].join('|');if(logoRaster?.key===key)return logoRaster;const pad=48,c=offscreen(Math.ceil(l.w)+pad*2,Math.ceil(l.h)+pad*2),t=c.getContext('2d');t.imageSmoothingEnabled=true;t.imageSmoothingQuality='high';t.drawImage(im,pad,pad,l.w,l.h);logoRaster={key,canvas:c,w:c.width,h:c.height};boundaryCache=null;return logoRaster}
-function getBoundary(){const raster=getLogoRaster();if(!raster)return[];const key=raster.key;if(boundaryCache&&boundaryKey===key)return boundaryCache;const scale=Math.min(.38,420/Math.max(raster.w,raster.h)),w=Math.max(1,Math.round(raster.w*scale)),h=Math.max(1,Math.round(raster.h*scale)),tmp=offscreen(w,h),q=tmp.getContext('2d',{willReadFrequently:true});q.drawImage(raster.canvas,0,0,w,h);let data;try{data=q.getImageData(0,0,w,h).data}catch{boundaryKey=key;boundaryCache=[];return[]}const p=[],alpha=(x,y)=>x<0||y<0||x>=w||y>=h?0:data[(y*w+x)*4+3];for(let y=2;y<h-2;y++)for(let x=2;x<w-2;x++){if(alpha(x,y)<100)continue;const left=alpha(x-2,y),right=alpha(x+2,y),up=alpha(x,y-2),down=alpha(x,y+2);if(Math.min(left,right,up,down)>90)continue;let nx=left-right,ny=up-down;const len=Math.hypot(nx,ny);if(len<3){nx=x<w/2?-1:1;ny=y<h/2?-1:1}else{nx/=len;ny/=len}p.push({x:(x+.5)/scale-raster.w/2,y:(y+.5)/scale-raster.h/2,nx,ny})}boundaryKey=key;boundaryCache=p;return p}
-function sampleBoundary(rand){const b=getBoundary(),p=b.length?b[Math.floor(rand()*b.length)]:{x:0,y:0,nx:0,ny:-1};const a=Number(anchor?.rotation)||0;if(!a)return p;const c=Math.cos(a),s=Math.sin(a);return{x:p.x*c-p.y*s,y:p.x*s+p.y*c,nx:p.nx*c-p.ny*s,ny:p.nx*s+p.ny*c}}
+function logoGeometry(){const im=anchor?.image,w=(im?.naturalWidth||im?.width||0)*(Number(anchor?.scale)||1)*(anchor?.fxWidthScale||1),h=(im?.naturalHeight||im?.height||0)*(Number(anchor?.scale)||1)*(anchor?.fxHeightScale||1);return{x:state.logoX,y:state.logoY,w,h,left:state.logoX-w/2,top:state.logoY-h/2}}
+function getLogoRaster(){const im=anchor?.image;if(!im)return null;const l=logoGeometry(),rotation=Number(anchor.rotation)||0,flipX=!!anchor.flipX,flipY=!!anchor.flipY,extentW=Math.abs(l.w*Math.cos(rotation))+Math.abs(l.h*Math.sin(rotation)),extentH=Math.abs(l.w*Math.sin(rotation))+Math.abs(l.h*Math.cos(rotation));const key=[imageId(im),l.w.toFixed(2),l.h.toFixed(2),rotation.toFixed(5),flipX,flipY].join('|');if(logoRaster?.key===key)return logoRaster;const pad=48,c=offscreen(Math.ceil(extentW)+pad*2,Math.ceil(extentH)+pad*2),t=c.getContext('2d');t.imageSmoothingEnabled=true;t.imageSmoothingQuality='high';t.translate(c.width/2,c.height/2);t.rotate(rotation);t.scale(flipX?-1:1,flipY?-1:1);t.drawImage(im,-l.w/2,-l.h/2,l.w,l.h);logoRaster={key,canvas:c,w:c.width,h:c.height};return logoRaster}
 const spriteCache=new Map();function hash(x,y,seed){let k=Math.imul(x,374761393)+Math.imul(y,668265263)+Math.imul(seed,69069);k=Math.imul(k^(k>>>13),1274126177);return((k^(k>>>16))>>>0)/4294967295}
 function smooth(n){return n*n*(3-2*n)}function noise(x,y,k){const ix=Math.floor(x),iy=Math.floor(y),fx=smooth(x-ix),fy=smooth(y-iy);return lerp(lerp(hash(ix,iy,k),hash(ix+1,iy,k),fx),lerp(hash(ix,iy+1,k),hash(ix+1,iy+1,k),fx),fy)}
 function sprite(color,index,style){const key=[color,index,style].join('|');if(spriteCache.has(key))return spriteCache.get(key);const N=184,c=offscreen(N,N),t=c.getContext('2d'),pixels=t.createImageData(N,N),p=pixels.data,[r,g,b]=rgb(color),s=10331+index*1709+(style==='smoke'?4224:0);for(let y=0;y<N;y++)for(let x=0;x<N;x++){const nx=x/(N-1),ny=y/(N-1),warpX=nx+.045*Math.sin(ny*13.2+index),warpY=ny+.052*Math.sin(nx*8.6+index);let v=0,a=.62,f=2.8,norm=0;for(let k=0;k<4;k++){v+=a*noise(warpX*f,warpY*f,s+k*1021);norm+=a;a*=.52;f*=2.07}v/=norm;const dx=(nx-.5)/.49,dy=(ny-.5)/.47,envelope=Math.pow(Math.max(0,1-dx*dx-dy*dy),style==='smoke'?1.02:1.30);const detail=clamp((v-.25)/.54,0,1),opacity=envelope*detail*detail*(3-2*detail),i=(y*N+x)*4;p[i]=r;p[i+1]=g;p[i+2]=b;p[i+3]=Math.round(opacity*(style==='smoke'?185:156))}t.putImageData(pixels,0,0);spriteCache.set(key,c);if(spriteCache.size>65)spriteCache.delete(spriteCache.keys().next().value);return c}
 function drawClouds(t){const fx=state.effects.clouds;if(!fx.on||!fx.power)return;const rand=seeded(state.seed+771),p=fx.power/100;t.save();t.globalCompositeOperation='screen';for(let i=0;i<34;i++){const side=i%4,x=side===0?-130+rand()*650:side===1?1250+rand()*700:rand()*W,y=side<2?140+rand()*680:rand()*H*.48-100,size=360+rand()*410;t.globalAlpha=(.10+rand()*.43)*p;t.drawImage(sprite(fx.color,i%5,'clouds'),x-size/2,y-size/2,size,size*(.6+rand()*.35))}t.restore()}
 function drawSmoke(t){const fx=state.effects.smoke;if(!fx.on||!fx.power)return;const rand=seeded(state.seed+1137),p=fx.power/100;t.save();t.globalCompositeOperation='screen';for(let i=0;i<47;i++){const x=140+rand()*1630,y=460+rand()*650,size=200+rand()*400;t.globalAlpha=(.16+rand()*.51)*p;t.drawImage(sprite(fx.color,i%5,'smoke'),x-size/2,y-size/2,size,size*(.83+rand()*.7))}t.restore()}
-function drawRain(t){const fx=state.effects.rain;if(!fx.on||!fx.power)return;const rand=seeded(state.seed+8291),p=fx.power/100,number=Math.round(420+p*650),[r,g,b]=rgb(fx.color);t.save();t.globalCompositeOperation='screen';t.lineCap='round';for(let i=0;i<number;i++){const x=-120+rand()*(W+240),y=-120+rand()*(H+240),len=12+Math.pow(rand(),1.3)*75,dx=-len*.20,alpha=p*(.10+rand()*.39),width=.7+rand()*2.05;t.strokeStyle=`rgba(${r},${g},${b},${alpha})`;t.lineWidth=width;t.beginPath();t.moveTo(x,y);t.lineTo(x+dx,y+len);t.stroke();if(i%14===0){t.fillStyle=`rgba(242,251,255,${alpha*.72})`;t.beginPath();t.arc(x+dx,y+len,1+rand()*1.4,0,Math.PI*2);t.fill()}}t.restore()}
-// Coherent, domain-warped flame field. Unlike individual tapered triangle sprites, this
-// forms a connected fire surface with curls, broken pockets, broad billows and glowing veins.
-// Both passes share a visual language but have their own shapes and z-order around the logo.
+function drawRain(t,pass='behind'){
+ const fx=state.effects.rain;if(!fx.on||!fx.power)return;
+ const foreground=pass==='front',layer=clamp((foreground?fx.front??68:fx.behind??100)/100,0,1);
+ if(layer<=0)return;
+ const rand=seeded(state.seed+(foreground?28819:8291)),p=fx.power/100,strength=p*layer;
+ const number=Math.round(foreground?95+strength*140:420+p*650),[r,g,b]=rgb(fx.color),l=foreground?logoGeometry():null;
+ t.save();t.globalCompositeOperation=foreground?'source-over':'screen';t.lineCap='round';
+ for(let i=0;i<number;i++){
+  const nearLogo=foreground&&i<number*.62;
+  const x=nearLogo?l.left-80+rand()*(l.w+160):-120+rand()*(W+240);
+  const y=nearLogo?l.top-150+rand()*(l.h+300):-120+rand()*(H+240);
+  const len=foreground?30+Math.pow(rand(),1.3)*125:12+Math.pow(rand(),1.3)*75;
+  const dx=-len*(foreground?.21:.20),width=foreground?.9+rand()*1.8:.7+rand()*2.05;
+  const alpha=foreground?strength*(.21+rand()*.45):p*layer*(.10+rand()*.39);
+  t.beginPath();t.moveTo(x,y);t.lineTo(x+dx,y+len);
+  if(foreground){
+   t.strokeStyle=`rgba(18,37,63,${alpha*.34})`;t.lineWidth=width+1.15;t.stroke();
+   t.strokeStyle=`rgba(${r},${g},${b},${alpha})`;t.lineWidth=width;t.stroke();
+   if(i%22===0){t.strokeStyle=`rgba(240,249,255,${alpha*.27})`;t.lineWidth=width*.45;t.stroke()}
+  }else{
+   t.strokeStyle=`rgba(${r},${g},${b},${alpha})`;t.lineWidth=width;t.stroke();
+   if(i%14===0){t.fillStyle=`rgba(242,251,255,${alpha*.72})`;t.beginPath();t.arc(x+dx,y+len,1+rand()*1.4,0,Math.PI*2);t.fill()}
+  }
+ }
+ t.restore();
+}
 const flameCache=new Map();
 function fbmFire(x,y,seed){
  let v=0,amp=.56,norm=0;
@@ -374,7 +401,6 @@ function generateFlameField(pass){
  const front=pass==='front',width=930,height=585,c=offscreen(width,height),t=c.getContext('2d');
  const pix=t.createImageData(width,height),d=pix.data;
  const seed=(state.seed|0)+(front?8103:518);const [r,g,b]=rgb(fx.color);
- // Color scale: coal red -> user's flame hue -> golden orange -> yellow -> near-white heat.
  const colorStops=[
   {t:0,c:[Math.round(r*.35),Math.round(g*.13),Math.round(b*.10)]},
   {t:.29,c:[r,g,b]},
@@ -385,8 +411,6 @@ function generateFlameField(pass){
  function heatColor(heat){let n=1;while(n<colorStops.length-1&&heat>colorStops[n].t)n++;
   const a=colorStops[n-1],b=colorStops[n],q=clamp((heat-a.t)/(b.t-a.t),0,1);
   return [lerp(a.c[0],b.c[0],q),lerp(a.c[1],b.c[1],q),lerp(a.c[2],b.c[2],q)];}
- // 1D, smoothly interpolated vertical columns, warped as they rise. This produces
- // scallops and S-curves instead of pointy, uniform, linear tapers.
  const terrain=new Float32Array(width),widthEdge=new Float32Array(width);
  for(let x=0;x<width;x++){
   const xx=(x/width-.5)*2,
@@ -408,8 +432,6 @@ function generateFlameField(pass){
     n=fbmFire(flowingX*17.1+41,up*10.4+4,seed+171),
     fine=noise(flowingX*63+52,up*36-4,seed+333),
     soft=fbmFire(flowingX*6.6+12,up*8+17,seed+201);
-   // Local height is noisy and *dependent on altitude*, giving irregular
-   // detached eddies and split tongues rather than a simple triangular mask.
    const top=terrain[col]+(soft-.5)*.24+(n-.5)*.22+Math.sin(flowingX*18+up*15)*.027;
    const lip=top-up;
    const edge=smoothEdge(-.072,.069,lip);
@@ -421,11 +443,9 @@ function generateFlameField(pass){
     upperShred=1-up*.42;
    let alpha=edge*(.31+.69*texture)*(.44+.56*holes)*widthEdge[x]*neck*upperShred;
    if(front)alpha*=.87;
-   // Jaggedly detached glowing patches near the tips, less predictable than a peaked cone.
    alpha+=Math.max(0,lip+.045)*.04*texture*(1-up)*neck;
    alpha=clamp(alpha*(front?.83:.93)*smoothEdge(0,.08,up),0,.94);
    if(alpha<.005)continue;
-   // Vertical veins of heat, softened by turbulent noise; lower flames burn brighter.
    const veins=Math.pow(Math.max(0,Math.sin(flowingX*88+up*17+flow*4)),10),
     yellow=(1-up)*.67+.11+(n-.5)*.39+(soft-.5)*.18+veins*.14;
    const heat=clamp(yellow,0,1),colrgb=heatColor(heat),i=(y*width+x)*4;
@@ -437,20 +457,6 @@ function generateFlameField(pass){
  const value={detail:c,glow};flameCache.set(key,value);
  if(flameCache.size>12)flameCache.delete(flameCache.keys().next().value);
  return value;
-}
-function drawFireEmbers(t,center,baseY,spread,reach,fx,p,front){
- const rand=seeded(state.seed+(front?1977:1001)),[r,g,b]=rgb(fx.color);
- t.save();t.globalCompositeOperation='screen';
- const count=Math.round((front?48:81)*p);
- for(let i=0;i<count;i++){
-  const x=center+(rand()*2-1)*spread*.82,
-    y=baseY-rand()*reach*.98,
-    size=.8+Math.pow(rand(),3)*4.1,
-    alpha=(front?.24:.31)*(1-rand()*.62)*p;
-  t.fillStyle=`rgba(${i%7===0?255:r},${i%7===0?243:g},${i%7===0?173:b},${alpha})`;
-  t.beginPath();t.ellipse(x,y,size*.72,size*1.55,-.14,0,Math.PI*2);t.fill();
- }
- t.restore();
 }
 function drawFlames(t,pass='behind'){
  const fx=state.effects.flames;if(!fx.on||!fx.power)return;
@@ -464,114 +470,452 @@ function drawFlames(t,pass='behind'){
   reach=(isFront?650:1080)*heightScale*(.75+.25*state.logoScale/100),
   tex=generateFlameField(pass);
  t.save();t.globalCompositeOperation='screen';
- // The ember-bed and diffuse bloom are behind the detailed flame structure.
  const glow=t.createRadialGradient(center,baseY-115,0,center,baseY-115,spread*1.17);
  glow.addColorStop(0,rgba('#ffc65f',p*layer*(isFront?.13:.22)));
  glow.addColorStop(.35,rgba(fx.color,p*layer*(isFront?.14:.12)));
  glow.addColorStop(1,rgba(fx.color,0));
  t.fillStyle=glow;t.fillRect(Math.max(0,center-spread*1.3),Math.max(0,baseY-reach*1.5),spread*2.6,reach*1.8);
- // Texture is a single continuous turbulent fire mass, not 50 superimposed cone sprites.
  t.globalAlpha=p*layer*(isFront?.77:.79);
  t.drawImage(tex.glow,center-spread,baseY-reach,spread*2,reach);
  if(isFront)t.globalCompositeOperation='source-over';
  t.globalAlpha=p*layer*(isFront?.73:.90);
  t.drawImage(tex.detail,center-spread,baseY-reach,spread*2,reach);
- t.restore();
- drawFireEmbers(t,center,baseY,spread,reach,fx,p*layer,isFront);
+  t.restore();
 }
-// Jagged layered arcs: broad aura, colored body, white-hot core.
-function drawBolt(t,start,end,rand,color,opacity,sections=9){const dx=end.x-start.x,dy=end.y-start.y,dist=Math.hypot(dx,dy)||1,nx=-dy/dist,ny=dx/dist,points=[start];for(let j=1;j<sections;j++){const u=j/sections,spread=Math.min(18,dist*.16)*(1-Math.abs(u-.5)*.8),k=(rand()-.5)*2*spread;points.push({x:lerp(start.x,end.x,u)+nx*k,y:lerp(start.y,end.y,u)+ny*k})}points.push(end);t.save();t.lineJoin='round';t.lineCap='round';for(let pass=0;pass<3;pass++){t.beginPath();t.moveTo(points[0].x,points[0].y);for(let j=1;j<points.length;j++)t.lineTo(points[j].x,points[j].y);t.strokeStyle=pass===0?rgba(color,.28*opacity):pass===1?rgba(color,.80*opacity):`rgba(245,252,255,${.85*opacity})`;t.lineWidth=pass===0?18:pass===1?5.3:1.65;t.shadowColor=pass===0?color:'transparent';t.shadowBlur=pass===0?22:0;t.stroke()}t.restore()}
-function drawElectricity(t,front=false){const fx=state.effects.electricity;if(!fx.on||!fx.power)return;const rand=seeded(state.seed+(front?816:815)),p=fx.power/100,boundary=getBoundary();if(!boundary.length)return;t.save();t.globalCompositeOperation='screen';const count=Math.floor((front?31:19)*(.55+p*.85));for(let i=0;i<count;i++){const pt=sampleBoundary(rand),start={x:state.logoX+pt.x+pt.nx*5,y:state.logoY+pt.y+pt.ny*5},reach=(28+rand()*125)*(.5+p*.9),side=(rand()-.5)*60,end={x:start.x+pt.nx*reach+pt.ny*side,y:start.y+pt.ny*reach-pt.nx*side};drawBolt(t,start,end,rand,fx.color,(.3+rand()*.65)*p,6+Math.floor(rand()*5));}
- if(front){const n=Math.floor(8*p);for(let i=0;i<n;i++){const p1=sampleBoundary(rand),p2=sampleBoundary(rand),a={x:state.logoX+p1.x,y:state.logoY+p1.y},b={x:state.logoX+p2.x,y:state.logoY+p2.y};if(Math.hypot(a.x-b.x,a.y-b.y)>310||Math.hypot(a.x-b.x,a.y-b.y)<65)continue;drawBolt(t,a,b,rand,fx.color,.55*p,11)}}t.restore()}
-// Adapt the Animator's silhouette-attached electricity treatment for a frozen frame:
-// short, fine crackles on the Steam logo edge, rather than radial cartoon starbursts.
-function drawSparkLine(t,ax,ay,bx,by,color,alpha,thickness=1){
- const dx=bx-ax,dy=by-ay,offset=.1+Math.sin(ax*.055+by*.13)*.10,
-  midX=(ax+bx)/2+dy*offset,midY=(ay+by)/2-dx*offset;
- t.beginPath();t.moveTo(ax,ay);t.quadraticCurveTo(midX,midY,bx,by);
- t.strokeStyle=rgba(color,alpha*.21);t.lineWidth=thickness*4.8;t.shadowColor=color;t.shadowBlur=8;t.stroke();
- t.shadowBlur=0;t.strokeStyle=rgba(color,alpha*.85);t.lineWidth=thickness*1.55;t.stroke();
- t.strokeStyle=`rgba(255,251,221,${alpha*.83})`;t.lineWidth=Math.max(.55,thickness*.5);t.stroke();
+const stormSceneCache=new Map(),stormRenderCache=new Map();
+function fractalWire(points,rand,roughness=3,levels=2){
+ let p=points;
+ for(let level=0;level<levels;level++){
+  const next=[p[0]],amp=roughness*Math.pow(.50,level);
+  for(let i=1;i<p.length;i++){
+   const a=p[i-1],b=p[i],dx=b.x-a.x,dy=b.y-a.y,dist=Math.hypot(dx,dy)||1;
+   const kick=(rand()-.5)*2*Math.min(amp,dist*.29);
+   next.push({x:(a.x+b.x)/2-dy/dist*kick,y:(a.y+b.y)/2+dx/dist*kick},b);
+  }
+  p=next;
+ }
+ return p;
 }
-function drawHotPoint(t,x,y,radius,color,opacity){
- t.save();t.globalAlpha=opacity;
- const rad=Math.max(2.6,radius*4.5),glow=t.createRadialGradient(x,y,0,x,y,rad);
- glow.addColorStop(0,'rgba(255,252,231,.86)');glow.addColorStop(.24,rgba(color,.49));glow.addColorStop(1,rgba(color,0));
- t.fillStyle=glow;t.fillRect(x-rad,y-rad,rad*2,rad*2);
- t.fillStyle='#fffde8';t.beginPath();t.arc(x,y,Math.max(.55,radius*.30),0,Math.PI*2);t.fill();
+function plasmaStreamer(root,direction,length,rand){
+ const pts=[{x:root.x,y:root.y}];
+ let x=root.x,y=root.y,theta=Math.atan2(direction.y,direction.x),velocity=0;
+ const steps=Math.max(5,Math.round(length/(9+rand()*4))),step=length/steps;
+ for(let j=0;j<steps;j++){
+  velocity=velocity*.42+(rand()-.5)*.55;
+  theta+=velocity*.31;
+  const lateral=(rand()-.5)*step*.40;
+  x+=Math.cos(theta)*step-Math.sin(theta)*lateral;
+  y+=Math.sin(theta)*step+Math.cos(theta)*lateral;
+  pts.push({x,y});
+ }
+ return fractalWire(pts,rand,2.5,1);
+}
+function getStormScene(){
+ const fx=state.effects.electricity,key=[state.seed,fx.branching,fx.density].join('|');
+ if(stormSceneCache.has(key))return stormSceneCache.get(key);
+ const rand=seeded((state.seed+402319)>>>0),lines=[],mains=[];
+ for(let bolt=0;bolt<2;bolt++){
+  const lane=bolt===0?[.185,.375]:[.65,.84],x0=W*(bolt===0?.24+rand()*.065:.705+rand()*.065);
+  let x=x0,y=-95,drift=0;const nodes=[{x,y}];
+  while(y<H+100){
+   const dy=30+rand()*35;
+   const largeJump=rand()<.19?(rand()<.5?-1:1)*(36+rand()*42):0;
+   drift=drift*.18+(rand()-.5)*(46+rand()*63)+largeJump;
+   x=clamp(x+drift,W*lane[0],W*lane[1]);y+=dy;
+   nodes.push({x,y});
+  }
+  const mainPoints=fractalWire(nodes,rand,8,2),main={points:mainPoints,kind:'main',strength:bolt===0?1:.95,width:8};
+  lines.push(main);mains.push(main);
+  const primaryCount=Math.round(fx.branching*.19*(.75+fx.density/200));
+  const spots=[];let tries=0;
+  while(spots.length<primaryCount&&tries++<500){
+   const u=.075+rand()*.84,idx=Math.max(5,Math.min(mainPoints.length-8,Math.floor(mainPoints.length*u)));
+   if(spots.every(v=>Math.abs(v-idx)>Math.max(5,Math.floor(mainPoints.length/(primaryCount*2.1)))))spots.push(idx);
+  }
+  spots.sort((a,b)=>a-b);
+  for(const idx of spots){
+   const at=mainPoints[idx],prev=mainPoints[idx-2];
+   const outward=bolt===0?-1:1,side=(rand()<.75?outward:-outward);
+   const theta=Math.atan2(at.y-prev.y,at.x-prev.x);
+   const f=.26+rand()*.78,direction={x:side*(.59+rand()*.38),y:.36+rand()*.66};
+   const len=70+rand()*145,branchPts=plasmaStreamer(at,direction,len,rand);
+   const branch={points:branchPts,kind:'branch',strength:.68+rand()*.24,width:3.1+rand()*1.1};
+   lines.push(branch);
+   const forks=rand()<(fx.branching/100*.7+.12)?2:1;
+   for(let k=0;k<forks;k++){
+    const atIndex=Math.min(branchPts.length-4,Math.floor(branchPts.length*(.26+rand()*.43)));
+    const root=branchPts[atIndex],q=branchPts[atIndex-2];
+    const dir=Math.atan2(root.y-q.y,root.x-q.x)+(rand()<.5?-1:1)*(.45+rand()*.68);
+    const tertiary=plasmaStreamer(root,{x:Math.cos(dir),y:Math.sin(dir)},len*(.20+rand()*.31),rand);
+    lines.push({points:tertiary,kind:'twig',strength:.37+rand()*.22,width:1.52+rand()*.63});
+    if(rand()<.24+fx.branching*.003){
+     const atIndex2=Math.max(2,Math.floor(tertiary.length*(.35+rand()*.38)));
+     const root2=tertiary[atIndex2],prev2=tertiary[atIndex2-2];
+     const dir2=Math.atan2(root2.y-prev2.y,root2.x-prev2.x)+(rand()<.5?-1:1)*(.55+rand()*.50);
+     lines.push({points:plasmaStreamer(root2,{x:Math.cos(dir2),y:Math.sin(dir2)},len*(.08+rand()*.16),rand),kind:'hair',strength:.19+rand()*.15,width:.83+rand()*.31});
+    }
+   }
+  }
+ }
+ const scene={key,lines,mains,metrics:{main:mains.length,branches:lines.length-mains.length}};
+ stormSceneCache.set(key,scene);if(stormSceneCache.size>4)stormSceneCache.delete(stormSceneCache.keys().next().value);return scene;
+}
+function stormPathWidth(line,progress,y){
+ const heightTaper=1-.35*clamp((y+80)/(H+120),0,1);
+ const distanceTaper=line.kind==='main'?.97:Math.pow(1-progress,.67)*.93+.07;
+ return Math.max(.20,line.width*heightTaper*distanceTaper*line.strength);
+}
+function strokeStormPath(t,line,widthFactor,color,opacity){
+ t.save();t.strokeStyle=color;t.globalAlpha=opacity;t.lineCap='round';t.lineJoin='round';
+ const pts=line.points;
+ for(let i=1;i<pts.length;i++){
+  const a=pts[i-1],b=pts[i],w=stormPathWidth(line,i/(pts.length-1),(a.y+b.y)*.5);
+  t.lineWidth=w*widthFactor;t.beginPath();t.moveTo(a.x,a.y);t.lineTo(b.x,b.y);t.stroke();
+ }
  t.restore();
 }
-function drawSparks(t){
- const fx=state.effects.sparks;if(!fx.on||!fx.power)return;
- const p=fx.power/100,reach=clamp(Number(fx.reach??7),1,16),rand=seeded(state.seed+2247),b=getBoundary();
- if(!b.length)return;
- const x0=state.logoX,y0=state.logoY,reachScale=.36+reach*.105,
-  density=Math.round(330+340*p);
- t.save();t.globalCompositeOperation='screen';t.lineCap='round';t.lineJoin='round';
- // A broken shimmering contour, only where the transparent Steam silhouette exists.
- for(let i=0;i<density;i++){
-  const pt=sampleBoundary(rand);
-  if(rand()>.25+p*.66)continue;
-  const nx=pt.nx,ny=pt.ny,tx=-ny,ty=nx,
-   x=x0+pt.x+nx*(2+rand()*5),y=y0+pt.y+ny*(2+rand()*5),
-   length=(1.5+rand()*7)*reachScale;
-  t.strokeStyle=rgba(fx.color,p*(.09+rand()*.30));t.lineWidth=.52+rand()*.95;
-  t.beginPath();t.moveTo(x-tx*length/2,y-ty*length/2);t.lineTo(x+tx*length/2,y+ty*length/2);t.stroke();
- }
- // Little stuttering electrical paths, following the *outward normal* and occasionally
- // curling along the tangent. Deliberately only a handful of longer arcs.
- const strokes=Math.round(26+49*p);
- for(let i=0;i<strokes;i++){
-  const pt=sampleBoundary(rand),nx=pt.nx,ny=pt.ny,tx=-ny,ty=nx,
-   len=(4+Math.pow(rand(),2.3)*(21+reach*2.6))*reachScale,
-   tangent=(rand()-.5)*len*.50,
-   x=x0+pt.x+nx*3,y=y0+pt.y+ny*3,
-   ex=x+nx*len+tx*tangent,ey=y+ny*len+ty*tangent,
-   strength=(.20+rand()*.57)*p;
-  drawSparkLine(t,x,y,ex,ey,fx.color,strength,.55+rand()*.68);
-  if(i%5===0)drawHotPoint(t,x,y,2+rand()*2.1,fx.color,strength*.83);
-  if(i%4===0)drawHotPoint(t,ex,ey,1+rand()*1.8,fx.color,strength*.6);
- }
- // Fine luminous particulate is close to the logo, not scattered across the image.
- for(let i=0;i<Math.round(30+100*p);i++){
-  const pt=sampleBoundary(rand),distance=(5+Math.pow(rand(),2)*(17+reach*3))*reachScale,
-   offset=(rand()-.5)*15,x=x0+pt.x+pt.nx*distance-pt.ny*offset,
-   y=y0+pt.y+pt.ny*distance+pt.nx*offset;
-  if(i%9===0)drawHotPoint(t,x,y,1.3+rand()*2.3,fx.color,p*.28);
-  else{t.fillStyle=rgba(i%4===0?'#fffce4':fx.color,p*(.16+rand()*.46));t.beginPath();t.arc(x,y,.5+Math.pow(rand(),3)*1.6,0,Math.PI*2);t.fill()}
+function getStormLightning(){
+ const fx=state.effects.electricity,scene=getStormScene(),key=[scene.key,fx.color,fx.power,fx.glow].join('|');
+ if(stormRenderCache.has(key))return stormRenderCache.get(key);
+ const p=fx.power/100,g=fx.glow/100,c=offscreen(W,H),t=c.getContext('2d');
+ const lum=offscreen(W,H),lt=lum.getContext('2d');
+ for(const line of scene.lines)strokeStormPath(lt,line,line.kind==='main'?2.1:1.8,fx.color,p*(line.kind==='main'?.72:.70));
+ t.save();t.globalCompositeOperation='screen';
+ for(const line of scene.mains){for(let j=8;j<line.points.length;j+=17){
+  const pt=line.points[j],rad=125+g*145,grad=t.createRadialGradient(pt.x,pt.y,0,pt.x,pt.y,rad);
+  grad.addColorStop(0,rgba(fx.color,.033*p));grad.addColorStop(.45,rgba(fx.color,.010*p));grad.addColorStop(1,rgba(fx.color,0));
+  t.fillStyle=grad;t.fillRect(pt.x-rad,pt.y-rad,rad*2,rad*2);
+ }}
+ const half=.56,low=offscreen(W*half,H*half),l=low.getContext('2d');l.drawImage(lum,0,0,low.width,low.height);
+ const halo=offscreen(low.width,low.height),ht=halo.getContext('2d');
+ ht.filter=`blur(${(5+g*13).toFixed(1)}px)`;ht.drawImage(low,0,0);ht.filter='none';
+ t.globalAlpha=.73+g*.19;t.imageSmoothingQuality='high';t.drawImage(halo,0,0,W,H);
+ const tight=offscreen(low.width,low.height),tt=tight.getContext('2d');
+ tt.filter=`blur(${(1.6+g*3.2).toFixed(1)}px)`;tt.drawImage(low,0,0);tt.filter='none';
+ t.globalAlpha=.85;t.drawImage(tight,0,0,W,H);
+ for(const line of scene.lines){
+  strokeStormPath(t,line,1.28,fx.color,p*(line.kind==='main'?.92:.76));
+  strokeStormPath(t,line,.50,'#f7faff',p*(line.kind==='main'?.95:line.kind==='branch'?.88:.68));
  }
  t.restore();
+ const result={canvas:c,key,metrics:scene.metrics};stormRenderCache.set(key,result);
+ if(stormRenderCache.size>3)stormRenderCache.delete(stormRenderCache.keys().next().value);return result;
 }
 
+const plasmaFieldCache=new Map();
+let plasmaSilhouetteCache=null;
 
-function draw(target,preset,object,pass,width,height){
- if(!presets[preset]||!presets[preset].length||!object?.image||object.visible===false)return;
- const fxList=presets[preset];for(const [name,fx] of Object.entries(state.effects))fx.on=fxList.includes(name);
+function plasmaEDT1D(f,n,d,v,z){
+ let k=0;v[0]=0;z[0]=-1e20;z[1]=1e20;
+ for(let q=1;q<n;q++){
+  let p=v[k],s=((f[q]+q*q)-(f[p]+p*p))/(2*(q-p));
+  while(s<=z[k]&&k>0){k--;p=v[k];s=((f[q]+q*q)-(f[p]+p*p))/(2*(q-p));}
+  k++;v[k]=q;z[k]=s;z[k+1]=1e20;
+ }
+ k=0;
+ for(let q=0;q<n;q++){
+  while(z[k+1]<q)k++;
+  const dx=q-v[k];d[q]=dx*dx+f[v[k]];
+ }
+}
+function plasmaLogoDistance(scale){
+ const lg=logoGeometry(),r=getLogoRaster(),w=Math.round(W*scale),h=Math.round(H*scale);
+ const key=[r.key,lg.x,lg.y,w,h].join('|');
+ if(plasmaSilhouetteCache?.key===key)return plasmaSilhouetteCache;
+ const logo=offscreen(w,h),lc=logo.getContext('2d',{willReadFrequently:true});
+ lc.imageSmoothingEnabled=true;lc.imageSmoothingQuality='high';
+ lc.drawImage(r.canvas,(lg.x-r.w/2)*scale,(lg.y-r.h/2)*scale,r.w*scale,r.h*scale);
+ const a=lc.getImageData(0,0,w,h).data,INF=1e9,squared=new Float32Array(w*h),dist2=new Float32Array(w*h);
+ const max=Math.max(w,h),f=new Float64Array(max),d=new Float64Array(max),v=new Int32Array(max),z=new Float64Array(max+1);
+ for(let x=0;x<w;x++){
+  for(let y=0;y<h;y++)f[y]=a[(y*w+x)*4+3]>60?0:INF;
+  plasmaEDT1D(f,h,d,v,z);
+  for(let y=0;y<h;y++)squared[y*w+x]=d[y];
+ }
+ for(let y=0;y<h;y++){
+  const off=y*w;
+  for(let x=0;x<w;x++)f[x]=squared[off+x];
+  plasmaEDT1D(f,w,d,v,z);
+  for(let x=0;x<w;x++)dist2[off+x]=d[x];
+ }
+ plasmaSilhouetteCache={key,squared:dist2,w,h,scale};
+ return plasmaSilhouetteCache;
+}
+function plasmaField(){
+ const fx=state.effects.electricity,lg=logoGeometry(),r=getLogoRaster();
+ const key=[r.key,state.seed,lg.x,lg.y,fx.power,fx.glow,fx.spread,fx.swirl,fx.turbulence,fx.core,fx.color,fx.blue].join('|');
+ if(plasmaFieldCache.has(key))return plasmaFieldCache.get(key);
+ const p=fx.power/100,g=fx.glow/100,sp=clamp(fx.spread/100,.65,1.5),sw=fx.swirl/100,turb=fx.turbulence/100,core=fx.core/100;
+ const scale=.61,mask=plasmaLogoDistance(scale),w=mask.w,h=mask.h,tex=offscreen(w,h),tc=tex.getContext('2d');
+ const data=tc.createImageData(w,h),outPixels=data.data,
+   [cr,cg,cb]=rgb(fx.color),[br,bg,bb]=rgb(fx.blue);
+ const phase=(state.seed%10007)/10007*Math.PI*2,seed1=(state.seed^0x3ba45cb7)>>>0,seed2=(state.seed^0x27d488ab)>>>0;
+ const reach=265*sp;
+ for(let yy=0;yy<h;yy++){
+  const sy=(yy+.5)/scale,localY=sy-lg.y;
+  for(let xx=0;xx<w;xx++){
+   const i=yy*w+xx,dist=Math.sqrt(mask.squared[i])/scale;
+   if(dist>reach)continue;
+   const sx=(xx+.5)/scale,localX=sx-lg.x;
+   const a=Math.atan2(localY,localX);
+   const u=localX*.0072,v=localY*.0095;
+   const n1=noise(u+24.31+phase*.14,v+17.77,seed1)-.5;
+   const n2=noise(u*2.65+41.2,v*2.4+29.13+phase*.16,seed2)-.5;
+   const swirlWave=Math.sin(a*5+dist*(.052+.038*sw)+phase*1.24+n1*2.4);
+   const crossWave=Math.sin(a*8-dist*(.10+.027*sw)+phase*.7+n2*2.3);
+   const drift=swirlWave*(15+18*sw)+n1*45*turb+n2*17*turb;
+   const bandCenter=40*sp+drift;
+   const warmBand=Math.exp(-Math.pow((dist-bandCenter)/(34*sp+12),2));
+   const outerBand=Math.exp(-Math.pow((dist-(97*sp+drift*1.7))/(50*sp+11),2));
+   const nearField=Math.exp(-dist/(25*sp+8));
+   const mist=Math.exp(-dist/(118*sp+25));
+   const fibres=Math.pow(.5+.5*crossWave,2.2);
+   const ridges=Math.pow(.5+.5*swirlWave,1.2);
+   const turbulence=clamp(.75+n1*.73+n2*.28,.37,1.35);
+   const energy=nearField*(.17+.27*core+.18*fibres)
+       +warmBand*(.33+.48*ridges+.18*fibres)
+       +outerBand*(.11+.26*fibres)
+       +mist*(.08+.10*turb)*turbulence;
+   if(energy<.006)continue;
+   const cyan=clamp(.51+.29*swirlWave+.19*n1+.13*crossWave,.06,.98);
+   const hot=clamp(Math.pow(Math.max(0,energy-.40),1.5)*.36,0,.37);
+   const lum=.77+Math.min(.24,energy*.28);
+   const index=i*4;
+   outPixels[index]=clamp((br+(cr-br)*cyan)*(1-hot)+236*hot,0,255)*lum;
+   outPixels[index+1]=clamp((bg+(cg-bg)*cyan)*(1-hot)+247*hot,0,255)*lum;
+   outPixels[index+2]=clamp((bb+(cb-bb)*cyan)*(1-hot)+255*hot,0,255)*lum;
+   outPixels[index+3]=Math.round(255*clamp(energy*(.66+.52*p)*p,0,.92));
+  }
+ }
+ tc.putImageData(data,0,0);
+ const out=offscreen(W,H),t=out.getContext('2d');
+ t.save();t.globalCompositeOperation='screen';t.imageSmoothingEnabled=true;t.imageSmoothingQuality='high';
+ t.globalAlpha=.42+.36*g;t.filter=`blur(${Math.round(25+g*24)}px)`;t.drawImage(tex,0,0,W,H);
+ t.globalAlpha=.34+.24*g;t.filter=`blur(${Math.round(8+g*9)}px)`;t.drawImage(tex,0,0,W,H);
+ t.filter='none';t.globalAlpha=.89;t.drawImage(tex,0,0,W,H);t.restore();
+ const ret={canvas:out,key,maskKey:mask.key};plasmaFieldCache.set(key,ret);
+ if(plasmaFieldCache.size>3)plasmaFieldCache.delete(plasmaFieldCache.keys().next().value);
+ return ret;
+}
+function drawElectricity(t){
+ const fx=state.effects.electricity;if(!fx.on||!fx.power)return;
+ const style=fx.style||'plasma';t.save();t.globalCompositeOperation='screen';
+ if(style==='plasma'||style==='hybrid'){t.drawImage(plasmaField().canvas,0,0);}
+ if(style==='strike'||style==='hybrid')t.drawImage(getStormLightning().canvas,0,0);
+ t.restore();
+}
+let glassMask=null,glassMaskKey='';
+function glassAlphaMask(){
+ const r=getLogoRaster();if(glassMask&&glassMaskKey===r.key)return glassMask;
+ const q=r.canvas.getContext('2d',{willReadFrequently:true});
+ const data=q.getImageData(0,0,r.w,r.h).data;
+ glassMask={data,w:r.w,h:r.h};glassMaskKey=r.key;return glassMask;
+}
+function glassLogoSafe(x,y,radius=20){
+ const l=logoGeometry(),m=glassAlphaMask();
+ const xr=x-(l.x-m.w/2),yr=y-(l.y-m.h/2);
+ const samples=[[0,0],[-.5,-.5],[.5,-.5],[-.5,.5],[.5,.5]];
+ for(let i=0;i<20;i++){const a=i*Math.PI/10;samples.push([Math.cos(a),Math.sin(a)]);}
+ for(const [dx,dy]of samples){
+  const xx=Math.round(xr+dx*(radius+10)),yy=Math.round(yr+dy*(radius+10));
+  if(xx<0||yy<0||xx>=m.w||yy>=m.h)continue;
+  if(m.data[(yy*m.w+xx)*4+3]>36)return true;
+ }
+ return false;
+}
+function glassTrailSafe(x0,y0,x1,y1,pad=0){
+ for(let i=0;i<=13;i++){
+  const u=i/13;if(glassLogoSafe(lerp(x0,x1,u),lerp(y0,y1,u),pad))return false;
+ }
+ return true;
+}
+function glassPosition(rand,clusters){
+ if(rand()<.32){
+  const k=clusters[Math.floor(rand()*clusters.length)];
+  const x=k.x+(rand()+rand()+rand()-1.5)*k.spreadX;
+  const y=k.y+(rand()+rand()+rand()-1.5)*k.spreadY;
+  return {x:clamp(x,12,W-12),y:clamp(y,12,H-12)};
+ }
+ return {x:12+rand()*(W-24),y:12+rand()*(H-24)};
+}
+function makeDroplet(rand,x,y,r,kind){
+ const long=kind==='run',flatten=kind==='puddle';
+ const aspect=long?1.44+rand()*.82:flatten?.66+rand()*.28:.81+rand()*.44;
+ const rot=(rand()-.5)*(long?.22:.40);
+ const glintChoice=rand(),lighting=rand();
+ return {x,y,rx:r,ry:r*aspect,rot,phase:rand()*6.28,
+   warp:(rand()-.5)*(long?.25:.18),pinch:long?.15+rand()*.17:(rand()-.5)*.075,
+   kind,lightAngle:lighting<.58?-2.35+(rand()-.5)*1.65:lighting<.85?-.58+(rand()-.5)*1.55:1.65+(rand()-.5)*1.55,
+   lightStyle:glintChoice<.24?'none':glintChoice<.51?'soft':glintChoice<.77?'pin':'streak',
+   lightGain:.18+rand()*1.13,
+   cx:-.26+(rand()-.5)*.48,cy:-.32+(rand()-.5)*.50,
+   refraction:.11+rand()*.16,
+   tint:(rand()-.5)*.040,
+   thick:.025+rand()*.065
+ };
+}
+function dropShape(u,v,drop){
+ const angle=Math.atan2(v,u),wobble=1+drop.warp*Math.sin(3*angle+drop.phase)*.24+
+   .024*Math.sin(5*angle+drop.phase*1.7)+.013*Math.cos(7*angle+drop.phase*.8);
+ const taper=1+drop.pinch*v;
+ return Math.hypot(u,v)/Math.max(.7,wobble*taper);
+}
+function drawOpticalDrop(target,source,drop,p){
+ const d=target.data,s=source.data,c=Math.cos(drop.rot),si=Math.sin(drop.rot);
+ const reachX=drop.rx*(drop.kind==='run'?1.45:1.24)+4,reachY=drop.ry*(drop.kind==='run'?1.52:1.24)+4;
+ const xmin=Math.max(1,Math.floor(drop.x-reachX)),xmax=Math.min(W-2,Math.ceil(drop.x+reachX));
+ const ymin=Math.max(1,Math.floor(drop.y-reachY)),ymax=Math.min(H-2,Math.ceil(drop.y+reachY));
+ const lu=Math.cos(drop.lightAngle),lv=Math.sin(drop.lightAngle);
+ for(let y=ymin;y<=ymax;y++)for(let x=xmin;x<=xmax;x++){
+  const X=x-drop.x,Y=y-drop.y;
+  const u=(X*c+Y*si)/drop.rx,v=(-X*si+Y*c)/drop.ry;
+  if(Math.abs(u)>1.26||Math.abs(v)>1.26)continue;
+  const rho=dropShape(u,v,drop);if(rho>1.03)continue;
+  const alpha=smoothEdge(1.033,.968,rho);if(alpha<=0)continue;
+  const ri=Math.hypot(u,v),nx=u/(ri+.03),ny=v/(ri+.03);
+  const edge=Math.pow(clamp(rho,0,1),2.3);
+  const displacement=drop.rx*drop.refraction*(.16+.95*edge);
+  const bendX=(u+Math.sin(v*4.4+drop.phase)*.09)*displacement;
+  const bendY=(v+Math.cos(u*3.3+drop.phase)*.06)*displacement;
+  const sx=clamp(Math.round(x-bendX),0,W-1),sy=clamp(Math.round(y-bendY),0,H-1);
+  const at=(y*W+x)*4,from=(sy*W+sx)*4;
+  const incidence=nx*lu+ny*lv;
+  const curvedRim=Math.exp(-Math.pow((rho-.955)/.065,2));
+  const reflection=curvedRim*Math.pow(Math.max(0,incidence),1.75)*drop.lightGain;
+  const occlusion=curvedRim*Math.pow(Math.max(0,-incidence),1.45)*(.12+drop.thick*.45);
+  const hdx=u-drop.cx,hdy=v-drop.cy;
+  let glint=0;
+  if(drop.lightStyle==='pin')glint=Math.exp(-((hdx/.095)**2+(hdy/.125)**2)*1.35)*.66*drop.lightGain;
+  else if(drop.lightStyle==='soft')glint=Math.exp(-((hdx/.26)**2+(hdy/.32)**2)*.90)*.16*drop.lightGain;
+  else if(drop.lightStyle==='streak'){
+   const ax=Math.cos(drop.lightAngle),ay=Math.sin(drop.lightAngle);
+   const across=hdx*ax+hdy*ay,along=-hdx*ay+hdy*ax;
+   glint=Math.exp(-((across/.080)**2+(along/.25)**2)*1.2)*.52*drop.lightGain;
+  }
+  const clarity=.85+p*.23,focus=Math.pow(Math.max(0,1-rho*rho),1.35);
+  const bright=(reflection*.44+glint*.80+focus*.055*drop.lightGain)*p*alpha;
+  const shade=occlusion*p*alpha;
+  for(let ch=0;ch<3;ch++){
+   let val=d[at+ch]+(s[from+ch]-s[at+ch])*clarity*alpha;
+   val=val*(1-shade)+bright*(ch===2?188:ch===1?204:225);
+   val+=focus*(ch===2?6:ch===1?8:10)*p*alpha;
+   d[at+ch]=clamp(val,0,255);
+  }
+ }
+}
+function drawGlassRun(t,points,width,p){
+ t.save();t.lineCap='round';t.lineJoin='round';
+ t.beginPath();t.moveTo(points[0].x,points[0].y);
+ for(let j=1;j<points.length;j++)t.lineTo(points[j].x,points[j].y);
+ t.strokeStyle=`rgba(8,31,45,${.15*p})`;t.lineWidth=width*1.52;t.stroke();
+ t.translate(-width*.42,0);t.strokeStyle=`rgba(205,235,250,${.12*p})`;
+ t.lineWidth=Math.max(.65,width*.27);t.stroke();t.restore();
+}
+function makeDewPacking(){
+ const cell=90,bins=new Map(),all=[];
+ const gridKey=(x,y)=>x+':'+y;
+ function add(drop){
+  const radius=Math.max(drop.rx,drop.ry)*(drop.kind==='run'?1.49:1.20)+1.2;
+  const gap=Math.max(.75,Math.min(3.5,radius*.075));
+  const bx0=Math.floor((drop.x-radius-gap)/cell),bx1=Math.floor((drop.x+radius+gap)/cell);
+  const by0=Math.floor((drop.y-radius-gap)/cell),by1=Math.floor((drop.y+radius+gap)/cell);
+  for(let gy=by0;gy<=by1;gy++)for(let gx=bx0;gx<=bx1;gx++){
+   for(const other of bins.get(gridKey(gx,gy))||[]){
+    if(Math.hypot(drop.x-other.drop.x,drop.y-other.drop.y)<radius+other.radius+Math.max(gap,other.gap))return false;
+   }
+  }
+  const item={drop,radius,gap};all.push(item);
+  for(let gy=by0;gy<=by1;gy++)for(let gx=bx0;gx<=bx1;gx++){
+   const key=gridKey(gx,gy);if(!bins.has(key))bins.set(key,[]);bins.get(key).push(item);
+  }
+  return true;
+ }
+ return {add,all};
+}
+function drawCondensation(t){
+ const fx=state.effects.condensation;if(!fx?.on||!fx.power)return;
+ const p=fx.power/100,d=fx.density/100,sz=.62+fx.dropSize/100*1.40;
+ const run=fx.drips/100,fog=fx.fog/100,color=fx.color;
+ const rand=seeded((state.seed+33137)>>>0),clear=t.getImageData(0,0,W,H);
+ t.save();t.globalCompositeOperation='source-over';
+ const scene=offscreen(W,H);scene.getContext('2d').putImageData(clear,0,0);
+ t.save();t.filter='blur(13px)';t.globalAlpha=.42*p*fog;t.drawImage(scene,0,0);t.restore();
+ t.fillStyle=rgba(color,.14*p*fog);t.fillRect(0,0,W,H);
+ const haze=t.createRadialGradient(W*.51,H*.43,H*.09,W*.51,H*.46,W*.86);
+ haze.addColorStop(0,rgba(color,.009*p*fog));haze.addColorStop(.51,rgba(color,.083*p*fog));
+ haze.addColorStop(1,rgba(color,.37*p*fog));t.fillStyle=haze;t.fillRect(0,0,W,H);
+ t.save();t.globalCompositeOperation='screen';
+ for(let i=0;i<19;i++){
+  const x=rand()*W,y=rand()*H,size=190+rand()*370;
+  t.globalAlpha=(.045+rand()*.12)*p*fog;
+  t.drawImage(sprite(color,i%5,'clouds'),x-size,y-size*.65,size*2,size*1.3);
+ }
+ t.restore();
+ const clusters=Array.from({length:12},()=>({x:rand()*W,y:rand()*H,spreadX:145+rand()*235,spreadY:150+rand()*185}));
+ const target=t.getImageData(0,0,W,H),packing=makeDewPacking(),macro=[],micro=[];
+ const maxMacro=Math.round(65+68*d),maxMicro=Math.round(690+1220*d);
+ for(let attempt=0;attempt<maxMacro*35&&macro.length<maxMacro;attempt++){
+  const kindRoll=rand(),kind=kindRoll<.070?'run':kindRoll<.20?'puddle':'bead',sizeRoll=rand();
+  const radius=(sizeRoll<.13?23+rand()*16:sizeRoll<.73?10+rand()*14:5+rand()*6.5)*sz;
+  const pt=glassPosition(rand,clusters),drop=makeDroplet(rand,pt.x,pt.y,radius,kind);
+  const bound=Math.max(drop.rx,drop.ry)*(drop.kind==='run'?1.49:1.20)+3;
+  if(glassLogoSafe(pt.x,pt.y,bound+6)||!packing.add(drop))continue;
+  macro.push(drop);
+ }
+ for(let attempt=0;attempt<maxMicro*12&&micro.length<maxMicro;attempt++){
+  const pt=glassPosition(rand,clusters),radius=(.58+Math.pow(rand(),1.25)*2.8)*sz;
+  const drop=makeDroplet(rand,pt.x,pt.y,radius,'bead');
+  drop.lightGain*=.42;drop.thick*=.43;
+  if(glassLogoSafe(pt.x,pt.y,Math.max(drop.rx,drop.ry)*1.19+7)||!packing.add(drop))continue;
+  micro.push(drop);
+ }
+ for(const drop of micro)drawOpticalDrop(target,clear,drop,p*.68);
+ for(const drop of macro)drawOpticalDrop(target,clear,drop,p);
+ t.putImageData(target,0,0);
+ const numTrails=Math.round((1+4*d)*run*p);let trails=0;
+ for(let i=0;i<macro.length&&trails<numTrails;i++){
+  const bead=macro[Math.floor(rand()*macro.length)];
+  if(!bead||bead.ry<16)continue;
+  const length=30+rand()*95,x=bead.x,y=bead.y,dx=(rand()-.5)*12;
+  const start={x:x+dx,y:y-length};
+  if(!glassTrailSafe(start.x,start.y,x,y,7))continue;
+  const intersects=packing.all.some(v=>v.drop!==bead&&distancePointSegment(v.drop.x,v.drop.y,start.x,start.y,x,y-bead.ry*.55)<v.radius+2.5);
+  if(intersects)continue;
+  drawGlassRun(t,[start,{x:x+dx*.6,y:y-length*.67},{x:x+(rand()-.5)*5,y:y-length*.35},{x,y:y-bead.ry*.55}],.9+rand()*1.2,p*.68);
+  trails++;
+ }
+ t.restore();
+}
+function distancePointSegment(px,py,ax,ay,bx,by){
+ const dx=bx-ax,dy=by-ay,q=dx*dx+dy*dy;
+ const u=q>0?clamp(((px-ax)*dx+(py-ay)*dy)/q,0,1):0;
+ return Math.hypot(px-(ax+dx*u),py-(ay+dy*u));
+}
+function draw(target,preset,object,pass,width,height,seed){
+ const style=preset==='sparks'?'plasma':preset;
+ if(!presets[style]?.length||!object?.image||object.visible===false)return;
  anchor={...object,fxWidthScale:W/Math.max(1,width),fxHeightScale:H/Math.max(1,height)};
+ state.seed=(Number(seed)>>>0)||1;
  state.logoX=(Number(object.x)||0)*W/Math.max(1,width);
  state.logoY=(Number(object.y)||0)*H/Math.max(1,height);
- state.logoScale=100;
+ state.logoScale=170;
+ const enabled=presets[style];for(const [name,fx]of Object.entries(state.effects))fx.on=enabled.includes(name);
+ state.effects.electricity.style=style==='storm'?'strike':'plasma';
  target.save();target.scale(width/W,height/H);
  if(pass==='behind'){
-  drawClouds(target);drawSmoke(target);drawRain(target);drawFlames(target,'behind');drawElectricity(target,false);
+  drawClouds(target);drawSmoke(target);drawRain(target,'behind');drawFlames(target,'behind');drawElectricity(target);drawCondensation(target);
  }else{
-  drawFlames(target,'front');drawElectricity(target,true);drawSparks(target);
+  drawFlames(target,'front');drawRain(target,'front');
  }
  target.restore();
 }
 function drawBackdrop(target,preset,width,height){
  if(!presets[preset]?.length)return;
- target.save();
- target.globalAlpha=1;
- target.globalCompositeOperation='source-over';
- target.fillStyle='rgba(1,5,12,.25)';
- target.fillRect(0,0,width,height);
+ target.save();target.globalAlpha=1;target.globalCompositeOperation='source-over';
+ target.fillStyle='rgba(1,5,12,.25)';target.fillRect(0,0,width,height);
  const vignette=target.createRadialGradient(width*.50,height*.43,height*.09,width*.50,height*.53,width*.76);
- vignette.addColorStop(0,'rgba(0,0,0,0)');
- vignette.addColorStop(1,'rgba(0,0,0,.45)');
- target.fillStyle=vignette;
- target.fillRect(0,0,width,height);
- target.restore();
+ vignette.addColorStop(0,'rgba(0,0,0,0)');vignette.addColorStop(1,'rgba(0,0,0,.45)');
+ target.fillStyle=vignette;target.fillRect(0,0,width,height);target.restore();
 }
 return {draw,drawBackdrop};
 })();
@@ -627,7 +971,7 @@ function freeGamesOutlinedComposite(o,logo,w,h,colorFilter){
 
 function drawObject(t,o){if(o.visible===false)return;t.save();if(o.clipRect){t.beginPath();t.rect(o.clipRect.x-o.x,o.clipRect.y-o.y,o.clipRect.w,o.clipRect.h);t.clip()}t.globalAlpha=Math.max(0,Math.min(1,(o.opacity??100)/100));t.translate(o.x,o.y);t.rotate(o.rotation);if(o.flipX||o.flipY)t.scale(o.flipX?-1:1,o.flipY?-1:1);if(o.type==="overlay"){const b=baseSize(o),w=b.w*o.scale,h=b.h*o.scale,relit=lightingAdjustedOverlay(o),filters=[],outlined=!!(o.freeGamesOutlineWidth&&o.image);if(!relit&&!outlined)filters.push(imageFilter(o));if(o.glowBlur>0)filters.push(`drop-shadow(0px 0px ${Math.max(0,o.glowBlur)}px ${colorWithAlpha(o.glowColor||"#f15a24",o.glowOpacity??100)})`);if(o.shadowBlur>0)filters.push(`drop-shadow(${o.shadowOffsetX||0}px ${o.shadowOffsetY||0}px ${Math.max(0,o.shadowBlur||0)}px ${colorWithAlpha(o.shadowColor||"#000000",o.shadowOpacity??100)})`);t.filter=filters.join(" ")||"none";if(outlined){const combined=freeGamesOutlinedComposite(o,relit||o.image,w,h,relit?"none":imageFilter(o));t.drawImage(combined.canvas,-w/2-combined.pad,-h/2-combined.pad)}else t.drawImage(relit||o.image,-w/2,-h/2,w,h);t.filter="none"}else if(o.type==="text"){t.scale(o.scale,o.scale);const m=textBlockMetrics(o);t.font=canvasTextFont(o);t.textAlign=o.textAlign||"center";t.textBaseline="middle";if(o.backgroundEnabled){t.save();t.globalAlpha=Math.max(0,Math.min(1,(o.backgroundOpacity??70)/100));t.fillStyle=o.backgroundColor||"#000000";const baseRadius=Math.max(0,Number(o.backgroundRadius)||0),r=o.backgroundRadiusSeparate?{tl:o.backgroundRadiusTopLeft??baseRadius,tr:o.backgroundRadiusTopRight??baseRadius,br:o.backgroundRadiusBottomRight??baseRadius,bl:o.backgroundRadiusBottomLeft??baseRadius}:{tl:baseRadius,tr:baseRadius,br:baseRadius,bl:baseRadius};roundedRectPath(t,-m.w/2,-m.h/2,m.w,m.h,r);t.fill();t.restore()}const align=o.textAlign||"center",contentLeft=-m.w/2+m.border+(o.backgroundEnabled?m.padding.left:0),contentRight=m.w/2-m.border-(o.backgroundEnabled?m.padding.right:0),x=align==="left"?contentLeft:align==="right"?contentRight:(contentLeft+contentRight)/2,startY=-(m.lines.length-1)*m.lineHeight/2+((o.backgroundEnabled?m.padding.top-m.padding.bottom:0)/2);for(let i=0;i<m.lines.length;i++){const y=startY+i*m.lineHeight,line=m.lineData[i];if(o.borderEnabled){t.lineJoin="round";t.miterLimit=2;t.lineWidth=Math.max(1,Number(o.borderSize)||2)*2;t.strokeStyle=o.borderColor||"#000000";drawSpacedLine(t,o,line.text,x,y,true)}drawColorizedLine(t,o,line,x,y)}}else{const img=tintAsset(o),b=baseSize(o),w=b.w*o.scale,h=b.h*o.scale;t.drawImage(img||o.image,-w/2,-h/2,w,h)}t.restore()}
 function drawBackgroundScene(t){t.fillStyle="#fff";t.fillRect(0,0,state.w,state.h);if(state.mode==="splitCircle"||state.mode==="splitHorizontalCircle"){drawImageSlot(t,"left");drawImageSlot(t,"right");t.fillStyle="#fff";if(state.mode==="splitCircle")t.fillRect((state.w-10)/2,0,10,state.h);else t.fillRect(0,(state.h-10)/2,state.w,10);drawImageSlot(t,"center");const q=circleSpec();t.save();t.beginPath();t.arc(q.x,q.y,q.r+q.line/2,0,Math.PI*2);t.lineWidth=q.line;t.strokeStyle="#fff";t.stroke();t.restore()}else{for(const key of activeBackgroundKeys())drawImageSlot(t,key);t.save();t.fillStyle="#fff";if(state.mode==="split")t.fillRect((state.w-10)/2,0,10,state.h);if(state.mode==="splitHorizontal")t.fillRect(0,(state.h-10)/2,state.w,10);if(state.mode==="tripleParallel"){t.fillRect(state.w/3-5,0,10,state.h);t.fillRect(state.w*2/3-5,0,10,state.h)}if(state.mode==="tripleHorizontal"){t.fillRect(0,state.h/3-5,state.w,10);t.fillRect(0,state.h*2/3-5,state.w,10)}if(state.mode==="tripleOpposed"||state.mode==="tripleOpposedReverse"){t.save();t.translate(state.w/3,state.h/2);t.rotate(-splitAngle(0));t.fillRect(-5,-state.h,10,state.h*2);t.restore();t.save();t.translate(state.w*2/3,state.h/2);t.rotate(-splitAngle(1));t.fillRect(-5,-state.h,10,state.h*2);t.restore()}t.restore()}if(state.mode==="single"&&state.vignette>0){const g=t.createRadialGradient(state.w/2,state.h/2,Math.min(state.w,state.h)*.18,state.w/2,state.h/2,Math.max(state.w,state.h)*.72);g.addColorStop(0,"rgba(0,0,0,0)");g.addColorStop(1,`rgba(0,0,0,${Math.min(.85,state.vignette/100*.85)})`);t.fillStyle=g;t.fillRect(0,0,state.w,state.h)}}
-function render(options={}){const updateLayers=options.updateLayers!==false,updateGuides=options.updateGuides!==false;ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality="high";ctx.clearRect(0,0,state.w,state.h);drawBackgroundScene(ctx);if(state.freeGamesFxPreset!=="none"&&state.objects.some(o=>o.freeGamesFxAnchor&&o.visible!==false))FreeGamesTemplateFX.drawBackdrop(ctx,state.freeGamesFxPreset,state.w,state.h);state.objects.forEach(o=>{if(o.freeGamesFxAnchor&&state.freeGamesFxPreset!=="none")FreeGamesTemplateFX.draw(ctx,state.freeGamesFxPreset,o,"behind",state.w,state.h);drawObject(ctx,o);if(o.freeGamesFxAnchor&&state.freeGamesFxPreset!=="none")FreeGamesTemplateFX.draw(ctx,state.freeGamesFxPreset,o,"front",state.w,state.h)});drawSelection();if(updateLayers)renderLayers();if(updateGuides)renderGuides()}
+function render(options={}){const updateLayers=options.updateLayers!==false,updateGuides=options.updateGuides!==false;ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality="high";ctx.clearRect(0,0,state.w,state.h);drawBackgroundScene(ctx);if(state.freeGamesFxPreset!=="none"&&state.objects.some(o=>o.freeGamesFxAnchor&&o.visible!==false))FreeGamesTemplateFX.drawBackdrop(ctx,state.freeGamesFxPreset,state.w,state.h);state.objects.forEach(o=>{if(o.freeGamesFxAnchor&&state.freeGamesFxPreset!=="none")FreeGamesTemplateFX.draw(ctx,state.freeGamesFxPreset,o,"behind",state.w,state.h,state.freeGamesFxSeed);drawObject(ctx,o);if(o.freeGamesFxAnchor&&state.freeGamesFxPreset!=="none")FreeGamesTemplateFX.draw(ctx,state.freeGamesFxPreset,o,"front",state.w,state.h,state.freeGamesFxSeed)});drawSelection();if(updateLayers)renderLayers();if(updateGuides)renderGuides()}
 function drawSelection(){if(!state.selected)return;ctx.save();ctx.strokeStyle="#58a6ff";ctx.lineWidth=3/state.viewScale;ctx.setLineDash([9/state.viewScale,6/state.viewScale]);if(state.selected.kind==="object"){const selected=selectedObjects();if(!selected.length)return ctx.restore();for(const o of selected){if(o.visible===false)continue;const b=bounds(o);ctx.save();ctx.translate(o.x,o.y);ctx.rotate(o.rotation);ctx.strokeRect(-b.w/2,-b.h/2,b.w,b.h);if(selected.length===1){ctx.setLineDash([]);ctx.fillStyle="#fff";ctx.fillRect(b.w/2-9/state.viewScale,b.h/2-9/state.viewScale,18/state.viewScale,18/state.viewScale);ctx.setLineDash([9/state.viewScale,6/state.viewScale])}ctx.restore()}}else{if(state.poses[state.selected.key]?.visible===false)return ctx.restore();const b=imageBounds(state.selected.key);if(!b)return ctx.restore();ctx.strokeRect(b.left,b.top,b.width,b.height);ctx.setLineDash([]);for(const h of imageHandles(b)){ctx.fillStyle="#fff";ctx.fillRect(h.x-9/state.viewScale,h.y-9/state.viewScale,18/state.viewScale,18/state.viewScale)}}ctx.restore()}
 function imageHandles(b){return[{key:"tl",x:b.left,y:b.top,ox:b.left+b.width,oy:b.top+b.height},{key:"tr",x:b.left+b.width,y:b.top,ox:b.left,oy:b.top+b.height},{key:"bl",x:b.left,y:b.top+b.height,ox:b.left+b.width,oy:b.top},{key:"br",x:b.left+b.width,y:b.top+b.height,ox:b.left,oy:b.top}]}
 function point(e){const r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left)*state.w/r.width,y:(e.clientY-r.top)*state.h/r.height}}function dragStartPoint(e){const r=canvas.getBoundingClientRect();return{clientX:e.clientX,clientY:e.clientY,scaleX:state.w/r.width,scaleY:state.h/r.height}}function currentObject(){return state.selected?.kind==="object"?state.objects.find(o=>o.id===state.selected.id):null}function selectedObjects(){const ids=new Set(state.selectedIds||[]);return state.objects.filter(o=>ids.has(o.id))}function clearSelection(){state.selected=null;state.selectedIds=[]}function selectObjectId(id,additive=false){if(!additive){state.selectedIds=[id]}else{const set=new Set(state.selectedIds||[]);if(set.has(id))set.delete(id);else set.add(id);state.selectedIds=[...set]}if(state.selectedIds.includes(id))state.selected={kind:"object",id};else if(state.selectedIds.length)state.selected={kind:"object",id:state.selectedIds[state.selectedIds.length-1]};else state.selected=null}function hitObj(o,x,y){if(o.visible===false)return false;const dx=x-o.x,dy=y-o.y,c=Math.cos(-o.rotation),s=Math.sin(-o.rotation),p={x:dx*c-dy*s,y:dx*s+dy*c},b=bounds(o);return Math.abs(p.x)<=b.w/2&&Math.abs(p.y)<=b.h/2}function objHandle(o,x,y){const b=bounds(o),c=Math.cos(o.rotation),s=Math.sin(o.rotation),hx=o.x+b.w/2*c-b.h/2*s,hy=o.y+b.w/2*s+b.h/2*c;return Math.hypot(x-hx,y-hy)<18/state.viewScale}function imageHandle(key,x,y){const b=imageBounds(key);if(!b)return null;return imageHandles(b).find(h=>Math.hypot(x-h.x,y-h.y)<18/state.viewScale)||null}function slotContains(key,x,y){if((state.mode==="splitCircle"||state.mode==="splitHorizontalCircle")&&key==="center"){const q=circleSpec();return Math.hypot(x-q.x,y-q.y)<=q.r}if(state.mode==="tripleOpposed"||state.mode==="tripleOpposedReverse"){const d1=dividerX(state.w/3,y,splitAngle(0)),d2=dividerX(state.w*2/3,y,splitAngle(1));return key==="left"?x<=d1:key==="center"?x>=d1&&x<=d2:x>=d2}const r=sideRect(key);return x>=r.x&&x<=r.x+r.w&&y>=r.y&&y<=r.y+r.h}function imageHit(key,x,y){if(state.poses[key]?.visible===false)return false;const b=imageBounds(key);return b&&slotContains(key,x,y)&&x>=b.left&&x<=b.left+b.width&&y>=b.top&&y<=b.top+b.height}
@@ -1186,9 +1530,9 @@ snap();
 const d=structuredClone(choice.data),images={single:null,left:null,center:null,right:null};
 for(const key of ["single","left","center","right"])if(d.images?.[key])images[key]=await loadImage(d.images[key],true);
 const objects=(d.objects||[]).map(o=>({...o,shadowBlur:10,shadowOffsetX:10,shadowOffsetY:10,shadowColor:"#000000",layerName:o.layerName||urlName(o.src||o.name||"Logo","Logo").replace(/\.[^.]+$/," ").replace(/[-_]+/g," ").replace(/\b\w/g,m=>m.toUpperCase())}));
-await Promise.all(objects.map(async o=>{if(o.src)o.image=await loadImage(o.src,true)}));
+await Promise.all(objects.map(async o=>{if(o.src)o.image=await loadImage(o.src,true)}));for(const obj of objects)freeGamesScalePrimeLogo(obj);
 if(template.name==="Free Games"){const logo=objects.find(o=>/steam-logo\.png|epic-games-store-logo-gray\.png/i.test(o.src||""))||objects[0];if(logo){logo.freeGamesFxAnchor=true;if(choice.name==="Steam"){logo.freeGamesOutlineWidth=10;logo.freeGamesOutlineColor="#ffffff";}}}
-restore({...d,images,objects,selected:null,selectedIds:[],freeGamesFxPreset:template.name==="Free Games"?$("freeGamesEffectsSelect").value:"none"});
+restore({...d,images,objects,selected:null,selectedIds:[],freeGamesFxPreset:template.name==="Free Games"?normalizeFreeGamesFxPreset($("freeGamesEffectsSelect").value):"none",freeGamesFxSeed:newFreeGamesFxSeed()});
 currentProjectName="";
 status(`Applied template “${template.name}: ${choice.name}”.`);
 }catch(e){
