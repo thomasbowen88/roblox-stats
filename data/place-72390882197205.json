@@ -7,18 +7,18 @@
   "name": "Pop & Collect",
   "creatorName": "Bubble Planet",
   "creatorType": "Group",
-  "playing": 101,
-  "visits": 3680113,
-  "favorites": 192461,
+  "playing": 95,
+  "visits": 3680139,
+  "favorites": 192459,
   "likes": 87016,
   "dislikes": 921,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8d0169d7a3c6212e98eb972d9f8116f4/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72390882197205",
-  "fetchedAtUtc": "2026-10-26 07:24:21",
+  "fetchedAtUtc": "2026-10-26 07:30:27",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-26 07:24:21",
-    "updatedAtTs": 1792999461,
+    "updatedAt": "2026-10-26 07:30:27",
+    "updatedAtTs": 1792999827,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1792999461,
-        101
+        1792999827,
+        95
       ],
       "peak7d": [
         1792944574,
@@ -435,6 +435,10 @@
         [
           1792999461,
           101
+        ],
+        [
+          1792999827,
+          95
         ]
       ]
     }
