@@ -7,18 +7,18 @@
   "name": "Rocket Rush",
   "creatorName": "VOXELIFIED",
   "creatorType": "Group",
-  "playing": 1000,
-  "visits": 13276817,
-  "favorites": 42468,
-  "likes": 20742,
-  "dislikes": 4968,
+  "playing": 1052,
+  "visits": 13281659,
+  "favorites": 42480,
+  "likes": 20747,
+  "dislikes": 4970,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d18a20b5c3dd84d2d48fd4668757bc55/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131234943387594",
-  "fetchedAtUtc": "2026-10-26 16:11:59",
+  "fetchedAtUtc": "2026-10-26 16:53:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-26 16:11:59",
-    "updatedAtTs": 1793031119,
+    "updatedAt": "2026-10-26 16:53:46",
+    "updatedAtTs": 1793033626,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793031119,
-        1000
+        1793033626,
+        1052
       ],
       "peak7d": [
-        1793031119,
-        1000
+        1793033626,
+        1052
       ]
     },
     "series": {
@@ -91,6 +91,10 @@
         [
           1793031119,
           1000
+        ],
+        [
+          1793033626,
+          1052
         ]
       ]
     }
