@@ -7,18 +7,18 @@
   "name": "FIFA Super Soccer",
   "creatorName": "Play! Football",
   "creatorType": "Group",
-  "playing": 13583,
-  "visits": 1611279081,
-  "favorites": 1133659,
-  "likes": 467570,
-  "dislikes": 107455,
+  "playing": 13670,
+  "visits": 1611299364,
+  "favorites": 1133674,
+  "likes": 467577,
+  "dislikes": 107454,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ab2fd786a6324611c9695abc4630a62b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/12177325772",
-  "fetchedAtUtc": "2026-10-30 17:24:26",
+  "fetchedAtUtc": "2026-10-30 17:39:30",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-30 17:24:26",
-    "updatedAtTs": 1793381066,
+    "updatedAt": "2026-10-30 17:39:30",
+    "updatedAtTs": 1793381970,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793381066,
-        13583
+        1793381970,
+        13670
       ],
       "peak7d": [
-        1793379886,
-        13610
+        1793381970,
+        13670
       ]
     },
     "series": {
@@ -343,6 +343,10 @@
         [
           1793381066,
           13583
+        ],
+        [
+          1793381970,
+          13670
         ]
       ]
     }
