@@ -7,18 +7,18 @@
   "name": "[🌮 TACO] 🐧Launch a Penguin!",
   "creatorName": "Cart Curt Games",
   "creatorType": "Group",
-  "playing": 1,
-  "visits": 6182021,
-  "favorites": 193096,
+  "playing": 0,
+  "visits": 6182027,
+  "favorites": 193094,
   "likes": 10646,
-  "dislikes": 919,
+  "dislikes": 920,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-af71c5897cb6a5726a770ad028039e2f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/135973019386884",
-  "fetchedAtUtc": "2026-10-30 05:28:40",
+  "fetchedAtUtc": "2026-10-30 05:50:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-30 05:28:40",
-    "updatedAtTs": 1793338120,
+    "updatedAt": "2026-10-30 05:50:04",
+    "updatedAtTs": 1793339404,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793338120,
-        1
+        1793339404,
+        0
       ],
       "peak7d": [
         1793286855,
@@ -243,6 +243,10 @@
         [
           1793338120,
           1
+        ],
+        [
+          1793339404,
+          0
         ]
       ]
     }
