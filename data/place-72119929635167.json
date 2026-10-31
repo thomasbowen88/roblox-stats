@@ -7,18 +7,18 @@
   "name": "[AURA] Chess Incremental",
   "creatorName": "3Face",
   "creatorType": "Group",
-  "playing": 37,
-  "visits": 3666608,
-  "favorites": 31577,
+  "playing": 34,
+  "visits": 3666720,
+  "favorites": 31578,
   "likes": 8654,
   "dislikes": 1621,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e14cbe491d4eaa67f3dd8d147c58fd9a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72119929635167",
-  "fetchedAtUtc": "2026-10-31 16:44:48",
+  "fetchedAtUtc": "2026-10-31 17:28:44",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-31 16:44:48",
-    "updatedAtTs": 1793465088,
+    "updatedAt": "2026-10-31 17:28:44",
+    "updatedAtTs": 1793467724,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793465088,
-        37
+        1793467724,
+        34
       ],
       "peak7d": [
         1793453041,
@@ -143,6 +143,10 @@
         [
           1793465088,
           37
+        ],
+        [
+          1793467724,
+          34
         ]
       ]
     }
