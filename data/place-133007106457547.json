@@ -7,18 +7,18 @@
   "name": "+1 Muscle Evolution",
   "creatorName": "Need More Cement",
   "creatorType": "Group",
-  "playing": 100,
-  "visits": 61312940,
-  "favorites": 1324932,
+  "playing": 80,
+  "visits": 61313143,
+  "favorites": 1324938,
   "likes": 243549,
   "dislikes": 3059,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3da1a68c02dd3f53d6edb3b5e76cf773/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/133007106457547",
-  "fetchedAtUtc": "2026-10-31 22:24:15",
+  "fetchedAtUtc": "2026-10-31 22:44:09",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-31 22:24:15",
-    "updatedAtTs": 1793485455,
+    "updatedAt": "2026-10-31 22:44:09",
+    "updatedAtTs": 1793486649,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793485455,
-        100
+        1793486649,
+        80
       ],
       "peak7d": [
         1793437242,
@@ -211,6 +211,10 @@
         [
           1793485455,
           100
+        ],
+        [
+          1793486649,
+          80
         ]
       ]
     }
