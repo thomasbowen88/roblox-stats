@@ -7,18 +7,18 @@
   "name": "My Jail Cell!  (🎃)",
   "creatorName": "ATTANIAN INDUSTRIES",
   "creatorType": "Group",
-  "playing": 666,
-  "visits": 141188381,
-  "favorites": 273819,
+  "playing": 625,
+  "visits": 141188953,
+  "favorites": 273818,
   "likes": 54828,
   "dislikes": 16153,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-50f967ef487cb33c829711ab2d25f520/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91746497060666",
-  "fetchedAtUtc": "2026-10-31 23:44:01",
+  "fetchedAtUtc": "2026-10-31 23:53:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-31 23:44:01",
-    "updatedAtTs": 1793490241,
+    "updatedAt": "2026-10-31 23:53:55",
+    "updatedAtTs": 1793490835,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793490241,
-        666
+        1793490835,
+        625
       ],
       "peak7d": [
         1793458140,
@@ -223,6 +223,10 @@
         [
           1793490241,
           666
+        ],
+        [
+          1793490835,
+          625
         ]
       ]
     }
