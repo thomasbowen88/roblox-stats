@@ -7,18 +7,18 @@
   "name": "Death Order: Simon Says",
   "creatorName": "Voxq Enterprises",
   "creatorType": "Group",
-  "playing": 2915,
-  "visits": 78466510,
-  "favorites": 405212,
+  "playing": 2840,
+  "visits": 78468168,
+  "favorites": 405218,
   "likes": 161011,
   "dislikes": 22640,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-86dfb804ea764bf8582768b93fb09bcf/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/18666738837",
-  "fetchedAtUtc": "2026-11-01 13:54:20",
+  "fetchedAtUtc": "2026-11-01 14:00:42",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-01 13:54:20",
-    "updatedAtTs": 1793541260,
+    "updatedAt": "2026-11-01 14:00:42",
+    "updatedAtTs": 1793541642,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793541260,
-        2915
+        1793541642,
+        2840
       ],
       "peak7d": [
         1793541260,
@@ -327,6 +327,10 @@
         [
           1793541260,
           2915
+        ],
+        [
+          1793541642,
+          2840
         ]
       ]
     }
