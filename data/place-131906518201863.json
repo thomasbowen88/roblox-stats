@@ -7,18 +7,18 @@
   "name": "[☕] Own a Cafe",
   "creatorName": "Espresso Espresso",
   "creatorType": "Group",
-  "playing": 154,
-  "visits": 14712075,
-  "favorites": 108895,
+  "playing": 129,
+  "visits": 14712290,
+  "favorites": 108898,
   "likes": 106592,
   "dislikes": 3908,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-17becf0224be32a62afe2bd64fa4d7cc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131906518201863",
-  "fetchedAtUtc": "2026-11-01 16:08:47",
+  "fetchedAtUtc": "2026-11-01 16:29:05",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-01 16:08:47",
-    "updatedAtTs": 1793549327,
+    "updatedAt": "2026-11-01 16:29:05",
+    "updatedAtTs": 1793550545,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793549327,
-        154
+        1793550545,
+        129
       ],
       "peak7d": [
         1793458140,
@@ -343,6 +343,10 @@
         [
           1793549327,
           154
+        ],
+        [
+          1793550545,
+          129
         ]
       ]
     }

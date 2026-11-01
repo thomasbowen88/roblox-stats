@@ -7,18 +7,18 @@
   "name": "Roll to Defend",
   "creatorName": "D:/Drive",
   "creatorType": "Group",
-  "playing": 19,
-  "visits": 14429093,
-  "favorites": 29923,
-  "likes": 38061,
+  "playing": 23,
+  "visits": 14429120,
+  "favorites": 29924,
+  "likes": 38062,
   "dislikes": 1691,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e041c9510ad58a41f93b8544acf6fcc3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/129559579789369",
-  "fetchedAtUtc": "2026-11-01 16:08:47",
+  "fetchedAtUtc": "2026-11-01 16:29:05",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-01 16:08:47",
-    "updatedAtTs": 1793549327,
+    "updatedAt": "2026-11-01 16:29:05",
+    "updatedAtTs": 1793550545,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793549327,
-        19
+        1793550545,
+        23
       ],
       "peak7d": [
-        1793424592,
-        22
+        1793550545,
+        23
       ]
     },
     "series": {
@@ -343,6 +343,10 @@
         [
           1793549327,
           19
+        ],
+        [
+          1793550545,
+          23
         ]
       ]
     }
