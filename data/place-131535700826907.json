@@ -7,18 +7,18 @@
   "name": "feed the pit",
   "creatorName": "Feed it studio",
   "creatorType": "Group",
-  "playing": 118,
-  "visits": 1637907,
-  "favorites": 62364,
+  "playing": 133,
+  "visits": 1637982,
+  "favorites": 62368,
   "likes": 10117,
   "dislikes": 1437,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-72394b2706ab6c3f40e9de219eef68b5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131535700826907",
-  "fetchedAtUtc": "2026-11-01 11:49:05",
+  "fetchedAtUtc": "2026-11-01 12:00:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-01 11:49:05",
-    "updatedAtTs": 1793533745,
+    "updatedAt": "2026-11-01 12:00:49",
+    "updatedAtTs": 1793534449,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793533745,
-        118
+        1793534449,
+        133
       ],
       "peak7d": [
         1793474622,
@@ -299,6 +299,10 @@
         [
           1793533745,
           118
+        ],
+        [
+          1793534449,
+          133
         ]
       ]
     }
