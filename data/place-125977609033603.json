@@ -7,18 +7,18 @@
   "name": "🐧 Evolve & Survive!",
   "creatorName": "Structa",
   "creatorType": "Group",
-  "playing": 30,
-  "visits": 7296522,
-  "favorites": 211429,
+  "playing": 25,
+  "visits": 7296593,
+  "favorites": 211430,
   "likes": 8303,
   "dislikes": 6344,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9c743eef8774b039bd32d0878fd014b2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/125977609033603",
-  "fetchedAtUtc": "2026-11-02 21:40:05",
+  "fetchedAtUtc": "2026-11-02 22:09:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-02 21:40:05",
-    "updatedAtTs": 1793655605,
+    "updatedAt": "2026-11-02 22:09:00",
+    "updatedAtTs": 1793657340,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793655605,
-        30
+        1793657340,
+        25
       ],
       "peak7d": [
         1793562245,
@@ -263,6 +263,10 @@
         [
           1793655605,
           30
+        ],
+        [
+          1793657340,
+          25
         ]
       ]
     }
