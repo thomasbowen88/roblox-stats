@@ -7,18 +7,18 @@
   "name": "Build and Defend Your Raft",
   "creatorName": "Raft Pirates",
   "creatorType": "Group",
-  "playing": 792,
-  "visits": 18999923,
-  "favorites": 56683,
+  "playing": 840,
+  "visits": 19000467,
+  "favorites": 56684,
   "likes": 45548,
   "dislikes": 2526,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f8efb6323aa99b1ede96ed9cfd907af1/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/129096378231329",
-  "fetchedAtUtc": "2026-11-02 09:49:49",
+  "fetchedAtUtc": "2026-11-02 09:59:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-02 09:49:49",
-    "updatedAtTs": 1793612989,
+    "updatedAt": "2026-11-02 09:59:40",
+    "updatedAtTs": 1793613580,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793612989,
-        792
+        1793613580,
+        840
       ],
       "peak7d": [
         1793578158,
@@ -195,6 +195,10 @@
         [
           1793612989,
           792
+        ],
+        [
+          1793613580,
+          840
         ]
       ]
     }
