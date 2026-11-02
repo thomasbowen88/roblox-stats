@@ -7,18 +7,18 @@
   "name": "Monkey Soccer",
   "creatorName": "CRAZAY FOODS",
   "creatorType": "Group",
-  "playing": 40,
-  "visits": 14372084,
-  "favorites": 24219,
+  "playing": 25,
+  "visits": 14372220,
+  "favorites": 24220,
   "likes": 29332,
-  "dislikes": 3229,
+  "dislikes": 3230,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-168aa60cd0a1309e847a4e461ada124e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121217335069513",
-  "fetchedAtUtc": "2026-11-02 20:29:49",
+  "fetchedAtUtc": "2026-11-02 21:00:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-02 20:29:49",
-    "updatedAtTs": 1793651389,
+    "updatedAt": "2026-11-02 21:00:55",
+    "updatedAtTs": 1793653255,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793651389,
-        40
+        1793653255,
+        25
       ],
       "peak7d": [
         1793576626,
@@ -251,6 +251,10 @@
         [
           1793651389,
           40
+        ],
+        [
+          1793653255,
+          25
         ]
       ]
     }
