@@ -7,18 +7,18 @@
   "name": "Paint and Hide! [SUMMER 🌴]",
   "creatorName": "Trix Co.",
   "creatorType": "Group",
-  "playing": 0,
+  "playing": 3,
   "visits": 9724502,
   "favorites": 48828,
   "likes": 6994,
   "dislikes": 2875,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-18d5338368989cb49c0d432fec9cd7d5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/133872250800930",
-  "fetchedAtUtc": "2026-11-02 03:54:00",
+  "fetchedAtUtc": "2026-11-02 04:54:26",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-02 03:54:00",
-    "updatedAtTs": 1793591640,
+    "updatedAt": "2026-11-02 04:54:26",
+    "updatedAtTs": 1793595266,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793591640,
-        0
+        1793595266,
+        3
       ],
       "peak7d": [
-        1793555964,
-        0
+        1793595266,
+        3
       ]
     },
     "series": {
@@ -115,6 +115,10 @@
         [
           1793591640,
           0
+        ],
+        [
+          1793595266,
+          3
         ]
       ]
     }
