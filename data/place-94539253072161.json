@@ -7,18 +7,18 @@
   "name": "[UPD 1.8] Idle Cultivation [OPEN TEST]",
   "creatorName": "Salt Mountain",
   "creatorType": "Group",
-  "playing": 30,
-  "visits": 842115,
-  "favorites": 5317,
+  "playing": 34,
+  "visits": 842266,
+  "favorites": 5318,
   "likes": 2125,
   "dislikes": 372,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-df3dccfc48936065a899e067f6dacabb/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/94539253072161",
-  "fetchedAtUtc": "2026-11-02 12:39:50",
+  "fetchedAtUtc": "2026-11-02 14:29:28",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-02 12:39:50",
-    "updatedAtTs": 1793623190,
+    "updatedAt": "2026-11-02 14:29:28",
+    "updatedAtTs": 1793629768,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793623190,
-        30
+        1793629768,
+        34
       ],
       "peak7d": [
         1793564057,
@@ -215,6 +215,10 @@
         [
           1793623190,
           30
+        ],
+        [
+          1793629768,
+          34
         ]
       ]
     }
