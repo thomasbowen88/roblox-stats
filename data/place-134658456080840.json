@@ -7,18 +7,18 @@
   "name": "Zoo Escape!",
   "creatorName": "Da Zookeepers",
   "creatorType": "Group",
-  "playing": 144,
-  "visits": 6281627,
-  "favorites": 104690,
+  "playing": 139,
+  "visits": 6281696,
+  "favorites": 104691,
   "likes": 5507,
   "dislikes": 2571,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b902760874e34696d4b1dba5e5f3f25b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/134658456080840",
-  "fetchedAtUtc": "2026-11-03 14:14:36",
+  "fetchedAtUtc": "2026-11-03 14:19:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-03 14:14:36",
-    "updatedAtTs": 1793715276,
+    "updatedAt": "2026-11-03 14:19:01",
+    "updatedAtTs": 1793715541,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1793715276,
-        144
+        1793715541,
+        139
       ],
       "peak7d": [
         1793711686,
@@ -139,6 +139,10 @@
         [
           1793715276,
           144
+        ],
+        [
+          1793715541,
+          139
         ]
       ]
     }

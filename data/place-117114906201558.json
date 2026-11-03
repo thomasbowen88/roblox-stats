@@ -7,18 +7,18 @@
   "name": "Host A Rideout",
   "creatorName": "Forge Break",
   "creatorType": "Group",
-  "playing": 278,
-  "visits": 7307548,
+  "playing": 291,
+  "visits": 7307703,
   "favorites": 23848,
   "likes": 13312,
   "dislikes": 1536,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-63308a6cf31863dcabc134cc46b36e3e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/117114906201558",
-  "fetchedAtUtc": "2026-11-03 14:14:36",
+  "fetchedAtUtc": "2026-11-03 14:19:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-03 14:14:36",
-    "updatedAtTs": 1793715276,
+    "updatedAt": "2026-11-03 14:19:01",
+    "updatedAtTs": 1793715541,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793715276,
-        278
+        1793715541,
+        291
       ],
       "peak7d": [
-        1793679605,
-        289
+        1793715541,
+        291
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1793715276,
           278
+        ],
+        [
+          1793715541,
+          291
         ]
       ]
     }
