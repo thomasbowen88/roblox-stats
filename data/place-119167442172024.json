@@ -7,18 +7,18 @@
   "name": "KLASE",
   "creatorName": "bertingkuno",
   "creatorType": "User",
-  "playing": 888,
-  "visits": 15650250,
+  "playing": 899,
+  "visits": 15650550,
   "favorites": 24780,
   "likes": 7471,
   "dislikes": 1464,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7d44f7b0fc60ed59fe53cdf71578a363/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119167442172024",
-  "fetchedAtUtc": "2026-11-03 02:25:17",
+  "fetchedAtUtc": "2026-11-03 02:29:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-03 02:25:17",
-    "updatedAtTs": 1793672717,
+    "updatedAt": "2026-11-03 02:29:43",
+    "updatedAtTs": 1793672983,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793672717,
-        888
+        1793672983,
+        899
       ],
       "peak7d": [
-        1793671803,
-        889
+        1793672983,
+        899
       ]
     },
     "series": {
@@ -63,6 +63,10 @@
         [
           1793672717,
           888
+        ],
+        [
+          1793672983,
+          899
         ]
       ]
     }
