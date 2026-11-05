@@ -7,18 +7,18 @@
   "name": "Secure The Hospital",
   "creatorName": "The guigui's",
   "creatorType": "Group",
-  "playing": 351,
-  "visits": 4087101,
+  "playing": 404,
+  "visits": 4088026,
   "favorites": 14564,
   "likes": 1690,
-  "dislikes": 608,
+  "dislikes": 609,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d468a84978f1f3a55b7250395ed09351/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/112574248563114",
-  "fetchedAtUtc": "2026-11-05 15:49:16",
+  "fetchedAtUtc": "2026-11-05 16:15:42",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-05 15:49:16",
-    "updatedAtTs": 1793893756,
+    "updatedAt": "2026-11-05 16:15:42",
+    "updatedAtTs": 1793895342,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793893756,
-        351
+        1793895342,
+        404
       ],
       "peak7d": [
-        1793893472,
-        353
+        1793895342,
+        404
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1793893756,
           351
+        ],
+        [
+          1793895342,
+          404
         ]
       ]
     }
