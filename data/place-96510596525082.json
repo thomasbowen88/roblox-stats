@@ -7,18 +7,18 @@
   "name": "Ball VS Ball [RANKED]",
   "creatorName": "ATYS 3",
   "creatorType": "Group",
-  "playing": 18500,
-  "visits": 190070169,
-  "favorites": 243049,
-  "likes": 362283,
-  "dislikes": 46366,
+  "playing": 18644,
+  "visits": 190080938,
+  "favorites": 243061,
+  "likes": 362285,
+  "dislikes": 46367,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cc58f111753110c3154ffd5dc740977d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96510596525082",
-  "fetchedAtUtc": "2026-11-06 14:14:09",
+  "fetchedAtUtc": "2026-11-06 14:20:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-06 14:14:09",
-    "updatedAtTs": 1793974449,
+    "updatedAt": "2026-11-06 14:20:11",
+    "updatedAtTs": 1793974811,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793974449,
-        18500
+        1793974811,
+        18644
       ],
       "peak7d": [
-        1793973304,
-        18625
+        1793974811,
+        18644
       ]
     },
     "series": {
@@ -355,6 +355,10 @@
         [
           1793974449,
           18500
+        ],
+        [
+          1793974811,
+          18644
         ]
       ]
     }
