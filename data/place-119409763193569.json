@@ -7,18 +7,18 @@
   "name": "[W2] Dig Into Secrets",
   "creatorName": "+1 Lucky Mine",
   "creatorType": "Group",
-  "playing": 68,
-  "visits": 3060500,
+  "playing": 80,
+  "visits": 3060548,
   "favorites": 11429,
   "likes": 8111,
   "dislikes": 906,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e952de28a94da1e43443c6178d32287b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119409763193569",
-  "fetchedAtUtc": "2026-11-06 15:09:57",
+  "fetchedAtUtc": "2026-11-06 15:34:29",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-06 15:09:57",
-    "updatedAtTs": 1793977797,
+    "updatedAt": "2026-11-06 15:34:29",
+    "updatedAtTs": 1793979269,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793977797,
-        68
+        1793979269,
+        80
       ],
       "peak7d": [
-        1793969391,
-        72
+        1793979269,
+        80
       ]
     },
     "series": {
@@ -367,6 +367,10 @@
         [
           1793977797,
           68
+        ],
+        [
+          1793979269,
+          80
         ]
       ]
     }
