@@ -7,18 +7,18 @@
   "name": "[🍬3X] Anomaly Cafe ",
   "creatorName": "Anomaly Cafe",
   "creatorType": "Group",
-  "playing": 986,
-  "visits": 28476312,
-  "favorites": 274585,
-  "likes": 58446,
+  "playing": 1026,
+  "visits": 28477864,
+  "favorites": 274590,
+  "likes": 58450,
   "dislikes": 3336,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e9578e7dc887d164db5d56493600c8e5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121781732399469",
-  "fetchedAtUtc": "2026-11-05 23:33:54",
+  "fetchedAtUtc": "2026-11-05 23:59:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-05 23:33:54",
-    "updatedAtTs": 1793921634,
+    "updatedAt": "2026-11-05 23:59:37",
+    "updatedAtTs": 1793923177,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793921634,
-        986
+        1793923177,
+        1026
       ],
       "peak7d": [
-        1793921634,
-        986
+        1793923177,
+        1026
       ]
     },
     "series": {
@@ -223,6 +223,10 @@
         [
           1793921634,
           986
+        ],
+        [
+          1793923177,
+          1026
         ]
       ]
     }

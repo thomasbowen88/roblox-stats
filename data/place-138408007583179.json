@@ -7,18 +7,18 @@
   "name": "[⚠️READ DESC] Clicker Simulator!",
   "creatorName": "MORE CLICK CLICK",
   "creatorType": "Group",
-  "playing": 1,
-  "visits": 5513887,
-  "favorites": 696050,
+  "playing": 3,
+  "visits": 5513893,
+  "favorites": 696052,
   "likes": 48152,
   "dislikes": 1040,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e30710a5da03926214af206b1e68cdb2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/138408007583179",
-  "fetchedAtUtc": "2026-11-05 23:33:54",
+  "fetchedAtUtc": "2026-11-05 23:59:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-05 23:33:54",
-    "updatedAtTs": 1793921634,
+    "updatedAt": "2026-11-05 23:59:37",
+    "updatedAtTs": 1793923177,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793921634,
-        1
+        1793923177,
+        3
       ],
       "peak7d": [
-        1793851797,
-        2
+        1793923177,
+        3
       ]
     },
     "series": {
@@ -223,6 +223,10 @@
         [
           1793921634,
           1
+        ],
+        [
+          1793923177,
+          3
         ]
       ]
     }

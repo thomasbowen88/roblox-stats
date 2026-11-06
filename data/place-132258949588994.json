@@ -7,18 +7,18 @@
   "name": "[PVP] Omni Heroes",
   "creatorName": "Depi Studios",
   "creatorType": "Group",
-  "playing": 1941,
-  "visits": 5910533,
-  "favorites": 227945,
-  "likes": 4001,
-  "dislikes": 556,
+  "playing": 5929,
+  "visits": 5928085,
+  "favorites": 228128,
+  "likes": 4006,
+  "dislikes": 558,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-86e9a94f66ab11d2856423809e4950dc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132258949588994",
-  "fetchedAtUtc": "2026-11-05 23:33:54",
+  "fetchedAtUtc": "2026-11-05 23:59:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-05 23:33:54",
-    "updatedAtTs": 1793921634,
+    "updatedAt": "2026-11-05 23:59:37",
+    "updatedAtTs": 1793923177,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1793921634,
-        1941
+        1793923177,
+        5929
       ],
       "peak7d": [
-        1793921634,
-        1941
+        1793923177,
+        5929
       ]
     },
     "series": {
@@ -223,6 +223,10 @@
         [
           1793921634,
           1941
+        ],
+        [
+          1793923177,
+          5929
         ]
       ]
     }
