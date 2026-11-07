@@ -7,18 +7,18 @@
   "name": "Hood Wars",
   "creatorName": "Lego Gun Games",
   "creatorType": "Group",
-  "playing": 2,
-  "visits": 3313222,
+  "playing": 11,
+  "visits": 3313257,
   "favorites": 56923,
   "likes": 10698,
   "dislikes": 1204,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6ee9f1bbcce36fead00459cb9b705cfa/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/116965629608311",
-  "fetchedAtUtc": "2026-11-07 18:43:53",
+  "fetchedAtUtc": "2026-11-07 19:28:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-07 18:43:53",
-    "updatedAtTs": 1794077033,
+    "updatedAt": "2026-11-07 19:28:55",
+    "updatedAtTs": 1794079735,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794077033,
-        2
+        1794079735,
+        11
       ],
       "peak7d": [
-        1794054233,
-        10
+        1794079735,
+        11
       ]
     },
     "series": {
@@ -143,6 +143,10 @@
         [
           1794077033,
           2
+        ],
+        [
+          1794079735,
+          11
         ]
       ]
     }
