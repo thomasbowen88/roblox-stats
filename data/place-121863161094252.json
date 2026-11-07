@@ -7,18 +7,18 @@
   "name": "[🌲] Axe RNG",
   "creatorName": "Chopsy Games",
   "creatorType": "Group",
-  "playing": 7,
-  "visits": 10152884,
-  "favorites": 119903,
+  "playing": 11,
+  "visits": 10152899,
+  "favorites": 119904,
   "likes": 12582,
   "dislikes": 1356,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d6e7b098f032eacac5af6b0c39159006/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121863161094252",
-  "fetchedAtUtc": "2026-11-07 11:53:53",
+  "fetchedAtUtc": "2026-11-07 12:23:53",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-07 11:53:53",
-    "updatedAtTs": 1794052433,
+    "updatedAt": "2026-11-07 12:23:53",
+    "updatedAtTs": 1794054233,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794052433,
-        7
+        1794054233,
+        11
       ],
       "peak7d": [
-        1794038330,
-        10
+        1794054233,
+        11
       ]
     },
     "series": {
@@ -83,6 +83,10 @@
         [
           1794052433,
           7
+        ],
+        [
+          1794054233,
+          11
         ]
       ]
     }
