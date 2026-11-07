@@ -7,18 +7,18 @@
   "name": "Pixel Basketball",
   "creatorName": "Pixel:Games",
   "creatorType": "Group",
-  "playing": 726,
-  "visits": 3420286,
+  "playing": 750,
+  "visits": 3420597,
   "favorites": 30603,
-  "likes": 32585,
+  "likes": 32586,
   "dislikes": 1185,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3791c8e5e5aaa0602df1bfb19162e710/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/140510877927109",
-  "fetchedAtUtc": "2026-11-07 14:58:58",
+  "fetchedAtUtc": "2026-11-07 15:04:06",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-07 14:58:58",
-    "updatedAtTs": 1794063538,
+    "updatedAt": "2026-11-07 15:04:06",
+    "updatedAtTs": 1794063846,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794063538,
-        726
+        1794063846,
+        750
       ],
       "peak7d": [
-        1794062930,
-        746
+        1794063846,
+        750
       ]
     },
     "series": {
@@ -59,6 +59,10 @@
         [
           1794063538,
           726
+        ],
+        [
+          1794063846,
+          750
         ]
       ]
     }

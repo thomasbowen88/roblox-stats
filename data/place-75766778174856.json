@@ -7,18 +7,18 @@
   "name": "[UPD11] Tower Incremental",
   "creatorName": "Lucky CStudios",
   "creatorType": "Group",
-  "playing": 934,
-  "visits": 7031743,
-  "favorites": 71801,
+  "playing": 925,
+  "visits": 7031923,
+  "favorites": 71802,
   "likes": 11445,
   "dislikes": 1434,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-40bbaf6d9a41e8081cb761d1a074fba5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75766778174856",
-  "fetchedAtUtc": "2026-11-07 14:58:58",
+  "fetchedAtUtc": "2026-11-07 15:04:06",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-07 14:58:58",
-    "updatedAtTs": 1794063538,
+    "updatedAt": "2026-11-07 15:04:06",
+    "updatedAtTs": 1794063846,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794063538,
-        934
+        1794063846,
+        925
       ],
       "peak7d": [
         1794063538,
@@ -111,6 +111,10 @@
         [
           1794063538,
           934
+        ],
+        [
+          1794063846,
+          925
         ]
       ]
     }
