@@ -4,21 +4,21 @@
   "placeId": "84556640895285",
   "rootPlaceId": "84556640895285",
   "universeId": "10057403337",
-  "name": "[1H] Deagle Arena",
+  "name": "[30M] Deagle Arena",
   "creatorName": "Deagle Arena",
   "creatorType": "Group",
-  "playing": 30163,
-  "visits": 296211383,
-  "favorites": 9928204,
-  "likes": 101198,
-  "dislikes": 14571,
+  "playing": 30252,
+  "visits": 296228374,
+  "favorites": 9928547,
+  "likes": 101206,
+  "dislikes": 14572,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5e9dc33441b1bac6cf444ecf0c7c3236/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/84556640895285",
-  "fetchedAtUtc": "2026-11-07 13:19:12",
+  "fetchedAtUtc": "2026-11-07 13:23:47",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-07 13:19:12",
-    "updatedAtTs": 1794057552,
+    "updatedAt": "2026-11-07 13:23:47",
+    "updatedAtTs": 1794057827,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794057552,
-        30163
+        1794057827,
+        30252
       ],
       "peak7d": [
-        1794057552,
-        30163
+        1794057827,
+        30252
       ]
     },
     "series": {
@@ -91,6 +91,10 @@
         [
           1794057552,
           30163
+        ],
+        [
+          1794057827,
+          30252
         ]
       ]
     }
