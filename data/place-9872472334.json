@@ -7,18 +7,18 @@
   "name": "[🎃HLWN🎃] Evade ",
   "creatorName": "Hexagon Development Community",
   "creatorType": "Group",
-  "playing": 65279,
-  "visits": 9453780744,
-  "favorites": 8830704,
-  "likes": 3295955,
-  "dislikes": 214271,
+  "playing": 65536,
+  "visits": 9453804379,
+  "favorites": 8830779,
+  "likes": 3295968,
+  "dislikes": 214270,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9791576d34c2e0b9e392b355409d6c82/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/9872472334",
-  "fetchedAtUtc": "2026-11-08 08:48:53",
+  "fetchedAtUtc": "2026-11-08 08:53:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-08 08:48:53",
-    "updatedAtTs": 1794127733,
+    "updatedAt": "2026-11-08 08:53:46",
+    "updatedAtTs": 1794128026,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794127733,
-        65279
+        1794128026,
+        65536
       ],
       "peak7d": [
-        1794127439,
-        65351
+        1794128026,
+        65536
       ]
     },
     "series": {
@@ -151,6 +151,10 @@
         [
           1794127733,
           65279
+        ],
+        [
+          1794128026,
+          65536
         ]
       ]
     }
