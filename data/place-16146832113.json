@@ -7,18 +7,18 @@
   "name": "Vanguards: Trail of the Saint",
   "creatorName": "Kitawari",
   "creatorType": "Group",
-  "playing": 11,
-  "visits": 2102077572,
-  "favorites": 2011764,
-  "likes": 2599259,
-  "dislikes": 88297,
+  "playing": 21280,
+  "visits": 2102110563,
+  "favorites": 2011794,
+  "likes": 2599264,
+  "dislikes": 88296,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f7bdd44dd0cde82613d28a99098e9329/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/16146832113",
-  "fetchedAtUtc": "2026-11-09 00:19:02",
+  "fetchedAtUtc": "2026-11-09 00:48:54",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-09 00:19:02",
-    "updatedAtTs": 1794183542,
+    "updatedAt": "2026-11-09 00:48:54",
+    "updatedAtTs": 1794185334,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794183542,
-        11
+        1794185334,
+        21280
       ],
       "peak7d": [
-        1794155046,
-        6259
+        1794185334,
+        21280
       ]
     },
     "series": {
@@ -263,6 +263,10 @@
         [
           1794183542,
           11
+        ],
+        [
+          1794185334,
+          21280
         ]
       ]
     }
