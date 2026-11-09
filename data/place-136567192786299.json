@@ -7,18 +7,18 @@
   "name": "Gladiator Life",
   "creatorName": "BERKOK Studios",
   "creatorType": "Group",
-  "playing": 60,
-  "visits": 1624535,
+  "playing": 54,
+  "visits": 1624550,
   "favorites": 30167,
   "likes": 8858,
-  "dislikes": 2295,
+  "dislikes": 2294,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0eb7990e1652efb973bc525eff98b4d5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/136567192786299",
-  "fetchedAtUtc": "2026-11-09 12:04:13",
+  "fetchedAtUtc": "2026-11-09 12:08:32",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-09 12:04:13",
-    "updatedAtTs": 1794225853,
+    "updatedAt": "2026-11-09 12:08:32",
+    "updatedAtTs": 1794226112,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794225853,
-        60
+        1794226112,
+        54
       ],
       "peak7d": [
         1794162226,
@@ -355,6 +355,10 @@
         [
           1794225853,
           60
+        ],
+        [
+          1794226112,
+          54
         ]
       ]
     }
