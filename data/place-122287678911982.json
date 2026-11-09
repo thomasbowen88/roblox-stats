@@ -7,18 +7,18 @@
   "name": "Vampire life",
   "creatorName": "dutdk",
   "creatorType": "User",
-  "playing": 511,
-  "visits": 8644744,
-  "favorites": 49335,
-  "likes": 21431,
+  "playing": 528,
+  "visits": 8645779,
+  "favorites": 49339,
+  "likes": 21434,
   "dislikes": 7236,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-577031814a6437d09311627dd0c5c42f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122287678911982",
-  "fetchedAtUtc": "2026-11-09 10:23:57",
+  "fetchedAtUtc": "2026-11-09 10:59:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-09 10:23:57",
-    "updatedAtTs": 1794219837,
+    "updatedAt": "2026-11-09 10:59:01",
+    "updatedAtTs": 1794221941,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794219837,
-        511
+        1794221941,
+        528
       ],
       "peak7d": [
         1794165248,
@@ -347,6 +347,10 @@
         [
           1794219837,
           511
+        ],
+        [
+          1794221941,
+          528
         ]
       ]
     }
