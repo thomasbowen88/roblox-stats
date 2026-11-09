@@ -7,18 +7,18 @@
   "name": "[UPD] First Person Boxing",
   "creatorName": "Can You Box?",
   "creatorType": "Group",
-  "playing": 180,
-  "visits": 8623142,
-  "favorites": 40916,
-  "likes": 50970,
-  "dislikes": 5466,
+  "playing": 250,
+  "visits": 8624725,
+  "favorites": 40918,
+  "likes": 50969,
+  "dislikes": 5468,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6106fd0b3784603167108fe11037c6ff/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132956556682909",
-  "fetchedAtUtc": "2026-11-09 10:59:01",
+  "fetchedAtUtc": "2026-11-09 12:04:13",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-09 10:59:01",
-    "updatedAtTs": 1794221941,
+    "updatedAt": "2026-11-09 12:04:13",
+    "updatedAtTs": 1794225853,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794221941,
-        180
+        1794225853,
+        250
       ],
       "peak7d": [
         1794089938,
@@ -351,6 +351,10 @@
         [
           1794221941,
           180
+        ],
+        [
+          1794225853,
+          250
         ]
       ]
     }
