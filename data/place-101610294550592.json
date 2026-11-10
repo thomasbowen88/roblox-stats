@@ -7,18 +7,18 @@
   "name": "Night At The Infirmary (Anomaly)",
   "creatorName": "A.D. Games",
   "creatorType": "Group",
-  "playing": 485,
-  "visits": 48626638,
-  "favorites": 485064,
-  "likes": 47744,
-  "dislikes": 5475,
+  "playing": 555,
+  "visits": 48632402,
+  "favorites": 485102,
+  "likes": 47746,
+  "dislikes": 5476,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6a1d24c8807d1285d97f1f193b6afa45/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/101610294550592",
-  "fetchedAtUtc": "2026-11-10 18:09:12",
+  "fetchedAtUtc": "2026-11-10 20:53:53",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-10 18:09:12",
-    "updatedAtTs": 1794334152,
+    "updatedAt": "2026-11-10 20:53:53",
+    "updatedAtTs": 1794344033,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794334152,
-        485
+        1794344033,
+        555
       ],
       "peak7d": [
-        1794266341,
-        518
+        1794344033,
+        555
       ]
     },
     "series": {
@@ -235,6 +235,10 @@
         [
           1794334152,
           485
+        ],
+        [
+          1794344033,
+          555
         ]
       ]
     }
