@@ -7,18 +7,18 @@
   "name": "My Dino Park!",
   "creatorName": "Dino Community.",
   "creatorType": "Group",
-  "playing": 113,
-  "visits": 27283775,
-  "favorites": 1215704,
+  "playing": 83,
+  "visits": 27284578,
+  "favorites": 1215720,
   "likes": 61933,
   "dislikes": 2961,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-59b193eb884ade5547f7facf83746e75/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/80701570784699",
-  "fetchedAtUtc": "2026-11-10 15:44:08",
+  "fetchedAtUtc": "2026-11-10 16:58:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-10 15:44:08",
-    "updatedAtTs": 1794325448,
+    "updatedAt": "2026-11-10 16:58:59",
+    "updatedAtTs": 1794329939,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794325448,
-        113
+        1794329939,
+        83
       ],
       "peak7d": [
         1794317032,
@@ -215,6 +215,10 @@
         [
           1794325448,
           113
+        ],
+        [
+          1794329939,
+          83
         ]
       ]
     }
