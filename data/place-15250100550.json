@@ -7,18 +7,18 @@
   "name": "[🎃] The Lost Adventures [R]",
   "creatorName": "TLA Community",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 3937268,
+  "playing": 50,
+  "visits": 3937370,
   "favorites": 30314,
-  "likes": 51831,
+  "likes": 51832,
   "dislikes": 2058,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fdd595d4149f54b689a4240ab85011f2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/15250100550",
-  "fetchedAtUtc": "2026-11-10 17:28:46",
+  "fetchedAtUtc": "2026-11-10 17:59:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-10 17:28:46",
-    "updatedAtTs": 1794331726,
+    "updatedAt": "2026-11-10 17:59:43",
+    "updatedAtTs": 1794333583,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794331726,
-        42
+        1794333583,
+        50
       ],
       "peak7d": [
         1794320327,
@@ -227,6 +227,10 @@
         [
           1794331726,
           42
+        ],
+        [
+          1794333583,
+          50
         ]
       ]
     }

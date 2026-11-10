@@ -7,18 +7,18 @@
   "name": "[😾] Cat Invasion",
   "creatorName": "OneBed Studio",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 29376733,
-  "favorites": 495764,
+  "playing": 56,
+  "visits": 29376888,
+  "favorites": 495763,
   "likes": 123065,
   "dislikes": 2333,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bbc5f5fe305598a0406c0a70bddfa84c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/78496323189083",
-  "fetchedAtUtc": "2026-11-10 17:28:46",
+  "fetchedAtUtc": "2026-11-10 17:59:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-10 17:28:46",
-    "updatedAtTs": 1794331726,
+    "updatedAt": "2026-11-10 17:59:43",
+    "updatedAtTs": 1794333583,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794331726,
-        42
+        1794333583,
+        56
       ],
       "peak7d": [
         1794246527,
@@ -227,6 +227,10 @@
         [
           1794331726,
           42
+        ],
+        [
+          1794333583,
+          56
         ]
       ]
     }
