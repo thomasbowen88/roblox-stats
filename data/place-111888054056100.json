@@ -7,18 +7,18 @@
   "name": "Junkyard Simulator",
   "creatorName": "Kabarkada",
   "creatorType": "Group",
-  "playing": 1083,
-  "visits": 2742399,
-  "favorites": 44397,
+  "playing": 928,
+  "visits": 2743538,
+  "favorites": 44405,
   "likes": 6177,
   "dislikes": 478,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-c253b3efe20d169e22c304fd4fdb1c75/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111888054056100",
-  "fetchedAtUtc": "2026-11-11 13:03:56",
+  "fetchedAtUtc": "2026-11-11 13:14:14",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-11 13:03:56",
-    "updatedAtTs": 1794402236,
+    "updatedAt": "2026-11-11 13:14:14",
+    "updatedAtTs": 1794402854,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794402236,
-        1083
+        1794402854,
+        928
       ],
       "peak7d": [
         1794394741,
@@ -379,6 +379,10 @@
         [
           1794402236,
           1083
+        ],
+        [
+          1794402854,
+          928
         ]
       ]
     }
