@@ -7,18 +7,18 @@
   "name": "[UDP2] Fishing Master",
   "creatorName": "Fishing Master Community",
   "creatorType": "Group",
-  "playing": 743,
-  "visits": 9614038,
-  "favorites": 59981,
+  "playing": 693,
+  "visits": 9614249,
+  "favorites": 59983,
   "likes": 39557,
   "dislikes": 1748,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d3734c2b52d9fdfbdfe45194a8e64839/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99925503388128",
-  "fetchedAtUtc": "2026-11-11 14:48:54",
+  "fetchedAtUtc": "2026-11-11 14:53:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-11 14:48:54",
-    "updatedAtTs": 1794408534,
+    "updatedAt": "2026-11-11 14:53:45",
+    "updatedAtTs": 1794408825,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794408534,
-        743
+        1794408825,
+        693
       ],
       "peak7d": [
         1794233636,
@@ -431,6 +431,10 @@
         [
           1794408534,
           743
+        ],
+        [
+          1794408825,
+          693
         ]
       ]
     }
