@@ -7,18 +7,18 @@
   "name": "[⚡ UPD 11.0] Anime Battle RNG",
   "creatorName": "Workers Affiliates VVIP",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 5261511,
+  "playing": 1,
+  "visits": 5261514,
   "favorites": 12164,
   "likes": 22331,
   "dislikes": 585,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-dd173ef9181c0a599f8b3e87e6833fff/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/115808762898625",
-  "fetchedAtUtc": "2026-11-11 10:38:56",
+  "fetchedAtUtc": "2026-11-11 10:59:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-11 10:38:56",
-    "updatedAtTs": 1794393536,
+    "updatedAt": "2026-11-11 10:59:01",
+    "updatedAtTs": 1794394741,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794393536,
-        0
+        1794394741,
+        1
       ],
       "peak7d": [
         1794261256,
@@ -351,6 +351,10 @@
         [
           1794393536,
           0
+        ],
+        [
+          1794394741,
+          1
         ]
       ]
     }
