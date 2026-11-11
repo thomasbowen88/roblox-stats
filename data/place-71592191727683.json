@@ -7,18 +7,18 @@
   "name": "Lanterns [HUGE PATCH!]",
   "creatorName": "Lanterns HQ",
   "creatorType": "Group",
-  "playing": 59,
-  "visits": 3024089,
-  "favorites": 25515,
-  "likes": 11821,
-  "dislikes": 1001,
+  "playing": 64,
+  "visits": 3024176,
+  "favorites": 25514,
+  "likes": 11820,
+  "dislikes": 1002,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b56db031e413a5325f77c5f21c57b88f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/71592191727683",
-  "fetchedAtUtc": "2026-11-11 02:18:56",
+  "fetchedAtUtc": "2026-11-11 02:34:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-11 02:18:56",
-    "updatedAtTs": 1794363536,
+    "updatedAt": "2026-11-11 02:34:01",
+    "updatedAtTs": 1794364441,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794363536,
-        59
+        1794364441,
+        64
       ],
       "peak7d": [
         1794356636,
@@ -275,6 +275,10 @@
         [
           1794363536,
           59
+        ],
+        [
+          1794364441,
+          64
         ]
       ]
     }
