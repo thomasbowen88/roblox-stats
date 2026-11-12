@@ -7,18 +7,18 @@
   "name": "[UPD 2] Uma Fighters - [ALPHA]",
   "creatorName": "Umaniacs",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 3796849,
-  "favorites": 63572,
+  "playing": 38,
+  "visits": 3796858,
+  "favorites": 63573,
   "likes": 33050,
   "dislikes": 2749,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fea4bf26924c845ab7b56ac8e9a50c6b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/77032800566065",
-  "fetchedAtUtc": "2026-11-12 13:54:02",
+  "fetchedAtUtc": "2026-11-12 13:58:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-12 13:54:02",
-    "updatedAtTs": 1794491642,
+    "updatedAt": "2026-11-12 13:58:40",
+    "updatedAtTs": 1794491920,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794491642,
-        42
+        1794491920,
+        38
       ],
       "peak7d": [
         1794358719,
@@ -643,6 +643,10 @@
         [
           1794491642,
           42
+        ],
+        [
+          1794491920,
+          38
         ]
       ]
     }
