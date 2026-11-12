@@ -7,18 +7,18 @@
   "name": "Bugmon[RELEASE] ",
   "creatorName": "Bugmon",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 2395397,
-  "favorites": 132373,
-  "likes": 51568,
+  "playing": 38,
+  "visits": 2395442,
+  "favorites": 132377,
+  "likes": 51570,
   "dislikes": 1943,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-047b12c3245c90cb4765d68c70aaaadc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/137257954174128",
-  "fetchedAtUtc": "2026-11-12 18:34:21",
+  "fetchedAtUtc": "2026-11-12 18:48:57",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-12 18:34:21",
-    "updatedAtTs": 1794508461,
+    "updatedAt": "2026-11-12 18:48:57",
+    "updatedAtTs": 1794509337,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794508461,
-        42
+        1794509337,
+        38
       ],
       "peak7d": [
         1794317032,
@@ -695,6 +695,10 @@
         [
           1794508461,
           42
+        ],
+        [
+          1794509337,
+          38
         ]
       ]
     }
