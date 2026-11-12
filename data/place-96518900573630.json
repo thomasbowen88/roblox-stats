@@ -7,18 +7,18 @@
   "name": "Empire City",
   "creatorName": "Paraline Studios",
   "creatorType": "Group",
-  "playing": 130,
-  "visits": 694434,
-  "favorites": 15198,
-  "likes": 3030,
+  "playing": 111,
+  "visits": 694556,
+  "favorites": 15199,
+  "likes": 3031,
   "dislikes": 423,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-92ccb351bfb75abb565115128dca885e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96518900573630",
-  "fetchedAtUtc": "2026-11-12 14:44:08",
+  "fetchedAtUtc": "2026-11-12 14:54:12",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-12 14:44:08",
-    "updatedAtTs": 1794494648,
+    "updatedAt": "2026-11-12 14:54:12",
+    "updatedAtTs": 1794495252,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794494648,
-        130
+        1794495252,
+        111
       ],
       "peak7d": [
         1794246527,
@@ -655,6 +655,10 @@
         [
           1794494648,
           130
+        ],
+        [
+          1794495252,
+          111
         ]
       ]
     }
