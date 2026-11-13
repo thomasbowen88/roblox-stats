@@ -7,18 +7,18 @@
   "name": "Freeze for UGC 🧊",
   "creatorName": "AFK FOR UGC",
   "creatorType": "Group",
-  "playing": 898,
-  "visits": 37692612,
-  "favorites": 279500,
-  "likes": 152591,
-  "dislikes": 37164,
+  "playing": 1003,
+  "visits": 37695432,
+  "favorites": 279517,
+  "likes": 152610,
+  "dislikes": 37169,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f97c90afb5759bad3f044f622d0cd5ef/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/18138682962",
-  "fetchedAtUtc": "2026-11-13 12:28:56",
+  "fetchedAtUtc": "2026-11-13 13:13:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-13 12:28:56",
-    "updatedAtTs": 1794572936,
+    "updatedAt": "2026-11-13 13:13:59",
+    "updatedAtTs": 1794575639,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794572936,
-        898
+        1794575639,
+        1003
       ],
       "peak7d": [
-        1794487150,
-        898
+        1794575639,
+        1003
       ]
     },
     "series": {
@@ -807,6 +807,10 @@
         [
           1794572936,
           898
+        ],
+        [
+          1794575639,
+          1003
         ]
       ]
     }
