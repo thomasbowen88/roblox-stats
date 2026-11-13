@@ -7,18 +7,18 @@
   "name": "[🎃] Call A Pet",
   "creatorName": "GuapoStudio",
   "creatorType": "Group",
-  "playing": 2,
+  "playing": 3,
   "visits": 2959305,
   "favorites": 56021,
   "likes": 5941,
   "dislikes": 722,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4be2f4bd0355969637c9f0b306efca1c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/94609885506003",
-  "fetchedAtUtc": "2026-11-13 18:54:16",
+  "fetchedAtUtc": "2026-11-13 18:59:41",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-13 18:54:16",
-    "updatedAtTs": 1794596056,
+    "updatedAt": "2026-11-13 18:59:41",
+    "updatedAtTs": 1794596381,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794596056,
-        2
+        1794596381,
+        3
       ],
       "peak7d": [
-        1794593950,
-        2
+        1794596381,
+        3
       ]
     },
     "series": {
@@ -43,6 +43,10 @@
         [
           1794596056,
           2
+        ],
+        [
+          1794596381,
+          3
         ]
       ]
     }
