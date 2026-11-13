@@ -7,18 +7,18 @@
   "name": "Battle Piece",
   "creatorName": "Studio Multiverse",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 1432849,
+  "playing": 1,
+  "visits": 1432854,
   "favorites": 14219,
-  "likes": 45008,
+  "likes": 45009,
   "dislikes": 954,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-740f3144fb93a43f0db024c0572c5236/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/98662768290911",
-  "fetchedAtUtc": "2026-11-13 15:59:10",
+  "fetchedAtUtc": "2026-11-13 17:39:02",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-13 15:59:10",
-    "updatedAtTs": 1794585550,
+    "updatedAt": "2026-11-13 17:39:02",
+    "updatedAtTs": 1794591542,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794585550,
-        0
+        1794591542,
+        1
       ],
       "peak7d": [
         1794279231,
@@ -831,6 +831,10 @@
         [
           1794585550,
           0
+        ],
+        [
+          1794591542,
+          1
         ]
       ]
     }
