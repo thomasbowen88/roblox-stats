@@ -7,18 +7,18 @@
   "name": "[DINER] SPECTER",
   "creatorName": "Lithium Labs",
   "creatorType": "Group",
-  "playing": 896,
-  "visits": 240365307,
-  "favorites": 890086,
+  "playing": 952,
+  "visits": 240365739,
+  "favorites": 890085,
   "likes": 252706,
   "dislikes": 12309,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-c5ef29cfa9f2a9805b5f45cd860ac3bc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/8267733039",
-  "fetchedAtUtc": "2026-11-14 20:28:52",
+  "fetchedAtUtc": "2026-11-14 20:33:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-14 20:28:52",
-    "updatedAtTs": 1794688132,
+    "updatedAt": "2026-11-14 20:33:49",
+    "updatedAtTs": 1794688429,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794688132,
-        896
+        1794688429,
+        952
       ],
       "peak7d": [
-        1794686938,
-        896
+        1794688429,
+        952
       ]
     },
     "series": {
@@ -299,6 +299,10 @@
         [
           1794688132,
           896
+        ],
+        [
+          1794688429,
+          952
         ]
       ]
     }
