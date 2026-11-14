@@ -7,18 +7,18 @@
   "name": "[🏰TOWER] Project Aura RNG",
   "creatorName": "Rival Ducks",
   "creatorType": "Group",
-  "playing": 2,
+  "playing": 4,
   "visits": 675383,
   "favorites": 21298,
   "likes": 2506,
   "dislikes": 382,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7e6ae257a6a44a3ef20ba46c723937b5/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/129619503633658",
-  "fetchedAtUtc": "2026-11-14 13:49:15",
+  "fetchedAtUtc": "2026-11-14 14:08:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-14 13:49:15",
-    "updatedAtTs": 1794664155,
+    "updatedAt": "2026-11-14 14:08:49",
+    "updatedAtTs": 1794665329,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794664155,
-        2
+        1794665329,
+        4
       ],
       "peak7d": [
-        1794596056,
-        2
+        1794665329,
+        4
       ]
     },
     "series": {
@@ -231,6 +231,10 @@
         [
           1794664155,
           2
+        ],
+        [
+          1794665329,
+          4
         ]
       ]
     }
