@@ -7,18 +7,18 @@
   "name": "Shuffle an Egg",
   "creatorName": "xFrozen x Cube",
   "creatorType": "Group",
-  "playing": 81,
-  "visits": 11246065,
-  "favorites": 95982,
+  "playing": 66,
+  "visits": 11246160,
+  "favorites": 95983,
   "likes": 8018,
   "dislikes": 1589,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-ee7a4a60ca87d184bde809485ec7829e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/79226825467411",
-  "fetchedAtUtc": "2026-11-14 14:08:49",
+  "fetchedAtUtc": "2026-11-14 14:19:21",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-14 14:08:49",
-    "updatedAtTs": 1794665329,
+    "updatedAt": "2026-11-14 14:19:21",
+    "updatedAtTs": 1794665961,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794665329,
-        81
+        1794665961,
+        66
       ],
       "peak7d": [
         1794656038,
@@ -235,6 +235,10 @@
         [
           1794665329,
           81
+        ],
+        [
+          1794665961,
+          66
         ]
       ]
     }
