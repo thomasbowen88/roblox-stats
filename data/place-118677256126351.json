@@ -7,18 +7,18 @@
   "name": "🐟 Bomb Fishing!",
   "creatorName": "Fishing Adventure",
   "creatorType": "Group",
-  "playing": 2,
-  "visits": 10229444,
-  "favorites": 20134,
+  "playing": 5,
+  "visits": 10229467,
+  "favorites": 20133,
   "likes": 13214,
   "dislikes": 1041,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5003688cfa291ea944f2aa1ea2bf4552/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/118677256126351",
-  "fetchedAtUtc": "2026-11-14 01:53:55",
+  "fetchedAtUtc": "2026-11-14 02:43:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-14 01:53:55",
-    "updatedAtTs": 1794621235,
+    "updatedAt": "2026-11-14 02:43:55",
+    "updatedAtTs": 1794624235,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794621235,
-        2
+        1794624235,
+        5
       ],
       "peak7d": [
-        1794619125,
-        2
+        1794624235,
+        5
       ]
     },
     "series": {
@@ -95,6 +95,10 @@
         [
           1794621235,
           2
+        ],
+        [
+          1794624235,
+          5
         ]
       ]
     }
