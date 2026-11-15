@@ -7,18 +7,18 @@
   "name": "[Performance] Broodwing",
   "creatorName": "Realistics Studios",
   "creatorType": "Group",
-  "playing": 2892,
-  "visits": 4003811,
-  "favorites": 35322,
-  "likes": 12585,
-  "dislikes": 1322,
+  "playing": 2508,
+  "visits": 4019399,
+  "favorites": 35406,
+  "likes": 12623,
+  "dislikes": 1332,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-6da4737a0494f9fe6119204b62f64666/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/116189555550783",
-  "fetchedAtUtc": "2026-11-15 19:59:20",
+  "fetchedAtUtc": "2026-11-15 21:28:52",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 19:59:20",
-    "updatedAtTs": 1794772760,
+    "updatedAt": "2026-11-15 21:28:52",
+    "updatedAtTs": 1794778132,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794772760,
-        2892
+        1794778132,
+        2508
       ],
       "peak7d": [
         1794763733,
@@ -127,6 +127,10 @@
         [
           1794772760,
           2892
+        ],
+        [
+          1794778132,
+          2508
         ]
       ]
     }
