@@ -7,18 +7,18 @@
   "name": "[Recalibrated] Omni Heroes",
   "creatorName": "Depi Studios",
   "creatorType": "Group",
-  "playing": 330,
-  "visits": 6702944,
-  "favorites": 237648,
+  "playing": 304,
+  "visits": 6704048,
+  "favorites": 237662,
   "likes": 4486,
   "dislikes": 639,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-3dc762bd0aef6136fd3d0d4cc49a21ca/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132258949588994",
-  "fetchedAtUtc": "2026-11-15 04:18:53",
+  "fetchedAtUtc": "2026-11-15 04:49:03",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 04:18:53",
-    "updatedAtTs": 1794716333,
+    "updatedAt": "2026-11-15 04:49:03",
+    "updatedAtTs": 1794718143,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794716333,
-        330
+        1794718143,
+        304
       ],
       "peak7d": [
         1794693558,
@@ -355,6 +355,10 @@
         [
           1794716333,
           330
+        ],
+        [
+          1794718143,
+          304
         ]
       ]
     }
