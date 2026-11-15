@@ -7,18 +7,18 @@
   "name": "Raids: Night Tide",
   "creatorName": "Prime of a Lime",
   "creatorType": "Group",
-  "playing": 101,
-  "visits": 7288533,
-  "favorites": 147200,
+  "playing": 109,
+  "visits": 7288613,
+  "favorites": 147203,
   "likes": 28350,
   "dislikes": 3402,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-9babef49dfc67fada8ef4e80e401d54d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96430285140968",
-  "fetchedAtUtc": "2026-11-15 05:28:45",
+  "fetchedAtUtc": "2026-11-15 05:33:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 05:28:45",
-    "updatedAtTs": 1794720525,
+    "updatedAt": "2026-11-15 05:33:45",
+    "updatedAtTs": 1794720825,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794720525,
-        101
+        1794720825,
+        109
       ],
       "peak7d": [
         1794662030,
@@ -367,6 +367,10 @@
         [
           1794720525,
           101
+        ],
+        [
+          1794720825,
+          109
         ]
       ]
     }
