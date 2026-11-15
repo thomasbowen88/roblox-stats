@@ -7,18 +7,18 @@
   "name": "Caramel",
   "creatorName": "Play Caramel",
   "creatorType": "Group",
-  "playing": 431,
-  "visits": 1907662,
-  "favorites": 167205,
-  "likes": 17208,
+  "playing": 480,
+  "visits": 1908115,
+  "favorites": 167243,
+  "likes": 17211,
   "dislikes": 906,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-81fb44aa8d8a17073528329d1607e517/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/120919334665902",
-  "fetchedAtUtc": "2026-11-15 03:23:53",
+  "fetchedAtUtc": "2026-11-15 03:53:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 03:23:53",
-    "updatedAtTs": 1794713033,
+    "updatedAt": "2026-11-15 03:53:49",
+    "updatedAtTs": 1794714829,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794713033,
-        431
+        1794714829,
+        480
       ],
       "peak7d": [
-        1794629332,
-        434
+        1794714829,
+        480
       ]
     },
     "series": {
@@ -343,6 +343,10 @@
         [
           1794713033,
           431
+        ],
+        [
+          1794714829,
+          480
         ]
       ]
     }
