@@ -7,18 +7,18 @@
   "name": "BBQ Battles 🍢",
   "creatorName": "Cryogen Studios Official",
   "creatorType": "Group",
-  "playing": 100,
-  "visits": 51046772,
+  "playing": 99,
+  "visits": 51046795,
   "favorites": 857534,
-  "likes": 117038,
+  "likes": 117039,
   "dislikes": 15026,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-423d0c92cbb6b855f36ba8123efaead3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/101272402522756",
-  "fetchedAtUtc": "2026-11-15 06:33:58",
+  "fetchedAtUtc": "2026-11-15 06:38:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 06:33:58",
-    "updatedAtTs": 1794724438,
+    "updatedAt": "2026-11-15 06:38:40",
+    "updatedAtTs": 1794724720,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794724438,
-        100
+        1794724720,
+        99
       ],
       "peak7d": [
         1794660243,
@@ -375,6 +375,10 @@
         [
           1794724438,
           100
+        ],
+        [
+          1794724720,
+          99
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "Build a base RNG",
   "creatorName": "Slungpy Games",
   "creatorType": "Group",
-  "playing": 585,
-  "visits": 68813395,
-  "favorites": 655820,
+  "playing": 599,
+  "visits": 68813508,
+  "favorites": 655822,
   "likes": 279563,
   "dislikes": 4340,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-97c3a29cbc4bb73419c3f9d72f1958dc/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/99108783264633",
-  "fetchedAtUtc": "2026-11-15 06:33:58",
+  "fetchedAtUtc": "2026-11-15 06:38:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 06:33:58",
-    "updatedAtTs": 1794724438,
+    "updatedAt": "2026-11-15 06:38:40",
+    "updatedAtTs": 1794724720,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794724438,
-        585
+        1794724720,
+        599
       ],
       "peak7d": [
         1794677943,
@@ -375,6 +375,10 @@
         [
           1794724438,
           585
+        ],
+        [
+          1794724720,
+          599
         ]
       ]
     }

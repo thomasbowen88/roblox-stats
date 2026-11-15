@@ -7,18 +7,18 @@
   "name": "[W10] +1 Bite Per Click",
   "creatorName": "No Stop Games",
   "creatorType": "Group",
-  "playing": 100,
-  "visits": 16590916,
-  "favorites": 350246,
+  "playing": 109,
+  "visits": 16590941,
+  "favorites": 350247,
   "likes": 9812,
   "dislikes": 1058,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-23a5cc7fea0221179dc678cdbe3501f0/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/124731807130219",
-  "fetchedAtUtc": "2026-11-15 06:33:58",
+  "fetchedAtUtc": "2026-11-15 06:38:40",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 06:33:58",
-    "updatedAtTs": 1794724438,
+    "updatedAt": "2026-11-15 06:38:40",
+    "updatedAtTs": 1794724720,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794724438,
-        100
+        1794724720,
+        109
       ],
       "peak7d": [
         1794676137,
@@ -375,6 +375,10 @@
         [
           1794724438,
           100
+        ],
+        [
+          1794724720,
+          109
         ]
       ]
     }
