@@ -7,18 +7,18 @@
   "name": "Backrooms Simulator [New Class]",
   "creatorName": "Meow Dev Studio",
   "creatorType": "Group",
-  "playing": 144,
-  "visits": 10051265,
-  "favorites": 19731,
+  "playing": 129,
+  "visits": 10051370,
+  "favorites": 19732,
   "likes": 4985,
   "dislikes": 1598,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-00bee8a55c255ab8fefc8c99674f2ca6/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/126061186342944",
-  "fetchedAtUtc": "2026-11-15 04:08:49",
+  "fetchedAtUtc": "2026-11-15 04:18:53",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15 04:08:49",
-    "updatedAtTs": 1794715729,
+    "updatedAt": "2026-11-15 04:18:53",
+    "updatedAtTs": 1794716333,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794715729,
-        144
+        1794716333,
+        129
       ],
       "peak7d": [
         1794673448,
@@ -351,6 +351,10 @@
         [
           1794715729,
           144
+        ],
+        [
+          1794716333,
+          129
         ]
       ]
     }
