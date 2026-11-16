@@ -7,18 +7,18 @@
   "name": "Clean The Bank!",
   "creatorName": "NightSync Studio",
   "creatorType": "Group",
-  "playing": 1,
-  "visits": 2027459,
-  "favorites": 157756,
-  "likes": 8581,
+  "playing": 0,
+  "visits": 2027476,
+  "favorites": 157755,
+  "likes": 8582,
   "dislikes": 957,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d373c1d96ba662e147544760219921de/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/75202778474171",
-  "fetchedAtUtc": "2026-11-16 05:28:59",
+  "fetchedAtUtc": "2026-11-16 07:24:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-16 05:28:59",
-    "updatedAtTs": 1794806939,
+    "updatedAt": "2026-11-16 07:24:59",
+    "updatedAtTs": 1794813899,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794806939,
-        1
+        1794813899,
+        0
       ],
       "peak7d": [
         1794800051,
@@ -63,6 +63,10 @@
         [
           1794806939,
           1
+        ],
+        [
+          1794813899,
+          0
         ]
       ]
     }
