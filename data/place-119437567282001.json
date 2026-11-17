@@ -7,18 +7,18 @@
   "name": "Life Incremental",
   "creatorName": "Legominigoblin",
   "creatorType": "User",
-  "playing": 20,
-  "visits": 6123345,
-  "favorites": 42562,
+  "playing": 15,
+  "visits": 6123377,
+  "favorites": 42561,
   "likes": 16106,
   "dislikes": 4981,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bddf317b7d66b30cac9f8fd588a55dda/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119437567282001",
-  "fetchedAtUtc": "2026-11-17 01:33:57",
+  "fetchedAtUtc": "2026-11-17 02:19:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 01:33:57",
-    "updatedAtTs": 1794879237,
+    "updatedAt": "2026-11-17 02:19:11",
+    "updatedAtTs": 1794881951,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794879237,
-        20
+        1794881951,
+        15
       ],
       "peak7d": [
         1794800051,
@@ -191,6 +191,10 @@
         [
           1794879237,
           20
+        ],
+        [
+          1794881951,
+          15
         ]
       ]
     }
