@@ -7,18 +7,18 @@
   "name": "CAT DEFENSE [Alpha]",
   "creatorName": "Company Inc. Incorporated Co.",
   "creatorType": "Group",
-  "playing": 30,
-  "visits": 929945,
+  "playing": 35,
+  "visits": 929955,
   "favorites": 21190,
   "likes": 4774,
   "dislikes": 845,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-0ebd37adee2cb188aed16216a0333605/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/118535152903705",
-  "fetchedAtUtc": "2026-11-17 10:38:42",
+  "fetchedAtUtc": "2026-11-17 10:48:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 10:38:42",
-    "updatedAtTs": 1794911922,
+    "updatedAt": "2026-11-17 10:48:46",
+    "updatedAtTs": 1794912526,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794911922,
-        30
+        1794912526,
+        35
       ],
       "peak7d": [
-        1794911642,
-        32
+        1794912526,
+        35
       ]
     },
     "series": {
@@ -107,6 +107,10 @@
         [
           1794911922,
           30
+        ],
+        [
+          1794912526,
+          35
         ]
       ]
     }
