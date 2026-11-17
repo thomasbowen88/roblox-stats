@@ -7,18 +7,18 @@
   "name": "BloxNote",
   "creatorName": "Official Bloxnote Beta",
   "creatorType": "Group",
-  "playing": 90,
-  "visits": 2890568,
+  "playing": 101,
+  "visits": 2890781,
   "favorites": 30056,
-  "likes": 11335,
+  "likes": 11337,
   "dislikes": 925,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8b17bcaff3911b8d840e1cf1cb24140c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/113832557150558",
-  "fetchedAtUtc": "2026-11-17 17:54:08",
+  "fetchedAtUtc": "2026-11-17 18:14:22",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 17:54:08",
-    "updatedAtTs": 1794938048,
+    "updatedAt": "2026-11-17 18:14:22",
+    "updatedAtTs": 1794939262,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794938048,
-        90
+        1794939262,
+        101
       ],
       "peak7d": [
-        1794938048,
-        90
+        1794939262,
+        101
       ]
     },
     "series": {
@@ -171,6 +171,10 @@
         [
           1794938048,
           90
+        ],
+        [
+          1794939262,
+          101
         ]
       ]
     }
