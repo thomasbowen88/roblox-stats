@@ -7,18 +7,18 @@
   "name": "Rust Blaster",
   "creatorName": "Zucchini Studios",
   "creatorType": "Group",
-  "playing": 55,
-  "visits": 1766834,
-  "favorites": 32642,
+  "playing": 46,
+  "visits": 1766886,
+  "favorites": 32643,
   "likes": 3346,
   "dislikes": 1283,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b2c936ed57240a5c8e274b8ac6d3495c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/138184603444006",
-  "fetchedAtUtc": "2026-11-17 06:18:43",
+  "fetchedAtUtc": "2026-11-17 06:43:49",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 06:18:43",
-    "updatedAtTs": 1794896323,
+    "updatedAt": "2026-11-17 06:43:49",
+    "updatedAtTs": 1794897829,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1794896323,
-        55
+        1794897829,
+        46
       ],
       "peak7d": [
         1794896323,
@@ -59,6 +59,10 @@
         [
           1794896323,
           55
+        ],
+        [
+          1794897829,
+          46
         ]
       ]
     }
