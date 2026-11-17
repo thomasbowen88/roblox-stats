@@ -7,18 +7,18 @@
   "name": "Bloxrooms ",
   "creatorName": "Bloxrooms Corporation",
   "creatorType": "Group",
-  "playing": 82,
-  "visits": 3612988,
+  "playing": 89,
+  "visits": 3613251,
   "favorites": 82777,
   "likes": 15868,
-  "dislikes": 3653,
+  "dislikes": 3654,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-dbab906b6ac40d946d02bc0faeeed74b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/127943464865693",
-  "fetchedAtUtc": "2026-11-17 23:18:45",
+  "fetchedAtUtc": "2026-11-17 23:48:45",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 23:18:45",
-    "updatedAtTs": 1794957525,
+    "updatedAt": "2026-11-17 23:48:45",
+    "updatedAtTs": 1794959325,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794957525,
-        82
+        1794959325,
+        89
       ],
       "peak7d": [
-        1794952451,
-        82
+        1794959325,
+        89
       ]
     },
     "series": {
@@ -43,6 +43,10 @@
         [
           1794957525,
           82
+        ],
+        [
+          1794959325,
+          89
         ]
       ]
     }
