@@ -7,18 +7,18 @@
   "name": "Mini Emergency",
   "creatorName": "Emergency ASAP",
   "creatorType": "Group",
-  "playing": 68,
-  "visits": 5972928,
+  "playing": 81,
+  "visits": 5973080,
   "favorites": 21168,
   "likes": 4239,
   "dislikes": 803,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e04d92100cc902123d0240d251dd65a8/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72540294758218",
-  "fetchedAtUtc": "2026-11-17 04:39:04",
+  "fetchedAtUtc": "2026-11-17 04:58:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 04:39:04",
-    "updatedAtTs": 1794890344,
+    "updatedAt": "2026-11-17 04:58:46",
+    "updatedAtTs": 1794891526,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794890344,
-        68
+        1794891526,
+        81
       ],
       "peak7d": [
-        1794890344,
-        68
+        1794891526,
+        81
       ]
     },
     "series": {
@@ -39,6 +39,10 @@
         [
           1794890344,
           68
+        ],
+        [
+          1794891526,
+          81
         ]
       ]
     }
