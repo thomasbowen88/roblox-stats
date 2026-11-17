@@ -7,18 +7,18 @@
   "name": "Case World",
   "creatorName": "Volatile Industries",
   "creatorType": "Group",
-  "playing": 8,
-  "visits": 2845194,
+  "playing": 11,
+  "visits": 2845243,
   "favorites": 3121,
   "likes": 3580,
   "dislikes": 671,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4901962e0af70c60ec5e4a1aeeb90797/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/87634018924518",
-  "fetchedAtUtc": "2026-11-17 05:08:56",
+  "fetchedAtUtc": "2026-11-17 05:59:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 05:08:56",
-    "updatedAtTs": 1794892136,
+    "updatedAt": "2026-11-17 05:59:01",
+    "updatedAtTs": 1794895141,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794892136,
-        8
+        1794895141,
+        11
       ],
       "peak7d": [
-        1794892136,
-        8
+        1794895141,
+        11
       ]
     },
     "series": {
@@ -51,6 +51,10 @@
         [
           1794892136,
           8
+        ],
+        [
+          1794895141,
+          11
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "[UPD 👹] Soul Reaper Incremental",
   "creatorName": "M3 Industries.",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 753407,
+  "playing": 1,
+  "visits": 753410,
   "favorites": 18251,
   "likes": 3448,
   "dislikes": 569,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a7890d42a28a8ca541cb652a989d629b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93210389190688",
-  "fetchedAtUtc": "2026-11-17 05:08:56",
+  "fetchedAtUtc": "2026-11-17 05:59:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17 05:08:56",
-    "updatedAtTs": 1794892136,
+    "updatedAt": "2026-11-17 05:59:01",
+    "updatedAtTs": 1794895141,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794892136,
-        0
+        1794895141,
+        1
       ],
       "peak7d": [
-        1794890344,
-        0
+        1794895141,
+        1
       ]
     },
     "series": {
@@ -51,6 +51,10 @@
         [
           1794892136,
           0
+        ],
+        [
+          1794895141,
+          1
         ]
       ]
     }
