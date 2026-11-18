@@ -7,18 +7,18 @@
   "name": "[UPD] Sword RNG X",
   "creatorName": "Forged Fortune",
   "creatorType": "Group",
-  "playing": 40,
-  "visits": 1563840,
-  "favorites": 11980,
+  "playing": 30,
+  "visits": 1563915,
+  "favorites": 11981,
   "likes": 16486,
   "dislikes": 429,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-22b5c26ac595f9ac625b2bca9bac306d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/88723502997575",
-  "fetchedAtUtc": "2026-11-18 15:49:16",
+  "fetchedAtUtc": "2026-11-18 16:59:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-18 15:49:16",
-    "updatedAtTs": 1795016956,
+    "updatedAt": "2026-11-18 16:59:37",
+    "updatedAtTs": 1795021177,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795016956,
-        40
+        1795021177,
+        30
       ],
       "peak7d": [
         1795016956,
@@ -159,6 +159,10 @@
         [
           1795016956,
           40
+        ],
+        [
+          1795021177,
+          30
         ]
       ]
     }
