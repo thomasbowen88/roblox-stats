@@ -7,18 +7,18 @@
   "name": "Steal a Chicken",
   "creatorName": "Kibrix Runner",
   "creatorType": "Group",
-  "playing": 49,
-  "visits": 22387133,
+  "playing": 57,
+  "visits": 22387179,
   "favorites": 33546,
   "likes": 32546,
   "dislikes": 1291,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-2a4513a5e805b2a91a2e6ee838dc70ba/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/76503495566299",
-  "fetchedAtUtc": "2026-11-18 02:18:47",
+  "fetchedAtUtc": "2026-11-18 02:29:03",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-18 02:18:47",
-    "updatedAtTs": 1794968327,
+    "updatedAt": "2026-11-18 02:29:03",
+    "updatedAtTs": 1794968943,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1794968327,
-        49
+        1794968943,
+        57
       ],
       "peak7d": [
-        1794961727,
-        56
+        1794968943,
+        57
       ]
     },
     "series": {
@@ -67,6 +67,10 @@
         [
           1794968327,
           49
+        ],
+        [
+          1794968943,
+          57
         ]
       ]
     }
