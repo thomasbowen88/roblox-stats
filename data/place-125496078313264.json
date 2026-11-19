@@ -7,18 +7,18 @@
   "name": "2 PLAYER Evolution Tycoon 🛸",
   "creatorName": "Blackbox Tycoons",
   "creatorType": "Group",
-  "playing": 1603,
-  "visits": 37656197,
-  "favorites": 116579,
-  "likes": 50316,
+  "playing": 1604,
+  "visits": 0,
+  "favorites": 0,
+  "likes": 50318,
   "dislikes": 4140,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-511a4effe147d5ddb1b7e2f796612fbb/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/125496078313264",
-  "fetchedAtUtc": "2026-11-19 18:34:09",
+  "fetchedAtUtc": "2026-11-19 18:38:43",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-19 18:34:09",
-    "updatedAtTs": 1795113249,
+    "updatedAt": "2026-11-19 18:38:43",
+    "updatedAtTs": 1795113523,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795113249,
-        1603
+        1795113523,
+        1604
       ],
       "peak7d": [
-        1795113249,
-        1603
+        1795113523,
+        1604
       ]
     },
     "series": {
@@ -315,6 +315,10 @@
         [
           1795113249,
           1603
+        ],
+        [
+          1795113523,
+          1604
         ]
       ]
     }
