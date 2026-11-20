@@ -7,18 +7,18 @@
   "name": "Combat Warriors",
   "creatorName": "PlayCombatWarriors",
   "creatorType": "Group",
-  "playing": 1699,
-  "visits": 1459734256,
-  "favorites": 2373813,
-  "likes": 1369027,
-  "dislikes": 272448,
+  "playing": 1783,
+  "visits": 1459739838,
+  "favorites": 2373823,
+  "likes": 1369028,
+  "dislikes": 272450,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7deabbbc0355bf92762af1733156468a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/4282985734",
-  "fetchedAtUtc": "2026-11-20 22:49:01",
+  "fetchedAtUtc": "2026-11-20 23:44:01",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-20 22:49:01",
-    "updatedAtTs": 1795214941,
+    "updatedAt": "2026-11-20 23:44:01",
+    "updatedAtTs": 1795218241,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795214941,
-        1699
+        1795218241,
+        1783
       ],
       "peak7d": [
-        1795211644,
-        1720
+        1795218241,
+        1783
       ]
     },
     "series": {
@@ -471,6 +471,10 @@
         [
           1795214941,
           1699
+        ],
+        [
+          1795218241,
+          1783
         ]
       ]
     }
