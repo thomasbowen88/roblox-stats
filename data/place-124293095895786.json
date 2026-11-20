@@ -7,18 +7,18 @@
   "name": "Stream A Cheese Pull!",
   "creatorName": "Cheesy Situation",
   "creatorType": "Group",
-  "playing": 551,
-  "visits": 40298268,
-  "favorites": 889292,
-  "likes": 64032,
-  "dislikes": 7439,
+  "playing": 512,
+  "visits": 40298688,
+  "favorites": 889295,
+  "likes": 64033,
+  "dislikes": 7440,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-01900924566324542efb32e91fefe08f/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/124293095895786",
-  "fetchedAtUtc": "2026-11-20 13:49:10",
+  "fetchedAtUtc": "2026-11-20 13:58:57",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-20 13:49:10",
-    "updatedAtTs": 1795182550,
+    "updatedAt": "2026-11-20 13:58:57",
+    "updatedAtTs": 1795183137,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795182550,
-        551
+        1795183137,
+        512
       ],
       "peak7d": [
         1795182550,
@@ -419,6 +419,10 @@
         [
           1795182550,
           551
+        ],
+        [
+          1795183137,
+          512
         ]
       ]
     }
