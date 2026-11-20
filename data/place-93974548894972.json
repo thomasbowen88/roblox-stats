@@ -7,18 +7,18 @@
   "name": "Voxel Heroes",
   "creatorName": "Visually Synced",
   "creatorType": "Group",
-  "playing": 915,
-  "visits": 5092865,
-  "favorites": 29339,
+  "playing": 953,
+  "visits": 5093534,
+  "favorites": 29345,
   "likes": 13965,
   "dislikes": 732,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-33bbe6d7d0d6bed880e1a1d174def857/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/93974548894972",
-  "fetchedAtUtc": "2026-11-20 07:29:07",
+  "fetchedAtUtc": "2026-11-20 07:38:53",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-20 07:29:07",
-    "updatedAtTs": 1795159747,
+    "updatedAt": "2026-11-20 07:38:53",
+    "updatedAtTs": 1795160333,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795159747,
-        915
+        1795160333,
+        953
       ],
       "peak7d": [
         1795021177,
@@ -391,6 +391,10 @@
         [
           1795159747,
           915
+        ],
+        [
+          1795160333,
+          953
         ]
       ]
     }
