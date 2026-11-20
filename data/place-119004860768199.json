@@ -7,18 +7,18 @@
   "name": "BreakDoor",
   "creatorName": "GhostTribe",
   "creatorType": "Group",
-  "playing": 771,
-  "visits": 80311331,
-  "favorites": 190564,
-  "likes": 129001,
-  "dislikes": 16309,
+  "playing": 1154,
+  "visits": 80321788,
+  "favorites": 190573,
+  "likes": 129011,
+  "dislikes": 16310,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d3bc45e04903e31f9a7c702d1a47ce5c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/119004860768199",
-  "fetchedAtUtc": "2026-11-20 09:44:06",
+  "fetchedAtUtc": "2026-11-20 12:28:58",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-20 09:44:06",
-    "updatedAtTs": 1795167846,
+    "updatedAt": "2026-11-20 12:28:58",
+    "updatedAtTs": 1795177738,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795167846,
-        771
+        1795177738,
+        1154
       ],
       "peak7d": [
-        1795108150,
-        955
+        1795177738,
+        1154
       ]
     },
     "series": {
@@ -407,6 +407,10 @@
         [
           1795167846,
           771
+        ],
+        [
+          1795177738,
+          1154
         ]
       ]
     }
