@@ -7,18 +7,18 @@
   "name": "Turbo Soccer [BETA]",
   "creatorName": "Turbo Soccer",
   "creatorType": "Group",
-  "playing": 23526,
-  "visits": 214764093,
-  "favorites": 253202,
-  "likes": 163238,
-  "dislikes": 13101,
+  "playing": 23582,
+  "visits": 214851116,
+  "favorites": 253262,
+  "likes": 163280,
+  "dislikes": 13103,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d2616c723c4fd95824a7440567bf6137/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/101880234193261",
-  "fetchedAtUtc": "2026-11-20 17:08:59",
+  "fetchedAtUtc": "2026-11-20 17:28:50",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-20 17:08:59",
-    "updatedAtTs": 1795194539,
+    "updatedAt": "2026-11-20 17:28:50",
+    "updatedAtTs": 1795195730,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795194539,
-        23526
+        1795195730,
+        23582
       ],
       "peak7d": [
-        1795194539,
-        23526
+        1795195730,
+        23582
       ]
     },
     "series": {
@@ -443,6 +443,10 @@
         [
           1795194539,
           23526
+        ],
+        [
+          1795195730,
+          23582
         ]
       ]
     }
