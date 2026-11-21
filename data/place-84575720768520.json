@@ -7,18 +7,18 @@
   "name": "Lucky Block Rush",
   "creatorName": "xFrozen x Dudes",
   "creatorType": "Group",
-  "playing": 120,
-  "visits": 73341437,
-  "favorites": 482088,
+  "playing": 124,
+  "visits": 73341598,
+  "favorites": 482090,
   "likes": 87154,
   "dislikes": 2949,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-45e9d795ebbd95d6fa098f9c07e2803d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/84575720768520",
-  "fetchedAtUtc": "2026-11-20 23:44:01",
+  "fetchedAtUtc": "2026-11-20 23:59:37",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-20 23:44:01",
-    "updatedAtTs": 1795218241,
+    "updatedAt": "2026-11-20 23:59:37",
+    "updatedAtTs": 1795219177,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795218241,
-        120
+        1795219177,
+        124
       ],
       "peak7d": [
         1795177738,
@@ -475,6 +475,10 @@
         [
           1795218241,
           120
+        ],
+        [
+          1795219177,
+          124
         ]
       ]
     }
