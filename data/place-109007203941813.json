@@ -7,18 +7,18 @@
   "name": "Build Your Gym 💪",
   "creatorName": "Your Gym Game",
   "creatorType": "Group",
-  "playing": 25,
-  "visits": 12434855,
+  "playing": 45,
+  "visits": 12434889,
   "favorites": 261404,
   "likes": 54161,
   "dislikes": 1220,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-13e31d503f583f25956a1ad1a6ef8eae/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/109007203941813",
-  "fetchedAtUtc": "2026-11-21 15:19:21",
+  "fetchedAtUtc": "2026-11-21 15:39:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-21 15:19:21",
-    "updatedAtTs": 1795274361,
+    "updatedAt": "2026-11-21 15:39:00",
+    "updatedAtTs": 1795275540,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795274361,
-        25
+        1795275540,
+        45
       ],
       "peak7d": [
-        1795270144,
-        29
+        1795275540,
+        45
       ]
     },
     "series": {
@@ -75,6 +75,10 @@
         [
           1795274361,
           25
+        ],
+        [
+          1795275540,
+          45
         ]
       ]
     }
