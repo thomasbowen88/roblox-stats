@@ -7,18 +7,18 @@
   "name": "🎃 [HALLOWEEN + REVAMP] Incremental Piece",
   "creatorName": "Incremental Piece",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 527499,
-  "favorites": 4203,
+  "playing": 3,
+  "visits": 527529,
+  "favorites": 4202,
   "likes": 7959,
   "dislikes": 537,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4a52bca30a293731da555e7ebe51c188/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96090419825540",
-  "fetchedAtUtc": "2026-11-21 18:19:17",
+  "fetchedAtUtc": "2026-11-21 21:09:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-21 18:19:17",
-    "updatedAtTs": 1795285157,
+    "updatedAt": "2026-11-21 21:09:00",
+    "updatedAtTs": 1795295340,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795285157,
-        0
+        1795295340,
+        3
       ],
       "peak7d": [
-        1795258730,
-        2
+        1795295340,
+        3
       ]
     },
     "series": {
@@ -83,6 +83,10 @@
         [
           1795285157,
           0
+        ],
+        [
+          1795295340,
+          3
         ]
       ]
     }
