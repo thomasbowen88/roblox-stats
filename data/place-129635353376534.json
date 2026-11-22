@@ -7,18 +7,18 @@
   "name": "City Goes BOOM! 💥",
   "creatorName": "Build And Build More",
   "creatorType": "Group",
-  "playing": 23,
-  "visits": 2208140,
+  "playing": 42,
+  "visits": 2208171,
   "favorites": 7919,
   "likes": 1175,
   "dislikes": 259,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5f4d0d53630c8427d04c9865fe8bd925/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/129635353376534",
-  "fetchedAtUtc": "2026-11-22 15:59:03",
+  "fetchedAtUtc": "2026-11-22 16:08:46",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-22 15:59:03",
-    "updatedAtTs": 1795363143,
+    "updatedAt": "2026-11-22 16:08:46",
+    "updatedAtTs": 1795363726,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795363143,
-        23
+        1795363726,
+        42
       ],
       "peak7d": [
-        1795267445,
-        40
+        1795363726,
+        42
       ]
     },
     "series": {
@@ -155,6 +155,10 @@
         [
           1795363143,
           23
+        ],
+        [
+          1795363726,
+          42
         ]
       ]
     }
