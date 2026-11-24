@@ -7,18 +7,18 @@
   "name": "[Update] 10x Spear Brainrots!",
   "creatorName": "Appnori",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 2457274,
+  "playing": 5,
+  "visits": 2457279,
   "favorites": 72269,
   "likes": 4340,
   "dislikes": 667,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-58b333e8e5d7c8d6d5941f6a9d51b42c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/138852322666942",
-  "fetchedAtUtc": "2026-11-24 16:09:01",
+  "fetchedAtUtc": "2026-11-24 16:44:15",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-24 16:09:01",
-    "updatedAtTs": 1795536541,
+    "updatedAt": "2026-11-24 16:44:15",
+    "updatedAtTs": 1795538655,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795536541,
-        0
+        1795538655,
+        5
       ],
       "peak7d": [
-        1795472938,
-        4
+        1795538655,
+        5
       ]
     },
     "series": {
@@ -215,6 +215,10 @@
         [
           1795536541,
           0
+        ],
+        [
+          1795538655,
+          5
         ]
       ]
     }
