@@ -7,18 +7,18 @@
   "name": "[🤝] Total Conquest",
   "creatorName": "LDS Fighting",
   "creatorType": "Group",
-  "playing": 56,
-  "visits": 17494486,
+  "playing": 75,
+  "visits": 17494551,
   "favorites": 80423,
   "likes": 54943,
   "dislikes": 3591,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cc3cfc9dd2e1054ecf3d159320c4b18e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/131530256182298",
-  "fetchedAtUtc": "2026-11-24 19:38:59",
+  "fetchedAtUtc": "2026-11-24 19:43:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-24 19:38:59",
-    "updatedAtTs": 1795549139,
+    "updatedAt": "2026-11-24 19:43:55",
+    "updatedAtTs": 1795549435,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795549139,
-        56
+        1795549435,
+        75
       ],
       "peak7d": [
-        1795451935,
-        67
+        1795549435,
+        75
       ]
     },
     "series": {
@@ -231,6 +231,10 @@
         [
           1795549139,
           56
+        ],
+        [
+          1795549435,
+          75
         ]
       ]
     }
