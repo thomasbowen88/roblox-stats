@@ -7,18 +7,18 @@
   "name": "Drop a Fruit",
   "creatorName": "Together Studios",
   "creatorType": "Group",
-  "playing": 73,
-  "visits": 4832094,
+  "playing": 75,
+  "visits": 4832128,
   "favorites": 74565,
   "likes": 19981,
   "dislikes": 1131,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-519fa67318cbda3d4a73c4f7dcd3770a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/82132121666307",
-  "fetchedAtUtc": "2026-11-24 14:49:24",
+  "fetchedAtUtc": "2026-11-24 14:59:05",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-24 14:49:24",
-    "updatedAtTs": 1795531764,
+    "updatedAt": "2026-11-24 14:59:05",
+    "updatedAtTs": 1795532345,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795531764,
-        73
+        1795532345,
+        75
       ],
       "peak7d": [
-        1795531764,
-        73
+        1795532345,
+        75
       ]
     },
     "series": {
@@ -203,6 +203,10 @@
         [
           1795531764,
           73
+        ],
+        [
+          1795532345,
+          75
         ]
       ]
     }
