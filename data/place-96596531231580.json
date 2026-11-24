@@ -7,18 +7,18 @@
   "name": "Parkour Spiral 2",
   "creatorName": "Hielke Studios",
   "creatorType": "Group",
-  "playing": 229,
-  "visits": 8133487,
-  "favorites": 122544,
+  "playing": 199,
+  "visits": 8134212,
+  "favorites": 122558,
   "likes": 4299,
   "dislikes": 973,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cdec376ba860c21fd7b4d8cc773f2f9a/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/96596531231580",
-  "fetchedAtUtc": "2026-11-24 19:09:07",
+  "fetchedAtUtc": "2026-11-24 19:38:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-24 19:09:07",
-    "updatedAtTs": 1795547347,
+    "updatedAt": "2026-11-24 19:38:59",
+    "updatedAtTs": 1795549139,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795547347,
-        229
+        1795549139,
+        199
       ],
       "peak7d": [
         1795547347,
@@ -227,6 +227,10 @@
         [
           1795547347,
           229
+        ],
+        [
+          1795549139,
+          199
         ]
       ]
     }
