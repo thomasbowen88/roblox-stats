@@ -7,18 +7,18 @@
   "name": "TOUCHLINE",
   "creatorName": "TOUCHLINE",
   "creatorType": "Group",
-  "playing": 300,
-  "visits": 50833066,
-  "favorites": 34310,
-  "likes": 21566,
+  "playing": 359,
+  "visits": 50834129,
+  "favorites": 34312,
+  "likes": 21567,
   "dislikes": 4167,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bf320e04a73b0413551f984598bf499d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/109258067111533",
-  "fetchedAtUtc": "2026-11-25 11:29:04",
+  "fetchedAtUtc": "2026-11-25 12:08:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-25 11:29:04",
-    "updatedAtTs": 1795606144,
+    "updatedAt": "2026-11-25 12:08:55",
+    "updatedAtTs": 1795608535,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795606144,
-        300
+        1795608535,
+        359
       ],
       "peak7d": [
         1795563554,
@@ -323,6 +323,10 @@
         [
           1795606144,
           300
+        ],
+        [
+          1795608535,
+          359
         ]
       ]
     }
