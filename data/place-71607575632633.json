@@ -7,18 +7,18 @@
   "name": "Zone Defense RNG",
   "creatorName": "The Zoning Board",
   "creatorType": "Group",
-  "playing": 120,
-  "visits": 7617441,
-  "favorites": 22228,
+  "playing": 133,
+  "visits": 7617559,
+  "favorites": 22235,
   "likes": 6483,
   "dislikes": 1365,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7eee067faefe5a79d6cf9b427e4005cf/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/71607575632633",
-  "fetchedAtUtc": "2026-11-25 07:49:00",
+  "fetchedAtUtc": "2026-11-25 08:04:08",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-25 07:49:00",
-    "updatedAtTs": 1795592940,
+    "updatedAt": "2026-11-25 08:04:08",
+    "updatedAtTs": 1795593848,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795592940,
-        120
+        1795593848,
+        133
       ],
       "peak7d": [
-        1795435748,
-        130
+        1795593848,
+        133
       ]
     },
     "series": {
@@ -303,6 +303,10 @@
         [
           1795592940,
           120
+        ],
+        [
+          1795593848,
+          133
         ]
       ]
     }
