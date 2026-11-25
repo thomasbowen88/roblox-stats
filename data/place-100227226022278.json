@@ -7,18 +7,18 @@
   "name": "Survive The Swarm",
   "creatorName": "FAKT",
   "creatorType": "Group",
-  "playing": 192,
-  "visits": 21687702,
-  "favorites": 193719,
+  "playing": 198,
+  "visits": 21687966,
+  "favorites": 193722,
   "likes": 42633,
   "dislikes": 1545,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-456f1d1bcf30330940c6a7e64d92d1ea/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/100227226022278",
-  "fetchedAtUtc": "2026-11-25 07:29:05",
+  "fetchedAtUtc": "2026-11-25 07:49:00",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-25 07:29:05",
-    "updatedAtTs": 1795591745,
+    "updatedAt": "2026-11-25 07:49:00",
+    "updatedAtTs": 1795592940,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795591745,
-        192
+        1795592940,
+        198
       ],
       "peak7d": [
         1795478335,
@@ -299,6 +299,10 @@
         [
           1795591745,
           192
+        ],
+        [
+          1795592940,
+          198
         ]
       ]
     }
