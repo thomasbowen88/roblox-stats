@@ -7,18 +7,18 @@
   "name": "The Big Hit 2",
   "creatorName": "Roke Studio’s",
   "creatorType": "Group",
-  "playing": 71,
-  "visits": 39970563,
-  "favorites": 50433,
+  "playing": 115,
+  "visits": 39970921,
+  "favorites": 50434,
   "likes": 16531,
   "dislikes": 1405,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-77886aeaa9c1778b640225b4f3d30875/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/133473642879498",
-  "fetchedAtUtc": "2026-11-25 12:24:00",
+  "fetchedAtUtc": "2026-11-25 12:59:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-25 12:24:00",
-    "updatedAtTs": 1795609440,
+    "updatedAt": "2026-11-25 12:59:04",
+    "updatedAtTs": 1795611544,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795609440,
-        71
+        1795611544,
+        115
       ],
       "peak7d": [
         1795485557,
@@ -331,6 +331,10 @@
         [
           1795609440,
           71
+        ],
+        [
+          1795611544,
+          115
         ]
       ]
     }

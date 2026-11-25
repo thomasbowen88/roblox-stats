@@ -7,18 +7,18 @@
   "name": "[TRADING] One Shot",
   "creatorName": "Shooter Game Group",
   "creatorType": "Group",
-  "playing": 251,
-  "visits": 25341600,
-  "favorites": 96799,
-  "likes": 66351,
+  "playing": 285,
+  "visits": 25342737,
+  "favorites": 96801,
+  "likes": 66355,
   "dislikes": 3619,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b044918f0427d762ed3366829d92347c/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/111600158364583",
-  "fetchedAtUtc": "2026-11-25 12:24:00",
+  "fetchedAtUtc": "2026-11-25 12:59:04",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-25 12:24:00",
-    "updatedAtTs": 1795609440,
+    "updatedAt": "2026-11-25 12:59:04",
+    "updatedAtTs": 1795611544,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795609440,
-        251
+        1795611544,
+        285
       ],
       "peak7d": [
         1795492755,
@@ -331,6 +331,10 @@
         [
           1795609440,
           251
+        ],
+        [
+          1795611544,
+          285
         ]
       ]
     }
