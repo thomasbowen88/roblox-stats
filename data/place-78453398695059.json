@@ -7,18 +7,18 @@
   "name": "THRESHOLD [ANOMALY UPD]",
   "creatorName": "Reskioat",
   "creatorType": "User",
-  "playing": 1168,
-  "visits": 41996808,
-  "favorites": 351202,
+  "playing": 1130,
+  "visits": 41997325,
+  "favorites": 351206,
   "likes": 302069,
   "dislikes": 10496,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-707b5d9f944e886eca3611ef317f247b/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/78453398695059",
-  "fetchedAtUtc": "2026-11-26 02:48:59",
+  "fetchedAtUtc": "2026-11-26 02:53:55",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 02:48:59",
-    "updatedAtTs": 1795661339,
+    "updatedAt": "2026-11-26 02:53:55",
+    "updatedAtTs": 1795661635,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795661339,
-        1168
+        1795661635,
+        1130
       ],
       "peak7d": [
         1795486728,
@@ -399,6 +399,10 @@
         [
           1795661339,
           1168
+        ],
+        [
+          1795661635,
+          1130
         ]
       ]
     }
