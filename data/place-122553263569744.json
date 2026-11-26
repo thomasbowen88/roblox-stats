@@ -7,18 +7,18 @@
   "name": "Anime Stars",
   "creatorName": "AlphaXStars",
   "creatorType": "Group",
-  "playing": 0,
-  "visits": 6676574,
-  "favorites": 65044,
+  "playing": 1,
+  "visits": 6676580,
+  "favorites": 65043,
   "likes": 10215,
   "dislikes": 535,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a7d5ff13b4639a6fa5efdff28bec5b42/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/122553263569744",
-  "fetchedAtUtc": "2026-11-26 08:13:55",
+  "fetchedAtUtc": "2026-11-26 09:24:12",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 08:13:55",
-    "updatedAtTs": 1795680835,
+    "updatedAt": "2026-11-26 09:24:12",
+    "updatedAtTs": 1795685052,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795680835,
-        0
+        1795685052,
+        1
       ],
       "peak7d": [
         1795433647,
@@ -431,6 +431,10 @@
         [
           1795680835,
           0
+        ],
+        [
+          1795685052,
+          1
         ]
       ]
     }
