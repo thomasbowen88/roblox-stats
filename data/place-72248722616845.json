@@ -7,18 +7,18 @@
   "name": "Samurai DUELS",
   "creatorName": "Seriously Samurai",
   "creatorType": "Group",
-  "playing": 300,
-  "visits": 88515965,
-  "favorites": 145584,
+  "playing": 260,
+  "visits": 88516885,
+  "favorites": 145585,
   "likes": 143118,
   "dislikes": 11924,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-8c6c8be5f41258fbe18cfdc8241b9276/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/72248722616845",
-  "fetchedAtUtc": "2026-11-26 01:09:04",
+  "fetchedAtUtc": "2026-11-26 01:23:51",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 01:09:04",
-    "updatedAtTs": 1795655344,
+    "updatedAt": "2026-11-26 01:23:51",
+    "updatedAtTs": 1795656231,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795655344,
-        300
+        1795656231,
+        260
       ],
       "peak7d": [
         1795435748,
@@ -387,6 +387,10 @@
         [
           1795655344,
           300
+        ],
+        [
+          1795656231,
+          260
         ]
       ]
     }
