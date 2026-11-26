@@ -7,18 +7,18 @@
   "name": "[⚽] Beatball",
   "creatorName": "Lucentum Games",
   "creatorType": "Group",
-  "playing": 837,
-  "visits": 124127581,
-  "favorites": 382941,
+  "playing": 834,
+  "visits": 124128210,
+  "favorites": 382940,
   "likes": 30396,
   "dislikes": 10559,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-bb64e3c07462fefe25f601ea928c9d2e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/105452889569708",
-  "fetchedAtUtc": "2026-11-26 14:13:45",
+  "fetchedAtUtc": "2026-11-26 14:24:12",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 14:13:45",
-    "updatedAtTs": 1795702425,
+    "updatedAt": "2026-11-26 14:24:12",
+    "updatedAtTs": 1795703052,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795702425,
-        837
+        1795703052,
+        834
       ],
       "peak7d": [
         1795568350,
@@ -455,6 +455,10 @@
         [
           1795702425,
           837
+        ],
+        [
+          1795703052,
+          834
         ]
       ]
     }
