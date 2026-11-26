@@ -8,17 +8,17 @@
   "creatorName": "ScaryPlay",
   "creatorType": "Group",
   "playing": 42,
-  "visits": 38906283,
-  "favorites": 397817,
+  "visits": 38906452,
+  "favorites": 397816,
   "likes": 205649,
   "dislikes": 29068,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-eae5301fd6a542b6f0c3d717af776b7d/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/13718567207",
-  "fetchedAtUtc": "2026-11-26 06:48:51",
+  "fetchedAtUtc": "2026-11-26 07:34:14",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 06:48:51",
-    "updatedAtTs": 1795675731,
+    "updatedAt": "2026-11-26 07:34:14",
+    "updatedAtTs": 1795678454,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,7 +26,7 @@
     },
     "summary": {
       "current": [
-        1795675731,
+        1795678454,
         42
       ],
       "peak7d": [
@@ -422,6 +422,10 @@
         ],
         [
           1795675731,
+          42
+        ],
+        [
+          1795678454,
           42
         ]
       ]
