@@ -7,18 +7,18 @@
   "name": "PIPES 🔧",
   "creatorName": "Lampshade & Co.",
   "creatorType": "Group",
-  "playing": 123,
-  "visits": 3771624,
-  "favorites": 103789,
+  "playing": 113,
+  "visits": 3771659,
+  "favorites": 103791,
   "likes": 12647,
   "dislikes": 1218,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-4d839c98db3d2d101cb317e59547f031/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/104490066358583",
-  "fetchedAtUtc": "2026-11-26 14:44:13",
+  "fetchedAtUtc": "2026-11-26 14:48:56",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 14:44:13",
-    "updatedAtTs": 1795704253,
+    "updatedAt": "2026-11-26 14:48:56",
+    "updatedAtTs": 1795704536,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795704253,
-        123
+        1795704536,
+        113
       ],
       "peak7d": [
         1795485557,
@@ -463,6 +463,10 @@
         [
           1795704253,
           123
+        ],
+        [
+          1795704536,
+          113
         ]
       ]
     }
