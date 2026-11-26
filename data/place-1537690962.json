@@ -7,18 +7,18 @@
   "name": "Bee Swarm Simulator",
   "creatorName": "Onett",
   "creatorType": "User",
-  "playing": 54005,
-  "visits": 4702147775,
-  "favorites": 6588218,
-  "likes": 3061954,
-  "dislikes": 140206,
+  "playing": 54133,
+  "visits": 4702159743,
+  "favorites": 6588220,
+  "likes": 3061955,
+  "dislikes": 140207,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-179d98906814942ca4c9ba6e09930d71/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/1537690962",
-  "fetchedAtUtc": "2026-11-26 18:08:57",
+  "fetchedAtUtc": "2026-11-26 18:13:56",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 18:08:57",
-    "updatedAtTs": 1795716537,
+    "updatedAt": "2026-11-26 18:13:56",
+    "updatedAtTs": 1795716836,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795716537,
-        54005
+        1795716836,
+        54133
       ],
       "peak7d": [
-        1795714733,
-        54130
+        1795716836,
+        54133
       ]
     },
     "series": {
@@ -483,6 +483,10 @@
         [
           1795716537,
           54005
+        ],
+        [
+          1795716836,
+          54133
         ]
       ]
     }
