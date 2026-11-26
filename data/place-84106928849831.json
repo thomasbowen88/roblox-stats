@@ -7,18 +7,18 @@
   "name": "🚅 Train Crash Simulator",
   "creatorName": "BrentAnimate",
   "creatorType": "Group",
-  "playing": 320,
-  "visits": 20540365,
-  "favorites": 111934,
+  "playing": 303,
+  "visits": 20540512,
+  "favorites": 111935,
   "likes": 5951,
   "dislikes": 1939,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cb803fb996209f5a00082b95da1cadf6/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/84106928849831",
-  "fetchedAtUtc": "2026-11-26 18:48:53",
+  "fetchedAtUtc": "2026-11-26 18:53:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 18:48:53",
-    "updatedAtTs": 1795718933,
+    "updatedAt": "2026-11-26 18:53:59",
+    "updatedAtTs": 1795719239,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795718933,
-        320
+        1795719239,
+        303
       ],
       "peak7d": [
         1795609440,
@@ -495,6 +495,10 @@
         [
           1795718933,
           320
+        ],
+        [
+          1795719239,
+          303
         ]
       ]
     }

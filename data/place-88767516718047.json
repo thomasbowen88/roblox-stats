@@ -7,18 +7,18 @@
   "name": "[EBIKES] Escooter Life",
   "creatorName": "Escooter Life",
   "creatorType": "Group",
-  "playing": 230,
-  "visits": 11195903,
+  "playing": 245,
+  "visits": 11196020,
   "favorites": 18018,
   "likes": 4709,
   "dislikes": 666,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-42d4cfb4372fa222f12ff7a8a94192ae/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/88767516718047",
-  "fetchedAtUtc": "2026-11-26 18:48:53",
+  "fetchedAtUtc": "2026-11-26 18:53:59",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-26 18:48:53",
-    "updatedAtTs": 1795718933,
+    "updatedAt": "2026-11-26 18:53:59",
+    "updatedAtTs": 1795719239,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795718933,
-        230
+        1795719239,
+        245
       ],
       "peak7d": [
-        1795718647,
-        234
+        1795719239,
+        245
       ]
     },
     "series": {
@@ -495,6 +495,10 @@
         [
           1795718933,
           230
+        ],
+        [
+          1795719239,
+          245
         ]
       ]
     }
