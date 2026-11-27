@@ -7,18 +7,18 @@
   "name": "Clean The Golf Yard",
   "creatorName": "AverageGuyStudios",
   "creatorType": "Group",
-  "playing": 5,
-  "visits": 9070797,
+  "playing": 10,
+  "visits": 9070833,
   "favorites": 181932,
   "likes": 50727,
   "dislikes": 1776,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fd3e3a2e141513512753a7909c576dd2/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/102541290326733",
-  "fetchedAtUtc": "2026-11-27 16:54:03",
+  "fetchedAtUtc": "2026-11-27 17:48:52",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-27 16:54:03",
-    "updatedAtTs": 1795798443,
+    "updatedAt": "2026-11-27 17:48:52",
+    "updatedAtTs": 1795801732,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795798443,
-        5
+        1795801732,
+        10
       ],
       "peak7d": [
-        1795730365,
-        9
+        1795801732,
+        10
       ]
     },
     "series": {
@@ -175,6 +175,10 @@
         [
           1795798443,
           5
+        ],
+        [
+          1795801732,
+          10
         ]
       ]
     }
