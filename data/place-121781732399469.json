@@ -7,18 +7,18 @@
   "name": "[UPD] Anomaly Cafe ",
   "creatorName": "Anomaly Cafe",
   "creatorType": "Group",
-  "playing": 1613,
-  "visits": 31020985,
-  "favorites": 285974,
-  "likes": 63098,
-  "dislikes": 3555,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-5ea14347c2c2b65a71063a9cf3d6e2b3/512/512/Image/Png/noFilter",
+  "playing": 1783,
+  "visits": 31027180,
+  "favorites": 286002,
+  "likes": 63107,
+  "dislikes": 3556,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-05e1144e28ac1415503a6c19e31f8ad6/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/121781732399469",
-  "fetchedAtUtc": "2026-11-27 15:44:01",
+  "fetchedAtUtc": "2026-11-27 16:54:03",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-27 15:44:01",
-    "updatedAtTs": 1795794241,
+    "updatedAt": "2026-11-27 16:54:03",
+    "updatedAtTs": 1795798443,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795794241,
-        1613
+        1795798443,
+        1783
       ],
       "peak7d": [
-        1795730365,
-        1653
+        1795798443,
+        1783
       ]
     },
     "series": {
@@ -171,6 +171,10 @@
         [
           1795794241,
           1613
+        ],
+        [
+          1795798443,
+          1783
         ]
       ]
     }
