@@ -7,18 +7,18 @@
   "name": "Nebulous",
   "creatorName": "latent//state",
   "creatorType": "Group",
-  "playing": 106,
-  "visits": 5614340,
-  "favorites": 79912,
-  "likes": 28605,
-  "dislikes": 4047,
+  "playing": 133,
+  "visits": 5614922,
+  "favorites": 79917,
+  "likes": 28606,
+  "dislikes": 4049,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-cd88931f2d63a336141db4fe928a1c4e/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/132499927511859",
-  "fetchedAtUtc": "2026-11-27 18:14:18",
+  "fetchedAtUtc": "2026-11-27 20:14:12",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-27 18:14:18",
-    "updatedAtTs": 1795803258,
+    "updatedAt": "2026-11-27 20:14:12",
+    "updatedAtTs": 1795810452,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795803258,
-        106
+        1795810452,
+        133
       ],
       "peak7d": [
-        1795801732,
-        119
+        1795810452,
+        133
       ]
     },
     "series": {
@@ -183,6 +183,10 @@
         [
           1795803258,
           106
+        ],
+        [
+          1795810452,
+          133
         ]
       ]
     }
