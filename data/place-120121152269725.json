@@ -7,18 +7,18 @@
   "name": "Grow As Anomaly",
   "creatorName": "Neutron Studio",
   "creatorType": "Group",
-  "playing": 759,
-  "visits": 3627741,
-  "favorites": 8875,
-  "likes": 2466,
+  "playing": 907,
+  "visits": 3634132,
+  "favorites": 8892,
+  "likes": 2468,
   "dislikes": 496,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-7985b9f1a2a7c91ce41b67981086fc66/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/120121152269725",
-  "fetchedAtUtc": "2026-11-27 10:53:53",
+  "fetchedAtUtc": "2026-11-27 12:29:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-27 10:53:53",
-    "updatedAtTs": 1795776833,
+    "updatedAt": "2026-11-27 12:29:11",
+    "updatedAtTs": 1795782551,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795776833,
-        759
+        1795782551,
+        907
       ],
       "peak7d": [
-        1795730365,
-        873
+        1795782551,
+        907
       ]
     },
     "series": {
@@ -139,6 +139,10 @@
         [
           1795776833,
           759
+        ],
+        [
+          1795782551,
+          907
         ]
       ]
     }
