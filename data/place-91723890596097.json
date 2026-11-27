@@ -7,18 +7,18 @@
   "name": "Fish a Slime",
   "creatorName": "FISHY FISHIE",
   "creatorType": "Group",
-  "playing": 6,
-  "visits": 10000161,
+  "playing": 9,
+  "visits": 10000163,
   "favorites": 27004,
   "likes": 37755,
   "dislikes": 908,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-77ed61dad1359c1be305f63f505676f3/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91723890596097",
-  "fetchedAtUtc": "2026-11-27 05:09:01",
+  "fetchedAtUtc": "2026-11-27 05:13:52",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-27 05:09:01",
-    "updatedAtTs": 1795756141,
+    "updatedAt": "2026-11-27 05:13:52",
+    "updatedAtTs": 1795756432,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795756141,
-        6
+        1795756432,
+        9
       ],
       "peak7d": [
-        1795751928,
-        8
+        1795756432,
+        9
       ]
     },
     "series": {
@@ -91,6 +91,10 @@
         [
           1795756141,
           6
+        ],
+        [
+          1795756432,
+          9
         ]
       ]
     }
