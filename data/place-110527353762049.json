@@ -7,18 +7,18 @@
   "name": "Roblox Stock Exchange 2",
   "creatorName": "Summit Productions Development",
   "creatorType": "Group",
-  "playing": 391,
-  "visits": 10205453,
-  "favorites": 91996,
+  "playing": 369,
+  "visits": 10206824,
+  "favorites": 92004,
   "likes": 18721,
   "dislikes": 1485,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-f0ff192fe6995d5134c4db067edbe838/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/110527353762049",
-  "fetchedAtUtc": "2026-11-27 02:49:02",
+  "fetchedAtUtc": "2026-11-27 03:24:15",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-27 02:49:02",
-    "updatedAtTs": 1795747742,
+    "updatedAt": "2026-11-27 03:24:15",
+    "updatedAtTs": 1795749855,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795747742,
-        391
+        1795749855,
+        369
       ],
       "peak7d": [
         1795747742,
@@ -75,6 +75,10 @@
         [
           1795747742,
           391
+        ],
+        [
+          1795749855,
+          369
         ]
       ]
     }
