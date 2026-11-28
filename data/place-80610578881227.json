@@ -7,18 +7,18 @@
   "name": "[🧊Yeti] Zombie Island",
   "creatorName": "Shoot Zombies",
   "creatorType": "Group",
-  "playing": 42,
-  "visits": 19430234,
+  "playing": 48,
+  "visits": 19430250,
   "favorites": 64443,
   "likes": 83876,
   "dislikes": 3288,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-e6846c30e4ffb74fdfeaaf50282be6d9/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/80610578881227",
-  "fetchedAtUtc": "2026-11-28 05:38:45",
+  "fetchedAtUtc": "2026-11-28 05:44:06",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-28 05:38:45",
-    "updatedAtTs": 1795844325,
+    "updatedAt": "2026-11-28 05:44:06",
+    "updatedAtTs": 1795844646,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795844325,
-        42
+        1795844646,
+        48
       ],
       "peak7d": [
-        1795832650,
-        43
+        1795844646,
+        48
       ]
     },
     "series": {
@@ -231,6 +231,10 @@
         [
           1795844325,
           42
+        ],
+        [
+          1795844646,
+          48
         ]
       ]
     }
