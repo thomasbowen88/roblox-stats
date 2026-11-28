@@ -4,21 +4,21 @@
   "placeId": "112453860991361",
   "rootPlaceId": "112453860991361",
   "universeId": "10766431714",
-  "name": "The Bizarre Journey",
+  "name": "[UPD] The Bizarre Journey",
   "creatorName": "Bizarre Journey",
   "creatorType": "Group",
-  "playing": 1177,
-  "visits": 2283229,
-  "favorites": 13076,
-  "likes": 10211,
-  "dislikes": 1029,
-  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-b947cbbc0024109e2daac7d1ca6f1a1c/512/512/Image/Png/noFilter",
+  "playing": 2173,
+  "visits": 2290340,
+  "favorites": 13089,
+  "likes": 10232,
+  "dislikes": 1031,
+  "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-a84eb87b2cddd0042f01b83b4de45886/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/112453860991361",
-  "fetchedAtUtc": "2026-11-28 17:43:54",
+  "fetchedAtUtc": "2026-11-28 18:29:11",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-28 17:43:54",
-    "updatedAtTs": 1795887834,
+    "updatedAt": "2026-11-28 18:29:11",
+    "updatedAtTs": 1795890551,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795887834,
-        1177
+        1795890551,
+        2173
       ],
       "peak7d": [
-        1795887834,
-        1177
+        1795890551,
+        2173
       ]
     },
     "series": {
@@ -299,6 +299,10 @@
         [
           1795887834,
           1177
+        ],
+        [
+          1795890551,
+          2173
         ]
       ]
     }
