@@ -7,18 +7,18 @@
   "name": "Hatch Your Pet 🐶",
   "creatorName": "Core Loop Games",
   "creatorType": "Group",
-  "playing": 1,
-  "visits": 1843629,
-  "favorites": 6353,
+  "playing": 0,
+  "visits": 1843636,
+  "favorites": 6352,
   "likes": 6839,
   "dislikes": 303,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-d94b53a2f756ecd5e6cfa3afadc396fe/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/125442419106134",
-  "fetchedAtUtc": "2026-11-28 10:24:06",
+  "fetchedAtUtc": "2026-11-28 12:59:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-28 10:24:06",
-    "updatedAtTs": 1795861446,
+    "updatedAt": "2026-11-28 12:59:39",
+    "updatedAtTs": 1795870779,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,8 +26,8 @@
     },
     "summary": {
       "current": [
-        1795861446,
-        1
+        1795870779,
+        0
       ],
       "peak7d": [
         1795828745,
@@ -271,6 +271,10 @@
         [
           1795861446,
           1
+        ],
+        [
+          1795870779,
+          0
         ]
       ]
     }

@@ -7,18 +7,18 @@
   "name": "[💰] Destroy a Vault",
   "creatorName": "LoopForge Studios",
   "creatorType": "Group",
-  "playing": 885,
-  "visits": 21280877,
-  "favorites": 679357,
-  "likes": 23629,
-  "dislikes": 1186,
+  "playing": 1000,
+  "visits": 21289249,
+  "favorites": 679569,
+  "likes": 23634,
+  "dislikes": 1188,
   "thumbnailUrl": "https://tr.rbxcdn.com/180DAY-fca03d0f823991275aa604ce3bbdac25/512/512/Image/Png/noFilter",
   "robloxUrl": "https://www.roblox.com/games/91034536684382",
-  "fetchedAtUtc": "2026-11-28 10:24:06",
+  "fetchedAtUtc": "2026-11-28 12:59:39",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-11-28 10:24:06",
-    "updatedAtTs": 1795861446,
+    "updatedAt": "2026-11-28 12:59:39",
+    "updatedAtTs": 1795870779,
     "source": "roblox",
     "sourceIntervalSeconds": null,
     "retention": {
@@ -26,12 +26,12 @@
     },
     "summary": {
       "current": [
-        1795861446,
-        885
+        1795870779,
+        1000
       ],
       "peak7d": [
-        1795803258,
-        956
+        1795870779,
+        1000
       ]
     },
     "series": {
@@ -271,6 +271,10 @@
         [
           1795861446,
           885
+        ],
+        [
+          1795870779,
+          1000
         ]
       ]
     }
